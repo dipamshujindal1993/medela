@@ -1,0 +1,163 @@
+{
+    "timeStamp": "2015-10-01T10:00:00+01:00",
+    "checkListItems": [
+        {
+            "title": "Pakke sykehusbagen",
+            "description": "",
+            "orderNumber": 10,
+            "uuid": "000000-0010-0000-000000",
+            "image": "hospital_suitcase",
+            "checkListItems": [
+                {
+                    "title": "Generelt:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0010-0000-010000",
+                    "checkListItems": [
+                        {
+                            "title": "Helsekort for gravide og blodtypepapirer",
+                            "orderNumber": 12,
+                            "uuid": "000000-0010-0000-010010"
+                        },
+                        {
+                            "title": "Mobiltelefon med lader",
+                            "orderNumber": 13,
+                            "uuid": "000000-0010-0000-010020"
+                        },
+                        {
+                            "title": "Bag med ekstra klesskift, deodorant og tannbørste til far",
+                            "orderNumber": 14,
+                            "uuid": "000000-0010-0000-010030"
+                        },
+                        {
+                            "title": "Håndkle i bilen (i tilfelle vannet går)",
+                            "orderNumber": 15,
+                            "uuid": "000000-0010-0000-010040"
+                        },
+                        {
+                            "title": "Snacks/drikke og småmynter til salgsautomater",
+                            "orderNumber": 16,
+                            "uuid": "000000-0010-0000-010050"
+                        }
+                    ]
+                },
+                {
+                    "title": "Til babyen:",
+                    "orderNumber": 17,
+                    "uuid": "000000-0010-0000-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Babybok",
+                            "orderNumber": 18,
+                            "uuid": "000000-0010-0000-020010"
+                        },
+                        {
+                            "title": "Babydress, sokker og lue",
+                            "orderNumber": 19,
+                            "uuid": "000000-0010-0000-020020"
+                        },
+                        {
+                            "title": "Teppe ull/bomull",
+                            "orderNumber": 20,
+                            "uuid": "000000-0010-0000-020030"
+                        },
+                        {
+                            "title": "Antrekk til å dra hjem i",
+                            "orderNumber": 21,
+                            "uuid": "000000-0010-0000-020040"
+                        },
+                        {
+                            "title": "Bilstol",
+                            "orderNumber": 22,
+                            "uuid": "000000-0010-0000-020050"
+                        }
+                    ]
+                },
+                {
+                    "title": "Til mamma:",
+                    "orderNumber": 23,
+                    "uuid": "000000-0010-0000-030000",
+                    "checkListItems": [
+                        {
+                            "title": "3 topper og yogabukser",
+                            "orderNumber": 24,
+                            "uuid": "000000-0010-0000-030010"
+                        },
+                        {
+                            "title": "Behagelige sokker, truser og morgenkåpe, tøfler/innesko",
+                            "orderNumber": 25,
+                            "uuid": "000000-0010-0000-030020"
+                        },
+                        {
+                            "title": "Amme-bh, ammeinnlegg, magebånd/tubetopper",
+                            "orderNumber": 26,
+                            "uuid": "000000-0010-0000-030030"
+                        },
+                        {
+                            "title": "Toalettsaker inkludert sjampo og balsam. Sminkeveske, tannbørste og tannkrem",
+                            "orderNumber": 27,
+                            "uuid": "000000-0010-0000-030040"
+                        },
+                        {
+                            "title": "Hårklemmer, børste og hårtørker",
+                            "orderNumber": 28,
+                            "uuid": "000000-0010-0000-030050"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Den første dagen på jobben igjen",
+            "description": "",
+            "orderNumber": 100,
+            "uuid": "000000-0100-0000-000000",
+            "image": "back_to_work",
+            "checkListItems": [
+                {
+                    "title": "Planlegg:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0100-0000-010000",
+                    "checkListItems": [
+                        {
+                            "title": "Kom gradvis tilbake hvis det er mulig å jobbe deltid de første ukene.",
+                            "orderNumber": 12,
+                            "uuid": "000000-0100-0000-010010"
+                        },
+                        {
+                            "title": "Kom tilbake midt i uken, slik at du bare har to eller tre dager før det er helg og du kan samle deg",
+                            "orderNumber": 13,
+                            "uuid": "000000-0100-0000-010020"
+                        },
+                        {
+                            "title": "Prøvekjøring; dusj, kle på, kjør og lever babyen i barnehagen.  Bruk pumpen og benytt deg av pausene på jobben.",
+                            "orderNumber": 14,
+                            "uuid": "000000-0100-0000-010030"
+                        }
+                    ]
+                },
+                {
+                    "title": "Like før:",
+                    "orderNumber": 15,
+                    "uuid": "000000-0100-0000-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Legg frem klær til deg selv og babyen.  Legg pumpedelene i en veske og sett den nær utgangsdøren.",
+                            "orderNumber": 16,
+                            "uuid": "000000-0100-0000-020010"
+                        },
+                        {
+                            "title": "Få en god natts søvn",
+                            "orderNumber": 17,
+                            "uuid": "000000-0100-0000-020020"
+                        },
+                        {
+                            "title": "Stell babyen før jobb og så snart du kommer hjem den første dagen.",
+                            "orderNumber": 18,
+                            "uuid": "000000-0100-0000-020030"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

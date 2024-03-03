@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340">
+    <defs>
+        <style>
+            .cls-3{fill:#0d7cff}
+        </style>
+    </defs>
+    <g id="Group_2686" transform="translate(-18 -180)">
+        <circle id="Ellipse_553" cx="170" cy="170" r="170" fill="#f9f9f9" transform="translate(18 180)"/>
+        <g id="Group_2683" transform="translate(-11.75 60)">
+            <rect id="Rectangle_1295" width="289" height="167" fill="#fff" rx="10" transform="translate(55.75 207)"/>
+            <path id="Chevron" d="M1.441-12.208a.892.892 0 0 0 .307.682l5.83 5.711a.854.854 0 0 0 .622.255.884.884 0 0 0 .892-.892.915.915 0 0 0-.27-.637L3.57-12.208l5.253-5.119a.929.929 0 0 0 .27-.637.884.884 0 0 0-.892-.892.854.854 0 0 0-.622.255l-5.83 5.7a.919.919 0 0 0-.308.693z" class="cls-3" transform="translate(67.695 253.413)"/>
+            <text id="Shortcuts" fill="#0d7cff" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-size="12px" font-weight="300" transform="translate(81.75 244)">
+                <tspan x="0" y="0">Shortcuts</tspan>
+            </text>
+            <text id="Select" fill="#0d7cff" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-size="11px" font-weight="300" transform="translate(271.75 243)">
+                <tspan x="0" y="0">Select</tspan>
+            </text>
+            <g id="Group_2682" transform="translate(316.7 235.145)">
+                <path id="Rectangle_1293" d="M0 0H1V12H0z" class="cls-3" transform="translate(5.05 -.146)"/>
+                <path id="Rectangle_1294" d="M0 0H1.093V10.931H0z" class="cls-3" transform="rotate(90 2.868 8.063)"/>
+            </g>
+            <text id="All_Shortcuts" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-size="25px" font-weight="800" transform="translate(73.75 279)">
+                <tspan x="0" y="0">All Shortcuts</tspan>
+            </text>
+            <text id="Create_shortcuts_for_things_you_do_every_day_or_check_out_the_gallery" fill="#898d8d" font-family="FuturaSBMedela-Book, FuturaSB Medela" font-size="11px" letter-spacing="0.024em" transform="translate(77.75 319)">
+                <tspan x="14.029" y="10">Create shortcuts for things you do every day, or</tspan><tspan class="cls-3"><tspan x="75.019" y="24">check out the gallery</tspan></tspan>
+            </text>
+        </g>
+    </g>
+</svg>

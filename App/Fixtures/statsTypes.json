@@ -1,0 +1,41 @@
+[
+    {
+        "id": "0",
+        "avatarUrl": "ic_avatar_selected_all",
+        "selectedAvatarUrl": ""
+    },
+    {
+        "id": "1",
+        "avatarUrl": "ic_avatar_breastfeeding",
+        "selectedAvatarUrl": ""
+    },
+    {
+        "id": "2",
+        "avatarUrl": "ic_avatar_pumping"
+    },
+    {
+        "id": "3",
+        "avatarUrl": "ic_avatar_bottle",
+        "selectedAvatarUrl": ""
+    },
+    {
+        "id": "4",
+        "avatarUrl": "ic_avatar_nappy",
+        "selectedAvatarUrl": ""
+    },
+    {
+        "id": "5",
+        "avatarUrl": "ic_avatar_weight",
+        "selectedAvatarUrl": ""
+    },
+    {
+        "id": "6",
+        "avatarUrl": "ic_avatar_growth",
+        "selectedAvatarUrl": ""
+    },
+    {
+        "id": "7",
+        "avatarUrl": "ic_avatar_sleep",
+        "selectedAvatarUrl": ""
+    }
+]

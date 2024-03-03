@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>tnc_de.html</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<style>
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('FuturaSBMedela-Light.otf');
+  }
+
+  @font-face {
+    font-family: mySecondFont;
+    src: url('FuturaSBMedela-Book.otf');
+  }
+
+  @font-face {
+    font-family: myThirdFont;
+    src: url('FuturaSBMedela-DemiBold.otf');
+  }
+
+  body{
+        padding:10px 0 0 0;
+    }
+
+.panel-title{
+    font-family:mySecondFont;
+
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.btn-link {
+    color:#000000;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: left;
+    white-space: normal;
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-family: mySecondFont;
+    min-height: 48px;
+}
+
+
+.panel{
+    border:none;
+    box-shadow:none;
+}
+
+.panel-default>.panel-heading {
+    color: #000000;
+    background-color: #fff;
+    border-color: #000000;
+    padding: 0;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.glyphicon-minus:before {
+    content: "\2212";
+    font-family: mySecondFont;
+    position: relative;
+    top: -2px;
+    background: #FECD00;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.glyphicon-plus:before {
+    content: "\002b";
+    font-family: mySecondFont;
+    position: relative;
+    top: -2px;
+    background: #FECD00;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+.btn-link:focus, .btn-link:hover {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+button:focus {outline:0;}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
+.panel-body ul{
+    padding:0 0 0 40px
+}
+
+.panel-body ul li{
+    font-family: myFirstFont;
+    font-size: 16px;
+    color: #000000;
+}
+
+.panel-body p{
+    font-family: mySecondFont;
+    font-size: 16px;
+    padding: 0 0 0 0px;
+    color: #000000;
+}
+
+.para{
+    font-family: myFirstFont;
+    font-size: 16px;
+    padding: 0 0 0 0px;
+    color: #000000;
+}
+.glyphicon-plus{
+    margin-right: 10px;
+}
+.glyphicon-minus{
+    margin-right: 10px;
+}
+.borderbtm {
+    border-bottom: 5px solid rgb(255 205 0);
+    width: 30px;
+    margin: 20px 0 30px 0;
+}
+.header-txt {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: myThirdFont;
+}
+.panel-body {
+    padding: 10px 0;
+}
+</style>
+<script>
+    $(document).ready(function(){
+          $('.collapse.in').each(function(){
+            $(this).parent().find(".glyphicon").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        });
+
+        $('.collapse').on('shown.bs.collapse', function(){
+            $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        }).on('hidden.bs.collapse', function(){
+            $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+        });
+    });
+    </script>
+  </head>
+  <body>
+    <body>
+        <div class="container">
+         <div class="row">
+             <div class="col-xs-12">
+              <p class="header-txt">RICHTLINIE ZUM DATENSCHUTZ UND EINSATZ VON COOKIES IN DER APP</p>
+              <div class="borderbtm"></div>
+              <p class="para">Diese Richtlinie zum Datenschutz und Einsatz von Cookies („Richtlinie zum Datenschutz und Einsatz von Cookies in der App“) gilt für die mobile Anwendung Medela Family App („App“), die von der Medela AG, Lättichstrasse 4b, 6340 Baar, Schweiz („Medela“ oder „wir“), betrieben und kontrolliert wird. <br><br> In dieser Richtlinie zum Datenschutz und Einsatz von Cookies in der App werden die bei der Nutzung unserer App vorgenommene Erhebung, Verarbeitung und Verwendung Ihrer personenbezogenen Daten geregelt und unsere Vorgehensweisen bei der Platzierung von Cookies erläutert, einschließlich der Arten der von uns verwendeten Cookies und Ihrer Möglichkeiten, diese zu verwalten. <br><br> Diese Richtlinie zum Datenschutz und Einsatz von Cookies in der App wurde zuletzt am 1. April 2021 überarbeitet. <br><br></p>
+              <div class="panel-group" id="accordion1">
+                  <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <button class="btn-link" data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 1. ERHEBUNG, VERARBEITUNG UND VERWENDUNG IHRER PERSONENBEZOGENEN DATEN</button>
+                          </h4>
+                      </div>
+                      <div class="panel-collapse collapse in" id="Exampleone">
+                          <div class="panel-body">
+                              <p><b>1.1 Registrierung und Verwendung unserer App</b></p>
+                              <p>Um unsere App nutzen zu können, müssen Sie ein Konto bei uns anlegen. Während der Anmeldung werden Sie aufgefordert, bestimmte Informationen bereitzustellen, so etwa Ihren Namen/Spitznamen, Ihre E-Mail-Adresse und das geschätzte oder tatsächliche Geburtsdatum Ihres Babys, und ein Passwort zu wählen. Wenn Sie kein Konto anlegen, können Sie die App nicht nutzen. Im Rahmen der Registrierung bitten wir Sie ggf. um weitere (optionale) Informationen, wie z. B. zu Ihrer Milchpumpensituation, um die Inhalte unserer App entsprechend Ihren Bedürfnissen und Interessen zu personalisieren. Die Anmeldung erfolgt über eine geschützte Serververbindung zu Medela. Sofern nicht anders in dieser Richtlinie zum Datenschutz und Einsatz von Cookies in der App angegeben (insbesondere in den Abschnitten 1.2, 1.3 und 1.4), werden wir die personenbezogenen Daten, die Sie uns mitteilen, nur gemäß den Bestimmungen der Richtlinie zum Datenschutz und Einsatz von Cookies in der App verwenden und um Ihr Konto bei uns zu verwalten, Ihre Informationen auf unseren Servern zu speichern und zusammenzuführen (soweit das für die Bereitstellung unserer Dienste notwendig ist) sowie um die angeforderten Funktionalitäten und Dienste anbieten zu können. <br><br> Darüber hinaus werden wir Sie während des Registrierungsprozesses um Ihre Einwilligung bitten, Ihre personenbezogenen Daten für Marketingzwecke zu verwenden, um Sie regelmäßig über Dienstleistungen, Produkte und Veranstaltungen von Medela und ihren Konzerngesellschaften zu informieren. Wir laden Sie möglicherweise auch zur Teilnahme an Umfragen ein, die von uns durchgeführt werden. Nach Ihrer Einwilligung und in Abhängigkeit von Ihrer Region erhalten Sie möglicherweise eine Bestätigungs-E-Mail mit einem Link, auf den Sie klicken müssen, um Ihre Einwilligung zu bestätigen. Dieses doppelte Zustimmungsverfahren hilft uns dabei, die Identifizierung des Inhabers des E-Mail-Kontos sicherzustellen. <br><br> Ohne Ihre ausdrückliche vorherige Einwilligung werden Ihre personenbezogenen Daten nicht an Dritte weitergegeben und zu keinen anderen als den in dieser Richtlinie zum Datenschutz und Einsatz von Cookies in der App angegebenen Zwecken verwendet. <br><br> Durch das Installieren/Starten unserer App und das Anlegen Ihres Kontos bei uns erteilen Sie Medela die Einwilligung, Cookies auf Ihrem Endgerät zu platzieren, die für bestimmte anonymisierte Analysen verwendet werden, indem statistische Daten, wie beispielsweise das Nutzerverhalten, die Browsing-Muster, die durchschnittliche Nutzungsdauer und die Interessengebiete, erhoben und analysiert werden. Wir erheben und verarbeiten diese Informationen, um zu erfahren, wie unsere Kunden unsere App nutzen, und um Trends, Statistiken und die Bedürfnisse unserer Kunden zu bewerten. Das hilft uns dabei, unsere App zu optimieren und die Wünsche unserer Kunden besser berücksichtigen zu können, was unter anderem bedeutet, Ihnen eine personalisiertere Erfahrung der App zu ermöglichen und gezieltere Angebote bereitzustellen. In den folgenden Abschnitten 2, 2.4 und 2.5 finden Sie eine detaillierte Beschreibung der Cookies bzw. Analyse-Tools, die wir zu diesem Zweck einsetzen, und Ihrer Rechte, die Erhebung, Verarbeitung und Verwendung Ihrer Daten zu verweigern. Wenn Sie keine Einwilligung zu den oben beschriebenen Vorgehensweisen erteilen und es grundsätzlich ablehnen, dass Informationen über Sie verfolgt und erhoben werden, selbst in anonymisierter Form, bitten wir Sie, von der Installation der App auf Ihrem/Ihren Endgerät(en) abzusehen.</p>
+      
+                                  <p><b>1.2 Nutzung der Funktionen unserer App</b></p>
+                                  <p>Unsere App bietet verschiedene Funktionen, bei deren Nutzung Sie frei entscheiden können, uns weitere Informationen zu übermitteln. Diese Informationen umfassen personenbezogene Daten über das Baby (zum Beispiel den Namen, ein Foto, den Geburtstag) und über die Mutter (zum Beispiel Erwartungen in Bezug auf das Stillen und Abpumpen sowie diesbezügliche Erfahrungen oder das erwartete Datum der Rückkehr in die Ausbildung/an den Arbeitsplatz). Mit unserer App können Sie außerdem pränatale Aktivitäten wie Informationen über Kontraktionen, aber auch postnatale Aktivitäten, wie z. B. Informationen zum Stillen, Abpumpen, Flaschenfüttern und zum Muttermilchmanagement sowie über Gewicht, Größe, Schlaf, Windelwechsel und weitere Notizen Ihres Babys verfolgen und überwachen. Darüber hinaus können Sie unsere App für einen Anschluss an unsere verbundenen Pumpen nutzen und so auf unkomplizierte Weise Abpumpzeiten und die verwendeten Einstellungen verfolgen und aufzeichnen. Sie können ferner die abgepumpte Muttermilch erfassen und sich mit Erinnerungsmeldungen auf dem Laufenden halten sowie sich benachrichtigen lassen, wenn der Akku Ihrer Pumpe schwach wird, sowie Unterstützung beim Stillen in Anspruch nehmen (sofern diese Funktion auf Ihrem Markt verfügbar ist). Sie können auch Fragebögen ausfüllen, um Ihren Stillerfolg zu messen und um Ihr Benutzererlebnis mit unserer App zu personalisieren. Sie haben die Möglichkeit, Ihre Pumpe zu registrieren und freien Zugang zum VIP-Paket zu erhalten (falls dies in Ihrem Markt verfügbar ist), einen Store in Ihrer Nähe zu finden, um unsere Produkte zu kaufen, und Feedback zur App zu geben. Und schließlich können Sie unsere Chatbot-Funktion nutzen und technischen Support, Produktempfehlungen und Unterstützung beim Stillen erhalten. <br><br> Nur für Android-Benutzer: Wenn Sie unsere App mit einer Bluetooth-fähigen Medela Pumpe verbinden, benötigt das Betriebssystem Zugriff auf den Standort (GPS) des Geräts. Medela speichert oder nutzt Ihre Standortdaten jedoch zu keinem Zeitpunkt. Wenn Sie den Zugriff auf den Standort nicht zulassen, führt dies zu Problemen beim Verbinden der Pumpe. <br><br> Sofern Sie nicht ausdrücklich eingewilligt haben und es nicht anderweitig in dieser Richtlinie zum Datenschutz und Einsatz von Cookies in der App angegeben ist, speichern, verarbeiten und verwenden wir solche Informationen nur, soweit das erforderlich ist, um Ihnen die Nutzung unserer Funktionalitäten und Dienste zu ermöglichen, unter anderem um Sie mit personalisiertem Inhalt, unterrichtenden Informationen und hilfreichen Tipps auf der Grundlage Ihrer individuellen Daten und ihres Fortschritts in der App zu versorgen und Ihnen die Möglichkeit zu geben, uns Feedback zur App zu senden. <br><br> Sie können Ihre Interessengebiete bestimmen bzw. Ihre Auswahl jederzeit über Ihre Personalisierungseinstellungen in der App (Menü „Extras“ → Tests → Inhaltspersonalisierung) ändern. Sollten Sie überhaupt keinen personalisierten Inhalt oder keine personalisierten Dienste erhalten wollen, können Sie die Übermittlung jeglicher personenbezogener Informationen verweigern (in diesem Fall sollten Sie davon absehen, die Fragen zur Personalisierung in der App zu beantworten). <br><br> Sie können außerdem Ihre persönlichen Benachrichtigungseinstellungen in der App (Mehr→ App-Einstellungen→ Benachrichtigungen) jederzeit ändern. <br><br> Um Ihnen das Hochladen eines Fotos von Ihrem Baby zu ermöglichen, fordert unsere App eine Erlaubnis für den Zugriff auf Ihre Kamera/Fotos. Wir verwenden die Zugriffsberechtigung zu keinem anderen als diesem Zweck. <br><br> Außer zu den oben erläuterten Zwecken dürfen wir personenbezogene Daten lediglich in anonymisierter Form (d. h. in einer Form, die keine Rückschlüsse auf Ihre Person oder Identität zulässt) zu statistischen Zwecken und zur internen Bewertung nutzen, um unsere Produkte und Leistungen zu verbessern. Ihre personenbezogenen Daten werden nicht zu Zwecken weiterverarbeitet, die über den Geltungsbereich dieser Datenschutzrichtlinie hinausgehen, außer in den Fällen, in denen dies das Gesetz ausdrücklich gestattet oder vorschreibt.</p>
+      
+                                      <p><b>1.3 Verarbeitung sensibler personenbezogener Daten</b></p>
+                                      <p>In der Regel erfragen oder verarbeiten wir keine sensiblen personenbezogenen Daten (z. B. Gesundheitsdaten, genetische/biometrische Daten). Mit unserer App können Sie diese Daten (z. B. Informationen zu Kontraktionen, Gewicht/Größe des Babys) Medela jedoch freiwillig übermitteln. Indem Sie ein Konto bei uns registrieren und diese sensiblen personenbezogenen Daten eingeben, stimmen Sie ausdrücklich der Verarbeitung dieser Daten durch Medela zu. Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie die entsprechenden Daten oder die App löschen. Dies würde die Rechtmäßigkeit der Datenverarbeitung gemäß Ihrer vor dem Widerruf erteilten Einwilligung nicht beeinträchtigen.</p>
+      
+                                          <p><b>1.4 Anlegen eines einzelnen Datensatzes mit Informationen aus anderen Quellen</b></p>
+                                          <p>Falls Sie sich für die Nutzung anderer von uns angebotener Dienste entscheiden, wie z. B. wenn Sie sich über die Website für Medela Family registrieren, wodurch Sie kostenlosen Zugang zu zusätzlichen Schulungsinformationen und Direktmarketing-Mitteilungen über unsere Produkte und Dienstleistungen erhalten, können wir einen einzigen Datensatz für Sie erstellen, in dem die Daten, die wir von Ihnen durch Ihre Nutzung dieser anderen Dienste erhalten, mit den Daten zusammengefasst werden, die wir von Ihnen durch Ihre Nutzung der App erhalten. Durch die Registrierung Ihres Kontos bei uns in der App werden Sie automatisch für das gesamte Medela Family-Programm registriert. Sie können sich jederzeit von den einzelnen Medela Family-Diensten abmelden, indem Sie die Einstellungen in Ihrem Profil ändern. <br><br> Mithilfe des einzelnen Datensatzes können wir Ihre Bedürfnisse und Präferenzen besser erfassen und Ihnen so auf effizientere Weise die von Ihnen nachgefragten Produkte und Dienste bereitstellen sowie Ihnen unter anderem eine personalisiertere Erfahrung ermöglichen. <br><br> In Fällen, die nicht in dieser Richtlinie zum Datenschutz und Einsatz von Cookies in der App genannt sind, werden wir die Informationen für keine anderen Zwecke verwenden und diese Informationen nicht an Dritte weitergeben, es sei denn, dies wäre nach dem geltenden Recht ausdrücklich zulässig oder vorgeschrieben.</p>
+      
+                          </div>
+                      </div>
+                   </div>
+                   <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <button class="btn btn-link" data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 2. COOKIES, TRACKING- UND ANALYSETOOLS</button>
+                          </h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="Exampletwo">
+                          <div class="panel-body">
+                             <p><b>2.1 Erforderliche Cookies</b></p>
+                             <p>Cookies sind kleine Textdateien, die unsere App vorbehaltlich Ihrer Einwilligung auf Ihrem Tablet, Smartphone oder anderen Endgerät ablegt. Wenn die Einstellungen Ihres Endgeräts Cookies zulassen, wird dieser Text darauf in einer kleinen Datei platziert. <br><br> Sofern in dieser Richtlinie zum Datenschutz und Einsatz von Cookies in der App nicht anders angegeben, sind die von uns eingesetzten Cookies für die Funktionsfähigkeit und die Leistung unserer App erforderlich, so etwa machen sie deren Betrieb effizienter und erleichtern es Ihnen, die über sie bereitgestellten Funktionalitäten und Dienste zu nutzen; Diese Funktions- und/oder Leistungs-Cookies werden nach zwei (2) Wochen ohne Nutzung unserer App von Ihrem Gerät gelöscht. Wir verwenden die Informationen, die in erforderlichen Cookies gespeichert werden, ausschließlich in dem Umfang, der für die Bereitstellung der nachgefragten Dienste und Funktionalitäten unbedingt erforderlich ist.</p>
+                              <p><b>2.2 Einwilligung in die Platzierung nicht erforderlicher Cookies und in die Verwendung von Analysetools</b></p>
+      
+                              <p>Indem Sie unsere App installieren/starten und Ihr Konto bei uns anlegen, erteilen Sie Medela die Einwilligung, zusätzliche Cookies auf Ihrem Endgerät zu platzieren bzw. bestimmte Tracking- und Analysetools zu verwenden. Diese Cookies und Tools sind nicht unbedingt erforderlich, um die Funktionsweise und Leistung unserer App sicherstellen, sie helfen uns jedoch dabei, einige nicht personalisierte Informationen über Ihre Nutzung unserer App zu erheben und so die Angebote und Dienste unserer App zu verbessern bzw. Ihnen personalisiertere Informationen und Dienste bereitzustellen, unter anderem gezielte Angebote (siehe auch unten die Abschnitte 2.4 und 2.5 für eine Erläuterung bestimmter von uns genutzter Tracking- und Analysetools). <br><br> Sie haben das Recht, jederzeit mit Wirkung für die Zukunft Ihre Einwilligung zu widerrufen bzw. das Ablegen von Cookies und/oder die Erhebung von Informationen durch Tracking- und Analysetools für unterschiedliche Zwecke einzeln zu verweigern. Bitte folgen Sie zu diesem Zweck den Anweisungen in den nachfolgenden Abschnitten. Um Ihre Einwilligung gänzlich zu widerrufen und jegliches Verfolgen und Erheben Ihrer Informationen zur verhindern, bitten wir Sie, die App von Ihrem/Ihren Endgerät(en) zu löschen.</p>
+                                
+                                  <p><b>2.3 Verwaltung Ihrer Cookie-Einstellungen</b></p>
+                                  <p>Die meisten mobilen Endgeräte sind standardmäßig so eingestellt, dass sie Cookies zulassen. Wenn Sie möchten, können Sie Ihre Einstellungen so anpassen, dass Cookies generell abgelehnt werden, dass Cookies, die bereits auf Ihrem Gerät platziert wurden, gelöscht werden oder dass Sie gewarnt werden, bevor ein Cookie platziert wird. Bitte ziehen Sie die Bedienungsanleitung Ihres Endgeräts oder www.allaboutcookies.org zurate, um mehr darüber zu erfahren, wie sie die Einstellungen Ihres mobilen Endgeräts anpassen oder ändern können. <br><br> Wenn Sie sich dagegen entscheiden, Cookies zuzulassen, kann dies die Nutzbarkeit der App beeinflussen, und möglicherweise können Sie nicht auf alle angebotenen Funktionen und Dienste zugreifen. <br><br> Sollten Sie von verschiedenen mobilen Endgeräten auf unsere App zugreifen (z. B. Smartphones, Tablets etc.), achten Sie bitte darauf, dass die Einstellungen auf jedem Endgerät Ihren Cookie-Präferenzen entsprechen.</p>
+                                      <p><b>2.4 Die Verwendung von Google Mobile App Analytics</b></p>
+                                      <p>Diese App verwendet Google Mobile App Analytics („Google Analytics“), einen Web-Analysedienst von Google, Inc. (USA) und Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irland (für die EU) („Google“). Google Analytics kann bestimmte Tracking-Technologien verwenden, die uns dabei unterstützen zu analysieren, wie Nutzer unsere App nutzen, einschließlich der Zahl der aktiven Nutzer und des Nutzerverhaltens (z. B. die durchschnittliche Nutzungsdauer, wiederkehrende Nutzer, Bildschirmansichten pro Monat, die meistgelesenen Artikel). Grundsätzlich werden sämtliche Informationen über Ihre Verwendung unserer App an Google übertragen, das diese Informationen auf Servern in den USA speichert. Da diese App auf die IP-Adressen-Anonymisierung von Google zurückgreift, wird Ihre IP-Adresse von Google innerhalb der Mitgliedstaaten der Europäischen Union oder anderer Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum gekürzt, bevor sie in die USA übertragen wird. Nur in Ausnahmefällen wird Ihre vollständige IP-Adresse auf einen Server von Google in den USA übertragen und dort gekürzt. <br><br> Google verwendet diese Informationen als unser Auftragsdatenverarbeiter, um uns dabei zu unterstützen, die Nutzung unserer App zu evaluieren, um Berichte über den Betrieb der App zu erstellen und um weitere statistische und analytische Dienste in Bezug auf die Nutzung unserer App zu erbringen. Die IP-Adresse, die von Ihrem mobilen Endgerät im Rahmen von Google Analytics übertragen wird, wird nicht mit anderen von Google gespeicherten Daten in Verbindung gebracht. <br><br> Wenn Sie es ablehnen, dass Google Analytics Ihr Verhalten verfolgt, können Sie das jederzeit verweigern, indem Sie die App von Ihrem mobilen Endgerät löschen. <br><br> Bitte klicken Sie <a href="medelaFamily://openexternal?url=https://support.google.com/analytics/answer/6004245">hier</a> für eine Übersicht zum Datenschutz bei Google.</p>
+      
+                                          <p><b>2.5 Die Verwendung von App-Analyse-Tools</b></p>
+      
+                                          <p>Medela nutzt ferner bestimmte App-Analyse-Tools und Dienste, um aggregierte und anonymisierte statistische Daten über die Verwendung unserer App zu erheben. <br><br> Wir verwenden iTunes Connect App Analytics, ein Tool der Apple Inc. („Apple“). Dieses Tool erhebt anonymisierte und aggregierte Daten über die Nutzer mobiler Apple-Endgeräte, auf denen iOS 8 oder höher installiert ist. iTunes Connect App Analytics liefert uns metrische Nutzungsdaten über die App, etwa die Anzahl der Installationen der App, die Nutzungshäufigkeit und die Anzahl der aktiven Sitzungen in einem bestimmten Zeitraum. <br><br> Wir nutzen außerdem ähnliche Analyse- und Statistikdienste von Google Inc. (USA) und Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irland (für die EU) („Google“) über die Google Play Developer Console und/oder die Google Firebase Console. Wir erhalten ausschließlich aggregierte und anonymisierte statistische Informationen über die Nutzer von Apps auf Android-Endgeräten, etwa die Anzahl der Installationen und Upgrades, die Zahl der Abstürze, Informationen über Abstürze, Nutzerbewertungen, Akquisitionskanäle und Besucherregionen. <br><br> Wenn die entsprechende Funktion auf Ihrem Endgerät aktiviert ist, erfasst, verarbeitet und verwendet Apple bzw. Google solche Informationen, um uns dabei zu unterstützen, die Nutzung unserer App zu evaluieren, um Berichte über den Betrieb der App zu erstellen und um andere statistische und analytische Dienste in Bezug auf die Nutzung unserer App zu erbringen. <br><br> Wir erhalten die oben genannten Informationen nur, wenn Sie der Weitergabe Ihrer Daten an Drittanbieter auf Ihrem mobilen Endgerät zugestimmt haben. Sie können Ihre Auswahl (zulassen oder blockieren) jederzeit im Menü „Einstellungen“ auf Ihrem Gerät vornehmen und ändern (für iOS-Endgeräte siehe: Einstellungen → Privatsphäre → Diagnose und Nutzung; für Android-Geräte siehe Einstellungen → Nutzer und Backup → Google → Mehr → Nutzung und Diagnose).</p>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <button class="btn btn-link" data-target="#Examplethree" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 3. OFFENLEGUNG IHRER PERSONENBEZOGENEN DATEN</button>
+                          </h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="Examplethree">
+                          <div class="panel-body">
+                              <p>Medela haftet als Verantwortlicher für den Betrieb der App. Um sicherzustellen, dass die Kundenbeziehung mit Ihnen effizient gepflegt wird und im Sinne Ihrer Kundenzufriedenheit können die Kontakte zu unseren Kunden vor Ort auch von der lokalen Konzerngesellschaft verwaltet werden, die unsere für Ihr Land verantwortliche Konzerngesellschaft ist. Abgesehen davon erhalten unsere Konzerngesellschaften lediglich anonymisierte statistische Berichte und sonstige analytische Daten über die Nutzung und den Betrieb der App, die keinerlei personenbezogene Informationen enthalten. <br> <br> Zudem greifen Medela bzw. die lokale Konzerngesellschaft auf externe technische Dienstleister zurück, die dazu berechtigt sind, in deren Auftrag und gemäß deren Vorgaben Dienstleistungen zu erbringen. Diese Unternehmen können auf Ihre personenbezogenen Daten zugreifen, jedoch nur soweit dies erforderlich ist, um Ihnen die Nutzung unserer App zu ermöglichen, einschließlich der Bereitstellung der damit zusammenhängenden Dienste oder Bearbeitung Ihrer Anfragen und Anliegen. Medela (und/oder gegebenenfalls die lokale Konzerngesellschaft) kann beispielsweise Dienstleister zur Entwicklung und/oder zum Hosten der App, zur Speicherung Ihrer Daten, zur Aktivierung der Chatbot-Funktionalität, zur Freigabe der Sharing-Funktionalität über soziale Medien, zur Verwaltung der Kundenbeziehung, zur Bereitstellung marketingbezogener Kommunikation über unsere Produkte und Dienstleistungen, zur Bearbeitung Ihrer Mietanfrage, zur Erteilung von Sprachbefehlen, die von Siri (iOS) und Google Assistant (Android) unterstützt werden, oder zur Analyse der erhobenen Informationen, wie in dieser Richtlinie erläutert, einsetzen. Diesen Dienstleistern ist es nicht gestattet, Ihre personenbezogenen Daten gegenüber unbefugten Dritten offenzulegen oder für andere Zwecke als die von uns genehmigten zu verwenden. Diese Dienstleister können vereinzelt auch in Ländern außerhalb der Schweiz und der EU/des EWR ansässig sein, in denen der Datenschutz unter Umständen nicht auf gleichem Niveau wie in Ihrem Wohnsitzland gewährleistet ist. Um sicherzustellen, dass diese Dienstleister sämtliche erforderlichen Maßnahmen ergreifen, um Ihre personenbezogenen Daten gemäß geltenden Bestimmungen zu schützen, hat Medela bzw. gegebenenfalls die lokale Konzerngesellschaft entsprechende Vereinbarungen mit ihnen abgeschlossen. Für weitere Informationen über unsere Dienstleister bitten wir Sie, mit uns wie in Abschnitt „Ihre Rechte und Kontaktmöglichkeiten“ unten erläutert in Kontakt zu treten. <br> <br> Wir können Ihre personenbezogenen Daten an Dritte weitergeben, um Transaktionen zu verarbeiten (z. B. Adressvalidierung, Versand, Steuerberechnung). <br> <br> In anderen als den oben genannten Fällen geben wir Ihre personenbezogenen Daten nur dann ohne Ihre vorherige Zustimmung an Dritte weiter, wenn wir gesetzlich dazu verpflichtet sind.</p>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <button class="btn btn-link" data-target="#Examplefour" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 4. SPEICHERUNG IHRER PERSONENBEZOGENEN DATEN UND DATENSICHERHEIT</button>
+                          </h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="Examplefour">
+                          <div class="panel-body">
+                              <p>Ihre Daten werden auf Servern in Irland und den Niederlanden gespeichert. Die Daten von Nutzern in den USA und in Kanada werden zusätzlich in den USA gespeichert. Darüber hinaus kann Medela bzw. gegebenenfalls die lokale Konzerngesellschaft Cloud-Service-Anbieter, die in Ländern außerhalb der Schweiz und der EU/des EWR ansässig sind, unter anderem in den USA, damit beauftragen, Ihre personenbezogenen Daten zu Zwecken der Speicherung, der Kommunikation und der Werbung zu hosten und zu verarbeiten. Da die in diesen Ländern geltenden Gesetze keinen in der Schweiz oder in der EU/dem EWR als angemessen geltenden Datenschutz vorsehen, haben wir die erforderlichen Maßnahmen ergriffen, um sicherzustellen, dass Ihre personenbezogenen Daten angemessen behandelt und geschützt und nur in unserem Auftrag und entsprechend unseren Anweisungen verarbeitet werden. <br><br> Alle Ihre personenbezogenen Daten werden unwiderruflich und automatisch nach einem Jahr der Inaktivität (keine Nutzung der App) gelöscht. Personenbezogene Daten von Personen, die in den USA oder in Kanada wohnhaft sind, werden nach drei Jahren der Inaktivität gelöscht. <br><br> Wir behandeln Ihre personenbezogenen Daten vertraulich. Wir haben entsprechende technische und organisatorische Sicherheitsmaßnahmen ergriffen, um Ihre personenbezogenen Daten vor unbefugter Offenlegung oder unbefugtem Zugriff, Abänderung, Missbrauch, versehentlicher oder unrechtmäßiger Vernichtung oder Verlust zu schützen.</p>
+        
+                          </div>
+                      </div>
+                   </div>
+                   <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <button class="btn btn-link" data-target="#Examplefive" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 5. HIPAA DATENSCHUTZERKLÄRUNG FÜR GESCHÜTZTE GESUNDHEITSINFORMATIONEN</button>
+                          </h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="Examplefive">
+                          <div class="panel-body">
+                              <p>Sofern Sie unter Umständen „geschützte Gesundheitsinformationen“ gemäß der Gesetzgebung der Vereinigten Staaten offenlegen, während Sie auf unsere App zugreifen oder diese nutzen, verweisen wir Sie auf unsere <a href="medelaFamily://openexternal?url=https://www.medela.us/medela-us/breastfeeding/hipaa-privacy-policy">HIPAA Datenschutzerklärung und Bekanntgabe von Datenschutzvorkehrungen</a>, wo erläutert wird, welche Rechte Sie haben und wie wir Ihre geschützten Gesundheitsinformationen verwenden und offenlegen können.</p>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <button class="btn btn-link" data-target="#Examplesix" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 6. EINWOHNER KALIFORNIENS</button>
+                          </h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="Examplesix">
+                          <div class="panel-body">
+                             <p>Medelas <a href="medelaFamily://openexternal?url=https://www.medela.us/dam/Legal-Policies/ccpa_privacy_notice_01192021?uuid=jcr:b9a23d89-1c61-4471-ab9b-dc5ee08250f5">Datenschutzerklärung für Einwohner Kaliforniens</a> ergänzt die in dieser Richtlinie zum Datenschutz und Einsatz von Cookies in der App enthaltenen Informationen und gilt ausschließlich für Besucher, Benutzer und andere Personen, die ihren Wohnsitz im US-Bundesstaat Kalifornien haben.</p>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <button class="btn btn-link" data-target="#Exampleseven" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 7. IHRE RECHTE/KONTAKTMÖGLICHKEITEN</button>
+                          </h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="Exampleseven">
+                          <div class="panel-body">
+                              <p>Sie haben möglicherweise das Recht, gemäß Ihren lokalen Datenschutzgesetzen zu verlangen, dass wir Ihnen sämtliche personenbezogenen Daten offenlegen, die wir über Sie erhoben haben, die Berichtigung, Löschung und/oder Sperrung Ihrer personenbezogenen Daten zu verlangen, der Verarbeitung Ihrer personenbezogenen Daten aus berechtigten Gründen zu widersprechen oder eine elektronische Kopie Ihrer personenbezogenen Daten zum Zwecke der Übermittlung an ein anderes Unternehmen zu verlangen (Datenübertragbarkeit). <br><br> Sie haben außerdem die Möglichkeit, Ihre Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen, indem Sie die App von Ihrem Endgerät/Ihren Endgeräten löschen und oder die Löschung per E-Mail an die unten angegebene E-Mail-Adresse verlangen. <br><br> Sollten Sie Fragen zur Erfassung, Weiterverarbeitung und/oder Nutzung Ihrer personenbezogenen Daten oder zur Ausübung Ihrer Rechte haben, schicken Sie uns bitte ein E-Mail an <a href="mailto:privacy@medela.com">privacy@medela.com</a>. <br><br> Einwohner der USA: Um Ihre Rechte auf Löschung der oder Kenntnis über die von Ihnen erhobenen Daten auszuüben, füllen Sie bitte das <a href="medelaFamily://openexternal?url=https://www.medela.us/dam/Legal-Policies/privacy_request_form_02012021.pdf?uuid=jcr:b32a0378-93e0-43c1-9652-ceba774fb001">Datenschutzanfrageformular</a> aus und senden Sie uns das ausgefüllte Formular per E-Mail an <a href="mailto:privacy.us@medela.com">privacy.us@medela.com</a> zurück. <br><br> Einwohner von Nevada: Ohne Einschränkung des Vorstehenden kann es Ihnen gemäß der Gesetzgebung Nevadas gestattet sein, uns gezielt anzuweisen, Ihre geschützten Informationen nicht an Dritte zu verkaufen. Wenn Sie in Nevada wohnhaft sind, können Sie diese Aufforderung per E-Mail an <a href="mailto:privacy.us@medela.com">privacy.us@medela.com</a> senden. Um wirksam zu sein, muss Ihre Anfrage Ihren vollständigen Namen, Ihre Adresse und E-Mail-Adresse enthalten, damit wir die Gelegenheit haben, die Echtheit Ihrer Anfrage zu überprüfen.</p>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <button class="btn btn-link" data-target="#Exampleeight" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 8. ÄNDERUNGEN AN DIESER RICHTLINIE ZUM DATENSCHUTZ UND EINSATZ VON COOKIES IN DER APP</button>
+                          </h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="Exampleeight">
+                          <div class="panel-body">
+                             <p>Wir behalten uns das Recht vor, jederzeit mit Wirkung für die Zukunft Änderungen an dieser Richtlinie zum Datenschutz und Einsatz von Cookies in der App vorzunehmen. Die jeweils aktuelle Fassung dieser Richtlinie zum Datenschutz und Einsatz von Cookies in der App kann innerhalb der App abgerufen werden. Obwohl wir keine häufigen Änderungen an dieser Richtlinie beabsichtigen, empfehlen wir Ihnen dennoch, bei Besuchen auf unserer Website stets deren aktuellste Fassung einzusehen, damit Sie genau wissen und damit einverstanden sind, welche Informationen wir erfassen, wie wir diese nutzen und unter welchen Umständen wir sie offenlegen.</p>
+                          </div>
+                      </div>
+                   </div>
+              </div> 
+             </div>
+         </div>
+        </div> 
+        </body>
+</html>

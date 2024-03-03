@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.996" height="15.996"
+     viewBox="0 0 15.996 15.996">
+    <defs>
+        <style>
+            .cls-4{fill:#ffcd00}
+        </style>
+    </defs>
+    <g id="Group_1195" transform="translate(-2037.685 -3324.907)">
+        <circle id="Ellipse_234" cx="7.998" cy="7.998" r="7.998" fill="#fad62c" transform="translate(2037.685 3324.907)"/>
+        <g id="Group_762" transform="translate(2040.748 3327.701)">
+            <g id="Group_760">
+                <path id="Path_798" fill="none" stroke="#f5faff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5px" d="M2059.694 3334.288a1.926 1.926 0 0 0 1.551-1.352" transform="translate(-2055.1 -3332.936)"/>
+                <path id="Path_799" fill="#f5faff" d="M2056.359 3341.174a1.1 1.1 0 0 0-.928-1.086 4.092 4.092 0 0 0-8.015 0 1.1 1.1 0 0 0 .166 2.189 4.068 4.068 0 0 0 7.682 0 1.1 1.1 0 0 0 1.095-1.103z" transform="translate(-2046.488 -3335.471)"/>
+            </g>
+            <g id="Group_761" transform="translate(2.922 4.552)">
+                <circle id="Ellipse_235" cx=".52" cy=".52" r=".52" class="cls-4"/>
+                <circle id="Ellipse_236" cx=".52" cy=".52" r=".52" class="cls-4" transform="translate(2.987)"/>
+            </g>
+            <path id="Path_800" fill="none" stroke="#ffcd00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25px" d="M2057.034 3352.554a1.278 1.278 0 0 0 2.533 0" transform="translate(-2053.365 -3345.729)"/>
+        </g>
+    </g>
+</svg>

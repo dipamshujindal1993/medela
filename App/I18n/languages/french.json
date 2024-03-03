@@ -1,0 +1,1433 @@
+{
+  "common": {
+    "app_name": "Nom de l’application"
+  },
+  "startup": {
+    "sign_up_now": "INSCRIVEZ-VOUS MAINTENANT",
+    "already_have_account": "J’AI DÉJÀ UN COMPTE",
+    "desc1": "Informations sur l’allaitement et bien plus encore \n lorsque vous en avez besoin.",
+    "desc2": "Téléconsultation allaitement LC™ 24 h/24 et bibliothèque \nde ressources d’experts",
+    "desc3": "Conseils et outils dont l’évolution \nsuit votre grossesse et votre parentalité",
+    "desc4": "Accès VIP à des fonctionnalités uniques de l’application pour \nUtilisatrices de tire-laits Medela",
+    "desc5": "Vos données sont conservées en toute sécurité selon les réglementations internationales les plus strictes \nen matière de conformité des données",
+    "title1": "Communauté Medela Family",
+    "title2": "Conseils en lactation",
+    "title3": "Expérience sur-mesure",
+    "title4": "Avantages exclusifs Medela",
+    "title5": "Conservation des données en toute sécurité"
+  },
+  "login": {
+    "title": "Se connecter",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "forgot_your_password": "Mot de passe oublié",
+    "login": "CONNEXION",
+    "forgot_password_title": "Mot de passe oublié",
+    "forgot_password_message": "Êtes-vous sûre de vouloir réinitialiser \n votre mot de passe ?",
+    "ok": "OK",
+    "cancel": "ANNULER",
+    "forgot_password_success_title": "E-mail envoyé",
+    "forgot_password_success_message": "Nous vous avons envoyé un \n e-mail avec un nouveau mot de passe.",
+    "email_error_message": "Saisissez une adresse e-mail valide",
+    "blank_password_error_message": "Saisissez votre mot de passe",
+    "account_not_exist": "Ce compte n’existe pas",
+    "login_failed": "Échec de la connexion",
+    "edit_email": "Modifier l’adresse e-mail",
+    "sign_up": "S’inscrire",
+    "yes": "OUI",
+    "no": "NON",
+    "subscribed_user_msg": "Vous adhérez déjà au programme Medela Family.\nConfigurez un mot de passe pour protéger votre compte.",
+    "email_subscription_msg":"Vérifiez votre inscription en cliquant sur le lien dans l’e-mail que nous vous avons envoyé",
+    "no_space_in_password": "Le mot de passe ne doit pas contenir d’espace"
+  },
+  "signup": {
+    "title": "Créez votre compte",
+    "email": "E-mail *",
+    "password": "Mot de passe *",
+    "offer": "Je souhaite être informée des nouveautés et des offres spéciales de Medela par e-mail",
+    "signUpBtn": "S’INSCRIRE",
+    "terms": "En vous inscrivant, vous acceptez notre",
+    "privacyPolicy": " politique de confidentialité, y compris le traitement de vos données personnelles sensibles",
+    "emailAlreadyExist": "Cette adresse e-mail est déjà utilisée.",
+    "somethingWentWrong": "Une erreur s’est produite. Veuillez réessayer plus tard.",
+    "show": "Afficher",
+    "hide": "Masquer",
+    "email_error": "L’adresse e-mail n’est pas valide",
+    "password_no_numbers": "pas de chiffres",
+    "password_no_letters": "pas de lettres",
+    "password_too_weak": "Trop faible !",
+    "password_too_long": "Trop long !",
+    "password_invalid_characters": "caractères non valides",
+    "password_null": "8 à 20 car., 1 chiffre min. (a-z, 0-9)",
+    "edit_email": "Modifier l’adresse e-mail",
+    "login_up": "Se connecter",
+    "password_min_length": "Le mot de passe doit contenir au moins 7 caractères, dont des chiffres et des lettres."
+  },
+  "profileSetup": {
+    "title": "Il ne reste plus que quelques informations à saisir pour finaliser \n votre profil",
+    "name": "Votre nom/surnom *",
+    "babyDob": "Date de naissance de bébé/Date du terme *",
+    "isFirstBaby": "Est-ce votre premier bébé ?",
+    "yes": "Oui",
+    "no": "Non",
+    "next": "SUIVANT",
+    "dontKnow": "Je ne sais pas",
+    "planReturnWork": "Travailler hors de votre domicile fait-il partie de votre projet de parentalité ?",
+    "chooseDate": "Quand pensez-vous commencer ?",
+    "babyName": "Nom/surnom de bébé *",
+    "username_error": "Saisissez votre nom",
+    "baby_name_error": "Saisissez le prénom de bébé",
+    "baby_dob_error": "Indiquez la date de naissance de bébé/date de terme",
+    "back_to_work_date": "Sélectionnez une date de retour au travail",
+    "upload": "Téléchargez une photo de bébé",
+    "name_error": "Saisissez votre nom"
+  },
+  "profileSetup2": {
+    "title": "Découvrons ensemble comment nous pouvons vous aider au mieux\ntout au long de votre maternité",
+    "havePump": "Avez-vous un tire-lait ?",
+    "pumpBrand": "Quelle est la marque de votre tire-lait actuel ?",
+    "yes": "Oui",
+    "no": "Non",
+    "medela": "Medela",
+    "other": "Autre",
+    "pumpFor": "Je me suis procuré mon tire-lait pendant",
+    "insurancePump": "Mon tire-lait était",
+    "coveredByMyInsurance": "pris en charge par mon assurance",
+    "notPurchasedInsurance": "un cadeau ou offert grâce à l’assurance",
+    "finishBtn": "TERMINER",
+    "previousPregnancy": "Grossesse précédente",
+    "skip": "PASSER",
+    "thisPregnancy": "Grossesse actuelle"
+  },
+  "pump_phase": [
+    "Stimulation",
+    "Expression"
+  ],
+  "pump_rhythem": [
+    "Signature",
+    "Lifestyle"
+  ],
+  "welcome": {
+    "title": "Bienvenue sur Medela Family\n",
+    "subTitle": "Profitez d’un accès GRATUIT à des outils et \n conseils sur la grossesse et l’allaitement",
+    "dashboardBtn": "ACCÉDER AU TABLEAU DE BORD"
+  },
+  "newWelcome":{
+    "title": "Bienvenue sur Medela Family !\n",
+    "subTitle": "Medela Family remplace notre ancienne application MyMedela : elle vous offre ainsi une toute nouvelle expérience utilisateur, des fonctionnalités améliorées et un contenu informatif inédit.",
+    "subTitle2": "Découvrez notre nouvelle fonction dédiée au suivi de vos stocks de lait, demandez à votre assistant personnel de répondre à vos questions et gagnez du temps en utilisant les commandes vocales pour le suivi mains libres !",
+    "subTitle3":"Nous espérons que vous l’aimerez autant que nous !",
+    "subTitle4":"L’équipe Medela",
+    "dashboardBtn": "ACCÉDER AU TABLEAU DE BORD"
+  },
+  "tab_bar": {
+    "my_baby": "MON BÉBÉ",
+    "stats": "STATISTIQUES",
+    "chat": "CHAT",
+    "more": "AUTRE"
+  },
+  "generic": {
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non",
+    "cancel": "Annuler",
+    "error_message": "Une erreur s’est produite. Veuillez réessayer plus tard.",
+    "save": "Enregistrer",
+    "alert_title": "Oups !",
+    "no_internet": "Apparemment, vous n’êtes pas connectée à Internet",
+    "cancelled_picker": "L’utilisateur a refusé le sélectionneur de photo",
+    "tap_custom_btn": "L’utilisateur a sélectionné le bouton de personnalisation : ",
+    "image_error": "Erreur sélectionneur de photo : ",
+    "add_new_baby": "Ajouter un bébé",
+    "delete": "SUPPRIMER",
+    "stop_watch": "Veuillez d’abord arrêter le chronomètre",
+    "retry": "Réessayez",
+    "minutes_error": "Les minutes doivent être inférieures à 60",
+    "seconds_error": "Les secondes doivent être inférieures à 60",
+    "submit": "SOUMETTRE",
+    "close": "Fermer",
+    "done": "Terminé",
+    "select_state": "Sélectionner l’état",
+    "maximum_limit":"Limite maximale dépassée, c’est-à-dire"
+  },
+  "tracking": {
+    "checklists": "Ma liste",
+    "24x7": "Aide 24 h/24 et 7 j/7",
+    "questionnaires": "Tests",
+    "weight": "Poids",
+    "sleep": "Sommeil",
+    "nappy": "Couche",
+    "breastfeeding": "Allaiter et exprimer son lait",
+    "who": "Code de l’OMS",
+    "title": "Suivi",
+    "tracking_clear_message": "Êtes-vous certaine de vouloir quitter le suivi de cette séance ?",
+    "delete_tracking_message": "Êtes-vous certaine de vouloir supprimer le suivi de cette séance ?",
+    "tools": "Outils",
+    "contraction": "Contraction",
+    "tracking_toaster_text": "Votre suivi a bien été enregistré",
+    "nappy_notification_title": "Couches",
+    "firstday_nappy_notification_text": "Au cours des deux premiers jours après la naissance, vous devez vous attendre à 1 à 2 couches mouillées et au moins 1 couche sale.",
+    "thirdday_nappy_notification_text": "Le troisième jour après la naissance, vous devez vous attendre à au moins 3 couches mouillées et au moins 2 couches sales.",
+    "fourthday_nappy_notification_text": "Le quatrième jour après la naissance, vous devez vous attendre à au moins 4 couches mouillées et au moins 2 couches sales. Vous remarquerez qu’elles sont de plus en plus lourdes.",
+    "who_popup_title": "Sélectionnez le sexe",
+    "who_popup_description": "Comparez le développement de votre enfant avec la norme de l’OMS en sélectionnant le sexe.",
+    "who_popup_option1": "Fille",
+    "who_popup_option2": "Garçon",
+    "who_popup_option3": "Plus tard",
+    "baby": "Suivi de bébé",
+    "bottle": "Alimentation au biberon",
+    "breastfeed": "Allaitement",
+    "Breastfeeding_and_Pumping": "Vous avez indiqué moins de 8 séances d’allaitement ou d’expression au cours des dernières 24 heures. Avez-vous oublié d’indiquer une séance ? Bébé a besoin d’au moins 8 à 12 tétées par 24 h au cours des quatre premières semaines. Ensuite, vous observerez peut-être une diminution du nombre de tétées. Tant que votre bébé prend bien du poids et est en bonne santé, tout est parfait.",
+    "Breastfeeding_and_Pumping_5hrs": "Ces dernières 24 heures, un intervalle minimum de 5 heures a été indiqué entre deux séances ou plus d’allaitement ou d’expression. Avez-vous oublié d’indiquer une séance d’allaitement ou d’expression ?",
+    "Breastfeeding_and_Pumping_5hrs2": "Ces derniers jours, un intervalle de plus de 5 heures a été indiqué entre plusieurs séances d’allaitement ou d’expression. Votre production de lait peut diminuer si vous manquez des séances, pour quelque raison que ce soit. Petit rappel : vous avez peut-être oublié d’indiquer une séance d’allaitement ou d’expression. Voulez-vous le faire maintenant ?",
+    "Breastfeeding_and_Pumping_7hrs": "Ces dernières 24 heures, un intervalle minimum de 7 heures a été indiqué entre deux séances ou plus d’allaitement ou d’expression. Avez-vous oublié d’indiquer une séance d’allaitement ou d’expression ?",
+    "Breastfeeding_and_Pumping_7hrs2": "Ces derniers jours, un intervalle de plus de 7 heures a été indiqué entre plusieurs séances d’allaitement et/ou d’expression. Votre production de lait peut diminuer si vous manquez des séances, pour quelque raison que ce soit. Petit rappel : vous avez peut-être oublié d’indiquer une séance d’allaitement ou d’expression. Voulez-vous le faire maintenant ?",
+    "Breastfeeding_and_Pumping_title": "Allaitement et expression",
+    "Breastfeeding_and_Pumping1": "Au cours des 4 premières semaines, votre production de lait se construit. Il est donc particulièrement important de stimuler votre production de lait avec au moins 8 séances d’allaitement ou d’expression par 24 heures.  Ainsi, vous serez sûre d’avoir assez de lait dès à présent et pour le futur. Votre production de lait peut diminuer si vous manquez des séances, pour quelque raison que ce soit. Petit rappel : vous avez peut-être oublié d’indiquer une séance d’allaitement ou d’expression. Voulez-vous le faire maintenant ?",
+    "four_weeks_nappy_notification_text": "Chacun de nous souhaiterait ne pas avoir à penser aux couches sales, mais c’est important de les indiquer ici ! Avez-vous oublié d’indiquer un change ?",
+    "four_weeks_nappy_notification_text2": "Au cours des quatre premières semaines après la naissance, la plupart des bébés font des selles molles et jaunes au moins deux fois par jour. A partir du nombre de changes enregistré dans l'application nous pouvons vous recommander de consulter le médecin traitant de votre enfant.",
+    "four_weeks_nappy_notification_text3": "Les selles changeront au bout de 4 à 6 semaines. À partir de ce moment-là, bébé peut continuer d’aller à la selle plusieurs fois par jour ou peut ne pas y aller pendant plusieurs jours, voire une semaine ! ",
+    "freezer": "Conservation",
+    "growth": "Taille",
+    "height_tracking": "Contactez régulièrement votre médecin traitant pour le suivi de la taille de votre bébé.",
+    "height_tracking_notification_text": "Contactez régulièrement votre médecin traitant pour le suivi de la taille de votre bébé.",
+    "height_tracking_notification_title": "Suivi de la taille",
+    "height_tracking_title": "Suivi de la taille",
+    "mom": "Suivi de la grossesse",
+    "nappy_notification_title2": "Couches avec selles",
+    "pumping": "Séance d’expression",
+    "tracking_toaster_update_text": "Votre suivi a bien été mis à jour.",
+    "weight_tracking": "Contactez régulièrement votre médecin traitant pour le suivi du poids de votre bébé.",
+    "weight_tracking_notification_text": "Contactez régulièrement votre médecin traitant pour le suivi du poids de votre bébé.",
+    "weight_tracking_notification_title": "Suivi du poids",
+    "weight_tracking_title": "Suivi du poids",
+    "wet_diapers": "Couches avec urine",
+    "wet_diapers_notification_text": "Au cours des 6 premières semaines après la naissance, vous devez vous attendre à au moins 5 couches bien mouillées. Nous avons remarqué que vous n’avez pas indiqué autant de changes. Avez-vous oublié d’indiquer un change ? ",
+    "wet_diapers_notification_text2": "Après 6 semaines, le nombre de couches humides peut augmenter à 4-5 par jour, mais la quantité d’urine augmentera au fur et à mesure de la croissance de la vessie de bébé pour arriver à l’équivalent d’au moins 4-6 cuillères à soupe (au moins 60-90 ml).",
+    "cont": "Suite",
+    "left": "G-",
+    "right": "D-",
+    "breast": "GD-",
+    "manual_session_lost": "Votre session manuelle est perdue, car un tire-lait est désormais connecté.",
+    "total_Pumping": " Expression totale",
+    "offline_session": "Sessions hors ligne",
+    "bad_session_popup_tite": "Voulez-vous lire nos articles sur la résolution des problèmes ?",
+    "bad_session_popup_option1": "OUI",
+    "bad_session_popup_option2": "NON",
+    "bad_session_popup_option3": "NE PLUS JAMAIS MONTRER",
+    "breastfeedingPumpingShortcut":"Raccourci pour l'allaitement"
+  },
+  "addBaby": {
+    "my_baby": "Mon bébé",
+    "babyDob": "Date de naissance de bébé/Date du terme *",
+    "gender": "Sexe",
+    "male": "Garçon",
+    "female": "Fille",
+    "save": "ENREGISTRER",
+    "upload": "Téléchargez une photo de bébé",
+    "baby_dob_error": "Indiquez la date de naissance de bébé/date de terme",
+    "baby_name_error": "Saisissez le prénom de bébé",
+    "add_baby_Title": "Ajouter un bébé",
+    "add_baby_success_message": "Bébé ajouté avec succès",
+    "babyHeight": "Taille de naissance de bébé",
+    "babyName": "Nom/surnom de bébé",
+    "babyWeight": "Poids de naissance de bébé"
+  },
+  "my_baby": {
+    "switch": "CHANGER DE BÉBÉ",
+    "read_more": "En savoir plus",
+    "months_before_birth": "Mois avant la naissance",
+    "actual_tummy_size": "Taille de ventre réelle : ",
+    "actual_baby_size": "Taille réelle de bébé : ",
+    "size_of_cherry": "cerise",
+    "size_of_walnut": "noisette",
+    "size_of_apricot": "abricot",
+    "size_of_egg": "œuf",
+    "size_of_lemon": "citron",
+    "no_child": "Aucun enfant trouvé !",
+    "no_child_message": "Vous n’avez pas encore ajouté de deuxième enfant ! Ajoutez-en un pour passer d’un bébé à l’autre.",
+    "add_baby": "AJOUTER UN BÉBÉ",
+    "cancel": "ANNULER",
+    "week": "semaine",
+    "weeks": "semaines",
+    "days": "jours",
+    "day": "jour",
+    "same_day_born_message": "Votre bébé est né",
+    "date_of_birth": "Date de naissance",
+    "after_birth": "après la naissance",
+    "day_old": "jour",
+    "days_old": "jours",
+    "week_old": "semaine",
+    "weeks_old": "semaines",
+    "month": "mois",
+    "months": "mois",
+    "year": "an",
+    "years": "ans",
+    "before_birth": "avant la naissance",
+    "birth": "naissance",
+    "volume": "Quantité : ",
+    "volume1": "10-50 ml par jour",
+    "volume2": "100-700 ml exprimés par jour",
+    "volume3": "400-800 ml par jour",
+    "volume4": "400-1 000 ml par jour",
+    "volume5": "440-1 000 ml par jour",
+    "volume6": "800 ml par jour en moyenne",
+    "approx_size": "Taille approximative du fœtus",
+    "last_tracked": "Dernier suivi",
+    "birthday_popup_title": "Votre bébé est-il né ?",
+    "birthday_popup_yes": "OUI",
+    "birthday_popup_never_show": "NE PLUS AFFICHER",
+    "birth_confirmation_notification_title": "Votre bébé est-il né ?",
+    "birth_confirmation_notification_message": "Confirmer la date de naissance de bébé/de terme",
+    "birthday_popup_remind": "NON, ME LE RAPPELER PLUS TARD",
+    "length": "Taille à la naissance",
+    "weight": "Poids à la naissance",
+    "full_term_baby_size":"taille du bébé né à terme",
+    "cat":"chat",
+    "seat_height_of_a_chair":"Hauteur d’assise d’une chaise",
+    "laptop":"ordinateur portable",
+    "magayine":"magazine",
+    "spaghetti":"spaghettis",
+    "kitchen_paper":"rouleau d’essuie-tout",
+    "smartphone":"smartphone",
+    "pen":"stylo",
+    "hand_cream":"crème pour les mains",
+    "popsicle":"glace à l’eau",
+    "highlighter":"surligneur",
+    "credit_card":"carte de crédit",
+    "nail_polish":"vernis à ongles",
+    "lipstick":"rouge à lèvres",
+    "hairpin":"épingle à cheveux",
+    "earphone":"casque",
+    "button":"bouton",
+    "finger_nail":"ongle",
+    "lady_bug":"coccinelle",
+    "rice":"riz",
+    "linen_seed":"graine de lin",
+    "chia_seed":"graine de chia",
+    "snow_crystal":"cristal de neige",
+    "articles_offline_text": "Vérifiez votre connexion Internet.",
+    "delete_popup_title": "Veuillez confirmer.",
+    "2L/":"Bouteille de boisson non alcoolisée de 2 l/0,5 gal",
+    "ok": "OUI",
+    "actual_baby_stomach_size": "Taille réelle de l’estomac du bébé : ",
+    "baby_name_error": "Saisissez le prénom de bébé",
+    "article_details_offline_text": "La connexion Internet semble être interrompue. Veuillez réessayer plus tard."
+  },
+  "calendar": {
+    "week": "Semaine",
+    "time": "Heure",
+    "size_of_egg": "La taille d’un œuf",
+    "timer_alert": "Saisissez une heure valide",
+    "date_time_alert": "Saisissez une date et une heure valides",
+    "hours": "heures",
+    "mins": "min.",
+    "sec": "sec.",
+    "is_am": "AM",
+    "is_pm": "PM",
+    "period": "Personnalisé",
+    "today": "Aujourd’hui",
+    "yesterday": "Hier",
+    "last_week": "La semaine dernière",
+    "last_month": "Le mois dernier",
+    "all": "Tous",
+    "start_time": "Heure de début",
+    "end_time": "Heure de fin",
+    "side":"côté",
+    "Creation_date":"Date de création"
+  },
+  "checklist": {
+    "add_item": "Ajouter un élément",
+    "checklist_title": "Ma liste",
+    "add_item_list": "Ajouter un élément à ma liste",
+    "clear_all": "Effacer tout",
+    "clear_checklist": "Effacer ma liste ?",
+    "clear_checklist_message": "Êtes-vous sûre de vouloir effacer tous les éléments cochés ?",
+    "items_left": "Éléments restants",
+    "time": "Heure"
+  },
+  "breastfeeding_pump": {
+    "duration": "Durée",
+    "breastfeed": "Allaiter",
+    "breastfeeding": "Allaitement",
+    "pumping": "Séance d’expression",
+    "both": "Les deux",
+    "right": "Droite",
+    "left": "Gauche",
+    "experience": "Expérience",
+    "good": "Bonne",
+    "add_note": "Ajouter une note",
+    "pump_settings": "Réglages du tire-lait",
+    "total_volume": "Quantité",
+    "total": "Le total",
+    "bottle": "Biberon",
+    "bag": "Sachet",
+    "number": "Nombre",
+    "tray": "Panier",
+    "fridge": "Réfrigérateur",
+    "freezer": "Congélateur",
+    "pump_setting": "Réglages du tire-lait",
+    "pump_level": "Niveau",
+    "phase_level": "Phase",
+    "rhythem_level": "Rythme",
+    "pump_alert_title": "Alerte",
+    "pump_off_alert_message": "Votre tire-lait est maintenant éteint. Enregistrez les données existantes avant de démarrer une nouvelle séance",
+    "pump_battery_alert_message": "La batterie de votre tire-lait est déchargée, connectez-la à une source d’alimentation",
+    "timer": "Minuteur :",
+    "disclaimer": "Décharge de responsabilité",
+    "disclaimer_msg": "Si vous n’enregistrez pas les données de votre séance d’expression en cours avant de commencer une nouvelle séance, les données de suivi seront perdues.",
+    "air_leaked": "Fuite d’air",
+    "breastfeeding_pumping_l": "Allaitement G",
+    "breastfeeding_pumping_r": "Allaitement D",
+    "pumping_b": "Séance d’expression GD",
+    "Check_available_inventory": "Vérifier l’inventaire disponible",
+    "ending_side": "Dernier côté utilisé",
+    "move_to": "Aller à",
+    "phase": "Phase :",
+    "rhythm": "Rythme :",
+    "save_to_virtual_freezer": "Enregistrer dans le frigo virtuel",
+    "session_type": "Sélectionner un type de séance",
+    "bad": "Difficile",
+    "difficult": "Difficile",
+    "freezer_title": "Filtrer le frigo virtuel",
+    "container_type_error":"Ajoutez le type de récipient (Sac/Biberon)",
+    "location_type_error":"Ajoutez un emplacement (réfrigérateur/congélateur)",
+    "number_error":"Ajoutez un numéro de récipient",
+    "tray_error":"Ajoutez un numéro de plateau",
+    "volume_error_msg": "Ajoutez un volume",
+    "number_zero_error":"La valeur numérique doit être différente de 0",
+    "tray_zero_error":"La valeur du plateau doit être différente de 0",
+    "container_special_character_error":"Choisissez un numéro de récipient entre 1 et 250",
+    "tray_special_character_error":"Choisissez un numéro de plateau entre 1 et 250",
+    "pumping_paused":"Expression interrompue",
+    "pumping_paused_flex":"Appuyez sur le bouton d'alimentation du tire-lait pour terminer la séance.",
+    "pumping_paused_maxi":"Appuyez longuement sur le bouton marche/arrêt du tire-lait pour terminer la séance.",
+    "pumping_paused_sonata":"Appuyez longuement sur le bouton pause du tire-lait pour terminer la séance.",
+    "breastfeeding_paused":"Allaitement interrompu"
+  },
+  "can_not_edit_bag": {
+    "cancel": "Annuler",
+    "ok": "OK",
+    "title": "Vous ne pouvez pas ajouter de lait dans des sachets/biberons déjà au congélateur, mais uniquement dans les biberons au réfrigérateur."
+  },
+  "sleep": {
+    "header_title": "Sommeil",
+    "start": "Démarrer",
+    "stop": "Arrêter",
+    "pause": "Pause",
+    "duration": "Durée"
+  },
+  "nappy_tracking": {
+    "add_note": "Ajouter une note",
+    "pee": "Urine",
+    "poo": "Selle",
+    "both": "Les deux",
+    "type": "Type",
+    "nappy": "Couche"
+  },
+  "bottle_tracking": {
+    "duration": "Durée",
+    "type": "Type",
+    "milk": "Lait",
+    "mix": "Mixte",
+    "formula": "Lait artificiel",
+    "both": "Les deux",
+    "right": "Droite",
+    "left": "Gauche",
+    "experience": "Expérience",
+    "good": "Bonne",
+    "add_note": "Ajouter une note",
+    "pump_settings": "Réglages du tire-lait",
+    "use_volume": "Utilisation du volume",
+    "total": "Total",
+    "bottle": "Biberon",
+    "bag": "Sachet",
+    "number": "Nombre",
+    "tray": "Panier",
+    "fridge": "Réfrigérateur",
+    "freezer": "Congélateur",
+    "all": "Tous",
+    "breastmilk": "Lait maternel",
+    "use_from_virtual_freezer": "Utilisation depuis le frigo virtuel",
+    "virtual_freezer": "Frigo virtuel",
+    "volume": "Quantité",
+    "bad": "Difficile",
+    "difficult": "Difficile",
+    "bottle_feeding": "Alimentation au biberon"
+  },
+  "baby_growth": {
+    "title": "Taille de bébé",
+    "volume_units": "mm",
+    "header": "Taille"
+  },
+  "baby_weight": {
+    "header": "Poids",
+    "title": "Poids de bébé",
+    "volume_units": "g"
+  },
+  "volume_popup": {
+    "title": "Ajouter une quantité",
+    "message": "Saisissez la quantité de lait \n maternel exprimé",
+    "save_without_amount": "Enregistrer sans quantité",
+    "add_amount": "Ajouter une quantité",
+    "never_show_again": "Ne plus afficher"
+  },
+  "stats_screen": {
+    "header_title": "Statistiques",
+    "day_overview": "Aperçu de la journée",
+    "list": "Liste",
+    "dashboard": "Résumé",
+    "today": "Aujourd’hui",
+    "past_7_days": "7 derniers jours",
+    "empty_list_today_message": "Aucune donnée disponible",
+    "empty_list_past_7_days_message": "Aucune donnée disponible"
+  },
+  "stats_breastfeeding": {
+    "title": "Allaitement",
+    "session_key": "Séance",
+    "avg_time_key": "Durée moyenne",
+    "left_key": "Gauche",
+    "right_key": "Droite",
+    "mins": "min",
+    "error_total_duration_sec": "La durée totale en secondes doit être inférieure à 60",
+    "error_left_duration_sec": "La durée en secondes à gauche doit être inférieure à 60",
+    "error_right_duration_sec": "La durée en secondes à droite doit être inférieure à 60",
+    "error_sleep_duration_sec": "La durée en secondes doit être inférieure à 60",
+    "error_sleep_duration_min": "La durée en minutes doit être inférieure à 60",
+    "error_total_duration": "La durée ne peut pas dépasser 60",
+    "total_time_key": "Temps total",
+    "error_sleep_duration_total_min": "La durée ne peut pas dépasser 100"
+  },
+  "stats_pumping": {
+    "title": "Séance d’expression",
+    "session_key": "Séance",
+    "avg_time_key": "Durée moyenne",
+    "vol_key": "Quantité",
+    "avg_vol_key": "Moy. Vol.",
+    "mins": "min",
+    "pumping_title": "Séance d’expression B"
+  },
+  "stats_bottle": {
+    "session_key": "Quantité",
+    "avg_vol_key": "Moy. Vol.",
+    "breastmilk_key": "Lait maternel",
+    "formula_key": "Lait artificiel",
+    "mix_key": "Mixte",
+    "saved_milk": "Lait enregistré",
+    "title": "Alimentation au biberon",
+    "total_vol_key": "Volume total"
+  },
+  "stats_nappy": {
+    "title": "Couche",
+    "session_key": "Quantité",
+    "pee_key": "Urine",
+    "poo_key": "Selle",
+    "both_key": "Les deux"
+  },
+  "stats_sleep": {
+    "title": "Sommeil",
+    "session_key": "Séance",
+    "total_sleep_key": "Sommeil total"
+  },
+  "stats_growth": {
+    "title": "Taille",
+    "size_key": "Taille",
+    "who": "OMS",
+    "stats": "Statistiques",
+    "inches": "pouces"
+  },
+  "stats_weight": {
+    "title": "Poids",
+    "total_weight_key": "Taille",
+    "lbs": "Kg"
+  },
+  "stats_contraction": {
+    "title": "Contractions",
+    "avg_time_key": "Durée moyenne",
+    "avg_frequency": "Fréquence moyenne",
+    "duration": "Durée",
+    "frequency": "Fréquence",
+    "intensity": "Intensité",
+    "medium": "Moyenne",
+    "mild": "Légère",
+    "none": "Aucune",
+    "Pain_intensity": "Intensité de la douleur",
+    "strong": "Forte",
+    "very_mild": "Très légère",
+    "very_strong": "Très forte"
+  },
+  "bluetooth": {
+    "turn_on": "Activez le Bluetooth",
+    "to_connect_pump": "Pour connecter votre tire-lait à Medela Family, vous devez activer le Bluetooth de votre téléphone !",
+    "header_title": "Connectez le tire-lait",
+    "continue": "continuer",
+    "searching": "Recherche",
+    "search_again": "Rechercher à nouveau",
+    "which_pump": "Quel tire-lait souhaitez-vous connecter ?",
+    "flex_pair_info": "Appuyez sur le bouton Marche/Arrêt pendant 2 secondes. Posez votre téléphone à proximité de votre tire-lait pour une confirmation rapide de l’appairage.",
+    "sonata_pair_info": "Appuyez sur le bouton « gouttes » pendant 3 secondes. Veuillez poser votre téléphone à proximité de votre tire-lait pour une confirmation rapide de l’appairage.",
+    "no_pump_found": "Aucun tire-lait identifié.",
+    "make_sure_bluetooth_on": "Assurez-vous que le Bluetooth® est activé et que le tire-lait est branché.",
+    "bluetooth_turned_on_steps": "1. Éteignez et rallumez le tire-lait.\n 2. Appuyez sur le bouton « gouttes » pendant 3 secondes.\n 3. Vérifiez que le tire-lait affiche son nom en quatre caractères.",
+    "bluetooth_turned_on_steps_swing_maxi":"1. Éteignez et rallumez le tire-lait.\n 2. Appuyez sur le bouton « gouttes » pendant 3 secondes.",
+    "bluetooth_turned_on_steps_flex": "1. Éteignez et rallumez le tire-lait.\n 2. Appuyez sur le bouton « gouttes » pendant 2 secondes.\n 3. Vérifiez que le tire-lait affiche son nom en deux caractères.",
+    "congratulations": "Félicitations !",
+    "successfully_paired": "Votre tire-lait est bien appairé à Medela Family. Vous pouvez maintenant commencer à suivre votre séance d’expression et bien plus encore.",
+    "complete": "Renseignez",
+    "your_device_name": "Nom de votre tire-lait",
+    "your_pump": "Votre tire-lait",
+    "remove_pump": "Supprimer ce tire-lait",
+    "about_pump": "À propos de votre tire-lait",
+    "instructions": "Instructions",
+    "tutorial_videos": "Tutoriels vidéo",
+    "product_website": "Page produit en ligne",
+    "somethingWentWrong": "Une erreur s’est produite. Veuillez réessayer plus tard.",
+    "location_permission_title": "Autorisations nécessaires",
+    "location_permission_description": "Veillez à autoriser l'application Medela Family à utiliser Bluetooth dans les paramètres du téléphone. En outre, vous devez autoriser l'application et votre smartphone à utiliser la localisation de votre téléphone. Nous ne suivons pas la position de votre téléphone, mais c'est une exigence du système d'exploitation du smartphone pour se connecter à Bluetooth. ",
+    "location_enable_description": "Vous pouvez accéder à Medela Family lorsque la géolocalisation est activée. Activez la géolocalisation pour continuer...",
+    "cancel": "ANNULER",
+    "open_setting": "OUVRIR LES PARAMÈTRES",
+    "confirm_pump_found_sub_title": "Un tire-lait {0} a été trouvé !",
+    "confirm_cta": "confirmer",
+    "pump_add_failure_title": "Ajouter un tire-lait",
+    "ok": "OK",
+    "pump_select_dialog_title": "Info",
+    "confirm_pump_found_desc": "Appuyez sur Confirmer pour terminer l’appairage. Pour une garantie de qualité, Medela a testé votre tire-lait et une séance test figure dans vos statistiques.",
+    "searching_message": "Un peu de patience, nous sommes en train de chercher votre tire-lait Medela.",
+    "setting_up": "CONFIGURATION EN COURS",
+    "pump_remove_dis": "Vous ne pouvez pas supprimer le tire-lait lorsqu’il est connecté à l’application et qu’une session est en cours.",
+    "plug_your_pump": "Assurez-vous que le tire-lait est en marche",
+    "plug_your_swing_pump": "Appuyez sur le bouton Marche/Arrêt pendant 3 secondes."
+  },
+  "stats_list_export": {
+    "header_title": "Exportation",
+    "date_range_text": "Plage de dates",
+    "select_all_text": "Tous",
+    "select_date_text": "Sélectionnez la date",
+    "item_header_title": "Sélectionnez les données à exporter",
+    "export_button_title": "EXPORTER LES DONNÉES",
+    "export_type": "xls",
+    "no_data_title": "Aucune donnée disponible pour cette période.",
+    "plz_select_data": "Sélectionnez un suivi à exporter.",
+    "export_fail_message": "Malheureusement, une erreur est survenue lors de la création de votre rapport.",
+    "export_failed": "Échec de l’exportation",
+    "export_succeeded": "Exportation réussie",
+    "export_success_message": "Les données ont été exportées avec succès et seront envoyées sur votre adresse e-mail."
+  },
+  "tests": {
+    "test_header_title": "Tests",
+    "test_bca_title": "Allaitement serein",
+    "test_bca_content": "Gagnez en confiance et devenez une experte",
+    "test_cp_title": "Personnalisation du contenu",
+    "test_cp_content": "Personnalisez votre expérience sur l’application",
+    "bca_notification_popup": "Faites-le maintenant",
+    "bca_notification_title": "Comment allez-vous ?",
+    "cp_notification_title": "Personnaliser l’application",
+    "bca_notification_message1": "Comment allez-vous ? \n Avez-vous effectué le test Allaitement serein ?",
+    "bca_notification_message2": "Comment allez-vous ? \n Ok maman, c’est le moment de refaire le test Allaitement serein !",
+    "bca_notification_remind": "NON, ME LE RAPPELER PLUS TARD",
+    "cp_notification_message": "Personnaliser l’application \n\n Parlez-nous de vous. Nous pourrons ainsi vous transmettre des astuces, informations et conseils adaptés à vos besoins. Cela ne prendra que deux minutes",
+    "cp_notification_popup": "PERSONNALISER MAINTENANT",
+    "cp_notification_remind": "NON, ME LE RAPPELER PLUS TARD"
+  },
+  "breastfeeding_confidence": {
+    "header_title": "Allaitement serein",
+    "motivation_text1": "Vous avez besoin de renforcer votre confiance ?",
+    "motivation_text2": "Faites le test maintenant",
+    "slider_not_all_confidence": "Pas du tout sereine",
+    "slider_not_very_confidence": "Pas vraiment sereine",
+    "slider_sometimes_confident": "Parfois sereine",
+    "slider_confident": "Sereine",
+    "slider_very_confident": "Parfois très sereine",
+    "congratulations": "Félicitations !",
+    "congrats_message": "Vous avez terminé l’évaluation de votre allaitement.",
+    "congrats_update_message": "Votre auto-évaluation indique que vous êtes convaincue par l’allaitement. Félicitations, nous vous souhaitons le meilleur pour votre allaitement !",
+    "congrats_articles_update_message": "Comme vous pouvez le constater, le score de votre auto-évaluation est plutôt faible. Pas de panique ! Voici quelques informations susceptibles de vous en apprendre des choses en la matière et de vous aider à prendre confiance.",
+    "finish": "TERMINER",
+    "no_data_popup_title": "Une erreur s’est produite.\n Veuillez réessayer plus tard.",
+    "offline_popup_title": "Vous n’êtes pas connectée !",
+    "offline_popup_message": "Il semble que vous ne soyez pas \n connectée à Internet. \n Connectez-vous à Internet.",
+    "five_star": "Cinq étoiles",
+    "four_star": "Quatre étoiles",
+    "one_star": "Une étoile",
+    "three_star": "Trois étoiles",
+    "two_star": "Deux étoiles"
+  },
+  "ble_pumping": {
+    "connection_lost": "Connexion perdue",
+    "pumping_paused": "Expression interrompue",
+    "pump_connected": "Tire-lait connecté",
+    "connecting_pump": "Connexion du tire-lait en cours"
+  },
+  "content_personalization": {
+    "header_title": "Personnalisation du contenu",
+    "question_title": "Parmi les tire-laits suivants, lesquels possédez-vous, si vous êtes déjà équipée ?",
+    "congratulations": "Félicitations !",
+    "congrats_message": "Vous avez réussi à personnaliser vos articles et conseils sur la page d’accueil.",
+    "congrats_update_message": "Si quelque chose venait à changer, vous pouvez mettre à jour ces informations ici.",
+    "congrats_update_submessage": "Suivi > Tests > Personnalisation du contenu",
+    "get_started": "C’EST PARTI !",
+    "no_data_popup_title": "Une erreur s’est produite.\n Veuillez réessayer plus tard."
+  },
+  "more": {
+    "header_title": "Autre",
+    "mom_info_title": "Modifier le nom, se déconnecter, etc.",
+    "baby_info_title": "Modifier le nom, la date de naissance, etc.",
+    "pump_title": "Réglages du tire-lait",
+    "pump_info_title": "Connexion du tire-lait et plus encore",
+    "store_title": "Outil de localisation des magasins",
+    "share_title": "Partager l’application",
+    "feedback_title": "Votre avis compte pour nous",
+    "help_title": "Aide",
+    "settings_title": "Paramètres généraux de l’application",
+    "legal_title": "Législation",
+    "online_store": "Boutique en ligne",
+    "mom_profile": "Profil de maman",
+    "baby_profile": "Profil de bébé",
+    "vip_pack_title": "Pack VIP"
+  },
+  "baby_information": {
+    "header_title": "Informations sur bébé",
+    "image_edit_offline_title": "Aucun message Internet",
+    "image_edit_offline_button": "Vous ne pouvez pas modifier la photo en étant hors ligne",
+    "edit_image": "Modifier la photo",
+    "change_image": "Changer la photo",
+    "add_image": "Ajouter une photo",
+    "delete_image": "Supprimer la photo",
+    "baby_boy": "Garçon",
+    "baby_girl": "Fille",
+    "gender": "Sexe",
+    "delete_baby": "SUPPRIMER BÉBÉ",
+    "delete_baby_success_title": "Bébé supprimé",
+    "ok_btn": "OK",
+    "baby_name": "Nom/surnom de bébé",
+    "cancel": "Annuler",
+    "select_photo": "Sélectionner une photo",
+    "take_photo": "Prendre une photo...",
+    "baby_birth_weight": "Poids à la naissance",
+    "baby_birth_height": "Taille à la naissance",
+    "choose_from_library":"Choisir dans la bibliothèque... "
+  },
+  "mom_information": {
+    "header_title": "Informations sur maman",
+    "dont_know_yet": "Je ne sais pas",
+    "do_not_plan_to_work": "Je ne prévois pas encore de retourner au travail (à l’école/en formation)",
+    "new_pregnancy_text": "NOUVELLE GROSSESSE",
+    "log_out": "DÉCONNEXION",
+    "delete_account": "SUPPRIMER LE COMPTE",
+    "back_to_work_date": "Date de retour au travail",
+    "log_out_popup_title": "Voulez-vous vous déconnecter ?",
+    "ok": "OK",
+    "back_to_work_date_label": "Date de retour au travail",
+    "change_password_button": "CONFIRMER",
+    "change_password_congrts_msg": "Le mot de passe a bien été modifié",
+    "change_password_title": "Modifier le mot de passe",
+    "current_password": "Mot de passe actuel",
+    "current_password_error": "Mot de passe incorrect",
+    "mom_name": "Prénom/surnom de la maman",
+    "new_password": "Nouveau mot de passe",
+    "new_password_error": "8 à 20 caractères, 1 chiffre min. (a-z, 0-9)",
+    "repeat_password": "Saisir à nouveau le mot de passe",
+    "repeat_password_err": "Les mots de passe ne correspondent pas"
+  },
+  "help": {
+    "header_title": "Aide",
+    "problem_solver": "Système de résolution des problèmes",
+    "empty_list_message": "Aucun article disponible",
+    "frequently_asked_questions": "Foire aux questions",
+    "app_technical_support": "Assistance technique de l’application",
+    "customer_service": "Service client",
+    "lactation_consultant": "Consultante en lactation",
+    "mail_subject": "Commentaires sur l’application Medela Family",
+    "medela_family": "Medela Family"
+  },
+  "legal": {
+    "header_title": "Législation",
+    "privacy_terms_conditions": "Vie privée et politique \n en matière de cookies",
+    "licences": "Libre et open source \n Licences",
+    "imprint": "Empreinte",
+    "imprint_version": "Numéro de la version",
+    "know_more": "EN SAVOIR PLUS"
+  },
+  "new_pregnancy_popup": {
+    "title": "Voulez-vous démarrer une nouvelle grossesse ?",
+    "cancel": "ANNULER",
+    "add_baby_due_date": "OUI, AJOUTER UNE DATE DE TERME POUR BÉBÉ"
+  },
+  "vip_pack": {
+    "header_title": "Pack VIP",
+    "voice_control": "Commande vocale",
+    "voice_control_content": "Suivi mains libres",
+    "dark_mode": "Mode sombre",
+    "dark_mode_content": "Pour suivre ses séances facilement de nuit",
+    "welcome": "Préparez-vous pour un confort de haut niveau !",
+    "popup_message": "Pour déverrouiller le pack VIP, connectez votre \ntire-lait Sonata ou Freestyle Flex.",
+    "connect_pump_btn": "CONNECTER LE TIRE-LAIT",
+    "congrats_message": "",
+    "congrats_msg": "Félicitations ! Vous avez déverrouillé le pack VIP",
+    "congrats_title": "Félicitations \n Vous avez déverrouillé le pack VIP !",
+    "connect_to_pump_btn": "CONNEXION À UN TIRE-LAIT CONNECTE",
+    "findout_more": "EN SAVOIR PLUS",
+    "register_pump_btn": "ENREGISTRER VOTRE TIRE-LAIT",
+    "register_vip_link": "https://www.medela.us/breastfeeding/services/pump-registration",
+    "tutorial_instruction1": "Appuyez sur le signe + en haut à droite de l’écran.",
+    "tutorial_instruction2": "Sur l’écran « Nouveau raccourci », appuyez sur le bouton « Ajouter action ».",
+    "tutorial_instruction3": "Sélectionnez ensuite « Applications » en haut à droite. Dans la liste des applications disponibles, sélectionnez « Medela Family ».",
+    "tutorial_instruction4": "Vous voyez maintenant la liste des fonctionnalités disponibles. Sélectionnez-en une, par exemple « Démarrer l’allaitement ». ",
+    "tutorial_instruction5": "Cliquez sur Suivant pour ajouter le texte que vous souhaitez dire pour déclencher la fonctionnalité, par exemple « Démarrer l’allaitement »",
+    "tutorial_instruction6": "Et voilà ! Vous pouvez désormais démarrer le programme Medela Family vocalement !",
+    "tutorial_title1": "Pour utiliser cette fonctionnalité, ouvrez l’application Shortcuts d’Apple. ",
+    "unlock_now_btn": "Déverrouiller le pack VIP maintenant",
+    "vip_active": "activé",
+    "vip_inactive": "désactivé",
+    "vip_pack_text": "Le pack VIP comprend un ensemble de fonctionnalités exclusives disponibles uniquement pour les clientes qui disposent de tire-laits Medela",
+    "vip_title": "Pack VIP",
+    "tutorial_instruction7": "Terminé ! Vous pouvez désormais démarrer le programme Medela Family vocalement !"
+  },
+  "settings": {
+    "header_title": "Réglages",
+    "language_title": "Langue",
+    "language_info_title": "Anglais (États-Unis)",
+    "notification_title": "Notifications",
+    "notification_info_title": "Gérer les notifications de Medela Family",
+    "Measurements_title": "Mesures",
+    "Measurements_info_title": "Standard : once, pied, livre"
+  },
+  "measurements": {
+    "header_title": "Mesures",
+    "header_text": "Vous pouvez éditer le format de votre région principale.",
+    "standard_title": "Standard",
+    "standard_info_title": "once (oz), pied (in) et livre (lb)",
+    "metric_title": "Métrique",
+    "metric_info_title": "Millilitres (ml), millimètres (mm) et kilogrammes (kg)"
+  },
+  "share_app": {
+    "app_store": "App Store :",
+    "download_now": "Télécharger maintenant :",
+    "google_play": "Google Play :",
+    "message": "Medela Family est votre programme d'accompagnement de la grossesse, à votre projet d'allaitement et bien plus encore.",
+    "title": "Application Medela Family"
+  },
+  "feedback": {
+    "header_title": "Votre avis compte pour nous",
+    "button_text": "Envoyer",
+    "input_placeholder": "Remarque",
+    "success_feedback_text": "Merci pour votre message",
+    "rating_text": "Votre avis compte pour nous",
+    "feedback_text": "Souhaitez-vous nous faire part de votre avis ?",
+    "button_title": "Ok"
+  },
+  "chat": {
+    "header_title": "Chat",
+    "chat_content1": "Melissa peut vous aider à résoudre les problèmes liés à l’application, partager des recommandations de produits ou donner des conseils pour votre bébé et votre allaitement",
+    "chat_content2": "Et la cerise sur le gâteau ? Plus vous poserez de questions à Melissa, plus elle sera intelligente ! Alors discutez avec elle autant que vous le souhaitez.",
+    "choose_avatar": "Choisissez votre assistante",
+    "edit_avatar": "Changer d’assistante",
+    "heading_description": " Voici Melissa -\n Votre assistante personnelle !",
+    "offline_text": "Connectez-vous à Internet pour pouvoir me parler.",
+    "chat_screen_link_text": "Tapez ici pour démarrer le tchat",
+    "avatar1_name": "Melissa",
+    "disclaimer_text": " Décharge de responsabilité : Veuillez noter que le chatbot ne fournit qu’un contenu pédagogique et ne remplace pas un avis médical professionnel. Si vous ou votre bébé êtes malade ou en situation d’urgence, consultez immédiatement votre médecin ou votre consultante en lactation.",
+    "samira": "Samira",
+    "zoe": "Zoe",
+    "mei": "Mei",
+    "aurora": "Aurora",
+    "farrah": "Farrah",
+    "luna": "Luna",
+    "julia": "Julia",
+    "jahmelia": "Jahmelia",
+    "chatbot_header": "Medela Family",
+    "Chatbot_placeholder": "Écrivez ici",
+    "chatbot_send_text": "Envoyer"
+  },
+  "countries": {
+    "header_title": "Langues",
+    "English_International": "English (International)",
+    "English_UnitedStates": "English (États-Unis)",
+    "English_Canada": "English (Canada)",
+    "Français_Canada": "Français (Canada)",
+    "English_UnitedKingdom": "English (Royaume-Uni)",
+    "Deutsche_Germany": "Deutsch (Allemagne)",
+    "Français_France": "Français (France)",
+    "Italiano_Italy": "Italiano (Italie)",
+    "Português_Portugal": "Português (Portugal)",
+    "Español_Spain": "Español (Espagne)",
+    "English_Australia": "English (Australie)",
+    "Français_Netherlands": "Français (Pays-Bas)",
+    "Dutch_Netherlands": "Néerlandais (Pays-Bas)",
+    "Deutsche_Netherlands": "Deutsch (Pays-Bas)",
+    "Deutsche_Switzerland": "Deutsch (Suisse)",
+    "Français_Switzerland": "Français (Suisse)",
+    "Italiano_Switzerland": "Italiano (Suisse)",
+    "English_India": "English (Inde)",
+    "Svenska_Sweden": "Svenska (Suède)",
+    "Norsk_Norway": "Norsk (Norvège)",
+    "Dansk_Denmark": "Dansk (Danemark)",
+    "русский_Russia": "русский (Russie)",
+    "English_Israel": "English (Israël)",
+    "English_Ireland": "English (Irlande)",
+    "English_NewZealand": "English (Nouvelle-Zélande)",
+    "English_Malaysia": "English (Malaisie)",
+    "English_Singapore": "English (Singapour)",
+    "English_SouthAfrica": "English (Afrique du Sud)",
+    "Arabic": "Arabe",
+    "French": "Français",
+    "German": "Allemand",
+    "polish": "Polish"
+  },
+  "days": {
+    "friday": "Vendredi",
+    "monday": "Lundi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "thursday": "Jeudi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "s1": "Dim",
+    "s2": "Sam",
+    "m": "Lun",
+    "t1": "Mar",
+    "t2": "Jeu",
+    "w": "Mer",
+    "f": "Ven"
+  },
+  "freezer_popup": {
+    "ok": "OK",
+    "title": "Ce numéro de biberon/sac a déjà été utilisé. Utilisez un autre numéro de biberon/sac"
+  },
+  "notifications": {
+    "header_title": "Notifications",
+    "marketing_opt_ins_notifications": "Abonnements marketing",
+    "marketing_opt_ins_description": "",
+    "marketing_opt_ins_notifications_list": [
+      "Lettres d’information par e-mail",
+      "SMS",
+      "Courrier",
+      "Testeuse bêta"
+    ],
+    "outofapp_description": "Ces notifications apparaissent sur l’écran de verrouillage de votre téléphone et dans le centre de notification.",
+    "outofapp_notifications": "Notifications Push",
+    "outofapp_notifications_list": [
+      {
+        "list": [
+          "Allow Notifications"
+        ],
+        "title": ""
+      },
+      {
+        "list": [
+          "Pump Session Timeout"
+        ],
+        "title": "Tire-lait connecté"
+      },
+      {
+        "list": [
+          "Milk About to Expire",
+          "Milk Expired"
+        ],
+        "title": "Frigo virtuel"
+      }
+    ],
+    "inapp_notifications": "Notifications dans l’application",
+    "inapp_description": "Ces notifications apparaissent sous forme de pop-ups dans l’application.",
+    "inapp_notifications_list": [
+      {
+        "list": [
+          "Missing Milk Volume"
+        ],
+        "title": "Ajouter la quantité"
+      },
+      {
+        "list": [
+          "Breastfeeding Confidence",
+          "Content Personalization"
+        ],
+        "title": "Tests"
+      },
+      {
+        "list": [
+          "Baby Birth Date"
+        ],
+        "title": "Confirmation de la date de naissance de bébé"
+      },
+      {
+        "list": [
+          "Congratulations"
+        ],
+        "title": "Frigo virtuel"
+      }
+    ],
+    "permission_header": "Notifications",
+    "permission_text": "Souhaitez-vous que nous vous informions de vos séances de suivi, des dates d’expiration du lait et des autres activités de l’application ? \n Vous pouvez modifier ce paramètre ultérieurement dans les paramètres de l’application dans l’écran « Plus ».",
+    "ok": "OK"
+  },
+  "babies": {
+    "header_title": "Bébés",
+    "baby_height": "Taille de bébé",
+    "baby_weight": "Poids de bébé"
+  },
+  "articles": {
+    "articles_header_text": "Centre des connaissances",
+    "no_article_title": "Votre liste d’articles favoris est vide",
+    "no_article_description": "Pour ajouter des articles à cette liste, ouvrez un article et appuyez sur l’icône en forme de cœur dans le coin supérieur droit.",
+    "favourite_articles_header_text": "Favoris",
+    "load_more_text": "Charger plus",
+    "remove_favourite_article_text": "Supprimer des favoris ?",
+    "remove_favourite_article_description": "Êtes-vous sûre de vouloir supprimer \n cet article de votre liste de favoris ?",
+    "yes": "OUI",
+    "no": "NON",
+    "share_article_title": "Medela Family"
+  },
+  "offline": {
+    "offline_message": "Vous n’êtes pas connectée !"
+  },
+  "pump_list_setting": {
+    "title": "Tire-lait connecté",
+    "description": "Cliquez sur votre tire-lait pour voir des vidéos, des instructions et plus encore",
+    "pump_status_offline": "Hors ligne",
+    "pump_status_connected": "Connectée",
+    "pump_something_wrong": "Une erreur s’est produite. Veuillez réessayer plus tard.",
+    "no_pump": "Aucun tire-lait identifié",
+    "pump_addition_title": "Ajouter un tire-lait",
+    "pump_addition_success_message": "Le tire-lait a bien été ajouté",
+    "pump_addition_error_message": "Nous n’avons pas réussi à ajouter le tire-lait. veuillez réessayer",
+    "pump_deletion_title": "Suppression du tire-lait",
+    "pump_deletion_success_message": "Le tire-lait a bien été supprimé",
+    "pump_deletion_error_message": "Le tire-lait n’a pas été supprimé. Veuillez réessayer",
+    "ok": "OK",
+    "version": "Version",
+    "battery": "Batterie",
+    "charging": "En charge",
+    "pumps": "Tire-laits",
+    "setup_new_pump": "Configurer un nouveau tire-lait",
+    "manual_tracking": "Suivi manuel",
+    "connect_tracking": "Suivi de l’expression",
+    "connect_pump": "Connecter le tire-lait",
+    "pump_now": "Exprimer maintenant",
+    "edit_pump_name":"Modifier le nom du tire-lait",
+    "cancel":"ANNULER"
+  },
+  "contractions": {
+    "title": "Contractions",
+    "frequency": "Fréquence",
+    "pain": "Sélectionnez l’intensité de la douleur",
+    "reset": "Réinitialiser",
+    "reset_message": "Êtes-vous sûre de vouloir réinitialiser le minuteur de fréquence ?",
+    "pain_intensity1": "Aucune",
+    "pain_intensity2": "Très légère",
+    "pain_intensity3": "Légère",
+    "pain_intensity4": "Moyenne",
+    "pain_intensity5": "Forte",
+    "pain_intensity6": "Très forte"
+  },
+  "opted": {
+    "title": "En communiquant votre numéro de téléphone, vous acceptez de recevoir des SMS de Medela. Les tarifs standard de l’opérateur s’appliquent.",
+    "mail_ques": "Pouvons-nous vous envoyer des informations par courrier ?",
+    "become_tester": "Devenez bêta-testeuse pour essayer de nouveaux produits et services Medela avant tout le monde. Vous êtes d’accord ?",
+    "phone": "Téléphone",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "address": "Adresse",
+    "apt_unit": "Appt/Bâtiment/Autre",
+    "city": "Ville",
+    "state": "État",
+    "zip": "Code postal",
+    "address_dialog_desc": "Pour garantir la bonne réception des envois, nous vous conseillons d’utiliser le format d’adresse de US Mail.\nSélectionnez une option",
+    "address_dialog_nagetive": "MODIFIER MON ADRESSE",
+    "address_dialog_positive": "UTILISER L’ADRESSE SÉLECTIONNÉE",
+    "address_dialog_same": "Laisser tel quel",
+    "address_dialog_title": "Vérifiez votre adresse",
+    "address_dialog_us": "Format US Mail",
+    "no_address_title": "Alerte",
+    "phone_error": "Saisissez un numéro de téléphone  valide",
+    "apt_unit_error": " Saisissez votre appt/unité/autre ",
+    "city_error": " Saisissez la ville ",
+    "first_name_error": " Saisissez votre prénom ",
+    "last_name_error": " Saisissez votre nom ",
+    "state_error": " Saisissez l’état ",
+    "zip_error": " Saisissez votre code postal",
+    "address_error": "Veuillez saisir votre adresse"
+  },
+  "ble_instruction": {
+    "title": "Instructions",
+    "quick_start": "Démarrage rapide",
+    "front_panel": "Panneau de contrôle",
+    "user_manual": "Manuel d’utilisation"
+  },
+  "ble_quick_start": {
+    "title": "Démarrage rapide",
+    "charge_pump": "Chargez votre tire-lait",
+    "charge_pump_desc": "Branchez le tire-lait à une source d’alimentation externe \n et chargez-le pendant 12 heures maximum.",
+    "disassemble": "Démontage des pièces",
+    "disassemble_desc": "Démontez les pièces pour les nettoyer. Retirez et jetez l’enveloppe \n de protection de la téterelle avant la première utilisation.",
+    "wash_part": "Lavez les pièces",
+    "wash_part_desc": "Avant la première utilisation et après chaque utilisation. \n Lavez-les à la main ou au lave-vaisselle. \n Ne lavez pas la tubulure avant la première utilisation.",
+    "Sanitize_parts": "Désinfectez les pièces",
+    "Sanitize_parts_desc": "Avant la première utilisation, puis une fois par jour. \n Utilisez une casserole ou le micro-ondes. \n Ne désinfectez pas la tubulure.",
+    "charge_pump_desc_swing_maxi": "Branchez le tire-lait à une source d’alimentation externe \n et chargez-le pendant 12 heures maximum."
+  },
+  "ble_front_panel": {
+    "title": "Panneau de contrôle"
+  },
+  "ble_offline_popup": {
+    "title": "Les séances d’expression enregistrées sur votre tire-lait ont été transférées à Medela Family",
+    "message": "N’oubliez pas de saisir votre quantité de lait maternel pour que vos statistiques soient à jour.",
+    "cancel": "Annuler",
+    "view": "Afficher"
+  },
+  "settings_screen": [
+    {
+      "title": "Langue",
+      "content": "Anglais (États-Unis)"
+    },
+    {
+      "title": "Notifications",
+      "content": "Gérer les notifications de Medela Family"
+    },
+    {
+      "title": "Mesures",
+      "content": "Standard : once, pied, livre"
+    }
+  ],
+  "MoreList":{
+    "moreFirstListData":[
+      {
+        "selectedImage": "motherInformation",
+        "title": "Profil de la maman",
+        "content": "Modifier le nom, se déconnecter, etc."
+      },
+      {
+        "selectedImage": "babyInformation",
+        "title": "Profil de bébé",
+        "content": "Modifier le nom, la date de naissance, etc."
+      },
+      {
+        "selectedImage": "pumpSettings",
+        "title": "Réglages du tire-lait",
+        "content": "Connexion du tire-lait et plus encore"
+      }
+    ],
+    "moreSecondListData":[
+      {
+        "selectedImage": "vipPack",
+        "title": "Pack VIP"
+      },
+      {
+        "selectedImage": "onlineShop",
+        "title": "Boutique en ligne"
+      },
+      {
+        "selectedImage": "storeLocator",
+        "title": "Outil de localisation des magasins"
+      },
+      {
+        "selectedImage": "shareApp",
+        "title": "Partager l’application"
+      },
+      {
+        "selectedImage": "giveUsFeedback",
+        "title": "Votre avis compte pour nous"
+      },
+      {
+        "selectedImage": "help",
+        "title": "Aide"
+      },
+      {
+        "selectedImage": "settings",
+        "title": "Paramètres généraux de l’application"
+      },
+      {
+        "selectedImage": "legal",
+        "title": "Législation"
+      }
+    ]
+  },
+  "moveTo_freezer_again": {
+    "cancel": "Annuler",
+    "ok": "OK",
+    "title": "Vous ne pouvez pas remettre le lait au congélateur après l’avoir mis au réfrigérateur."
+  },
+  "moveTo_freezer_popup": {
+    "cancel": "Annuler",
+    "ok": "OK",
+    "title": "Êtes-vous sûre de vouloir transférer le lait du réfrigérateur au congélateur ?"
+  },
+  "moveTo_fridge_popup": {
+    "cancel": "Annuler",
+    "ok": "OK",
+    "title": "Êtes-vous sûre de vouloir transférer le lait du congélateur au réfrigérateur ? Vous ne pourrez pas remettre le lait au congélateur ensuite."
+  },
+  "VipPackList": {
+    "VipPackListData":[
+      {
+        "title": "Commande vocale",
+        "content": "Suivi mains libres"
+      },
+      {
+        "title": "Frigo virtuel",
+        "content": "Gestion en ligne du frigo virtuel"
+      }
+    ]
+  },
+  "virtual_freezer": {
+    "add_milk": "Ajouter du lait",
+    "clear_filter": "Supprimer le filtre",
+    "created_on": "Créée le",
+    "expire_at": "Expire le",
+    "move_milk": "Déplacer le lait",
+    "net_volume": "Quantité nette",
+    "pumping": "Séance d’expression",
+    "quick": "Rapide",
+    "saved_in": "Enregistrée le",
+    "tray": "Panier",
+    "notification_title1": "Félicitations",
+    "notification_title2": "Lait périmé",
+    "notification_description1": "Vous avez ajouté votre premier sac de congélation dans votre frigo virtuel. Vous pouvez maintenant commencer à constituer votre réserve de lait maternel !",
+    "notification_description2": "La date de consommation du sac/biberon n° X stocké dans le réfrigérateur/congélateur vient d’expirer. Ne l’utilisez plus pour alimenter votre bébé. Jetez-le ou utilisez-le à une autre fin.",
+    "notification_title3": "Le lait est bientôt périmé",
+    "notification_description3": "La date de consommation du sac/biberon n° X stocké dans le réfrigérateur/congélateur expire demain. Utilisez-le aujourd’hui pour éviter de le perdre !",
+    "number_limit_msg":"Le nombre ne peut pas dépasser 250",
+    "tray_limit_msg":"Le plateau ne peut pas accueillir plus de 250 unités",
+    "feed_milk": "Donner le lait à votre bébé"
+  },
+
+  "CountriesList" : {
+    "countriesListData":[
+      {
+        "countryName": "English",
+        "countryCode": "en"
+      },
+      {
+        "countryName": "Arabic",
+        "countryCode": "ar"
+      },
+      {
+        "countryName": "French",
+        "countryCode": "fr"
+      },
+      {
+        "countryName": "Italian",
+        "countryCode": "it"
+      },
+      {
+        "countryName": "German",
+        "countryCode": "de"
+      },
+      {
+        "countryName": "Portuguese",
+        "countryCode": "pt"
+      },
+      {
+        "countryName": "Spanish",
+        "countryCode": "es"
+      },
+      {
+        "countryName": "Dutch",
+        "countryCode": "nl"
+      },
+      {
+        "countryName": "Swedish",
+        "countryCode": "sv"
+      },
+      {
+        "countryName": "Norwegian",
+        "countryCode": "no"
+      },
+      {
+        "countryName": "Danish",
+        "countryCode": "da"
+      },
+      {
+        "countryName": "Russian",
+        "countryCode": "ru"
+      },{
+        "countryName": "Hebrew",
+        "countryCode": "he"
+      },
+      {
+        "countryName": "Polish",
+        "countryCode": "pl"
+      }
+    ]
+  },
+  "NotificationsData" : {
+    "NotificationsData":[
+      {
+        "notifications_heading": "Notifications Push",
+        "notification_description": "Ces notifications apparaissent sur l’écran de verrouillage de votre téléphone et dans le centre de notification.",
+        "notifications_list": [
+          {"Key": "Allow Notifications","title": "", "list": [{"Key":"Allow Notifications","item":"Autoriser les notifications"}]},
+          {"Key": "Connected Pumping","title": "Pompage connecté", "list": [{"Key":"Pump Session Timeout","item":"Délai d'expiration de la session de la pompe"}]},
+          {"Key": "Virtual Freezer","title": "Frigo virtuel", "list": [{"Key": "Milk About to Expire","item": "Lait sur le point d'expirer"}, {"Key": "Milk Expired","item": "Lait expiré"}]}
+        ]
+      },
+      {
+        "notifications_heading": "Notifications dans l’application",
+        "notification_description": "Ces notifications apparaissent sous forme de pop-ups dans l’application.",
+        "notifications_list": [
+          {"Key": "Add Volume","title": "Ajouter du volume", "list": [{"Key": "Missing Milk Volume","item": "Volume de lait manquant"}]},
+          {"Key": "Difficult experience","title": "Difficile Expérience", "list": [{"Key": "Breastfeeding & Pumping","item": "Allaiter et exprimer son lait"}]},
+          {"Key": "Connected Pumping","title": "Tire-lait connecté", "list": [{"Key": "Pump Session Complete","item": "Séance d’expression terminée"}]},
+          {"Key": "Tests","title": "Des tests", "list": [{"Key": "Breastfeeding Confidence","item": "Confiance en allaitement"},{"Key": "Content Personalization","item": "Personnalisation du contenu"}]},
+          {"Key": "Baby Birth Date","title": "Confirmation de la date de naissance du bébé", "list": [{"Key": "Baby Birth Date","item": "Date de naissance du bébé"}]},
+          {"Key": "Virtual Freezer","title": "Frigo virtuel", "list": [{"Key": "Congratulations","item": "Toutes nos félicitations"}]}
+        ]
+      },
+      {
+        "notifications_heading": "Abonnements marketing",
+        "notification_description": "",
+        "notifications_list": [
+          {"Key": "Email newsletters","item": "Lettres d’information par e-mail"},
+          {"Key": "SMS","item": "SMS"},
+          {"Key": "Mail","item": "Courrier"},
+          {"Key": "Beta Tester","item": "Testeuse bêta"}
+        ]
+      }
+    ]
+  },
+  "HelpList": {
+    "helpListData":[
+      {
+        "selectedImage": "problemSolver",
+        "title": "Système de résolution des problèmes"
+      },
+      {
+        "selectedImage": "appTechnicalSupport",
+        "title": "Assistance technique de l’application"
+      },
+      {
+        "selectedImage": "customerService",
+        "title": "Service client"
+      },
+      {
+        "selectedImage": "lactationConsultant",
+        "title": "Consultante en lactation"
+      }
+    ]
+  },
+  "LegalList": {
+    "LegalListData": [
+      {
+        "selectedImage": "Imprint",
+        "title": "Empreinte"
+      },
+      {
+        "selectedImage": "privacyPolicyTermsAndCondition",
+        "title": "Politique de confidentialité et de cookies"
+      },
+      {
+        "selectedImage": "licenses",
+        "title": "Libre et open source Licences"
+      }
+    ]
+  },
+  "time":{
+    "just_now":"À l’instant",
+    "day_ago":"jour plus tôt",
+    "days_ago":"jours plus tôt",
+    "min_ago":"minute plus tôt",
+    "mins_ago":"minutes plus tôt",
+    "h":"h",
+    "d":"j",
+    "day":"jour",
+    "days":"jours",
+    "hour_ago":"heure plus tôt",
+    "hours_ago":"heures plus tôt",
+    "sec":"sec.",
+    "min":"min.",
+    "mins":"min.",
+    "hour":"heure",
+    "hours":"heures",
+    "h_ago":"h plus tôt",
+    "day_old":"jour",
+    "days_old":"jours",
+    "h_old":"h",
+    "hour_old":"heure",
+    "hours_old":"heures",
+    "min_old":"minute",
+    "mins_old":"minutes",
+    "month_ago":"Il ya 1 mois",
+    "months_ago":"il y a des mois",
+    "year_ago":"il y a 1 an",
+    "years_ago":"il y a des années"
+  },
+  "months":{
+    "january":"Janvier",
+    "february":"Février",
+    "march":"Mars",
+    "april":"Avril",
+    "may":"Mai",
+    "june":"Juin",
+    "july":"Juillet",
+    "august":"Août",
+    "september":"Septembre",
+    "october":"Octobre",
+    "november":"Novembre",
+    "december":"Décembre"
+  },
+  "chart": {
+    "age":"Âge(semaines)",
+    "inch": "pouce",
+    "cm": "cm"
+  },
+  "chart_month": {
+    "age":"Âge (mois)",
+    "inch": "pouce",
+    "cm": "cm"
+  },
+  "voice_command": {
+    "active_breastfeeding_body": " Terminez votre séance d’allaitement actuelle pour en démarrer une nouvelle." ,
+    "active_breastfeeding_title": " Vous ne pouvez pas démarrer une nouvelle séance d’allaitement pendant une séance d’allaitement active." ,
+    "active_pump_body":  "Terminez votre séance d’expression actuelle pour en démarrer une nouvelle." ,
+    "active_pump_title":  "Vous ne pouvez pas démarrer une nouvelle séance d’expression pendant une séance d’expression active." ,
+    "active_sleep_body": " Terminez votre plage de sommeil actuelle pour en démarrer une nouvelle." ,
+    "active_sleep_title": " Vous ne pouvez pas démarrer une nouvelle plage de sommeil pendant une plage de sommeil active. ",
+    "continue_already_continue_title":  "Votre séance d’allaitement actuelle est déjà active ",
+    "continue_no_session_title":  "Continuer lorsqu’il n’y a pas de séance active." ,
+    "ok": " OK ",
+    "pause_already_pause_title":  "Votre séance d’allaitement en cours a déjà été interrompue" ,
+    "pause_no_session_title": " Vous n’avez aucune séance active" ,
+    "vip_pack_not_active":  "Déverrouillez le pack VIP dès maintenant pour activer cette fonction. "
+},
+  "maintenancescreen":{
+    "text1":"Nous nous excusons pour le désagrément, mais nous sommes actuellement en ",
+    "text2":"maintenance. Nous serons de retour très bientôt.  ",
+    "text3":"Merci pour votre patience!"
+  },
+  "units": {
+    "cm": "cm",
+    "inch": "po",
+    "oz": "oz",
+    "ml": "ml",
+    "lb": "lb",
+    "kg": "kg",
+    "in": "po"
+  },
+  "update_popup":{
+    "new_update":"Une nouvelle mise à jour est disponible !",
+    "download_message":"Veuillez télécharger la dernière mise à jour pour continuer à utiliser Medela Family.",
+    "update_now":"Mettre à jour maintenant",
+    "remind_later":"Rappelez-moi plus tard"
+  },
+  "force_update_popup":{
+    "new_update":"Mise à jour importante disponible",
+    "download_message":"Veuillez télécharger la dernière mise à jour pour continuer à utiliser Medela Family.",
+    "update_now":"Mettre à jour"
+  },
+  "accessibility_labels": {
+    "baby_data": "Données du bébé"
+  },
+  "bluetooth_pre_permissions": {
+    "title": "Possédez-vous un tire-lait intelligent Medela ?",
+    "iOS_text": "Si oui, assurez-vous d'autoriser l'application Medela Family à utiliser Bluetooth afin de connecter votre tire-lait, sinon vous ne pourrez pas connecter votre tire-lait.",
+    "android_text":"Si oui, assurez-vous d'autoriser l'application Medela Family à utiliser le Bluetooth et l'autorisation de localisation pour connecter votre tire-lait, sinon vous ne pourrez pas connecter votre tire-lait. Nous ne suivons pas la position de votre téléphone, mais c'est une exigence du système d'exploitation du smartphone.",
+    "button": "Continuer"
+  },
+  "feedback_popup": {
+    "title": "Aimez-vous notre application?",
+    "title1": "Souhaitez-vous nous faire part de vos commentaires ?",
+    "no": "Non",
+    "yes": "Oui",
+    "popup2_title":"Appuyez sur une étoile pour l'évaluer sur l'App Store"
+  }
+}

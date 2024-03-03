@@ -1,0 +1,70 @@
+diff --git a/node_modules/react-native/Libraries/Image/RCTLocalAssetImageLoader.mm b/node_modules/react-native/Libraries/Image/RCTLocalAssetImageLoader.mm
+index 9cb0d46..44e1b64 100644
+--- a/node_modules/react-native/Libraries/Image/RCTLocalAssetImageLoader.mm
++++ b/node_modules/react-native/Libraries/Image/RCTLocalAssetImageLoader.mm
+@@ -40,29 +40,37 @@ - (BOOL)shouldCacheLoadedImages
+   // to add it to the image cache.
+   return NO;
+ }
++- ( nullable RCTImageLoaderCancellationBlock)loadImageForURL:(NSURL *)imageURL
++                                            size:(CGSize)size
++                                           scale:(CGFloat)scale
++                                      resizeMode:(RCTResizeMode)resizeMode
++                                 progressHandler:(RCTImageLoaderProgressBlock)progressHandler
++                              partialLoadHandler:(RCTImageLoaderPartialLoadBlock)partialLoadHandler
++                               completionHandler:(RCTImageLoaderCompletionBlock)completionHandler
++  {
++    __block auto cancelled = std::make_shared<std::atomic<bool>>(false);
++    RCTExecuteOnMainQueue(^{
++      if (cancelled->load()) {
++        return;
++      }
++      UIImage *image = RCTImageFromLocalAssetURL(imageURL);
++      if (image) {
++        if (progressHandler) {
++          progressHandler(1, 1);
++        }
++        completionHandler(nil, image);
++      } else {
++        NSString *message = [NSString stringWithFormat:@"Could not find image %@", imageURL];
++        RCTLogWarn(@"%@", message);
++        completionHandler(RCTErrorWithMessage(message), nil);
++      }
++    });
+ 
+- - (nullable RCTImageLoaderCancellationBlock)loadImageForURL:(NSURL *)imageURL
+-                                                        size:(CGSize)size
+-                                                       scale:(CGFloat)scale
+-                                                  resizeMode:(RCTResizeMode)resizeMode
+-                                             progressHandler:(RCTImageLoaderProgressBlock)progressHandler
+-                                          partialLoadHandler:(RCTImageLoaderPartialLoadBlock)partialLoadHandler
+-                                           completionHandler:(RCTImageLoaderCompletionBlock)completionHandler
+-{
+-  UIImage *image = RCTImageFromLocalAssetURL(imageURL);
+-  if (image) {
+-    if (progressHandler) {
+-      progressHandler(1, 1);
+-    }
+-    completionHandler(nil, image);
+-  } else {
+-    NSString *message = [NSString stringWithFormat:@"Could not find image %@", imageURL];
+-    RCTLogWarn(@"%@", message);
+-    completionHandler(RCTErrorWithMessage(message), nil);
++    return ^{
++      cancelled->store(true);
++    };
+   }
+  
+-  return nil;
+-}
+ 
+ - (std::shared_ptr<facebook::react::TurboModule>)getTurboModule:(const facebook::react::ObjCTurboModule::InitParams &)params
+ {
+diff --git a/node_modules/react-native/scripts/.packager.env b/node_modules/react-native/scripts/.packager.env
+new file mode 100644
+index 0000000..21a13cf
+--- /dev/null
++++ b/node_modules/react-native/scripts/.packager.env
+@@ -0,0 +1 @@
++export RCT_METRO_PORT=8081
+\ No newline at end of file

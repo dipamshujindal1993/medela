@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.medela.mymedela.v.debug",
+  "variantName": "processDevReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 5000108,
+      "versionName": "5.1.8-Dev",
+      "outputFile": "app-dev-release.apk"
+    }
+  ]
+}

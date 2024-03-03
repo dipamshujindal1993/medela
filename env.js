@@ -1,0 +1,12 @@
+export const dialogflowConfig = {
+  type: "service_account",
+  project_id: "medelafamilychatbot-ywdy",
+  private_key_id: "e5231449fb11bba0589bc87ab0fe826d2c86fecd",
+  private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCorH4x+//YgwKo\nFAJDMfGJH8gcqdbmiPYBB2FO2KwBD2rN2R2Guy8YJXTzq2msFvbX2PTlZPxFeq45\ndn2ilMkm+cgvG605vpkFP0zhfHs+vYzXw/VxC9tvveEcPg0GfWukZE1Rx3PUDDSR\niAy+TjBemypsklyoJWvFUho93t4F6t/oRoW5IsRAzTZxVfxZxtTn3CQhX1DW4Qlz\n4JiCHW8YmW9cYu04Ad3gVE0UvBToT4WWyM8RyhGd5VAlsAuwDw5xS8E0gXKxNdeV\nlntsmUKp8Shdg94FuUt5rOK9xkFhO3aX7QyuqpPj8RrfNW76Rmb4yXcK0/EH788M\n3AFQ8N6lAgMBAAECggEAHNf6cIO+WYD1yFY7mNAGlMNZjgVBGYUcRErFyhzlNP00\n72SMVwjVYdSt7ilG1cXLilewcTXWqe7zsiHgFBhLWZ3nLJ8X/ULpmescM4b88Fqr\npg39f8peSPp4b0LxKUXzTVZVnoFz/jPkHWrdewGV5ee01oIk1CAqEMEcea4N24bq\nV+iiCkX0aFUxpDCLkPToJrEIoobOR9NF1pevG3jceqbHiOgxR61WokQIS5L8BuFY\nf15NgmDjlmOPM9d0/tXTJl7FMQ8o7iv0NfSKLquGLVcdeiEBhQgWEYQOT6Ld5awS\n3LPAlK14Rvihe9z8Kd6riPRD1uQBuYdnJRq8U/yKVQKBgQDh5Nmz9qrCXo8uvAWr\nhQjxUHN3VM0WQzEpA60qWCdwYzBh/2AoSG7nkF0KJbNGzO1upkgn40/rD7IVVJc0\nkitJKksf7r3oeo8ZDfRlrNv+0P2R846Ys/IQyo6UvhP7VSBhHMgSeFewEitsQwUk\nbEYRKzRnmas8PXgQTH1FQKs4rwKBgQC/J2FaefFbH9AcX05bWaF4VJy0Hm4Srcil\nZH5Q6+XHExVCo9pPb2N80fjksWu5TNowUw0d24aOGIh9GP3GdSdROyvzNrmmMDwy\nRtVo5Giolm0pVWlMN5YjO8grDmczJNhktIjXBj0Hw5bAnzF0onMQzafF+c78/CXo\nFd+mXoMK6wKBgHEA/At0PU5I4ZX+h1OblLKrjWfH62TUrjYXWbxSJ0Cozh5oE6Fz\nQs/ivziBTaMAh1KQKo6Rv3wW+P6Et7Ob372VQ8mwtB4lmYpuGbH3fIKH6CHoVpB7\njH/r5NHyGKrllfIe5NOgkjVJkaFyEZN7+r1CANBG5ouXMIXuzcgkJsOPAoGBAJSf\n/eXnIm4DkkA9KiOE0TNKNn0lm9gSHwvZ0w0AHaxnfgROehOBPA11BNxrxqJQyuT/\n7hbk9P3OvXDm2YpQ1L0oEMgOKNK6dlNxF8Vysp1COKYGrtR/89B5Tu2LSVpOr6G9\nbRgi1ZkPzkr+e+l/1Y+fF2+rB/FT6/VD7Jzip2j5AoGBAKDc8pijmYcu0VGFaNN/\nqNlnSYaSxpwAnRbuoodSDNPFNBG7BZBRTiZbgjXY/nUmNjHo8sqpwM3Q1wg9HPMp\nn3i+ABDKdwh03LyYC26eLH5nNLAGNe+TooZVgn+pdsWh5v+z3qKT0vpujCxGQ+Ln\nBVKZcPFTEgrCaE6pVXu5SNuF\n-----END PRIVATE KEY-----\n",
+  client_email: "medelafamilychatbot-ywdy@appspot.gserviceaccount.com",
+  client_id: "114935820191107330577",
+  auth_uri:"https://accounts.google.com/o/oauth2/auth",
+  token_uri: "https://oauth2.googleapis.com/token",
+  auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
+  client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/medelafamilychatbot-ywdy%40appspot.gserviceaccount.com"
+}

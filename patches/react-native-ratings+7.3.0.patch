@@ -1,0 +1,49 @@
+diff --git a/node_modules/react-native-ratings/src/TapRating.js b/node_modules/react-native-ratings/src/TapRating.js
+index c6c9d1a..3e09478 100644
+--- a/node_modules/react-native-ratings/src/TapRating.js
++++ b/node_modules/react-native-ratings/src/TapRating.js
+@@ -80,13 +80,13 @@ export default class TapRating extends Component {
+     })
+ 
+     return (
+-      <View style={styles.ratingContainer}>
++      <View style={styles.ratingContainer} accessible={true} >
+         { showRating &&
+           <Text style={[styles.reviewText, {fontSize: reviewSize, color: reviewColor}]}>
+             {reviews[position - 1]}
+           </Text>
+         }
+-        <View style={starContainerStyle}>
++        <View style={starContainerStyle} accessibilityLabel="Stars">
+           {this.renderStars(rating_array)}
+         </View>
+       </View>
+diff --git a/node_modules/react-native-ratings/src/components/.Star.js.swp b/node_modules/react-native-ratings/src/components/.Star.js.swp
+new file mode 100644
+index 0000000..be489ff
+Binary files /dev/null and b/node_modules/react-native-ratings/src/components/.Star.js.swp differ
+diff --git a/node_modules/react-native-ratings/src/components/Star.js b/node_modules/react-native-ratings/src/components/Star.js
+index 74ab241..0c7e5cc 100644
+--- a/node_modules/react-native-ratings/src/components/Star.js
++++ b/node_modules/react-native-ratings/src/components/Star.js
+@@ -39,17 +39,16 @@ export default class Star extends PureComponent {
+   }
+ 
+   render() {
+-    const { fill, size, selectedColor, isDisabled, starStyle } = this.props;
++    const { fill, size, selectedColor, isDisabled, starStyle ,position} = this.props;
+     const starSource = fill && selectedColor === null ? STAR_SELECTED_IMAGE : STAR_IMAGE;
+-
+     return (
+-      <TouchableOpacity activeOpacity={1} onPress={this.spring.bind( this )} disabled={isDisabled}>
++      <TouchableOpacity activeOpacity={1} onPress={this.spring.bind( this )} disabled={isDisabled} accessible={true} accessibilityLabel={`Star ${position}`}>
+         <Animated.Image
+           source={starSource}
+           style={[
+             styles.starStyle,
+             {
+-              tintColor: fill && selectedColor ? selectedColor : undefined,
++              tintColor: fill && selectedColor ? selectedColor : '#cecece',
+               width: size || STAR_SIZE,
+               height: size || STAR_SIZE,
+               transform: [{ scale: this.springValue }]

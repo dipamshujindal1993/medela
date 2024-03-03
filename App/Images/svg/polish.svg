@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_568" data-name="Ellipse 568" cx="35" cy="35" r="35" transform="translate(0 8)" fill="#d80027"/>
+    </clipPath>
+  </defs>
+  <g id="Polish_Language" data-name="Polish Language" transform="translate(0 -8)">
+    <g id="Ellipse_280" data-name="Ellipse 280" transform="translate(0 8)" fill="#d80027" stroke="#f0f0f0" stroke-width="0.1">
+      <circle cx="35" cy="35" r="35" stroke="none"/>
+      <circle cx="35" cy="35" r="34.95" fill="none"/>
+    </g>
+    <g id="Mask_Group_78" data-name="Mask Group 78" clip-path="url(#clip-path)">
+      <rect id="Rectangle_1297" data-name="Rectangle 1297" width="70" height="35" transform="translate(0 8)" fill="#f0f0f0"/>
+    </g>
+  </g>
+</svg>

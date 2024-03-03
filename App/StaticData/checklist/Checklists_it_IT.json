@@ -1,0 +1,489 @@
+{
+    "timeStamp": "2017-03-03T10:00:00+01:00",
+    "checkListItems": [
+        {
+            "title": "Cosa mettere in valigia per andare in ospedale",
+            "description": "I bambini non arrivano quasi mai nella data prevista: solo il 4% nasce con puntualità. Per non farti cogliere di sorpresa all’ultimo momento e gestire tutto con la massima tranquillità, è bene preparare la valigia per l’ospedale entro la 34a settimana di gravidanza. Anche se hai scelto di partorire a casa, è una buona idea preparare la valigia per qualsiasi evenienza. ",
+            "orderNumber": 10,
+            "uuid": "000000-0010-0702-000000",
+            "image": "hospital_suitcase",
+            "checkListItems": [
+                {
+                    "title": "Documenti da portare:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0010-0702-010000",
+                    "checkListItems": [
+                        {
+                            "title": "Fascicolo della gravidanza con esami (compreso il gruppo sanguigno) ed ecografie",
+                            "orderNumber": 12,
+                            "uuid": "000000-0010-0702-010010"
+                        },
+                        {
+                            "title": "Documento di identità",
+                            "orderNumber": 13,
+                            "uuid": "000000-0010-0702-010020"
+                        },
+                        {
+                            "title": "Tessera sanitaria",
+                            "orderNumber": 14,
+                            "uuid": "000000-0010-0702-010030"
+                        },
+                        {
+                            "title": "Documentazione relativa ad eventuali allergie",
+                            "orderNumber": 15,
+                            "uuid": "000000-0010-0702-010040"
+                        }
+                    ]
+                },
+                {
+                    "title": "Per il parto:",
+                    "orderNumber": 16,
+                    "uuid": "000000-0010-0702-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Una maglietta o una camicia di cotone a maniche lunghe",
+                            "orderNumber": 17,
+                            "uuid": "000000-0010-0702-020010"
+                        },
+                        {
+                            "title": "Una giacca di lana facile da indossare",
+                            "orderNumber": 18,
+                            "uuid": "000000-0010-0702-020020"
+                        },
+                        {
+                            "title": "Calzettoni morbidi e spessi (con i piedi freddi, infatti, le doglie iniziano con maggiore difficoltà)",
+                            "orderNumber": 19,
+                            "uuid": "000000-0010-0702-020030"
+                        },
+                        {
+                            "title": "Scarpe semplici, senza lacci",
+                            "orderNumber": 20,
+                            "uuid": "000000-0010-0702-020040"
+                        },
+                        {
+                            "title": "Elastico per capelli",
+                            "orderNumber": 21,
+                            "uuid": "000000-0010-0702-020050"
+                        },
+                        {
+                            "title": "Piccoli snack, miele e bevande zuccherate (non dimenticare il futuro papà!)",
+                            "orderNumber": 22,
+                            "uuid": "000000-0010-0702-020060"
+                        },
+                        {
+                            "title": "Occhiali e/o lenti a contatto; l'astuccio per gli occhiali e il liquido per le lenti a contatto",
+                            "orderNumber": 23,
+                            "uuid": "000000-0010-0702-020070"
+                        },
+                        {
+                            "title": "Macchina fotografica",
+                            "orderNumber": 24,
+                            "uuid": "000000-0010-0702-020080"
+                        }
+                    ]
+                },
+                {
+                    "title": "Per il primo periodo in ospedale:",
+                    "orderNumber": 25,
+                    "uuid": "000000-0010-0702-030000",
+                    "checkListItems": [
+                        {
+                            "title": "Abbigliamento comodo",
+                            "orderNumber": 26,
+                            "uuid": "000000-0010-0702-030010"
+                        },
+                        {
+                            "title": "Pigiama/camicia da notte con bottoni",
+                            "orderNumber": 27,
+                            "uuid": "000000-0010-0702-030020"
+                        },
+                        {
+                            "title": "Alcune T-shirt sufficientemente ampie da permetterti di allattare",
+                            "orderNumber": 28,
+                            "uuid": "000000-0010-0702-030030"
+                        },
+                        {
+                            "title": "Corpetto/reggiseno per allattamento",
+                            "orderNumber": 29,
+                            "uuid": "000000-0010-0702-030040"
+                        },
+                        {
+                            "title": "Coppette assorbilatte",
+                            "orderNumber": 30,
+                            "uuid": "000000-0010-0702-030050"
+                        },
+                        {
+                            "title": "Mutandine (prevedine pure due paia al giorno)",
+                            "orderNumber": 31,
+                            "uuid": "000000-0010-0702-030060"
+                        },
+                        {
+                            "title": "Assorbenti con alto livello di assorbenza (vengono messi a disposizione dall'ospedale, ma è sempre bene averne qualcuno a portata di mano!)",
+                            "orderNumber": 32,
+                            "uuid": "000000-0010-0702-030070"
+                        },
+                        {
+                            "title": "Asciugamani e salviette di cotone",
+                            "orderNumber": 33,
+                            "uuid": "000000-0010-0702-030080"
+                        },
+                        {
+                            "title": "Articoli per l’igiene personale: dentifricio e spazzolino da denti, bagnoschiuma, shampoo, crema per il viso, deodorante, spazzola per capelli, accessori per il trucco, phon",
+                            "orderNumber": 34,
+                            "uuid": "000000-0010-0702-030090"
+                        },
+                        {
+                            "title": "Un bell'abito che ti faccia sentire a tuo agio per il rientro a casa ",
+                            "orderNumber": 35,
+                            "uuid": "000000-0010-0702-030100"
+                        }
+                    ]
+                },
+                {
+                    "title": "Per il bambino:",
+                    "orderNumber": 36,
+                    "uuid": "000000-0010-0702-040000",
+                    "checkListItems": [
+                        {
+                            "title": "Body a maniche corte",
+                            "orderNumber": 37,
+                            "uuid": "000000-0010-0702-040010"
+                        },
+                        {
+                            "title": "Maglietta a maniche lunghe",
+                            "orderNumber": 38,
+                            "uuid": "000000-0010-0702-040020"
+                        },
+                        {
+                            "title": "Tutina altezza 56",
+                            "orderNumber": 39,
+                            "uuid": "000000-0010-0702-040030"
+                        },
+                        {
+                            "title": "Calzini a maglia da infilare sopra",
+                            "orderNumber": 40,
+                            "uuid": "000000-0010-0702-040040"
+                        },
+                        {
+                            "title": "Berrettino",
+                            "orderNumber": 41,
+                            "uuid": "000000-0010-0702-040050"
+                        },
+                        {
+                            "title": "In base alla stagione, giacchino oppure tuta per il rientro a casa",
+                            "orderNumber": 42,
+                            "uuid": "000000-0010-0702-040060"
+                        },
+                        {
+                            "title": "Bavette",
+                            "orderNumber": 43,
+                            "uuid": "000000-0010-0702-040070"
+                        },
+                        {
+                            "title": "Copertina morbida per il bimbo per il rientro a casa",
+                            "orderNumber": 44,
+                            "uuid": "000000-0010-0702-040080"
+                        },
+                        {
+                            "title": "Ovetto per auto con riduttore oppure carrozzina",
+                            "orderNumber": 45,
+                            "uuid": "000000-0010-0702-040090"
+                        }
+                    ]
+                },
+                {
+                    "title": "Altro:",
+                    "orderNumber": 46,
+                    "uuid": "000000-0010-0702-050000",
+                    "checkListItems": [
+                        {
+                            "title": "Monete per i piccoli acquisti nel bar dell'ospedale",
+                            "orderNumber": 47,
+                            "uuid": "000000-0010-0702-050010"
+                        },
+                        {
+                            "title": "Cellulare e caricabatteria",
+                            "orderNumber": 48,
+                            "uuid": "000000-0010-0702-050020"
+                        },
+                        {
+                            "title": "Numeri telefonici di familiari, amici, ostetrica e ginecologo ",
+                            "orderNumber": 49,
+                            "uuid": "000000-0010-0702-050030"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Le cose essenziali per la vita con un neonato",
+            "description": "",
+            "orderNumber": 20,
+            "uuid": "000000-0020-0702-000000",
+            "image": "equipment_life_newborn",
+            "checkListItems": [
+                {
+                    "title": "Per la cameretta del bambino:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0020-0702-010000",
+                    "checkListItems": [
+                        {
+                            "title": "Fasciatoio",
+                            "orderNumber": 12,
+                            "uuid": "000000-0020-0702-010010"
+                        },
+                        {
+                            "title": "Contenitore per pannolini usati con coperchio",
+                            "orderNumber": 13,
+                            "uuid": "000000-0020-0702-010020"
+                        },
+                        {
+                            "title": "Lettino per dormire; ideale se affiancabile al letto della mamma che di notte non sarà costretta ad alzarsi continuamente per allattare",
+                            "orderNumber": 14,
+                            "uuid": "000000-0020-0702-010030"
+                        },
+                        {
+                            "title": "Culla mobile da spostare all'interno dell'abitazione durante la giornata",
+                            "orderNumber": 15,
+                            "uuid": "000000-0020-0702-010040"
+                        }
+                    ]
+                },
+                {
+                    "title": "Per la cura del bambino:",
+                    "orderNumber": 16,
+                    "uuid": "000000-0020-0702-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Due confezioni di pannolini della taglia adatta ai neonati oppure in alternativa 20 pannolini lavabili/pannolini in stoffa",
+                            "orderNumber": 17,
+                            "uuid": "000000-0020-0702-020010"
+                        },
+                        {
+                            "title": "Dieci bavaglini in cotone",
+                            "orderNumber": 18,
+                            "uuid": "000000-0020-0702-020020"
+                        },
+                        {
+                            "title": "Vaschetta per il bagnetto",
+                            "orderNumber": 19,
+                            "uuid": "000000-0020-0702-020030"
+                        },
+                        {
+                            "title": "Asciugamano grande con cappuccio",
+                            "orderNumber": 20,
+                            "uuid": "000000-0020-0702-020040"
+                        },
+                        {
+                            "title": "Salviette umide ",
+                            "orderNumber": 21,
+                            "uuid": "000000-0020-0702-020050"
+                        },
+                        {
+                            "title": "In alternativa piccoli panni lavabili per inumidire e pulire il sederino",
+                            "orderNumber": 22,
+                            "uuid": "000000-0020-0702-020060"
+                        },
+                        {
+                            "title": "Crema protettiva per bambini",
+                            "orderNumber": 23,
+                            "uuid": "000000-0020-0702-020070"
+                        },
+                        {
+                            "title": "Crema idratante per bambini",
+                            "orderNumber": 24,
+                            "uuid": "000000-0020-0702-020080"
+                        },
+                        {
+                            "title": "Piccola spazzola morbida per capelli",
+                            "orderNumber": 25,
+                            "uuid": "000000-0020-0702-020090"
+                        },
+                        {
+                            "title": "Una scatola di fazzoletti",
+                            "orderNumber": 26,
+                            "uuid": "000000-0020-0702-020100"
+                        },
+                        {
+                            "title": "Portabiancheria",
+                            "orderNumber": 27,
+                            "uuid": "000000-0020-0702-020110"
+                        },
+                        {
+                            "title": "Termometro da bagno",
+                            "orderNumber": 28,
+                            "uuid": "000000-0020-0702-020120"
+                        },
+                        {
+                            "title": "Piccola bacinella in plastica per l'acqua calda sul fasciatoio",
+                            "orderNumber": 29,
+                            "uuid": "000000-0020-0702-020130"
+                        }
+                    ]
+                },
+                {
+                    "title": "Per il guardaroba del bambino:",
+                    "orderNumber": 30,
+                    "uuid": "000000-0020-0702-030000",
+                    "checkListItems": [
+                        {
+                            "title": "Sette body altezza 56 e sette altezza 62",
+                            "orderNumber": 31,
+                            "uuid": "000000-0020-0702-030010"
+                        },
+                        {
+                            "title": "Sette magliette a manica lunga altezza 56 e sette altezza 62",
+                            "orderNumber": 32,
+                            "uuid": "000000-0020-0702-030020"
+                        },
+                        {
+                            "title": "Sette pagliaccetti oppure pantaloni lunghi morbidi in cotone con elastico in vita",
+                            "orderNumber": 33,
+                            "uuid": "000000-0020-0702-030030"
+                        },
+                        {
+                            "title": "Sacchi nanna",
+                            "orderNumber": 34,
+                            "uuid": "000000-0020-0702-030040"
+                        },
+                        {
+                            "title": "Quattro paia di calzini",
+                            "orderNumber": 35,
+                            "uuid": "000000-0020-0702-030050"
+                        },
+                        {
+                            "title": "Scarpine da neonato da infilare sopra",
+                            "orderNumber": 36,
+                            "uuid": "000000-0020-0702-030060"
+                        },
+                        {
+                            "title": "Due berrettini in cotone",
+                            "orderNumber": 37,
+                            "uuid": "000000-0020-0702-030070"
+                        },
+                        {
+                            "title": "Berrettino e giacchetta per uscire",
+                            "orderNumber": 38,
+                            "uuid": "000000-0020-0702-030080"
+                        },
+                        {
+                            "title": "Copertina per il bambino",
+                            "orderNumber": 39,
+                            "uuid": "000000-0020-0702-030090"
+                        },
+                        {
+                            "title": "Tutina per le uscite all'aperto",
+                            "orderNumber": 40,
+                            "uuid": "000000-0020-0702-030100"
+                        }
+                    ]
+                },
+                {
+                    "title": "Per le prime uscite del bambino:",
+                    "orderNumber": 41,
+                    "uuid": "000000-0020-0702-040000",
+                    "checkListItems": [
+                        {
+                            "title": "Ovetto per auto",
+                            "orderNumber": 42,
+                            "uuid": "000000-0020-0702-040010"
+                        },
+                        {
+                            "title": "Carrozzina",
+                            "orderNumber": 43,
+                            "uuid": "000000-0020-0702-040020"
+                        },
+                        {
+                            "title": "Fascia portabebè",
+                            "orderNumber": 44,
+                            "uuid": "000000-0020-0702-040030"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Lista per l'allattamento e l'estrazione del latte",
+            "description": "",
+            "orderNumber": 30,
+            "uuid": "000000-0030-0702-000000",
+            "image": "breastfeeding",
+            "checkListItems": [
+                {
+                    "title": "Per l'allattamento:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0030-0702-010000",
+                    "checkListItems": [
+                        {
+                            "title": "Almeno due reggiseni per l'allattamento",
+                            "orderNumber": 12,
+                            "uuid": "000000-0030-0702-010010"
+                        },
+                        {
+                            "title": "Magliette/camicette adatte per l'allattamento con bottoni oppure scollatura ampia (non sono adatti ad es. i dolcevita)",
+                            "orderNumber": 13,
+                            "uuid": "000000-0030-0702-010020"
+                        },
+                        {
+                            "title": "Cardigan/giacca da indossare sopra",
+                            "orderNumber": 14,
+                            "uuid": "000000-0030-0702-010030"
+                        },
+                        {
+                            "title": "Due pigiami/camicie da notte adatti per l'allattamento",
+                            "orderNumber": 15,
+                            "uuid": "000000-0030-0702-010040"
+                        },
+                        {
+                            "title": "Cuscino per l'allattamento",
+                            "orderNumber": 16,
+                            "uuid": "000000-0030-0702-010050"
+                        },
+                        {
+                            "title": "Due confezioni di coppette assorbilatte usa e getta",
+                            "orderNumber": 17,
+                            "uuid": "000000-0030-0702-010070"
+                        },
+                        {
+                            "title": "Crema PureLan",
+                            "orderNumber": 18,
+                            "uuid": "000000-0030-0702-010080"
+                        },
+                        {
+                            "title": "Tisana per favorire l’allattamento e qualcosa di dolce per rilassarti quando non tutto va come vorresti",
+                            "orderNumber": 19,
+                            "uuid": "000000-0030-0702-010090"
+                        }
+                    ]
+                },
+                {
+                    "title": "Per l'estrazione del latte:",
+                    "orderNumber": 21,
+                    "uuid": "000000-0030-0702-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Tiralatte manuale Harmony oppure tiralatte elettrico Swing, Swing maxi, Freestyle o Symphony",
+                            "orderNumber": 22,
+                            "uuid": "000000-0030-0702-020010"
+                        },
+                        {
+                            "title": "Kit di bottiglie per latte da 150 ml, tre pezzi",
+                            "orderNumber": 23,
+                            "uuid": "000000-0030-0702-020020"
+                        },
+                        {
+                            "title": "Due tettarelle Calma",
+                            "orderNumber": 24,
+                            "uuid": "000000-0030-0702-020030"
+                        },
+                        {
+                            "title": "Coppette assorbilatte usa e getta",
+                            "orderNumber": 25,
+                            "uuid": "000000-0030-0702-020040"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

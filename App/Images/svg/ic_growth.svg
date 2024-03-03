@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="ic-growth" transform="translate(-153 -266)">
+    <circle id="Ellipse_216" data-name="Ellipse 216" cx="35" cy="35" r="35" transform="translate(153 266)" fill="#fdf1d2"/>
+    <path id="ic-growth-2" data-name="ic-growth" d="M21,48a1,1,0,0,1,0-2h2.974L20,42l3,.01V5.99L20,6l3.974-4H21a1,1,0,1,1,0-2h6a1,1,0,1,1,0,2H24.027L28,5.972l-3,.01V42.017l3,.01L24.027,46H27a1,1,0,1,1,0,2ZM1,46a1,1,0,0,1-1-1V3A1,1,0,0,1,1,2H17a1,1,0,0,1,1,1V45a1,1,0,0,1-1,1Zm1-2H16V40H11a1,1,0,1,1,0-2h5V35H13a1,1,0,1,1,0-2h3V30H11a1,1,0,1,1,0-2h5V25H13a1,1,0,1,1,0-2h3V20H11a1,1,0,1,1,0-2h5V15H13a1,1,0,0,1,0-2h3V10H11a1,1,0,1,1,0-2h5V4H2Z" transform="translate(174 277)" fill="#898d8d" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

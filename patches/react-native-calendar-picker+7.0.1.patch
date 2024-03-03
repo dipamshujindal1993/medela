@@ -1,0 +1,227 @@
+diff --git a/node_modules/react-native-calendar-picker/CalendarPicker/Controls.js b/node_modules/react-native-calendar-picker/CalendarPicker/Controls.js
+index 66468d6..9b44f20 100644
+--- a/node_modules/react-native-calendar-picker/CalendarPicker/Controls.js
++++ b/node_modules/react-native-calendar-picker/CalendarPicker/Controls.js
+@@ -25,7 +25,7 @@ export default function Controls(props) {
+     >
+       <View style={{opacity: disabled ? 0 : 1}}>
+         { component ||
+-          <Text style={[textStyles]}>
++          <Text maxFontSizeMultiplier={1.7} style={[textStyles]}>
+             { label }
+           </Text>
+         }
+diff --git a/node_modules/react-native-calendar-picker/CalendarPicker/Day.js b/node_modules/react-native-calendar-picker/CalendarPicker/Day.js
+index 350e2ac..0fa3dd0 100644
+--- a/node_modules/react-native-calendar-picker/CalendarPicker/Day.js
++++ b/node_modules/react-native-calendar-picker/CalendarPicker/Day.js
+@@ -6,6 +6,8 @@ import {
+ } from 'react-native';
+ import PropTypes from 'prop-types';
+ import moment from 'moment';
++import I18n from 'react-native-i18n';
++import { engToArabicNumber } from '@utils/locale';
+ 
+ export default function Day(props) {
+   const {
+@@ -100,7 +102,8 @@ export default function Day(props) {
+ 
+   dateOutOfRange = dateIsAfterMax || dateIsBeforeMin || dateIsDisabled || dateRangeLessThanMin || dateRangeGreaterThanMax;
+ 
+-  // If date is in range let's apply styles
++  // If date is in range let's apply styles;
++
+   if (!dateOutOfRange) {
+     // set today's style
+     let isToday = thisDay.isSame(today, 'day');
+@@ -181,23 +184,26 @@ export default function Day(props) {
+     }
+ 
+     return (
+-      <View style={[styles.dayWrapper, customContainerStyle]}>
+-        <TouchableOpacity
+-          disabled={!enableDateChange}
++      <TouchableOpacity
++      onPress={() => onPressDay({year, month, day}) }
++      disabled={!enableDateChange}
++      style={[styles.dayWrapper, customContainerStyle,{height:48}]}>
++        <View
++          
+           style={[customDateStyle, daySelectedStyle, propSelectedDayStyle ]}
+-          onPress={() => onPressDay({year, month, day}) }>
+-          <Text style={[styles.dayLabel, textStyle, customTextStyle, selectedDayColorStyle]}>
+-            { day }
++          >
++          <Text maxFontSizeMultiplier={1.7} style={[styles.dayLabel, textStyle, customTextStyle, selectedDayColorStyle]}>
++            {I18n.locale.includes('ar')?engToArabicNumber(day): day }
+           </Text>
+-        </TouchableOpacity>
+-      </View>
++        </View>
++      </TouchableOpacity>
+     );
+   }
+   else {  // dateOutOfRange = true
+     return (
+       <View style={styles.dayWrapper}>
+-        <Text style={[textStyle, styles.disabledText, disabledDatesTextStyle]}>
+-          { day }
++        <Text maxFontSizeMultiplier={1.7} style={[textStyle, styles.disabledText, disabledDatesTextStyle]}>
++          {I18n.locale.includes('ar')?engToArabicNumber(day): day }
+         </Text>
+       </View>
+     );
+diff --git a/node_modules/react-native-calendar-picker/CalendarPicker/HeaderControls.js b/node_modules/react-native-calendar-picker/CalendarPicker/HeaderControls.js
+index 2488498..ddb4553 100644
+--- a/node_modules/react-native-calendar-picker/CalendarPicker/HeaderControls.js
++++ b/node_modules/react-native-calendar-picker/CalendarPicker/HeaderControls.js
+@@ -8,6 +8,8 @@ import {
+ import PropTypes from 'prop-types';
+ import { Utils } from './Utils';
+ import Controls from './Controls';
++import I18n from 'react-native-i18n';
++import { engToArabicNumber } from '@utils/locale';
+ 
+ export default function HeaderControls(props) {
+   const {
+@@ -62,7 +64,7 @@ export default function HeaderControls(props) {
+         </TouchableOpacity>
+         <TouchableOpacity onPress={onPressYear}>
+           <Text style={[styles.yearHeaderMainText, textStyle]}>
+-            { year }
++            {I18n.locale.includes('ar')?engToArabicNumber(year): year }
+           </Text>
+         </TouchableOpacity>
+       </View>
+diff --git a/node_modules/react-native-calendar-picker/CalendarPicker/Year.js b/node_modules/react-native-calendar-picker/CalendarPicker/Year.js
+index 0ea0f03..88fbc3b 100644
+--- a/node_modules/react-native-calendar-picker/CalendarPicker/Year.js
++++ b/node_modules/react-native-calendar-picker/CalendarPicker/Year.js
+@@ -6,6 +6,8 @@ import {
+ } from 'react-native';
+ import PropTypes from 'prop-types';
+ import moment from 'moment';
++import I18n from 'react-native-i18n';
++import { engToArabicNumber } from '@utils/locale';
+ 
+ export default function Year(props) {
+   const {
+@@ -55,12 +57,12 @@ export default function Year(props) {
+         <TouchableOpacity
+           onPress={onSelect}>
+           <Text style={[styles.yearText, textStyle]}>
+-            { year }
++            {I18n.locale.includes('ar')?engToArabicNumber(year): year }
+           </Text>
+         </TouchableOpacity>
+         :
+         <Text style={[textStyle, styles.disabledText]}>
+-          { year }
++          {I18n.locale.includes('ar')?engToArabicNumber(year): year }
+         </Text>
+       }
+     </View>
+diff --git a/node_modules/react-native-calendar-picker/CalendarPicker/makeStyles.js b/node_modules/react-native-calendar-picker/CalendarPicker/makeStyles.js
+index 593fb69..2219102 100644
+--- a/node_modules/react-native-calendar-picker/CalendarPicker/makeStyles.js
++++ b/node_modules/react-native-calendar-picker/CalendarPicker/makeStyles.js
+@@ -41,8 +41,8 @@ export function makeStyles(params) {
+     },
+ 
+     dayButton: {
+-      width: 30*scaler,
+-      height: 30*scaler,
++      width: 42*scaler,
++      height: 42*scaler,
+       borderRadius: getBorderRadiusByShape(scaler, dayShape),
+       alignSelf: 'center',
+       justifyContent: 'center'
+@@ -72,19 +72,20 @@ export function makeStyles(params) {
+ 
+     daysWrapper: {
+       alignSelf: 'center',
+-      justifyContent: 'center'
++      justifyContent: 'center',
+     },
+ 
+     dayLabels: {
+       width: 50*scaler,
++      height: 42*scaler,
+       fontSize: 12*scaler,
+       color: '#000',
+       textAlign: 'center'
+     },
+ 
+     selectedDay: {
+-      width: 30*scaler,
+-      height:30*scaler,
++      width: 42*scaler,
++      height:42*scaler,
+       borderRadius: getBorderRadiusByShape(scaler, dayShape),
+       alignSelf: 'center',
+       justifyContent: 'center'
+@@ -95,8 +96,8 @@ export function makeStyles(params) {
+     },
+ 
+     selectedToday: {
+-      width: 30*scaler,
+-      height:30*scaler,
++      width: 42*scaler,
++      height:42*scaler,
+       backgroundColor: TODAY_BG_COLOR,
+       borderRadius: getBorderRadiusByShape(scaler, dayShape),
+       alignSelf: 'center',
+@@ -107,13 +108,13 @@ export function makeStyles(params) {
+       alignItems: 'center',
+       justifyContent: 'center',
+       width: 50*scaler,
+-      height: 40*scaler,
++      height: 42*scaler,
+       backgroundColor: 'rgba(0,0,0,0.0)'
+     },
+ 
+     startDayWrapper: {
+       width: 50*scaler,
+-      height: 30*scaler,
++      height: 42*scaler,
+       borderTopLeftRadius: 20*scaler,
+       borderBottomLeftRadius: 20*scaler,
+       backgroundColor: SELECTED_BG_COLOR,
+@@ -123,7 +124,7 @@ export function makeStyles(params) {
+ 
+     endDayWrapper: {
+       width: 50*scaler,
+-      height: 30*scaler,
++      height: 42*scaler,
+       borderTopRightRadius: 20*scaler,
+       borderBottomRightRadius: 20*scaler,
+       backgroundColor: SELECTED_BG_COLOR,
+@@ -133,7 +134,7 @@ export function makeStyles(params) {
+ 
+     inRangeDay: {
+       width: 50*scaler,
+-      height: 30*scaler,
++      height: 42*scaler,
+       backgroundColor: SELECTED_BG_COLOR,
+       alignSelf: 'center',
+       justifyContent: 'center'
+@@ -181,7 +182,7 @@ export function makeStyles(params) {
+ 
+     disabledText: {
+       fontSize: 14*scaler,
+-      color: '#BBBBBB',
++      color: '#767676',
+       alignSelf: 'center',
+       justifyContent: 'center'
+     },
+@@ -194,8 +195,8 @@ export function makeStyles(params) {
+     },
+ 
+     monthButton: {
+-      width: 30*scaler,
+-      height: 30*scaler,
++      width: 42*scaler,
++      height: 42*scaler,
+       borderRadius: 30*scaler,
+       alignSelf: 'center',
+       justifyContent: 'center'

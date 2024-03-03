@@ -1,0 +1,314 @@
+diff --git a/node_modules/react-native-list-slider/Item.js b/node_modules/react-native-list-slider/Item.js
+index 83058d6..3532e38 100644
+--- a/node_modules/react-native-list-slider/Item.js
++++ b/node_modules/react-native-list-slider/Item.js
+@@ -1,22 +1,68 @@
+ import * as tslib_1 from "tslib";
+ import * as React from 'react';
+-import { View, } from 'react-native';
++import { View, Text} from 'react-native';
+ import styles from './styles';
++import { I18nManager } from "react-native";
++const isRtlAndAndroid=I18nManager.isRTL && Platform.OS=='android';
+ var Item = /** @class */ (function (_super) {
+     tslib_1.__extends(Item, _super);
+     function Item() {
+         return _super !== null && _super.apply(this, arguments) || this;
+     }
++
+     Item.prototype.render = function () {
+-        var _a = this.props, oneColumnSize = _a.oneColumnSize, borderWidth = _a.borderWidth, index = _a.index, style = _a.style, tenthItemStyle = _a.tenthItemStyle;
+-        return (<View style={[
+-            styles.subBlock,
+-            { width: oneColumnSize, borderRightWidth: borderWidth },
+-            (index + 1) % 10 === 0 ? { borderRightWidth: borderWidth + 2, height: 70 } : null,
+-            style,
+-            (index + 1) % 10 === 0 ? tenthItemStyle : null,
+-        ]}/>);
++        var _a = this.props,multiplicity=_a.multiplicity, oneColumnSize = _a.oneColumnSize, borderWidth = _a.borderWidth, index = _a.index, style = _a.style, tenthItemStyle = _a.tenthItemStyle, maximumValue = _a.maximumValue;
++        let max=parseFloat(_a.max);
++        let itemText = index >= 5 && (index + 1) % 5 === 0
++        let itemSubBlocks = (index + 1) % 5 === 0
++        let itemtextValue = (index+1)-10
++        let multiple=4;
++        if(this.props.multiplicity === 0.25){
++            itemSubBlocks =  (index-1)  % 4 === 0
++            multiple=3
++            itemText = index >= 8 && itemSubBlocks
++            itemtextValue = ((index+1)-10)/4
++         } else  if(this.props.multiplicity === 0.5){
++          itemSubBlocks = (index - 1) % 2 === 0
++          itemText = index >= 4 && itemSubBlocks
++          itemtextValue = ((index+1)-10)/2
++         } else if(this.props.multiplicity === 0.1){
++          itemSubBlocks = index == 9 ? true : (index+1 ) % 10 === 0
++          itemText = index == 9 ? true : index >= 10 && itemSubBlocks
++          itemtextValue = ((index+1)-10)/10;
++        }
++
++        let itemSize=itemtextValue.toString().length
++        let value=parseFloat(itemtextValue);
++        let temp=max === parseInt(max)?itemSubBlocks:false
++        if(value>max||value<0||(value==max&&!itemSubBlocks&&(max === parseInt(max)?itemSubBlocks:false))||(value==0&&index<9)){
++            if(value<=0){
++                _width=oneColumnSize;
++            }
++            return<View style={[
++
++                {  width: oneColumnSize, },
++
++            ]}/>
++        }
++        return (
++            <>
++                <View style={[
++                    styles.subBlock,
++                    { width: oneColumnSize, borderRightWidth: borderWidth },
++                    itemSubBlocks ? { borderRightWidth: borderWidth + 2, height: 70 } : null,
++                    style,
++                    itemSubBlocks ? tenthItemStyle : null,
++                ]}/>
++                {itemtextValue>=0 && itemText &&
++                    <View style={[styles.fifthItemStyle,{marginLeft:itemSize==1?0:itemSize*-2.7}]}>
++                        <Text maxFontSizeMultiplier={1.7} style={{color: '#898d8d', marginLeft: 3}}>{isRtlAndAndroid?maximumValue-itemtextValue: itemtextValue}</Text>
++                    </View>
++                }
++            </>
++        );
+     };
++
+     Item.defaultProps = {
+         style: null,
+         tenthItemStyle: null,
+diff --git a/node_modules/react-native-list-slider/index.js b/node_modules/react-native-list-slider/index.js
+index 46ae700..871988f 100644
+--- a/node_modules/react-native-list-slider/index.js
++++ b/node_modules/react-native-list-slider/index.js
+@@ -1,10 +1,14 @@
+ import * as tslib_1 from "tslib";
+ import * as React from 'react';
+-import { FlatList, View } from 'react-native';
++import { FlatList, View ,I18nManager ,Platform} from 'react-native';
+ import styles from './styles';
+ import Item from './Item';
+-var itemAmountPerScreen = 20;
++import DeviceInfo from 'react-native-device-info';
++var itemAmountPerScreen=20
+ var borderWidth = 1;
++const isRtlAndAndroid=I18nManager.isRTL && Platform.OS=='android';
++const is12ProMax=DeviceInfo.getModel()=='iPhone 12 Pro Max';
++let shouldComponentUpdateCalled=false;
+ var ReactNativeInfinityListSlider = /** @class */ (function (_super) {
+     tslib_1.__extends(ReactNativeInfinityListSlider, _super);
+     function ReactNativeInfinityListSlider(props) {
+@@ -13,24 +17,34 @@ var ReactNativeInfinityListSlider = /** @class */ (function (_super) {
+         _this.onLayout = function (event) {
+             _this.setState({
+                 width: event.nativeEvent.layout.width,
+-                oneItemWidth: Math.round(event.nativeEvent.layout.width / itemAmountPerScreen)
++                oneItemWidth:Math.round(event.nativeEvent.layout.width / itemAmountPerScreen),
++                ...is12ProMax && {oneItemWidth:Math.ceil(event.nativeEvent.layout.width + 2) / itemAmountPerScreen}
+             });
+-            _this.init();
++            _this.init(isRtlAndAndroid?0:undefined);
+         };
+-        _this.onSliderMoved = function (event) {
+-            var oneItemWidth = _this.state.oneItemWidth;
+-            var _a = _this.props, onValueChange = _a.onValueChange, initialPositionValue = _a.initialPositionValue, maximumValue = _a.maximumValue, decimalPlaces = _a.decimalPlaces;
+-            var newValue = initialPositionValue +
+-                Math.floor(event.nativeEvent.contentOffset.x / oneItemWidth) *
+-                    _this.props.multiplicity;
+-            if (maximumValue && newValue > maximumValue) {
+-                newValue = maximumValue;
+-            }
+-            var setValue = parseFloat(parseFloat(newValue.toString()).toFixed(decimalPlaces));
+-            _this.setState({
+-                value: setValue
+-            });
+-            onValueChange(setValue);
++        _this.onSliderMoved = function (event,v) {
++                var oneItemWidth = _this.state.oneItemWidth;
++                var _a = _this.props,value=_a.value, onValueChange = _a.onValueChange, initialPositionValue = _a.initialPositionValue, maximumValue = _a.maximumValue, decimalPlaces = _a.decimalPlaces;
++                var newValue = initialPositionValue +
++                    Math.floor((event.nativeEvent.contentOffset.x) / oneItemWidth) *
++                        _this.props.multiplicity;
++                if (maximumValue && newValue > maximumValue) {
++                    newValue = maximumValue;
++                }
++
++                if(_this.props.multiplicity === 0.25 ){
++                    var setValue = newValue
++                }else{
++                    var setValue = parseFloat(parseFloat(newValue.toString()).toFixed(decimalPlaces));
++                }
++                if(is12ProMax&&shouldComponentUpdateCalled){
++                    shouldComponentUpdateCalled=false;
++                    setValue=value>maximumValue?maximumValue:value;
++                }else shouldComponentUpdateCalled=false;
++                _this.setState({
++                    value: setValue
++                });
++                onValueChange(setValue);
+         };
+         _this.generateArrayBlock = function () {
+             var _a = _this.props, arrayLength = _a.arrayLength, maximumValue = _a.maximumValue, multiplicity = _a.multiplicity;
+@@ -41,21 +55,41 @@ var ReactNativeInfinityListSlider = /** @class */ (function (_super) {
+             }
+             return new Array(length).fill(0);
+         };
+-        _this.init = function () {
+-            setTimeout(function () { return _this.scrollToElement(_this.props.value); }, 100);
++        _this.init = function (initialValue) {
++            setTimeout(function () {
++                return _this.scrollToElement(_this.props.value,initialValue);
++            }, 100);
+         };
+-        _this.scrollToElement = function (value) {
++        _this.scrollToElement = function (value,initialValue,v) {
+             return _this.flatList.current &&
+                 _this.flatList.current.scrollToOffset({
+-                    offset: (value * _this.state.oneItemWidth) / _this.props.multiplicity,
++                    offset:((initialValue!=undefined?initialValue: value) * _this.state.oneItemWidth) / _this.props.multiplicity,
+                     animated: false
+                 });
+         };
+-        _this.renderItem = function (element) { return (<Item oneColumnSize={_this.state.oneItemWidth} borderWidth={borderWidth} index={element.index} style={_this.props.itemStyle} tenthItemStyle={_this.props.tenthItemStyle}/>); };
+-        _this.renderDefaultThumb = function () { return (<View style={[
+-            styles.defaultThumb,
+-            _this.props.thumbStyle ? _this.props.thumbStyle : null
+-        ]}/>); };
++        _this.renderItem = function (element) {
++          return (
++        <Item
++            maximumValue={_this.props.maximumValue}
++            oneColumnSize={_this.state.oneItemWidth}
++            borderWidth={borderWidth}
++            index={element.index}
++            style={_this.props.itemStyle}
++            max={_this.props.maximumValue}
++            tenthItemStyle={_this.props.tenthItemStyle}
++            multiplicity ={_this.props.multiplicity}
++            value = {_this.props.value}/>
++        ); };
++        _this.renderDefaultThumb = function () { return (
++        <>
++        <View style={[
++             styles.defaultThumb,{left:isRtlAndAndroid?'55.3%':'50.3%'},is12ProMax?{left:'49%'}:{},
++            _this.props.thumbStyle ? _this.props.thumbStyle : null,
++          ]}/>
++        <View style={ [styles.circle,{left:isRtlAndAndroid?'53%':'48%'},is12ProMax?{left:'46.7%'}:{},]}/>
++        </>
++        ); };
++        //console.log(_this.generateArrayBlock().length)
+         _this.state = {
+             items: _this.generateArrayBlock(),
+             width: 0,
+@@ -70,6 +104,7 @@ var ReactNativeInfinityListSlider = /** @class */ (function (_super) {
+             return true;
+         }
+         if (nextProps.value !== nextState.value) {
++            shouldComponentUpdateCalled=true;
+             this.setState({
+                 value: nextProps.value
+             });
+@@ -77,16 +112,17 @@ var ReactNativeInfinityListSlider = /** @class */ (function (_super) {
+         }
+         return false;
+     };
++
+     ReactNativeInfinityListSlider.prototype.render = function () {
+         var _this = this;
+         var _a = this.props, renderThumb = _a.renderThumb, scrollEnabled = _a.scrollEnabled, mainContainerStyle = _a.mainContainerStyle;
+         var _b = this.state, items = _b.items, width = _b.width;
+         return (<View style={[styles.mainContainer, mainContainerStyle]} onLayout={this.onLayout}>
+-        <FlatList style={{ flex: 1 }} ref={this.flatList} getItemLayout={function (data, index) { return ({
++        <FlatList inverted={isRtlAndAndroid}  style={{ flex: 1 ,marginLeft:Platform.OS=="android"?4:0}} ref={this.flatList} getItemLayout={function (data, index) { return ({
+             length: _this.state.oneItemWidth,
+             offset: _this.state.oneItemWidth * index,
+             index: index
+-        }); }} scrollEnabled={scrollEnabled} data={width === 0 ? [] : items} keyboardShouldPersistTaps="always" horizontal onScrollEndDrag={this.onSliderMoved} onScroll={this.onSliderMoved} onMomentumScrollBegin={this.onSliderMoved} onMomentumScrollEnd={this.onSliderMoved} keyExtractor={function (element, index) { return index.toString(); }} renderItem={this.renderItem} showsHorizontalScrollIndicator={false}/>
++        }); }} scrollEnabled={scrollEnabled} data={width === 0 ? [] : items} keyboardShouldPersistTaps="always" horizontal onScrollEndDrag={(e)=>{this.onSliderMoved(e,'onScrollEndDrag')}} onScroll={(e)=>{this.onSliderMoved(e,'onScroll')}} onMomentumScrollBegin={(e)=>{this.onSliderMoved(e,'onMomentumScrollBegin')}} onMomentumScrollEnd={(e)=>{this.onSliderMoved(e,'onMomentumScrollEnd')}} keyExtractor={function (element, index) { return index.toString(); }} renderItem={this.renderItem} showsHorizontalScrollIndicator={false}/>
+         {renderThumb ? renderThumb() : this.renderDefaultThumb()}
+       </View>);
+     };
+diff --git a/node_modules/react-native-list-slider/styles.d.ts b/node_modules/react-native-list-slider/styles.d.ts
+index 9acefe5..850bbbb 100644
+--- a/node_modules/react-native-list-slider/styles.d.ts
++++ b/node_modules/react-native-list-slider/styles.d.ts
+@@ -24,6 +24,22 @@ declare const styles: {
+         height: number;
+         alignSelf: "center";
+     };
++    circle: {
++        position: string,
++        left: string,
++        top: string,
++        width: number,
++        height: number,
++        borderRadius: number,
++        borderWidth: number,
++        borderColor: string,
++        backgroundColor: string
++    },
++    fifthItemStyle: {
++        position: string,
++        left: string,
++        bottom: string,
++    },
+     mainBlock: {
+         borderRightWidth: number;
+         borderColor: string;
+diff --git a/node_modules/react-native-list-slider/styles.js b/node_modules/react-native-list-slider/styles.js
+index 109b2a7..7448d03 100644
+--- a/node_modules/react-native-list-slider/styles.js
++++ b/node_modules/react-native-list-slider/styles.js
+@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
+ var styles = StyleSheet.create({
+     mainContainer: {
+         width: '100%',
+-        height: 80,
++        height: 120,
+         position: 'relative',
+     },
+     middleContainer: {
+@@ -20,10 +20,31 @@ var styles = StyleSheet.create({
+     },
+     defaultThumb: {
+         position: 'absolute',
+-        left: '50%',
++        left: '50.3%',
++        top: '15%',
+         borderLeftWidth: 3,
+         height: 80,
+         alignSelf: 'center',
++        borderColor: '#FFCD00',
++    },
++    circle: {
++        position: 'absolute',
++        left: '48%',
++        top: '38%',
++        width: 20,
++        height: 20,
++        borderRadius: 20/2,
++        borderWidth: 3,
++        borderColor: '#FFCD00',
++        backgroundColor: 'white'
++    },
++    fifthItemStyle:{
++        // flex: 1,
++        position: 'absolute',
++        left: '60%',
++        bottom: '0%',
++        // height: 200,
++        // backgroundColor: 'red',
+     },
+     mainBlock: {
+         borderRightWidth: 2,
+@@ -45,6 +66,7 @@ var styles = StyleSheet.create({
+         borderColor: '#979797',
+     },
+     subBlockLine: {
++        // backgroundColor: 'transparent',
+         borderRightWidth: 1,
+         borderColor: '#979797',
+         height: '100%',

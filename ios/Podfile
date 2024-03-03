@@ -1,0 +1,84 @@
+$RNFirebaseAsStaticFramework = true
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/twilio/cocoapod-specs'
+platform :ios, '12.0'
+use_frameworks!
+
+# Convert all permission pods into static libraries
+pre_install do |installer|
+  Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+  installer.pod_targets.each do |pod|
+    if pod.name.eql?('RNPermissions') || pod.name.start_with?('Permission-')
+      def pod.build_type;
+        # Uncomment the line corresponding to your CocoaPods version
+         Pod::BuildType.static_library # >= 1.9
+         #Pod::Target::BuildType.static_library # < 1.9
+      end
+    end
+  end
+end
+
+target 'MyMedela' do
+config = use_native_modules!
+
+use_react_native!(:path => config["reactNativePath"])
+  pod 'RNFBAnalytics', :path => '../node_modules/@react-native-firebase/analytics'
+  pod 'react-native-cookies', :path => '../node_modules/@react-native-community/cookies'
+  pod 'RNCharts', :path => '../node_modules/react-native-charts-wrapper'
+  pod 'react-native-voice', :path => '../node_modules/react-native-voice'
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications"
+  pod 'Permission-BluetoothPeripheral', :path => "#{permissions_path}/BluetoothPeripheral"
+  pod 'Permission-LocationAccuracy', :path => "#{permissions_path}/LocationAccuracy"
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+  pod 'PacifySDK', '= 2.0.0'
+
+  pod 'Realm', '= 5.5.0'
+  
+  pod 'react-native-simple-toast', :path => '../node_modules/react-native-simple-toast'
+
+  pod 'react-native-in-app-review', :path => '../node_modules/react-native-in-app-review'
+
+end
+
+
+target 'MyMedelaTests' do
+inherit! :complete
+# Pods for testing
+end
+
+  # Enables Flipper.
+   #
+   # Note that if you have use_frameworks! enabled, Flipper will not work and
+   # you should disable these next few lines.
+#   use_flipper!
+#   post_install do |installer|
+#     installer.pods_project.targets.each do |target|
+#       if ['PromiseKit'].include? "#{target}"
+#         print "Setting #{target}'s SWIFT_VERSION to 5.1\n"
+#         target.build_configurations.each do |config|
+#           config.build_settings['SWIFT_VERSION'] = '5.1'
+#         end
+#       end
+#     end
+#   end
+
+target 'MyMedela-tvOS' do
+# Pods for MyMedela-tvOS
+end
+
+target 'MyMedela-tvOSTests' do
+inherit! :search_paths
+# Pods for testing
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        end
+    end
+end

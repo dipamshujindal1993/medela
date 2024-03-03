@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic-editphoto" width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <circle id="Ellipse_360" cx="11" cy="11" r="11" fill="rgba(137,141,141,0.4)"/>
+    <g id="Group_1929" transform="translate(5 5)">
+        <g id="Group_1927" transform="translate(0 10)">
+            <path id="Path_1990" d="M265.114 488.5h-11a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1z" class="cls-2" transform="translate(-253.614 -487.5)"/>
+        </g>
+        <g id="Group_1928" transform="translate(1.886)">
+            <path id="Path_1991" d="M256 486.5a.5.5 0 0 1-.474-.658l1-3a.51.51 0 0 1 .12-.2l5-5a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-5 5a.517.517 0 0 1-.2.121l-3 1a.538.538 0 0 1-.154.029zm1.437-3.229l-.646 1.938 1.939-.646 4.563-4.563-1.293-1.293z" class="cls-2" transform="translate(-255.5 -477.5)"/>
+        </g>
+    </g>
+</svg>

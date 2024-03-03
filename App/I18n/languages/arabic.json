@@ -1,0 +1,1432 @@
+{
+  "common": {
+    "app_name": "اسم التطبيق"
+  },
+  "startup": {
+    "sign_up_now": "تسجيل الاشتراك الآن",
+    "already_have_account": "لدي حساب بالفعل",
+    "desc1": "معلومات حول الرضاعة الطبيعية والمزيد \n عندما تكونين في أمسّ الحاجة إليها.",
+    "desc2": "يتوفر دعم الإرضاع الافتراضي ™LC على مدار الساعة، طوال أيام الأسبوع (24‏/7)، بالإضافة إلى مكتبة \nشاملة تضم مشورة الخبراء",
+    "desc3": "نصائح وأدوات تتطور معك \nبدءًا من الحمل وحتى تصبحي أمًا",
+    "desc4": "وصول العميلات المميزات إلى ميزات التطبيق الفريدة لـ \nمستخدمات مضخات الثدي من Medela",
+    "desc5": "سيتم تخزين بياناتكِ بأمان بما يتوافق مع أقوى لوائح الامتثال \nالخاصة بالبيانات العالمية",
+    "title1": "مجتمع Medela Family",
+    "title2": "دعم الإرضاع",
+    "title3": "تجربة ذات طابع شخصي",
+    "title4": "امتيازات Medela الحصرية",
+    "title5": "تخزين البيانات الآمن"
+  },
+  "login": {
+    "title": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgot_your_password": "هل نسيتِ كلمة المرور؟",
+    "login": "تسجيل الدخول",
+    "forgot_password_title": "نسيت كلمة المرور",
+    "forgot_password_message": "هل أنتِ متأكدة من رغبتك في إعادة ضبط \nكلمة المرور الخاصة بكِ؟",
+    "ok": "موافق",
+    "cancel": "إلغاء",
+    "forgot_password_success_title": "تم إرسال رسالة البريد الإلكتروني",
+    "forgot_password_success_message": "لقد أرسلنا إليك بنجاح \nرسالة بالبريد الإلكتروني تتضمن كلمة مرور جديدة.",
+    "email_error_message": "يُرجى إدخال عنوان بريد إلكتروني صالح",
+    "blank_password_error_message": "يُرجى إدخال كلمة المرور الخاصة بك",
+    "account_not_exist": "هذا الحساب غير موجود",
+    "login_failed": "فشل تسجيل الدخول",
+    "edit_email": "تعديل البريد الإلكتروني",
+    "sign_up": "تسجيل الاشتراك",
+    "yes": "نعم",
+    "no": "لا",
+    "subscribed_user_msg": "لقد لاحظنا أنك اشتركتِ بالفعل في برنامج Medela Family.\nيُرجى إعداد كلمة مرور لحماية حسابك.",
+    "email_subscription_msg":"يُرجى التحقق من اشتراككِ عن طريق الضغط على الرابط الوارد في رسالة البريد الإلكتروني التي أرسلناها إليكِ",
+    "no_space_in_password": "لا يجب أن تحتوي كلمة المرور على مسافة"
+  },
+  "signup": {
+    "title": "إنشاء حسابكِ",
+    "email": "البريد الإلكتروني *",
+    "password": "كلمة المرور *",
+    "offer": "أريد أن أبقى على اطلاع بالأخبار والعروض الخاصة من Medela عبر البريد الإلكتروني",
+    "signUpBtn": "تسجيل الاشتراك",
+    "terms": "عند قيامك بتسجيل الاشتراك، فإنك توافقين على",
+    "privacyPolicy": " سياسة الخصوصية المتبعة لدينا، بما في ذلك معالجة البيانات الشخصية الحساسة",
+    "emailAlreadyExist": "يوجد بالفعل مستخدم مُسجّل بهذا البريد الإلكتروني.",
+    "somethingWentWrong": "حدث خطأ ما. يُرجى المحاولة لاحقًا",
+    "show": "عرض",
+    "hide": "إخفاء",
+    "email_error": "عنوان البريد الإلكتروني غير صالح",
+    "password_no_numbers": "لا توجد أرقام",
+    "password_no_letters": "لا توجد حروف",
+    "password_too_weak": "ضعيفة للغاية!",
+    "password_too_long": "طويلة للغاية!",
+    "password_invalid_characters": "أحرف غير صالحة",
+    "password_null": "8–20 حرفًا، ورقم واحد كحد أدنى (a-z،‏ 0–9)",
+    "edit_email": "تعديل البريد الإلكتروني",
+    "password_min_length": "يجب أن يبلغ طول كلمة المرور 7 أحرف على الأقل وتتضمن أحرفًا وأرقامًا.",
+    "login_up": "تسجيل الدخول"
+  },
+  "profileSetup": {
+    "title": "نحتاج فقط إلى تفاصيل قليلة أخرى لاستكمال\nملف التعريف الخاص بك",
+    "name": "اسمك / اسمك المستعار *",
+    "babyDob": "تاريخ ميلاد الطفل/التاريخ المتوقع للولادة *",
+    "isFirstBaby": "هل هذا هو طفلك الأول؟",
+    "yes": "نعم",
+    "no": "لا",
+    "next": "التالي",
+    "dontKnow": "لا أعلم",
+    "planReturnWork": "هل العمل خارج المنزل جزء من خطة الأمومة الخاصة بك؟",
+    "chooseDate": "متى تتوقعين أن تبدأي؟",
+    "babyName": "اسم الطفل / الاسم المستعار للطفل *",
+    "username_error": "يُرجى إدخال اسمك",
+    "baby_name_error": "يُرجى إدخال اسم الطفل",
+    "baby_dob_error": "يُرجى تحديد تاريخ ميلاد الطفل / تاريخ الولادة",
+    "back_to_work_date": "يُرجى تحديد تاريخ العودة إلى العمل",
+    "upload": "تحميل صورة الطفل",
+    "name_error": "يُرجى إدخال اسمك"
+  },
+  "profileSetup2": {
+    "havePump": "هل يوجد لديكِ مضخة للثدي؟",
+    "pumpBrand": "ما هي العلامة التجارية للمضخة الموجودة لديكِ حاليًا؟",
+    "yes": "نعم",
+    "no": "لا",
+    "medela": "Medela",
+    "other": "أخرى",
+    "pumpFor": "اشتريت المضخة التي أستعملها حاليًا من أجل",
+    "insurancePump": "المضخة التي أستعملها حاليًا",
+    "coveredByMyInsurance": "يغطيها التأمين الخاص بي",
+    "notPurchasedInsurance": "مُهداة أو لم يتم شراؤها من خلال التأمين",
+    "finishBtn": "إنهاء",
+    "previousPregnancy": "الحمل السابق",
+    "skip": "تخطي",
+    "thisPregnancy": "هذا الحَمل",
+    "title": "هيا بنا نتعرَّف على الكيفية التي يمكننا من خلالها مساعدتكِ بأفضل صورة\nفي أثناء رحلتكِ"
+  },
+  "welcome": {
+    "title": "أهلاً بكِ في Medela Family\n",
+    "subTitle": "استمتعي بإمكانية الوصول المجانية للأدوات والنصائح الخاصة بالحمل و\nالرضاعة الطبيعية",
+    "dashboardBtn": "انتقلي إلى لوحة المعلومات الخاصة بكِ"
+  },
+  "newWelcome":{
+    "title": "أهلاً بكِ في Medela Family!\n",
+    "subTitle": "إنَّ Medela Family يحل محل تطبيق MyMedela السابق لدينا، ويوفر تجربة مستخدم جديدة كليًا، وميزات محسنة بشكل رائع، ومحتوى تثقيفي جديد.",
+    "subTitle2": "تعرّفي على ميزة مخزن الحليب الافتراضي الجديدة لدينا، واحصلي على إجابات للأسئلة التي تراودكِ من قبل المساعد الشخصي لدينا، ووفري الكثير من الوقت باستخدام الأوامر الصوتية لإجراء عملية التتبع دون استخدام اليدين!",
+    "subTitle3":"نأمل في أنكِ سوف تحبينه بنفس قدر حبنا له",
+    "subTitle4":"فريق عمل Medela الخاص بكِ",
+    "dashboardBtn": "انتقلي إلى لوحة المعلومات الخاصة بكِ"
+  },
+  "tab_bar": {
+    "my_baby": "طفلي",
+    "stats": "الإحصاء",
+    "chat": "الدردشة",
+    "more": "المزيد"
+  },
+  "generic": {
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا",
+    "cancel": "إلغاء",
+    "error_message": "حدث خطأ ما. يُرجى المحاولة لاحقًا",
+    "save": "حفظ",
+    "alert_title": "عفوًا!",
+    "no_internet": "يبدو أن الاتصال بالإنترنت قد انقطع",
+    "cancelled_picker": "قام المستخدم بإلغاء منتقي الصور",
+    "tap_custom_btn": "ضغط المستخدم على الزر المخصص: ",
+    "image_error": "خطأ في ImagePicker: ",
+    "add_new_baby": "إضافة طفل جديد",
+    "delete": "حذف",
+    "stop_watch": "يُرجى إيقاف الساعة التوقيتية أولاً",
+    "retry": "إعادة المحاولة",
+    "minutes_error": "يجب أن تكون الدقائق أقل من 60",
+    "seconds_error": "يجب أن تكون الثواني أقل من 60",
+    "submit": "إرسال",
+    "close": "إغلاق",
+    "done": "تم",
+    "select_state": "تحديد حالة",
+    "maximum_limit":"تجاوز الحد الأقصى على سبيل المثال"
+  },
+  "tracking": {
+    "checklists": "قوائم مراجعة المهام",
+    "24x7": "‎24/7 LC",
+    "questionnaires": "الاختبارات",
+    "weight": "الوزن",
+    "sleep": "النوم",
+    "nappy": "الحفاض",
+    "breastfeeding": "الرضاعة الطبيعية واستدرار الحليب",
+    "who": "رمز منظمة الصحة العالمية",
+    "title": "التتبع",
+    "tracking_clear_message": "هل أنت واثقة من رغبتك في مغادرة هذه الجلسة الخاضعة للتتبع؟",
+    "delete_tracking_message": "هل أنت واثقة من رغبتك في حذف هذه الجلسة الخاضعة للتتبع؟",
+    "tools": "الأدوات",
+    "contraction": "الانقباض",
+    "tracking_toaster_text": "تم حفظ عملية التتبع الخاص بكِ بنجاح",
+    "nappy_notification_title": "الحفاضات",
+    "firstday_nappy_notification_text": "في أول يومين بعد الولادة، يجب أن تتوقعي 1-2 (أو أكثر) من الحفاضات المبللة وحفاضة متسخة واحدة (أو أكثر).",
+    "thirdday_nappy_notification_text": "في اليوم الثالث بعد الولادة، ينبغي أن تتوقعي 3 حفاضات مبللة (أو أكثر) وحفاضتين متسختين (أو أكثر).",
+    "fourthday_nappy_notification_text": "في اليوم الرابع بعد الولادة، ينبغي أن تتوقعي 4 حفاضات مبللة (أو أكثر) وحفاضتين متسختين (أو أكثر). يجب أن تلاحظي أنها تصبح أثقل.",
+    "who_popup_title": "النوع",
+    "who_popup_description": "تحديد النوع \n قارني مراحل نمو طفلك بمعيار منظمة الصحة العالمية عن طريق تحديد نوعه.",
+    "who_popup_option1": "بنت",
+    "who_popup_option2": "ولد",
+    "who_popup_option3": "ليس الآن",
+    "baby": "تتبع الطفل",
+    "bottle": "الإرضاع من الزجاجة",
+    "breastfeed": "الرضاعة الطبيعية",
+    "Breastfeeding_and_Pumping": "لقد قمتِ بتتبع أقل من 8 جلسات رضاعة طبيعية و/أو ضخ في مدة الـ 24 ساعة الماضية. هل نسيتِ تسجيل جلسة؟ يحتاج الأطفال إلى ما لا يقل عن 8 إلى 12 رضعة على مدار 24 ساعة خلال الأسابيع الأربعة الأولى. وبعد هذه المدة، قد تلاحظين انخفاضًا في عدد الرضعات اليومية. وطالما أنَّ طفلك يزداد وزنه بشكلٍ جيد ويتمتع بصحة جيدة، فهذا المعدل مثالي تمامًا بالنسبة إليه.",
+    "Breastfeeding_and_Pumping_5hrs": "في مدة الـ 24 ساعة الأخيرة، ثمة فاصل زمني قدره 5 ساعات أو أكثر بين جلستَي رضاعة طبيعية/ضخ أو أكثر. هل نسيتِ تسجيل إحدى جلسات الرضاعة الطبيعية أو الضخ؟",
+    "Breastfeeding_and_Pumping_5hrs2": "بلغت الفترة الزمنية الفاصلة بين العديد من جلسات الرضاعة الطبيعية و/أو الضخ أكثر من 5 ساعات في الأيام القليلة الماضية. قد يؤدي تفويت الرضعات – لأي سبٍب كان – إلى انخفاض معدل إدرار الحليب لديكِ. رسالة تذكير ودية: يبدو أنكِ قد نسيتِ تسجيل جلسة رضاعة أو ضخ، فهل تريدين إدخالها الآن؟",
+    "Breastfeeding_and_Pumping_7hrs": "خلال مدة الـ 24 ساعة الأخيرة، حدث فاصل زمني قدره 7 ساعات أو أكثر بين جلستَي رضاعة طبيعية/ضخ أو أكثر. هل نسيتِ تسجيل إحدى جلسات الرضاعة الطبيعية أو الضخ؟",
+    "Breastfeeding_and_Pumping_7hrs2": "بلغت الفترة الزمنية الفاصلة بين العديد من جلسات الرضاعة الطبيعية و/أو الضخ أكثر من 7 ساعات في الأيام القليلة الماضية. قد يؤدي تفويت الرضعات – لأي سبٍب كان – إلى انخفاض معدل إدرار الحليب لديكِ. رسالة تذكير ودية: يبدو أنكِ قد نسيتِ تسجيل جلسة رضاعة أو ضخ، فهل تريدين إدخالها الآن؟",
+    "Breastfeeding_and_Pumping_title": "الرضاعة الطبيعية والضخ",
+    "Breastfeeding_and_Pumping1": "خلال الأسابيع الـ 4 الأولى، يتم تعزيز إمداد الحليب لديكِ من تلقاء نفسه، لهذا السبب من المهم جدًا تحفيز ثدييكِ من خلال الإرضاع أو الضخ بحد أدنى 8 مرات كل 24 ساعة، ما يضمن تعزيز إنتاج ما يكفي من الحليب في الوقت الحاضر والمستقبل. قد يؤدي تفويت الرضعات – لأي سبٍب كان – إلى انخفاض معدل إدرار الحليب لديكِ. رسالة تذكير ودية: يبدو أنكِ قد نسيتِ تسجيل جلسة رضاعة أو ضخ، فهل تريدين إدخالها الآن؟",
+    "four_weeks_nappy_notification_text": "نود جميعًا أن ننسى أمر الحفاضات المتسخة، لكن من المهم تسجيلها هنا! هل نسيتِ تتبع إحدى الحفاضات؟",
+    "four_weeks_nappy_notification_text2": "في الأسابيع الأربعة الأولى بعد الولادة، يتغوط معظم الأطفال مرتين على الأقل يوميًا برازًا لينًا أصفر اللون. ومن عدد الحفاضات التي يتم تتبعها في التطبيق، نوصي باستشارة مقدم الرعاية الصحية المتابع لطفلك",
+    "four_weeks_nappy_notification_text3": "سيتغير البراز من نحو 4 إلى 6 أسابيع. وبدءًا من هذا الوقت، قد يستمر الأطفال في التغوط مراتٍ عديدة في اليوم أو لا يتغوطون مدة أيام أو أسبوع! ",
+    "freezer": "التخزين",
+    "growth": "الطول",
+    "height_tracking": "تُرجى استشارة اختصاصي الرعاية الصحية المختص بالتعامل معكِ بانتظام فيما يخص طول طفلك.",
+    "height_tracking_notification_text": "تُرجى استشارة اختصاصي الرعاية الصحية المختص بالتعامل معكِ بانتظام فيما يخص طول طفلك.",
+    "height_tracking_notification_title": "تتبع الطول",
+    "height_tracking_title": "تتبع الطول",
+    "mom": "تتبع الحمل",
+    "nappy_notification_title2": "الحفاضات المتسخة",
+    "pumping": "الضخ",
+    "tracking_toaster_update_text": "لقد تم تحديث تتبعكِ بنجاح.",
+    "weight_tracking": "تُرجى استشارة اختصاصي الرعاية الصحية المختص بالتعامل معكِ بانتظام فيما يخص وزن طفلك.",
+    "weight_tracking_notification_text": "تُرجى استشارة اختصاصي الرعاية الصحية المختص بالتعامل معكِ بانتظام فيما يخص وزن طفلك.",
+    "weight_tracking_notification_title": "تتبع الوزن",
+    "weight_tracking_title": "تتبع الوزن",
+    "wet_diapers": "الحفاضات المبللة",
+    "wet_diapers_notification_text": "في الأسابيع الـ 6 الأولى بعد الولادة، يُفترض أن تتوقعي 5 حفاضات أو أكثر مبللة بشدة. لقد لاحظنا أنك لم تقومي بتتبع الكثير من الحفاضات. هل نسيتِ تتبع إحدى الحفاضات؟ ",
+    "wet_diapers_notification_text2": "بعد 6 أسابيع، قد ينخفض عدد الحفاضات المبللة إلى 4-5 حفاضات يوميًا، لكن ستزداد كمية البول إلى ما يزيد على 4-6 ملاعق طعام (ما يزيد على 60-90 مل) مع نمو سعة مثانة طفلك.",
+    "cont": "انقباضات",
+    "left": "أيسر",
+    "right": "أيمن",
+    "breast": "ثدي",
+    "manual_session_lost": "تم فقدان جلستكِ اليدوية بسبب وجود مضخة متصلة الآن.",
+    "total_Pumping": "إجمالي الاستدرار",
+    "offline_session":"جلسات دون اتصال بالإنترنت",
+    "bad_session_popup_tite": "هل تريد قراءة مقالات حل المشكلات لدينا؟",
+    "bad_session_popup_option1": "نعم",
+    "bad_session_popup_option2": "لا",
+    "bad_session_popup_option3": "لا تظهر مرة أخرى",
+    "breastfeedingPumpingShortcut":"اختصار الرضاعة الطبيعية"
+  },
+  "addBaby": {
+    "my_baby": "طفلي",
+    "babyDob": "تاريخ ميلاد الطفل/التاريخ المتوقع للولادة *",
+    "gender": "النوع",
+    "male": "ولد",
+    "female": "بنت",
+    "save": "حفظ",
+    "upload": "تحميل صورة الطفل",
+    "baby_dob_error": "يُرجى تحديد تاريخ ميلاد الطفل / تاريخ الولادة",
+    "baby_name_error": "يُرجى إدخال اسم الطفل",
+    "add_baby_Title": "إضافة طفل",
+    "add_baby_success_message": "تمت إضافة الطفل بنجاح",
+    "babyHeight": "طول الطفل عند الولادة",
+    "babyName": "اسم / لقب الطفل",
+    "babyWeight": "وزن الطفل عند الولادة"
+  },
+  "my_baby": {
+    "switch": "التبديل",
+    "read_more": "قراءة المزيد",
+    "months_before_birth": "شهور ما قبل الولادة",
+    "actual_tummy_size": "الحجم الفعلي للبطن: ",
+    "actual_baby_size": "الحجم الفعلي للطفل: ",
+    "size_of_cherry": "حبة كرز",
+    "size_of_walnut": "حبة جوز",
+    "size_of_apricot": "ثمرة مشمش",
+    "size_of_egg": "بيضة",
+    "size_of_lemon": "ليمونة",
+    "no_child": "لا يوجد طفل!",
+    "no_child_message": "لم تضيفي الطفل الثاني بعد! يُرجى إضافته للتبديل بين الطفلين.",
+    "add_baby": "إضافة طفل",
+    "cancel": "إلغاء",
+    "week": "أسبوع",
+    "weeks": "أسابيع",
+    "days": "أيام",
+    "day": "يوم",
+    "same_day_born_message": "تمت ولادة الرضيع",
+    "date_of_birth": "تاريخ الميلاد",
+    "after_birth": "بعد الولادة",
+    "day_old": "داغ جمال",
+    "days_old": "داغار جمال",
+    "week_old": "فيكا جمال",
+    "weeks_old": "فيكور جمال",
+    "month": "مناد",
+    "months": "مندر",
+    "year": "شهر",
+    "years": "شهر",
+    "before_birth": "قبل الولادة",
+    "birth": "الولادة",
+    "volume": "المقدار: ",
+    "volume1": "10-50 ملل في اليوم",
+    "volume2": "100-700 ملل في اليوم",
+    "volume3": "400-800 ملل في اليوم",
+    "volume4": "400-1000 ملل في اليوم",
+    "volume5": "440 ملل - 1000 ملل في اليوم",
+    "volume6": "800 ملل في المتوسط في اليوم",
+    "approx_size": "الحجم التقريبي للجنين",
+    "last_tracked": "آخر عملية تتبع",
+    "birthday_popup_title": "هل تمت ولادة طفلك؟",
+    "birthday_popup_yes": "نعم",
+    "birthday_popup_never_show": "لا تظهر هذا مرة أخرى",
+    "birth_confirmation_notification_title": "هل جاء رضيعك إلى الحياة؟",
+    "birth_confirmation_notification_message": "يُرجى تأكيد تاريخ ميلاد الطفل/تاريخ الولادة",
+    "birthday_popup_remind": "لا، ذكِّريني لاحقًا",
+    "length": "الطول عند الولادة",
+    "weight": "الوزن عند الولادة",
+    "full_term_baby_size":"حجم الطفل في فترة الحمل المكتملة",
+    "cat":"القطة",
+    "seat_height_of_a_chair":"ارتفاع مقعدة كرسي",
+    "laptop":"كمبيوتر محمول",
+    "magayine":"مجلة",
+    "spaghetti":"معكرونة اسباجيتي",
+    "kitchen_paper":"بكرة مناديل مطبخ",
+    "smartphone":"هاتف ذكي",
+    "pen":"قلم حبر",
+    "hand_cream":"كريم اليدين",
+    "popsicle":"مصّاصة",
+    "highlighter":"قلم التمييز",
+    "credit_card":"بطاقة ائتمانية",
+    "nail_polish":"ملمع الأظافر",
+    "lipstick":"إصبع أحمر الشفاه",
+    "hairpin":"دبوس الشعر",
+    "earphone":"سماعة أذن",
+    "button":"زر",
+    "finger_nail":"ظفر",
+    "lady_bug":"خنفساء",
+    "rice":"أرز",
+    "linen_seed":"بذرة الكتان",
+    "chia_seed":"بذرة الشيا",
+    "snow_crystal":"بلورة ثلجية",
+    "articles_offline_text": "يُرجى التحقق من اتصال الإنترنت لديكِ.",
+    "delete_popup_title": "هل أنتِ واثقة؟",
+    "2L/":"زجاجة مشروب مرطب بحجم 2 لتر/0.5 جالون",
+    "ok": "نعم",
+    "actual_baby_stomach_size": "الحجم الفعلي لمعدة الطفل: ",
+    "baby_name_error": "يُرجى إدخال اسم الطفل",
+    "article_details_offline_text": "يبدو أنَّ اتصال الإنترنت معطل. يُرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "calendar": {
+    "week": "الأسبوع",
+    "time": "الوقت",
+    "size_of_egg": "حجم البيضة",
+    "timer_alert": "يُرجى إدخال توقيت صالح",
+    "date_time_alert": "يُرجى إدخال تاريخ ووقت صالحين",
+    "hours": "ساعات",
+    "mins": "دقائق",
+    "sec": "ثواني",
+    "is_am": "صباحًا",
+    "is_pm": "مساءً",
+    "period": "مخصص",
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "last_week": "الأسبوع الماضي",
+    "last_month": "الشهر الماضي",
+    "all": "الكل",
+    "start_time": "وقت البدء",
+    "end_time": "وقت النهاية",
+    "side":"الجانب"
+  },
+  "checklist": {
+    "add_item": "إضافة عنصر",
+    "checklist_title": "قوائم مراجعة المهام",
+    "add_item_list": "إضافة عنصر إلى القائمة",
+    "clear_all": "مسح الكل",
+    "clear_checklist": "مسح قائمة مراجعة المهام؟",
+    "clear_checklist_message": "هل أنتِ متأكدة من رغبتكِ في مسح جميع العناصر المحددة؟",
+    "items_left": "عناصر متبقية",
+    "time": "الوقت"
+  },
+  "breastfeeding_pump": {
+    "duration": "المدة",
+    "breastfeed": "رضاعة طبيعية",
+    "breastfeeding": "الرضاعة الطبيعية",
+    "pumping": "استدرار الحليب",
+    "both": "كلاهما",
+    "right": "اليمين",
+    "left": "اليسار",
+    "experience": "التجربة",
+    "good": "جيدة",
+    "add_note": "إضافة ملاحظة",
+    "pump_settings": "إعدادات المضخة",
+    "total_volume": "المقدار",
+    "total": "إجمالي",
+    "bottle": "زجاجة الحليب",
+    "bag": "الكيس",
+    "number": "الرقم",
+    "tray": "الدرج",
+    "fridge": "الثلاجة",
+    "freezer": "ثلاجة التجميد",
+    "pump_setting": "إعدادات المضخة",
+    "pump_level": "المستوى",
+    "phase_level": "مستوى المرحلة",
+    "rhythem_level": "مستوى الإيقاع",
+    "pump_alert_title": "تنبيه",
+    "pump_off_alert_message": "مضختكِ متوقفة الآن، يُرجى حفظ بياناتكِ الموجودة حاليًا قبل بدء جلسة جديدة",
+    "pump_battery_alert_message": "لقد نفدت بطارية مضختكِ، يُرجى توصيلها بالكهرباء",
+    "timer": "ساعة التوقيت:",
+    "disclaimer": "إبراء ذمة",
+    "disclaimer_msg": "يُرجى حفظ بيانات جلسة استدرار الحليب الحالية الخاصة بكِ قبل بدء جلسة جديدة لاستدرار الحليب، وإلا ستُفقد البيانات المتعقبة.",
+    "air_leaked": "تسرُّب هواء",
+    "breastfeeding_pumping_l": "الرضاعة   من الثدي الأيسر",
+    "breastfeeding_pumping_r": "الرضاعة  من الثدي الأيمن",
+    "pumping_b": "استدرار الحليب ب",
+    "Check_available_inventory": "تحقق من المخزون المتاح",
+    "ending_side": "جانب الانتهاء",
+    "move_to": "الانتقال إلى",
+    "phase": "المرحلة:",
+    "rhythm": "النظم:",
+    "save_to_virtual_freezer": "حفظ إلى \"تخزين الحليب الافتراضي\"",
+    "session_type": "تحديد \"نوع الجلسة\"",
+    "bad": "صعب",
+    "difficult": "صعب",
+    "freezer_title": "تصفية مخزن الحليب الافتراضي",
+    "container_type_error":"يُرجى إضافة نوع الحاوية (كيس/زجاجة)",
+    "location_type_error":"يُرجى إضافة الموقع (الثلاجة/المجمد)",
+    "number_error":"يُرجى إضافة رقم الحاوية",
+    "tray_error":"يُرجى إضافة رقم الصينية",
+    "volume_error_msg": "يُرجى إضافة الحجم",
+    "number_zero_error":"يجب ألا تكون قيمة الرقم 0",
+    "tray_zero_error":"يجب ألا تكون قيمة الصينية 0",
+    "container_special_character_error":"يُرجى اختيار رقم الحاوية ما بين 1 إلى 250",
+    "tray_special_character_error":"يُرجى اختيار رقم الصينية ما بين 1 إلى 250",
+    "pumping_paused":"تم إيقاف الضخ مؤقتًا",
+    "pumping_paused_flex":"اضغطي على زر الطاقة في مضخة الثدي لإنهاء الجلسة.",
+    "pumping_paused_maxi":"اضغط مطولاً على زر الطاقة في مضخة الثدي لإنهاء الجلسة.",
+    "pumping_paused_sonata":"اضغط مطولاً على زر الإيقاف المؤقت على مضخة الثدي لإنهاء الجلسة.",
+    "breastfeeding_paused":"تم إيقاف الرضاعة الطبيعية مؤقتًا"
+  },
+  "can_not_edit_bag": {
+    "cancel": "إلغاء",
+    "ok": "موافق",
+    "title": "من غير الممكن إضافة الكمية إلى الأكياس/الزجاجات الموجودة في المجمِّد (الفريزر)، يُسمح فقط بالإضافة إلى الزجاجات الموجودة في الثلاجة."
+  },
+  "sleep": {
+    "header_title": "النوم",
+    "start": "بدء",
+    "stop": "إيقاف",
+    "pause": "إيقاف مؤقت",
+    "duration": "المدة"
+  },
+  "nappy_tracking": {
+    "add_note": "إضافة ملاحظة",
+    "pee": "التبول",
+    "poo": "التبرز",
+    "both": "كلاهما",
+    "type": "النوع",
+    "nappy": "الحفاض"
+  },
+  "bottle_tracking": {
+    "duration": "المدة",
+    "type": "النوع",
+    "milk": "الحليب",
+    "mix": "مزيج",
+    "formula": "التركيبة",
+    "both": "كلاهما",
+    "right": "اليمين",
+    "left": "اليسار",
+    "experience": "التجربة",
+    "good": "جيدة",
+    "add_note": "إضافة ملاحظة",
+    "pump_settings": "إعدادات المضخة",
+    "use_volume": "مقدار الاستخدام",
+    "total": "إجمالي",
+    "bottle": "زجاجة الحليب",
+    "bag": "الكيس",
+    "number": "الرقم",
+    "tray": "الدرج",
+    "fridge": "الثلاجة",
+    "freezer": "ثلاجة التجميد",
+    "all": "الكل",
+    "breastmilk": "حليب الأم",
+    "use_from_virtual_freezer": "الاستخدام من \"تخزين الحليب الافتراضي\"",
+    "volume": "الكمية",
+    "bad": "صعب",
+    "difficult": "صعب",
+    "virtual_freezer": "تخزين الحليب الافتراضي",
+    "bottle_feeding": "الإرضاع من الزجاجة"
+  },
+  "baby_growth": {
+    "volume_units": "مم",
+    "header": "الطول",
+    "title": "طول الطفل"
+  },
+  "baby_weight": {
+    "header": "الوزن",
+    "title": "وزن الطفل",
+    "volume_units": "غم"
+  },
+  "volume_popup": {
+    "title": "إضافة كمية",
+    "message": "يُرجى إدخال كمية \nالحليب المستمدة من الثدي التي يتم استدرارها",
+    "save_without_amount": "الحفظ دون كمية",
+    "add_amount": "إضافة كمية",
+    "never_show_again": "لا تظهر هذا مرة أخرى"
+  },
+  "stats_screen": {
+    "header_title": "الإحصائيات",
+    "day_overview": "نظرة عامة على اليوم",
+    "list": "قائمة",
+    "dashboard": "ملخص",
+    "today": "اليوم",
+    "past_7_days": "آخر 7 أيام",
+    "empty_list_today_message": "لا يوجد بيانات متوفرة",
+    "empty_list_past_7_days_message": "لا يوجد بيانات متوفرة"
+  },
+  "stats_breastfeeding": {
+    "title": "الرضاعة الطبيعية",
+    "session_key": "الجلسة",
+    "avg_time_key": "متوسط الوقت",
+    "left_key": "اليسار",
+    "right_key": "اليمين",
+    "mins": "دقيقة",
+    "error_total_duration_sec": "يجب ألا تتعدى الثواني لإجمالي المدة 60 ثانية",
+    "error_left_duration_sec": "يجب ألا تتعدى الثواني للجانب الأيسر 60 ثانية",
+    "error_right_duration_sec": "يجب ألا تتعدى الثواني للجانب الأيمن 60 ثانية",
+    "error_sleep_duration_sec": "يجب ألا تتعدى الثواني للمدة 60 ثانية",
+    "error_sleep_duration_min": "يجب ألا تتعدى الدقائق لإجمالي المدة 60 دقيقة",
+    "error_total_duration": "لا يمكن أن تتجاوز المدة 60",
+    "total_time_key": "الوقت الإجمالي",
+    "error_sleep_duration_total_min": "لا يمكن أن تتجاوز المدة 100"
+  },
+  "stats_pumping": {
+    "title": "استدرار الحليب",
+    "session_key": "الجلسة",
+    "avg_time_key": "متوسط الوقت",
+    "vol_key": "المقدار",
+    "avg_vol_key": "المتوسط المقدار",
+    "mins": "دقيقة",
+    "pumping_title": "استدرار الحليب ب"
+  },
+  "stats_bottle": {
+    "session_key": "الكمية",
+    "avg_vol_key": "المتوسط المقدار",
+    "breastmilk_key": "حليب الأم",
+    "formula_key": "التركيبة",
+    "mix_key": "مزيج",
+    "saved_milk": "حليب محفوظ",
+    "title": "الإرضاع من الزجاجة",
+    "total_vol_key": "المقدار الإجمالي"
+  },
+  "stats_nappy": {
+    "title": "الحفاض",
+    "session_key": "الكمية",
+    "pee_key": "التبول",
+    "poo_key": "التبرز",
+    "both_key": "كلاهما"
+  },
+  "stats_sleep": {
+    "title": "النوم",
+    "session_key": "الجلسة",
+    "total_sleep_key": "إجمالي ساعات النوم"
+  },
+  "stats_growth": {
+    "title": "الطول",
+    "size_key": "الحجم",
+    "who": "منظمة الصحة العالمية",
+    "stats": "الإحصاء",
+    "inches": "بوصات"
+  },
+  "stats_weight": {
+    "title": "الوزن",
+    "total_weight_key": "الحجم",
+    "lbs": "أرطال"
+  },
+  "stats_contraction": {
+    "title": "الانقباضات",
+    "avg_time_key": "متوسط الوقت",
+    "avg_frequency": "متوسط التردد",
+    "duration": "المدة",
+    "frequency": "معدل التكرار",
+    "intensity": "الشدة",
+    "medium": "متوسط",
+    "mild": "خفيف",
+    "none": "لا يوجد",
+    "Pain_intensity": "شدة الألم",
+    "strong": "قوي",
+    "very_mild": "خفيف جدًا",
+    "very_strong": "قوي جدًا"
+  },
+  "bluetooth": {
+    "turn_on": "تشغيل Bluetooth",
+    "to_connect_pump": "لتوصيل المضخة الخاصة بكِ بـ Medela Family، يجب عليكِ تشغيل خاصية Bluetooth على هاتفكِ!",
+    "header_title": "توصيل مضخة الثدي",
+    "continue": "متابعة",
+    "searching": "يتم البحث",
+    "search_again": "البحث مرةً أخرى",
+    "which_pump": "أي مضخة ثدي ترغبين في توصيلها؟",
+    "flex_pair_info": "اضغطي على زر تشغيل/إيقاف مع الاستمرار في الضغط لمدة ثانيتين. أمسكي الهاتف بالقرب من المضخة لتأكيد الاقتران السريع.",
+    "sonata_pair_info": "اضغطي على زر إدرار الحليب مع الاستمرار في الضغط لمدة 3 ثوانٍ. يُرجى إمساك الهاتف بالقرب من المضخة لتأكيد الاقتران السريع.",
+    "no_pump_found": "لم يتم العثور على أي مضخة ثدي.",
+    "make_sure_bluetooth_on": "تأكدي من أن Bluetooth®‎ قيد التشغيل وأن المضخة متصلة بالكهرباء.",
+    "bluetooth_turned_on_steps": "1. قومي بإيقاف تشغيل المضخة ثم أعيدي تشغيلها مرة أخرى.\n2. اضغطي على زر إدرار الحليب مع الاستمرار في الضغط لمدة 3 ثوانٍ.\n3. تأكدي من أن المضخة تعرض اسم المضخة المكون من 4 أحرف.",
+    "bluetooth_turned_on_steps_swing_maxi":"1. قم بإيقاف تشغيل المضخة وتشغيلها مرة أخرى. \n2. اضغط مع الاستمرار على زر إمداد الحليب لمدة 3 ثوانٍ.",
+    "bluetooth_turned_on_steps_flex": "1. قم بإيقاف تشغيل المضخة وتشغيلها مرة أخرى. \n2. اضغط مع الاستمرار على زر إمداد الحليب لمدة ثانيتين. \n3. تأكد من أن المضخة تعرض اسم المضخة المكون من حرفين.",
+    "congratulations": "تهانينا!",
+    "successfully_paired": "لقد نجحتِ في إقران مضخة الثدي الخاصة بك بـ Medela Family. يمكنكِ الآن البدء في تتبع جلسة استدرار الحليب الخاصة بكِ وأكثر من ذلك.",
+    "complete": "اكتمل",
+    "your_device_name": "اسم مضخة الحليب الخاصة بكِ",
+    "your_pump": "المضخة الخاصة بكِ",
+    "remove_pump": "إزالة هذه المضخة",
+    "about_pump": "معلومات حول مضخة الثدي الخاصة بكِ",
+    "instructions": "تعليمات",
+    "tutorial_videos": "مقاطع الفيديو التوضيحية",
+    "product_website": "الموقع الإلكتروني للمنتج",
+    "somethingWentWrong": "حدث خطأ ما. يُرجى المحاولة لاحقًا",
+    "location_permission_title": "أذونات مطلوبة",
+    "location_permission_description": "يرجى التأكد من منح تطبيق Medela Family أذونات لاستخدام Bluetooth في إعدادات الهاتف. بالإضافة إلى ذلك ، تحتاج إلى منح التطبيق وهاتفك الذكي الإذن لاستخدام موقع هاتفك. نحن لا نتتبع موقع هاتفك ، ولكن هذا أحد متطلبات نظام تشغيل الهاتف الذكي للاتصال بالبلوتوث.",
+    "location_enable_description": "يمكنكِ الوصول إلى جهاز Medela Family المجهز بخاصية البلوتوث منخفض الطاقة عندما تكون بيانات الموقع قيد التشغيل. يُرجى تشغيل بيانات الموقع للمتابعة...",
+    "cancel": "إلغاء",
+    "open_setting": "فتح الإعدادات",
+    "confirm_pump_found_sub_title": "تم العثور على مضخة ثدي {0}!",
+    "confirm_cta": "تأكيد",
+    "pump_add_failure_title": "إضافة المضخة",
+    "ok": "موافق",
+    "pump_select_dialog_title": "معلومات",
+    "confirm_pump_found_desc": "يُرجى الضغط على \"تأكيد\" لإكمال الاقتران. لضمان تحقيق الجودة، أجرت Medela الاختبارات على مضختك وتتوفر عينة من الجلسة في قائمة الإحصائيات الخاصة بك.",
+    "searching_message": "يُرجى الانتظار قليلاً أثناء العثور على مضخة Medela الخاصة بك.",
+    "setting_up": "الإعداد",
+    "pump_remove_dis": "لا يمكنكِ إزالة المضخة عندما تكون متصلة بالتطبيق وهناك جلسة جارية.",
+    "plug_your_pump": "تأكدي من أنَّ المضخة قيد التشغيل",
+    "plug_your_swing_pump": "اضغطي على زر إدرار الحليب مع الاستمرار في الضغط لمدة 3 ثوانٍ."
+  },
+  "stats_list_export": {
+    "header_title": "تصدير",
+    "date_range_text": "نطاق التاريخ",
+    "select_all_text": "الكل",
+    "select_date_text": "تحديد التاريخ",
+    "item_header_title": "تحديد التاريخ للتصدير",
+    "export_button_title": "تصدير البيانات",
+    "export_type": "xls",
+    "no_data_title": "لا يوجد بيانات متوفرة لهذه الفترة.",
+    "plz_select_data": "يُرجى تحديد أي عملية تتبع للتصدير.",
+    "export_fail_message": "مع الأسف، حدث خطأ أثناء إعداد التقرير الخاص بك.",
+    "export_failed": "فشل التصدير",
+    "export_succeeded": "تم التصدير بنجاح",
+    "export_success_message": "تم تصدير البيانات بنجاح وسيتم إرسالها إلى عنوان البريد الإلكتروني الخاص بك."
+  },
+  "tests": {
+    "test_header_title": "الاختبارات",
+    "test_bca_title": "الثقة في الرضاعة الطبيعية",
+    "test_bca_content": "اكتسبي الثقة وكوني خبيرة",
+    "test_cp_title": "إضفاء الطابع الشخصي على المحتوى",
+    "test_cp_content": "قومي بإضفاء طابعك الشخصي على تجربتك مع التطبيق",
+    "bca_notification_popup": "اخضعي للاختبار الآن",
+    "bca_notification_title": "كيف حالك؟",
+    "cp_notification_title": "إضفاء الطابع الشخصي على التطبيق",
+    "bca_notification_message1": "كيف حالك؟ \n هل أجريتِ اختبار \"الثقة في الرضاعة الطبيعية\"؟",
+    "bca_notification_message2": "كيف حالك؟ \n حسنًا يا ماما، حان الوقت لإجراء اختبار \"الثقة في الرضاعة الطبيعية\"!",
+    "bca_notification_remind": "لا، ذكِّريني لاحقًا",
+    "cp_notification_message": "إضفاء الطابع الشخصي على التطبيق \n\n أخبرينا بالقليل عن نفسك، حتى نتمكن من تزويدك بنصائح ومعلومات ومشورات ملائمة بشكلٍ مثالي. لن يستغرق الأمر سوى دقيقتين",
+    "cp_notification_popup": "إضفاء الطابع الشخصي الآن",
+    "cp_notification_remind": "لا، ذكِّريني لاحقًا"
+  },
+  "breastfeeding_confidence": {
+    "header_title": "الثقة في الرضاعة الطبيعية",
+    "motivation_text1": "هل تحتاجين إلى جرعة من الثقة؟",
+    "motivation_text2": "الخضوع للاختبار الآن",
+    "slider_not_all_confidence": "لست واثقة على الإطلاق",
+    "slider_not_very_confidence": "لست واثقة تمامًا",
+    "slider_sometimes_confident": "واثقة في بعض الأحيان",
+    "slider_confident": "واثقة",
+    "slider_very_confident": "واثقة جدًا في بعض الأحيان",
+    "congratulations": "تهانينا!",
+    "congrats_message": "لقد أديتِ اختبار تقييم مستوى الثقة المتعلق بالرضاعة الطبيعية بنجاح.",
+    "congrats_update_message": "يشير تقييمكِ الذاتي أن لديكِ مستوى عالٍ من الثقة في الرضاعة الطبيعية. تهانينا، ونتمنى لكِ حظًا سعيدًا في رحلة الرضاعة الطبيعية.",
+    "congrats_articles_update_message": "كما ترين، يعكس تقييمكِ الذاتي بعض الدرجات المنخفضة. لا داع للقلق! إليكِ بعض المعلومات التي قد تساعدكِ على معرفة المزيد عن هذه الموضوعات وتعزيز ثقتك.",
+    "finish": "إنهاء",
+    "no_data_popup_title": "حدث خطأ ما.\n يُرجى المحاولة لاحقًا",
+    "offline_popup_title": "أنتِ غير متصلة!",
+    "offline_popup_message": "يبدو أنه ليس لديك \n اتصال نشط بالإنترنت. \n يُرجى الاتصال بالإنترنت.",
+    "five_star": "خمسة نجوم",
+    "four_star": "أربعة نجوم",
+    "one_star": "نجمة واحدة",
+    "three_star": "ثلاثة نجوم",
+    "two_star": "نجمتان"
+  },
+  "ble_pumping": {
+    "connection_lost": "تم فقد الاتصال",
+    "pumping_paused": "تم إيقاف الضخ مؤقتًا",
+    "pump_connected": "المضخة متصلة",
+    "connecting_pump": "جارٍ توصيل المضخة"
+  },
+  "freezer_popup": {
+    "ok": "موافق",
+    "title": "لقد تم استخدام هذه الزجاجة/الكيس بالفعل. يُرجى استخدام زجاجة/كيس آخر"
+  },
+  "content_personalization": {
+    "header_title": "إضفاء الطابع الشخصي على المحتوى",
+    "question_title": "أي من المضخات التالية لديكِ، إن وجدت",
+    "congratulations": "تهانينا!",
+    "congrats_message": "لقد نجحتِ في إضفاء طابعكِ الشخصي على المقالات والنصائح في صفحتك الرئيسية.",
+    "congrats_update_message": "إذا تغير أي شيء في المستقبل، يمكنكِ تحديث هذه المعلومات أدناه.",
+    "congrats_update_submessage": "التتبع > الاختبارات > إضفاء الطابع الشخصي على المحتوى",
+    "get_started": "ابدأي!",
+    "no_data_popup_title": "حدث خطأ ما.\n يُرجى المحاولة لاحقًا"
+  },
+  "more": {
+    "header_title": "المزيد",
+    "mom_info_title": "تغيير الاسم، تسجيل الخروج، إلخ",
+    "baby_info_title": "تغيير الاسم، تاريخ الميلاد، إلخ",
+    "pump_title": "إعدادات المضخة",
+    "pump_info_title": "اتصال المضخة والمزيد",
+    "store_title": "محدد موقع المتجر",
+    "share_title": "مشاركة التطبيق",
+    "feedback_title": "نحن نقدِّر رأيكِ",
+    "help_title": "مساعدة",
+    "settings_title": "الإعدادات العامة للتطبيق",
+    "legal_title": "قانوني",
+    "online_store": "المتجر الإلكتروني",
+    "mom_profile": "ملف التعريف الخاص بالأم",
+    "baby_profile": "ملف التعريف الخاص بالطفل",
+    "vip_pack_title": "باقة VIP"
+  },
+  "baby_information": {
+    "header_title": "معلومات الطفل",
+    "image_edit_offline_title": "لا يوجد رسالة خاصة بالإنترنت",
+    "image_edit_offline_button": "لا يمكنكِ تعديل الصورة في الوضع غير المتصل",
+    "edit_image": "تعديل الصورة",
+    "change_image": "تغيير الاسم",
+    "add_image": "إضافة صورة",
+    "delete_image": "حذف الصورة",
+    "baby_boy": "ولد",
+    "baby_girl": "بنت",
+    "gender": "النوع",
+    "delete_baby": "حذف الطفل",
+    "delete_baby_success_title": "تم حذف الطفل بنجاح",
+    "ok_btn": "موافق",
+    "baby_name": "اسم / لقب الطفل",
+    "cancel": "إلغاء",
+    "select_photo": "تحديد صورة",
+    "take_photo": "التقاط صورة...",
+    "baby_birth_weight": "الوزن عند الولادة",
+    "baby_birth_height": "الطول عند الولادة",
+    "choose_from_library": "اختاري من المكتبة..."
+  },
+  "mom_information": {
+    "header_title": "معلومات الأم",
+    "dont_know_yet": "لا أعلم",
+    "do_not_plan_to_work": "لا أنوي العودة إلى العمل (المدرسة/التدريب) حتى الآن",
+    "new_pregnancy_text": "حمل جديد",
+    "log_out": "تسجيل الخروج",
+    "delete_account": "حذف الحساب",
+    "back_to_work_date": "تاريخ العودة إلى العمل",
+    "log_out_popup_title": "هل تريدين تسجيل الخروج؟",
+    "ok": "موافق",
+    "back_to_work_date_label": "العودة إلى تاريخ العمل",
+    "change_password_button": "تأكيد",
+    "change_password_congrts_msg": "تم تغيير كلمة المرور بنجاح",
+    "change_password_title": "تغيير كلمة المرور",
+    "current_password": "كلمة المرور الحالية",
+    "current_password_error": "كلمة مرور خاطئة",
+    "mom_name": "اسم / لقب الأم",
+    "new_password": "كلمة المرور الجديدة",
+    "new_password_error": "8-20 حرفًا، بحد أقصى رقم واحد (a-z،‏ 0-9)",
+    "repeat_password": "تكرار كلمة المرور",
+    "repeat_password_err": "كلمتا المرور غير متطابقتين"
+  },
+  "help": {
+    "header_title": "مساعدة",
+    "problem_solver": "أداة حل المشكلة",
+    "empty_list_message": "لا يوجد مقالات متوفرة",
+    "frequently_asked_questions": "الأسئلة المتداولة",
+    "app_technical_support": "الدعم الفني للتطبيق",
+    "customer_service": "خدمة العملاء",
+    "lactation_consultant": "استشاري الرضاعة",
+    "mail_subject": "الآراء حول تطبيق Medela Family",
+    "medela_family": "Medela Family"
+  },
+  "legal": {
+    "header_title": "قانوني",
+    "privacy_terms_conditions": "الخصوصية وسياسة ملفات تعريف الارتباط",
+    "licences": "مصدر مجاني ومفتوح التراخيص",
+    "imprint": "بيانات الناشر",
+    "imprint_version": "رقم الإصدار",
+    "know_more": "معرفة المزيد"
+  },
+  "new_pregnancy_popup": {
+    "title": "هل ترغبين في بدء فترة حمل جديدة؟",
+    "cancel": "إلغاء",
+    "add_baby_due_date": "نعم، إضافة تاريخ ولادة الطفل"
+  },
+  "vip_pack": {
+    "header_title": "باقة VIP",
+    "voice_control": "التحكم الصوتي",
+    "voice_control_content": "التتبع دون استخدام اليدين",
+    "dark_mode": "الوضع المظلم",
+    "dark_mode_content": "مريح للعينين لجلسات التتبع الليلية",
+    "welcome": "استعدي لمستوى جديد من الراحة!",
+    "popup_message": "لفتح باقة VIP، يُرجى توصيل \nمضخة Sonata أو Freestyle Flex الخاصة بكِ.",
+    "connect_pump_btn": "توصيل المضخة",
+    "congrats_message": "",
+    "congrats_msg": "تهانينا! لقد فتحتِ لنفسك حزمة العميلات المميزات",
+    "congrats_title": "تهانينا \n لقد فتحتِ لنفسك حزمة العميلات المميزات!",
+    "connect_to_pump_btn": "التوصيل بمضخة ذكية",
+    "findout_more": "اكتشاف المزيد",
+    "register_pump_btn": "تسجيل مضختك",
+    "register_vip_link": "https://www.medela.us/breastfeeding/services/pump-registration",
+    "tutorial_instruction1": "يمكنكِ من هنا الضغط على علامة + الموجودة في الزاوية العلوية اليمنى من الشاشة.",
+    "tutorial_instruction2": "في شاشة New Shortcut (اختصار جديد)، يمكنك الضغط على زر Add action (إضافة إجراء).",
+    "tutorial_instruction3": "ثم، حددي Apps (التطبيقات) الموجودة في الزاوية العلوية اليسرى. ثم حددي Medela Family من قائمة التطبيقات المتاحة.",
+    "tutorial_instruction4": "ستشاهدين الآن قائمة الأوامر المتاحة. حددي أحد الأوامر، على سبيل المثال Start breastfeeding (بدء الرضاعة الطبيعية). ",
+    "tutorial_instruction5": "والآن يمكنكِ النقر على التالي لإضافة نص يوضح ما تريدين القيام به لتشغيل الأمر، على سبيل المثال، Start breastfeeding (بدء الرضاعة الطبيعية)",
+    "tutorial_instruction6": "تم! يمكنكِ الآن استخدام صوتكِ لتشغيل تطبيق Medela Family!",
+    "tutorial_title1": "لاستخدام هذه الميزة، افتحي تطبيق Shortcuts من Apple. ",
+    "unlock_now_btn": "يمكنكِ فتح \"حزمة العميلات المميزات\" الآن",
+    "vip_active": "نشط",
+    "vip_inactive": "غير نشط",
+    "vip_pack_text": "تضم \"حزمة العميلات المميزات\" مجموعة من الميزات الحصرية المتاحة فقط لعميلات مجموعة مختارة من مضخات الثدي من Medela",
+    "vip_title": "حزمة العميلات المميزات",
+    "tutorial_instruction7": "تم! يمكنك الآن استخدام صوتك لتشغيل Medela Family!"
+  },
+  "settings": {
+    "header_title": "الإعدادات",
+    "language_title": "اللغة",
+    "language_info_title": "الإنجليزية (الولايات المتحدة)",
+    "notification_title": "إشعارات",
+    "notification_info_title": "إدارة إشعارات Medela Family",
+    "Measurements_title": "القياسات",
+    "Measurements_info_title": "القياسي: أونصة، بوصة، رطل"
+  },
+  "measurements": {
+    "header_title": "القياسات",
+    "header_text": "يمكنك تعديل تنسيق منطقتك الرئيسية.",
+    "standard_title": "القياسي",
+    "standard_info_title": "أونصة (oz)، وبوصة (in)، ورطل (lb)",
+    "metric_title": "متري",
+    "metric_info_title": "ملليلتر (ملل)، وملليمتر (ملم)، وكيلوغرام (كلغ)"
+  },
+  "share_app": {
+    "title": "مشاركة Medela Family",
+    "message": "مشاركة Medela Family \n للتمتع بتجربة حمل لا تُنسى. ",
+    "app_store": "App Store:",
+    "download_now": "تنزيل الآن:",
+    "google_play": "Google Play:"
+  },
+  "feedback": {
+    "header_title": "نحن نقدِّر رأيكِ",
+    "button_text": "إرسال",
+    "input_placeholder": "ملاحظة",
+    "success_feedback_text": "شكرًا لك على رأيك",
+    "rating_text": "نحن نقدِّر رأيكِ",
+    "feedback_text": "هل تودين إرسال رأي ما إلينا؟",
+    "button_title": "حسنًا"
+  },
+  "chat": {
+    "header_title": "الدردشة",
+    "heading_description": " التعريف بـ Melissa -\n مساعدتكِ الشخصية!",
+    "chat_content2": "مع كل إصدار جديد للتطبيق، سنجعل Melissa أكثر ذكاءً! يمكنكِ مساعدتنا في تحسينها من خلال طرح الأسئلة عليها.",
+    "chat_screen_link_text": "اضغطي هنا لبدء الدردشة",
+    "avatar1_name": "Melissa",
+    "disclaimer_text": " إبراء ذمة: يُرجى الملاحظة أن روبوت الدردشة يقدم محتوى ذا طابع تعليمي فقط ولا يحل محل المشورة الطبية المتخصصة. إذا كنت أنت أو طفلك مريضًا أو في حالة طارئة، يُرجى استشارة طبيبك أو استشاري الرضاعة على الفور.",
+    "samira": "Samira",
+    "zoe": "Zoe",
+    "mei": "Mei",
+    "aurora": "Aurora",
+    "farrah": "Farrah",
+    "luna": "Luna",
+    "julia": "Julia",
+    "jahmelia": "Jahmelia",
+    "chatbot_header": "Medela Family",
+    "Chatbot_placeholder": "اكتبي هنا",
+    "chatbot_send_text": "إرسال",
+    "chat_content1": "يمكن لـ \"ميليسا\" أن تساعدك على حل مشكلات التطبيق، أو مشاركة توصيات المنتج، أو إبداء نصائح تخصّ الطفل والرضاعة الطبيعية.",
+    "choose_avatar": "اختيار مُساعدتك",
+    "edit_avatar": "تبديل المُساعدة",
+    "offline_text": "يُرجى الاتصال بالإنترنت حتى تتمكني من التحدث إليّ."
+  },
+  "countries": {
+    "header_title": "اللغات",
+    "English_International": "English",
+    "Arabic": "Arabic",
+    "French": "French",
+    "German": "German",
+    "English_UnitedStates": "English (United States)",
+    "English_Canada": "English (Canada)",
+    "Français_Canada": "Français (Canada)",
+    "English_UnitedKingdom": "English (United Kingdom)",
+    "Deutsche_Germany": "Deutsche (Germany)",
+    "Français_France": "Français (France)",
+    "Italiano_Italy": "Italian",
+    "Português_Portugal": "Portuguese",
+    "Español_Spain": "Spanish",
+    "English_Australia": "English (Australia)",
+    "Français_Netherlands": "Français (Netherlands)",
+    "Dutch_Netherlands": "Dutch",
+    "Deutsche_Netherlands": "Deutsche (Netherlands)",
+    "Deutsche_Switzerland": "Deutsche (Switzerland)",
+    "Français_Switzerland": "Français (Switzerland)",
+    "Italiano_Switzerland": "Italiano (Switzerland)",
+    "English_India": "English (India)",
+    "Svenska_Sweden": "Swedish",
+    "Norsk_Norway": "Norwegian",
+    "Dansk_Denmark": "Danish",
+    "русский_Russia": "Russian",
+    "English_Israel": "English (Israel)",
+    "English_Ireland": "English (Ireland)",
+    "English_NewZealand": "English (New Zealand)",
+    "English_Malaysia": "English (Malaysia)",
+    "English_Singapore": "English (Singapore)",
+    "English_SouthAfrica": "English (South Africa)",
+    "polish": "Polish"
+  },
+  "notifications": {
+    "header_title": "إشعارات",
+    "marketing_opt_ins_notifications": "اشتراكات التسويق",
+    "marketing_opt_ins_description": "",
+    "marketing_opt_ins_notifications_list": [
+      "النشرات الإخبارية عبر البريد الإلكتروني",
+      "الرسائل النصية القصيرة (SMS)",
+      "البريد",
+      "اختبار النسخة الأولية (بيتا)"
+    ],
+    "outofapp_description": "تظهر هذه الإشعارات على شاشة القفل ومركز الإشعارات بهاتفك.",
+    "outofapp_notifications": "الإشعارات المنبثقة",
+    "outofapp_notifications_list": [
+      {
+        "list": [
+          "Allow Notifications"
+        ],
+        "title": ""
+      },
+      {
+        "list": [
+          "Pump Session Timeout"
+        ],
+        "title": "الضخ المتصل"
+      },
+      {
+        "list": [
+          "Milk About to Expire",
+          "Milk Expired"
+        ],
+        "title": "تخزين الحليب الافتراضي"
+      }
+    ],
+    "inapp_notifications": "الإشعارات داخل التطبيق",
+    "inapp_description": "تظهر هذه الإشعارات كنوافذ منبثقة داخل التطبيق.",
+    "inapp_notifications_list": [
+      {
+        "list": [
+          "Missing Milk Volume"
+        ],
+        "title": "إضافة كمية"
+      },
+      {
+        "list": [
+          "Breastfeeding Confidence",
+          "Content Personalization"
+        ],
+        "title": "الاختبارات"
+      },
+      {
+        "list": [
+          "Baby Birth Date"
+        ],
+        "title": "تأكيد تاريخ ميلاد الطفل"
+      },
+      {
+        "list": [
+          "Congratulations"
+        ],
+        "title": "تخزين الحليب الافتراضي"
+      }
+    ],
+    "permission_header": "الإشعارات",
+    "permission_text": "هل ترغبين في إبقائك على اطلاع بشأن جلسات التتبع الخاصة بكِ، وتواريخ انتهاء صلاحية الحليب، وغيرها من أنشطة التطبيق؟ \n يمكنكِ تغيير هذا الإعداد في وقتٍ لاحق في إعدادات التطبيق داخل شاشة \"المزيد\".",
+    "ok": "موافق"
+  },
+  "babies": {
+    "header_title": "الأطفال",
+    "baby_height": "طول الطفل",
+    "baby_weight": "وزن الطفل"
+  },
+  "articles": {
+    "articles_header_text": "مركز المعرفة",
+    "no_article_title": "قائمتكِ الخاصة بمقالاتكِ المفضلة فارغة",
+    "no_article_description": "لإضافة مقالات إلى القائمة، افتحي مقالاً واضغطي على أيقونة القلب الموجودة في الركن العلوي على اليمين.",
+    "favourite_articles_header_text": "المفضلات",
+    "load_more_text": "تحميل المزيد",
+    "remove_favourite_article_text": "إزالة من المفضلات؟",
+    "remove_favourite_article_description": "هل أنتِ متأكدة من رغبتكِ في إزالة \nهذا المقال من قائمة المفضلات الخاصة بكِ؟",
+    "yes": "نعم",
+    "no": "لا",
+    "share_article_title": "Medela Family"
+  },
+  "offline": {
+    "offline_message": "أنتِ غير متصلة!"
+  },
+  "pump_list_setting": {
+    "title": "مضخة الثدي المتصلة",
+    "description": "انقري على المضخة لمشاهدة مقاطع الفيديو والتعليمات والمزيد",
+    "pump_status_offline": "غير متصلة",
+    "pump_status_connected": "متصلة",
+    "pump_something_wrong": "حدث خطأ ما. يُرجى المحاولة لاحقًا",
+    "no_pump": "لم يتم العثور على أي مضخة",
+    "pump_addition_title": "إضافة المضخة",
+    "pump_addition_success_message": "تمت إضافة المضخة بنجاح",
+    "pump_addition_error_message": "لم تنجح عملية إضافة المضخة، يُرجى المحاولة مرة أخرى",
+    "ok": "موافق",
+    "version": "الإصدار",
+    "battery": "البطارية",
+    "charging": "يتم الشحن",
+    "pumps": "المضخات",
+    "setup_new_pump": "إعداد مضخة ثدي جديدة",
+    "manual_tracking": "التتبع اليدوي",
+    "pump_deletion_error_message": "لم تتم إزالة المضخة بنجاح، يُرجى المحاولة مجددًا",
+    "pump_deletion_success_message": "تمت إزالة المضخة بنجاح من التطبيق.",
+    "pump_deletion_title": "إزالة المضخة",
+    "connect_tracking": "تتبع المضخة",
+    "connect_pump": "توصيل المضخة",
+    "pump_now": "ابدئي الضخ الآن",
+    "edit_pump_name":"تعديل اسم المضخة",
+    "cancel":"إلغاء"
+
+  },
+  "pump_phase": [
+    "تنشيط",
+    "تعبير"
+  ],
+  "pump_rhythem": [
+    "Signature",
+    "Lifestyle"
+  ],
+  "contractions": {
+    "title": "الانقباضات",
+    "frequency": "التردد",
+    "pain": "يُرجى اختيار شدة الألم",
+    "reset": "إعادة الضبط",
+    "pain_intensity1": "لا يوجد",
+    "pain_intensity2": "خفيف جدًا",
+    "pain_intensity3": "خفيف",
+    "pain_intensity4": "متوسط",
+    "pain_intensity5": "قوي",
+    "pain_intensity6": "قوي جدًا",
+    "reset_message": "هل أنتِ واثقة من رغبتكِ في إعادة تعيين موقت التردد؟"
+  },
+  "opted": {
+    "title": "بتوفير رقم هاتفكِ، أنتِ توافقين على تلقي رسائل SMS من Medela. تنطبق أسعار شبكة المحمول القياسية.",
+    "mail_ques": "هل يمكننا إرسال أشياء إليك بالبريد؟",
+    "become_tester": "كوني أحد مُختبِري النسخة الأولية (بيتا) لتجربة المنتجات والخبرات والخدمات الجديدة التي تقدمها Medela قبل أي شخص آخر. هل أنتِ معنا؟",
+    "phone": "رقم الهاتف",
+    "first_name": "الاسم الأول",
+    "last_name": "الاسم الأخير",
+    "address": "العنوان",
+    "apt_unit": "المنزل/الوحدة/أخرى",
+    "city": "المدينة",
+    "state": "الولاية",
+    "zip": "الرمز البريدي",
+    "address_dialog_desc": "لضمان وصول أي شحنات إليك، نوصي بتقديم العنوان بالصيغة المستخدمة في عناوين البريد الأمريكية.\nيُرجى تحديد خيار",
+    "address_dialog_nagetive": "تعديل عنواني",
+    "address_dialog_positive": "استخدام العنوان المحدد",
+    "address_dialog_same": "الإبقاء كما هو",
+    "address_dialog_title": "تحقق من عنوانك",
+    "address_dialog_us": "صيغة عناوين البريد الأمريكية",
+    "no_address_title": "تنبيه",
+    "phone_error": "يُرجى إدخال رقم هاتف صالح",
+    "address_error": "يُرجى إدخال عنوانك",
+    "apt_unit_error": "يُرجى إدخال رقم الشقة/الوحدة السكنية/ما إلى ذلك",
+    "city_error": "يُرجى إدخال المدينة",
+    "first_name_error": "يُرجى إدخال اسمك",
+    "last_name_error": "يُرجى إدخال لقب عائلتك",
+    "state_error": "يُرجى إدخال الدولة",
+    "zip_error": "يُرجى إدخال الرمز البريدي"
+  },
+  "ble_instruction": {
+    "title": "تعليمات",
+    "quick_start": "البدء السريع",
+    "front_panel": "اللوحة الأمامية",
+    "user_manual": "دليل المستخدم"
+  },
+  "ble_quick_start": {
+    "title": "البدء السريع",
+    "charge_pump": "اشحني المضخة",
+    "charge_pump_desc": "قم بتوصيل مضخة الثدي بمصدر خارجي للكهرباء واتركها لشحنها لمدة تصل إلى اثنتي عشرة ساعة.",
+    "disassemble": "قومي بفك الأجزاء",
+    "disassemble_desc": "افصلي الأجزاء لغسلها. قومي بالإزالة والتخلص من \nالغطاء الواقي من حامل الثدي قبل الاستخدام لأول مرة.",
+    "wash_part": "اغسلي الأجزاء",
+    "wash_part_desc": "قبل أول استخدام وبعد كل استخدام. \nاستخدمي الحوض لديك أو غسالة الأطباق. \nتجنبي غسل الأنابيب قبل أول مرة لاستخدام المضخة.",
+    "Sanitize_parts": "قومي بتعقيم الأجزاء",
+    "Sanitize_parts_desc": "قبل أول استخدام ومرة واحدة في اليوم. \nاستخدمي صينية أو الميكروويف. \nتجنبي تعقيم الأنابيب.",
+    "charge_pump_desc_swing_maxi": "قم بتوصيل مضخة الثدي بمصدر خارجي للكهرباء واتركها لشحنها لمدة تصل إلى اثنتي عشرة ساعة."
+  },
+  "ble_front_panel": {
+    "title": "اللوحة الأمامية"
+  },
+  "ble_offline_popup": {
+    "title": "تم نقل جلسات استدرار الحليب التي تم حفظها بمضختك إلى Medela Family",
+    "message": "لا تنسي إدخال كمية الحليب المستمد من ثديك للحصول على بيانات إحصائية محدَّثة.",
+    "cancel": "إلغاء",
+    "view": "عرض"
+  },
+  "settings_screen": [
+    {
+      "title": "اللغة",
+      "content": "الإنجليزية (الولايات المتحدة)"
+    },
+    {
+      "title": "إشعارات",
+      "content": "إدارة إشعارات Medela Family"
+    },
+    {
+      "title": "القياسات",
+      "content": "القياسي: أونصة، بوصة، رطل"
+    }
+  ],
+  "MoreList":{
+    "moreFirstListData":[
+      {
+        "content": "تغيير الاسم، تسجيل الخروج وما إلى ذلك",
+        "selectedImage": "motherInformation",
+        "title": "ملف تعريف الأم"
+      },
+      {
+        "content": "تغيير الاسم، تاريخ الميلاد وما إلى ذلك",
+        "selectedImage": "babyInformation",
+        "title": "ملف تعريف الطفل"
+      },
+      {
+        "content": "توصيل المضخة والمزيد",
+        "selectedImage": "pumpSettings",
+        "title": "إعدادات المضخة"
+      }
+    ],
+    "moreSecondListData":[
+      {
+        "selectedImage": "vipPack",
+        "title": "حزمة العميلات المميزات"
+      },
+      {
+        "selectedImage": "onlineShop",
+        "title": "التسوق عبر الإنترنت"
+      },
+      {
+        "selectedImage": "storeLocator",
+        "title": "محدد موقع المتجر"
+      },
+      {
+        "selectedImage": "shareApp",
+        "title": "مشاركة التطبيق"
+      },
+      {
+        "selectedImage": "giveUsFeedback",
+        "title":  "نقدِّر تعليقاتك"
+      },
+      {
+        "selectedImage": "help",
+        "title": "تعليمات"
+      },
+      {
+        "selectedImage": "settings",
+        "title": "إعدادات التطبيق العامة"
+      },
+      {
+        "selectedImage": "legal",
+        "title": "الشؤون القانونية"
+      }
+    ]
+  },
+  "VipPackList": {
+    "VipPackListData": [
+      {
+        "title": "التحكم في الصوت",
+        "content": "التتبع دون استخدام اليدين"
+      },
+      {
+        "title": "مخزن الحليب الافتراضي",
+        "content": "نظام مخزون الحليب الافتراضي"
+      }
+    ]
+  },
+  "virtual_freezer": {
+    "add_milk": "إضافة حليب",
+    "clear_filter": "مسح عامل التصفية",
+    "created_on": "تم الإنشاء في",
+    "expire_at": "تنتهي مدة الصلاحية في",
+    "move_milk": "نقل الحليب",
+    "net_volume": "صافي الكمية",
+    "pumping": "الضخ",
+    "quick": "سريع",
+    "saved_in": "تم الحفظ في",
+    "tray": "علبة",
+    "notification_title1": "تهانينا",
+    "notification_title2": "انتهت صلاحية الحليب",
+    "notification_description1": "لقد قمتِ بإضافة أول كيس تجميد خاص بكِ إلى مخزن الحليب الافتراضي لديكِ، أنتِ على وشك إنشاء مخزونكِ من حليب الأم!",
+    "notification_description2": "لقد انتهت للتو صلاحية الكيس/الزجاجة رقم X المخزنة في الثلاجة/المجمد. يُرجى عدم استخدامها بعد الآن لتغذية طفلكِ. تخلصي منها أو استخدميها لأغراض أخرى.",
+    "notification_title3": "صلاحية الحليب على وشك أن تنتهي",
+    "notification_description3": "صلاحية الكيس/الزجاجة رقم X المخزنة في الثلاجة/المجمد على وشك أن تنتهي غدًا. احرصي على استخدامها اليوم لتجنب إهدارها!",
+    "number_limit_msg":"لا يمكن للرقم أن يتجاوز 250",
+    "tray_limit_msg":"لا يمكن للصينية أن تتجاوز 250",
+    "feed_milk": "حليب التغذية"
+  },
+  "moveTo_freezer_again": {
+    "cancel": "إلغاء",
+    "ok": "موافق",
+    "title": "من غير الممكن إعادة نقل الحليب من الثلاجة إلى المجمِّد."
+  },
+  "moveTo_freezer_popup": {
+    "cancel": "إلغاء",
+    "ok": "موافق",
+    "title": "هل أنت متأكدة من رغبتك في نقل الحليب من الثلاجة إلى المجمِّد؟"
+  },
+  "moveTo_fridge_popup": {
+    "cancel": "إلغاء",
+    "ok": "موافق",
+    "title": "هل أنت متأكدة من رغبتك في نقل الحليب من المجمِّد إلى الثلاجة؟ لن يكون من الممكن إعادة نقل الحليب من الثلاجة إلى المجمِّد."
+  },
+  "CountriesList" : {
+    "countriesListData":[
+      {
+        "countryName": "English",
+        "countryCode": "en"
+      },
+      {
+        "countryName": "Arabic",
+        "countryCode": "ar"
+      },
+      {
+        "countryName": "French",
+        "countryCode": "fr"
+      },
+      {
+        "countryName": "Italian",
+        "countryCode": "it"
+      },
+      {
+        "countryName": "German",
+        "countryCode": "de"
+      },
+      {
+        "countryName": "Portuguese",
+        "countryCode": "pt"
+      },
+      {
+        "countryName": "Spanish",
+        "countryCode": "es"
+      },
+      {
+        "countryName": "Dutch",
+        "countryCode": "nl"
+      },
+      {
+        "countryName": "Swedish",
+        "countryCode": "sv"
+      },
+      {
+        "countryName": "Norwegian",
+        "countryCode": "no"
+      },
+      {
+        "countryName": "Danish",
+        "countryCode": "da"
+      },
+      {
+        "countryName": "Russian",
+        "countryCode": "ru"
+      },{
+        "countryName": "Hebrew",
+        "countryCode": "he"
+      },
+      {
+        "countryName": "Polish",
+        "countryCode": "pl"
+      }
+    ]
+  },
+  "NotificationsData" : {
+    "NotificationsData":[
+      {
+        "notifications_heading": "الإشعارات خارج التطبيق",
+        "notification_description": "هناك إشعارات منبثقة تظهر على شاشة القفل لهاتفكِ وفي مركز الإشعارات، إذا أردتِ إيقافها، يمكنكِ القيام بذلك من إعدادات جهازك المحمول.",
+        "notifications_list": [
+          {"Key": "Allow Notifications","title": "", "list": [{"Key":"Allow Notifications","item":"السماح بالإشعارات"}]},
+          {"Key": "Connected Pumping","title": "الضخ المتصل", "list": [{"Key":"Pump Session Timeout","item":"مهلة جلسة الضخ"}]},
+          {"Key": "Virtual Freezer","title": "تخزين الحليب الافتراضي", "list": [{"Key": "Milk About to Expire","item": "الحليب على وشك الانتهاء"}, {"Key": "Milk Expired","item": "الحليب منتهي الصلاحية"}]}
+        ]
+      },
+      {
+        "notifications_heading": "الإشعارات داخل التطبيق",
+        "notification_description": "هذه إشعارات تظهر كرسائل منبثقة في تطبيق Medela Family.",
+        "notifications_list": [
+          {"Key": "Add Volume","title": "أضف الحجم", "list": [{"Key": "Missing Milk Volume","item": "حجم الحليب المفقود"}]},
+          {"Key": "Difficult experience","title": "صعب التجربة", "list": [{"Key": "Breastfeeding & Pumping","item": "الرضاعة الطبيعية واستدرار الحليب"}]},
+          {"Key": "Connected Pumping","title": "الضخ المتصل", "list": [{"Key": "Pump Session Complete","item": "كتملت جلسة الضخ"}]},
+          {"Key": "Tests","title": "الاختبارات", "list": [{"Key": "Breastfeeding Confidence","item": "الثقة في الرضاعة الطبيعية"},{"Key": "Content Personalization","item": "تخصيص المحتوى"}]},
+          {"Key": "Baby Birth Date","title": "تأكيد تاريخ ميلاد الطفل", "list": [{"Key": "Baby Birth Date","item": "تاريخ ميلاد الطفل"}]},
+          {"Key": "Virtual Freezer","title": "تخزين الحليب الافتراضي", "list": [{"Key": "Congratulations","item": "تهانينا"}]}
+        ]
+      },
+      {
+        "notifications_heading": "خيارات الاشتراك في التسويق",
+        "notification_description": "",
+        "notifications_list": [
+          {"Key": "Email newsletters","item": "النشرات الإخبارية عبر البريد الإلكتروني"},
+          {"Key": "SMS","item": "الرسائل النصية القصيرة (SMS)"},
+          {"Key": "Mail","item": "البريد"},
+          {"Key": "Beta Tester","item": "اختبار النسخة الأولية (بيتا)"}
+        ]
+      }
+    ]
+  },
+  "HelpList": {
+    "helpListData":[
+      {
+        "selectedImage": "problemSolver",
+        "title": "أداة حل المشكلات"
+      },
+      {
+        "selectedImage": "appTechnicalSupport",
+        "title": "الدعم الفني الخاص بالتطبيق"
+      },
+      {
+        "selectedImage": "customerService",
+        "title": "خدمة العملاء"
+      },
+      {
+        "selectedImage": "lactationConsultant",
+        "title": "استشاري الإرضاع"
+      }
+    ]
+  },
+  "LegalList": {
+    "LegalListData": [
+      {
+        "selectedImage": "Imprint",
+        "title": "جهة النشر"
+      },
+      {
+        "selectedImage": "privacyPolicyTermsAndCondition",
+        "title": "سياسة الخصوصية وملفات تعريف الارتباط"
+      },
+      {
+        "selectedImage": "licenses",
+        "title": "مصدر حر ومفتوح \nالتراخيص"
+      }
+    ]
+  },
+  "days": {
+    "friday": "الجمعة",
+    "monday": "الاثنين",
+    "saturday": "السبت",
+    "sunday": "الأحد",
+    "thursday": "الثلاثاء",
+    "tuesday": "الخميس",
+    "wednesday": "الأربعاء",
+    "s1": "الأحد",
+    "s2": "السبت",
+    "m": "الاثنين",
+    "t1": "الثلاثاء",
+    "t2": "الخميس",
+    "w": "الأربعاء",
+    "f": "الجمعة"
+  },
+  "voice_command": {
+    "active_breastfeeding_body": "يُرجى إنهاء جلسة الرضاعة الطبيعية الحالية لبدء جلسة جديدة.",
+    "active_breastfeeding_title": "لا يمكنك بدء جلسة رضاعة طبيعية جديدة بينما توجد جلسة رضاعة طبيعية مفعلة.",
+    "active_pump_body": "يُرجى إنهاء جلسة الاستدرار الحالية لبدء جلسة جديدة.",
+    "active_pump_title": "لا يمكنك بدء جلسة استدرار جديدة بينما توجد جلسة استدرار مفعلة.",
+    "active_sleep_body": "يُرجى إنهاء جلسة النوم الحالية لبدء جلسة جديدة.",
+    "active_sleep_title": "لا يمكنك بدء جلسة نوم جديدة بينما توجد جلسة نوم مفعلة.",
+    "continue_already_continue_title": "جلسة الرضاعة الطبيعية الحالية مفعلة بالفعل",
+    "continue_no_session_title": "استمري في الإجراء عندما لا توجد جلسة مفعلة.",
+    "ok": "موافق",
+    "pause_already_pause_title": "جلسة الرضاعة الطبيعية الحالية متوقفة مؤقتًا بالفعل",
+    "pause_no_session_title": "لا يوجد لديك جلسة مفعلة",
+    "vip_pack_not_active": "قومي بإلغاء قفل مجموعة VIP الآن لتمكين هذه الميزة."
+},
+  "time":{
+    "just_now":"الآن",
+    "day_ago":"يوم مضى",
+    "days_ago":"أيام مضت",
+    "min_ago":"دقيقة مضت",
+    "mins_ago":"دقائق مضت",
+    "h":"س",
+    "d":"ي",
+    "day":"يوم",
+    "days":"أيام",
+    "hour_ago":"ساعة مضت",
+    "hours_ago":"ساعات مضت",
+    "sec":"ث",
+    "min":"د",
+    "mins":"د",
+    "hour":"ساعة",
+    "hours":"ساعات",
+    "h_ago":"س مضت",
+    "day_old":"يوم مضى",
+    "days_old":"أيام مضت",
+    "h_old":"س مضت",
+    "hour_old":"ساعة مضت",
+    "hours_old":"ساعات مضت",
+    "min_old":"دقيقة مضت",
+    "mins_old":"دقائق مضت",
+    "month_ago":"1 قبل شهر",
+    "months_ago":"منذ أشهر",
+    "year_ago":"منذ سنة 1",
+    "years_ago":"مند سنوات"
+  },
+  "months":{
+    "january":"يناير",
+    "february":"فبراير",
+    "march":"مارس",
+    "april":"أبريل",
+    "may":"مايو",
+    "june":"يونيو",
+    "july":"يوليو",
+    "august":"أغسطس",
+    "september":"سبتمبر",
+    "october":"أكتوبر",
+    "november":"نوفمبر",
+    "december":"ديسمبر"
+  },
+  "chart": {
+    "age": "العمر (بالأسابيع)",
+    "inch": "بوصة",
+    "cm": "سم"
+},
+"chart_month": {
+  "age": "العمر (شهور)",
+  "inch": "بوصة",
+  "cm": "سم"
+},
+  "maintenancescreen":{
+    "text1":"آسف ، نحن متوقفون للصيانة",
+    "text2":"سوف نعود قريبا",
+    "text3":"شكرا لك على صبرك"
+  },
+  "units": {
+    "cm": "سم",
+    "inch": "بوصة",
+    "oz": "أونصة",
+    "ml": "مل",
+    "lb": "رطل",
+    "kg": "كجم",
+    "in": "بوصة"
+  },
+  "update_popup":{
+    "new_update":"تحديث جديد متاح!",
+    "download_message":"يرجى تنزيل آخر تحديث لمتابعة استخدام Medela Family",
+    "update_now":"تحديث الان",
+    "remind_later":"ذكرني لاحقا"
+  },
+  "force_update_popup":{
+    "new_update":"تحديث هام متاح",
+    "download_message":"يرجى تنزيل آخر تحديث لمتابعة استخدام Medela Family.",
+    "update_now":"تحديث الان"
+  },
+  "accessibility_labels": {
+    "baby_data": "بيانات الطفل"
+  },
+  "bluetooth_pre_permissions": {
+    "title": "هل تمتلك شافطة حليب ذكية من ميديلا؟",
+    "iOS_text": "إذا كانت الإجابة بنعم ، فيرجى التأكد من منح تطبيق Medela Family إذنًا لاستخدام Bluetooth لتوصيل مضخة الثدي ، وإلا فلن تتمكن من توصيل المضخة.",
+    "android_text":"إذا كانت الإجابة بنعم ، فيرجى التأكد من منح تطبيق Medela Family أذونات لاستخدام Bluetooth وإذن الموقع لتوصيل المضخة ، وإلا فلن تتمكن من توصيل مضخة الثدي. نحن لا نتتبع موقع هاتفك ، ولكن هذا أحد متطلبات نظام تشغيل الهاتف الذكي.",
+    "button": "يكمل"
+  },
+  "feedback_popup": {
+    "title": "هل تحب تطبيقنا؟",
+    "title1": "هل ترغب في إرسال ملاحظات إلينا؟",
+    "no": "رقم",
+    "yes": "نعم",
+    "popup2_title":"اضغط على نجمة لتقييمها في متجر التطبيقات"
+  }
+}

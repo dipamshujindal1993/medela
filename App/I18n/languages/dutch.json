@@ -1,0 +1,1432 @@
+{
+  "common": {
+    "app_name": "Naam van app"
+  },
+  "startup": {
+    "sign_up_now": "NU AANMELDEN",
+    "already_have_account": "IK HEB AL EEN ACCOUNT",
+    "desc1": "Informatie over borstvoeding en meer \n wanneer je deze het hardst nodig hebt.",
+    "desc2": "24/7 LC™ virtuele ondersteuning bij borstvoeding en een volledige \nbibliotheek aan deskundig advies",
+    "desc3": "Tips en tools die met je meegroeien \nvan de zwangerschap tot het ouderschap",
+    "desc4": "VIP-toegang tot unieke app-functies voor \ngebruikers van een Medela borstkolf",
+    "desc5": "Je gegevens worden veilig opgeslagen volgens \nde wereldwijde regelgeving voor gegevensbescherming",
+    "title1": "Medela Family community",
+    "title2": "Ondersteuning bij borstvoeding",
+    "title3": "Gepersonaliseerde ervaring",
+    "title4": "Exclusieve Medela voordelen",
+    "title5": "Veilige gegevensopslag"
+  },
+  "login": {
+    "title": "Inloggen",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "forgot_your_password": "Wachtwoord vergeten?",
+    "login": "INLOGGEN",
+    "forgot_password_title": "Wachtwoord vergeten",
+    "forgot_password_message": "Weet je zeker dat je \n je wachtwoord wilt resetten?",
+    "ok": "OK",
+    "cancel": "ANNULEREN",
+    "forgot_password_success_title": "E-mail verzonden",
+    "forgot_password_success_message": "We hebben je een \n e-mail met een nieuw wachtwoord gestuurd.",
+    "email_error_message": "Voer een geldig e-mailadres in",
+    "blank_password_error_message": "Voer je wachtwoord in",
+    "account_not_exist": "Dat account bestaat niet",
+    "login_failed": "Inloggen mislukt",
+    "edit_email": "E-mailadres bewerken",
+    "sign_up": "Aanmelden",
+    "yes": "JA",
+    "no": "NEE",
+    "subscribed_user_msg": "Je hebt je al ingeschreven voor het Medela Family programma.\nStel een wachtwoord in om je account te beveiligen.",
+    "email_subscription_msg":"Verifieer je abonnement door op de link te klikken in de e-mail die we je hebben gestuurd",
+    "no_space_in_password": "Wachtwoord mag geen spatie bevatten"
+  },
+  "signup": {
+    "title": "Je account aanmaken",
+    "email": "E-mailadres *",
+    "password": "Wachtwoord *",
+    "offer": "Ik wil via e-mail op de hoogte worden gehouden van nieuws en speciale aanbiedingen van Medela",
+    "signUpBtn": "AANMELDEN",
+    "terms": "Door je aan te melden, ga je akkoord met ons",
+    "privacyPolicy": " Privacybeleid, inclusief de verwerking van gevoelige persoonsgegevens",
+    "emailAlreadyExist": "Er bestaat al een gebruiker met dit e-mailadres.",
+    "somethingWentWrong": "Er is iets misgegaan. Probeer het later opnieuw",
+    "show": "Weergeven",
+    "hide": "Verbergen",
+    "email_error": "E-mailadres is ongeldig",
+    "password_no_numbers": "geen cijfers",
+    "password_no_letters": "geen letters",
+    "password_too_weak": "Te zwak!",
+    "password_too_long": "Te lang!",
+    "password_invalid_characters": "ongeldige tekens",
+    "password_null": "8-20 tekens, min. 1 cijfer (a-z, 0-9)",
+    "edit_email": "E-mailadres bewerken",
+    "login_up": "Inloggen",
+    "password_min_length": "Het wachtwoord moet minimaal 7 tekens lang zijn en letters en cijfers bevatten."
+  },
+  "profileSetup": {
+    "title": "We hebben nog een paar gegevens nodig \n om je profiel te voltooien",
+    "name": "Je naam/bijnaam *",
+    "babyDob": "Uitgerekende datum/geboortedatum baby *",
+    "isFirstBaby": "Is dit je eerste baby?",
+    "yes": "Ja",
+    "no": "Nee",
+    "next": "VOLGENDE",
+    "dontKnow": "Ik weet het niet",
+    "planReturnWork": "Maakt buitenshuis werken deel uit van je ouderschapsplan?",
+    "chooseDate": "Wanneer verwacht je te starten?",
+    "babyName": "Naam/bijnaam van je baby *",
+    "username_error": "Voer je naam in",
+    "baby_name_error": "Voer de naam van je baby in",
+    "baby_dob_error": "Selecteer de geboortedatum/uitgerekende datum van de baby",
+    "back_to_work_date": "Selecteer de datum waarop je weer aan het werk gaat",
+    "upload": "Foto van baby uploaden",
+    "name_error": "Voer je naam in"
+  },
+  "profileSetup2": {
+    "title": "Laten we eens kijken hoe we je het beste kunnen helpen\ntijdens deze periode",
+    "havePump": "Heb je een borstkolf?",
+    "pumpBrand": "Wat is het merk van je borstkolf?",
+    "yes": "Ja",
+    "no": "Nee",
+    "medela": "Medela",
+    "other": "Anders",
+    "pumpFor": "Ik heb mijn huidige borstkolf aangeschaft/gekregen voor",
+    "insurancePump": "Mijn huidige borstkolf",
+    "coveredByMyInsurance": "werd vergoed door mijn verzekering",
+    "notPurchasedInsurance": "heb ik cadeau gekregen of niet via de verzekering aangeschaft",
+    "finishBtn": "VOLTOOIEN",
+    "previousPregnancy": "Vorige zwangerschap",
+    "skip": "OVERSLAAN",
+    "thisPregnancy": "Deze zwangerschap"
+  },
+  "welcome": {
+    "title": "Welkom bij Medela Family\n",
+    "subTitle": "Veel plezier met je GRATIS toegang tot hulpmiddelen en tips voor tijdens je \n zwangerschap en de borstvoedingsperiode",
+    "dashboardBtn": "JE DASHBOARD OPENEN"
+  },
+  "newWelcome":{
+    "title": "Welkom bij Medela Family!\n",
+    "subTitle": "Medela Family vervangt onze voormalige MyMedela app en biedt een gloednieuwe gebruikerservaring, verbeterde functies en nieuwe informatieve inhoud.",
+    "subTitle2": "Bekijk onze nieuwe virtuele melkopslagfunctie, laat je vragen beantwoorden door onze persoonlijke assistent en bespaar veel tijd met spraakopdrachten voor handsfree registratie.",
+    "subTitle3":"We hopen dat je er net zo blij mee zult zijn als wij!",
+    "subTitle4":"Het Medela team",
+    "dashboardBtn": "JE DASHBOARD OPENEN"
+  },
+  "tab_bar": {
+    "my_baby": "MIJN BABY",
+    "stats": "STATISTIEKEN",
+    "chat": "CHAT",
+    "more": "MEER"
+  },
+  "generic": {
+    "confirm": "Bevestigen",
+    "yes": "Ja",
+    "no": "Nee",
+    "cancel": "Annuleren",
+    "error_message": "Er is iets misgegaan. Probeer het later opnieuw",
+    "save": "Opslaan",
+    "alert_title": "Oeps!",
+    "no_internet": "De internetverbinding lijkt te zijn verbroken",
+    "cancelled_picker": "Gebruiker heeft fotokiezer geannuleerd",
+    "tap_custom_btn": "Gebruiker heeft op de knop 'Aangepast' getikt: ",
+    "image_error": "Fout met fotokiezer: ",
+    "add_new_baby": "Nieuwe baby toevoegen",
+    "delete": "VERWIJDEREN",
+    "stop_watch": "Stop eerst de stopwatch",
+    "retry": "Opnieuw proberen",
+    "minutes_error": "Aantal minuten moet lager zijn dan 60",
+    "seconds_error": "Aantal seconden moet lager zijn dan 60",
+    "submit": "VERZENDEN",
+    "close": "Sluiten",
+    "done": "Gereed",
+    "select_state": "Selecteer de staat",
+    "maximum_limit":"Maximumlimiet overschreden, d.w.z."
+  },
+  "tracking": {
+    "checklists": "Checklists",
+    "24x7": "24/7 lactatiekundige",
+    "questionnaires": "Tests",
+    "weight": "Gewicht",
+    "sleep": "Slapen",
+    "nappy": "Luier",
+    "breastfeeding": "Borstvoeding geven & afkolven",
+    "who": "WHO-code",
+    "title": "Registreren",
+    "tracking_clear_message": "Weet je zeker dat je deze geregistreerde sessie wilt verlaten?",
+    "delete_tracking_message": "Weet je zeker dat je deze geregistreerde sessie wilt verwijderen?",
+    "tools": "Hulpmiddelen",
+    "contraction": "Wee",
+    "tracking_toaster_text": "Je registratie is opgeslagen",
+    "nappy_notification_title": "Luiers",
+    "firstday_nappy_notification_text": "In de eerste twee dagen na de geboorte kun je 1-2 (of meer) natte luiers en 1 (of meer) vuile luiers verwachten.",
+    "thirdday_nappy_notification_text": "Op de derde dag na de geboorte kun je 3 (of meer) natte luiers en 2 (of meer) vuile luiers verwachten.",
+    "fourthday_nappy_notification_text": "Op de vierde dag na de geboorte kun je 4 (of meer) natte luiers en 2 (of meer) vuile luiers verwachten. Je zult merken dat deze zwaarder worden.",
+    "who_popup_title": "Geslacht",
+    "who_popup_description": "Selecteer geslacht \n Vergelijk de ontwikkeling van jouw baby met de WHO-groeicurve door het selecteren van het juiste geslacht",
+    "who_popup_option1": "Meisje",
+    "who_popup_option2": "Jongen",
+    "who_popup_option3": "Niet nu",
+    "baby": "Registratie baby",
+    "bottle": "Flesvoeden",
+    "breastfeed": "Borstvoeding",
+    "Breastfeeding_and_Pumping": "De afgelopen 24 uur heb je minder dan 8 borstvoedings- en/of afkolfsessies geregistreerd. Ben je vergeten een sessie te registreren? In de eerste vier weken heeft een baby minimaal 8 tot 12 voedingen in 24 uur nodig. Hierna neemt het dagelijkse aantal voedingen mogelijk af. Zolang je baby aankomt en verder gezond is, is dit goed voor je baby.",
+    "Breastfeeding_and_Pumping_5hrs": "In de afgelopen 24 uur heeft er 5 uur of meer tussen twee of meer borstvoedings-/afkolfsessies gezeten. Ben je vergeten een borstvoedings- of afkolfsessie te registreren?",
+    "Breastfeeding_and_Pumping_5hrs2": "De tijd tussen verschillende borstvoedings- en/of afkolfsessies bedroeg de laatste dagen meer dan 5 uur. Als je om wat voor reden dan ook voedingen hebt overgeslagen, kan dit een afname van je melkproductie tot gevolg hebben. Ter herinnering: het lijkt erop dat je mogelijk een voedings- of afkolfsessie bent vergeten te registreren. Wil je er nu een invoeren?",
+    "Breastfeeding_and_Pumping_7hrs": "In de afgelopen 24 uur heeft er 7 uur of meer tussen twee of meer borstvoedings-/afkolfsessies gezeten. Ben je vergeten een borstvoedings- of afkolfsessie te registreren?",
+    "Breastfeeding_and_Pumping_7hrs2": "De tijd tussen verschillende borstvoedings- en/of afkolfsessies bedroeg de laatste dagen meer dan 7 uur. Als je om wat voor reden dan ook voedingen hebt overgeslagen, kan dit een afname van je melkproductie tot gevolg hebben. Ter herinnering: het lijkt erop dat je mogelijk een voedings- of afkolfsessie bent vergeten te registreren. Wil je er nu een invoeren?",
+    "Breastfeeding_and_Pumping_title": "Borstvoeding en afkolven",
+    "Breastfeeding_and_Pumping1": "In de eerste 4 weken wordt je melkproductie opgebouwd. Daarom is het erg belangrijk om je borsten te stimuleren door elke 24 uur minimaal 8 keer borstvoeding te geven of te kolven. Zo zorg je ervoor dat je voldoende melkproductie opbouwt voor nu en de toekomst. Als je om wat voor reden dan ook voedingen hebt overgeslagen, kan dit een afname van je melkproductie tot gevolg hebben. Ter herinnering: het lijkt erop dat je mogelijk een voedings- of afkolfsessie bent vergeten te registreren. Wil je er nu een invoeren?",
+    "four_weeks_nappy_notification_text": "Vuile luiers willen we het liefst zo snel mogelijk vergeten, maar het is belangrijk ze hier te registreren. Ben je vergeten een luier te registreren?",
+    "four_weeks_nappy_notification_text2": "In de eerste vier weken na de geboorte poepen de meeste baby's minimaal twee keer per dag. Hun ontlasting is dan geel van kleur. Gezien het aantal geregistreerde luiers in de app raden we je aan de zorgverlener van je baby te raadplegen",
+    "four_weeks_nappy_notification_text3": "Na 4 tot 6 weken verandert de ontlasting. Vanaf dan kan het zijn dat je baby meerdere keren per dag blijft poepen, maar het kan ook voorkomen dat hij een paar dagen of zelfs een week niet poept. ",
+    "freezer": "Bewaren",
+    "growth": "Lengte",
+    "height_tracking": "Bespreek de lengte van je baby regelmatig met je zorgverlener.",
+    "height_tracking_notification_text": "Bespreek de lengte van je baby regelmatig met je zorgverlener.",
+    "height_tracking_notification_title": "Registratie lengte",
+    "height_tracking_title": "Registratie lengte",
+    "mom": "Registratie zwangerschap",
+    "nappy_notification_title2": "Vuile luiers",
+    "pumping": "Kolven",
+    "tracking_toaster_update_text": "Je registratie is bijgewerkt.",
+    "weight_tracking": "Bespreek het gewicht van je baby regelmatig met je zorgverlener.",
+    "weight_tracking_notification_text": "Bespreek het gewicht van je baby regelmatig met je zorgverlener.",
+    "weight_tracking_notification_title": "Registratie gewicht",
+    "weight_tracking_title": "Registratie gewicht",
+    "wet_diapers": "Natte luiers",
+    "wet_diapers_notification_text": "In de eerste 6 weken na de geboorte kun je 5 of meer echt natte luiers verwachten. We zien dat je minder luiers hebt geregistreerd. Ben je vergeten een luier te registreren? ",
+    "wet_diapers_notification_text2": "Na 6 weken neemt het aantal natte luiers mogelijk af tot 4 of 5 per dag, maar de hoeveelheid urine neemt toe tot 4 tot 6 of meer eetlepels (60 tot 90+ ml), naarmate de blaasinhoud van je baby toeneemt.",
+    "cont": "Vervolg",
+    "left": "L-",
+    "right": "R-",
+    "breast": "B-",
+    "manual_session_lost": "Je handmatige sessie is verloren gegaan, omdat je nu een aangesloten borstkolf hebt.",
+    "offline_session": "Offline forløb",
+    "total_Pumping": "Totale afkolftijd",
+    "bad_session_popup_tite": "Wilt u onze probleemoplossende artikelen lezen?",
+    "bad_session_popup_option1": "JA",
+    "bad_session_popup_option2": "NEE",
+    "bad_session_popup_option3": "NOOIT MEER TONEN",
+    "breastfeedingPumpingShortcut":"Borstvoeding snelkoppeling"
+  },
+  "addBaby": {
+    "my_baby": "Mijn baby",
+    "babyDob": "Uitgerekende datum/geboortedatum baby *",
+    "gender": "Geslacht",
+    "male": "Jongen",
+    "female": "Meisje",
+    "save": "OPSLAAN",
+    "upload": "Foto van baby uploaden",
+    "baby_dob_error": "Selecteer de geboortedatum/uitgerekende datum van de baby",
+    "baby_name_error": "Voer de naam van je baby in",
+    "add_baby_Title": "Baby toevoegen",
+    "add_baby_success_message": "Baby toegevoegd",
+    "babyHeight": "Geboortelengte van de baby",
+    "babyName": "Naam/bijnaam van de baby",
+    "babyWeight": "Geboortegewicht van de baby"
+  },
+  "my_baby": {
+    "switch": "WISSELEN",
+    "read_more": "Lees meer",
+    "months_before_birth": "Maanden voor geboorte",
+    "actual_tummy_size": "Werkelijke omvang van de buik: ",
+    "actual_baby_size": "Werkelijke grootte van de baby: ",
+    "size_of_cherry": "kers",
+    "size_of_walnut": "walnoot",
+    "size_of_apricot": "abrikoos",
+    "size_of_egg": "ei",
+    "size_of_lemon": "citroen",
+    "no_child": "Geen kind gevonden!",
+    "no_child_message": "Je hebt nog geen tweede kind toegevoegd! Voeg toe om tussen baby's te wisselen.",
+    "add_baby": "BABY TOEVOEGEN",
+    "cancel": "ANNULEREN",
+    "week": "week",
+    "weeks": "weken",
+    "days": "dagen",
+    "day": "dag",
+    "same_day_born_message": "Je baby is geboren",
+    "date_of_birth": "Geboortedatum",
+    "after_birth": "na de geboorte",
+    "day_old": "dag oud",
+    "days_old": "dagen na de geboorte",
+    "week_old": "week oud",
+    "weeks_old": "weken oud",
+    "month": "maand",
+    "months": "maanden",
+    "year": "jaar",
+    "years": "jaar",
+    "before_birth": "voor de geboorte",
+    "birth": "geboorte",
+    "volume": "Volume: ",
+    "volume1": "10-50 ml per dag",
+    "volume2": "100-700 ml per dag",
+    "volume3": "400-800 ml per dag",
+    "volume4": "400-1000 ml per dag",
+    "volume5": "440-1000 ml per dag",
+    "volume6": "Gemiddeld 800 ml per dag",
+    "approx_size": "Geschatte grootte van de foetus",
+    "last_tracked": "Laatst geregistreerd",
+    "birthday_popup_title": "Is je baby geboren?",
+    "birthday_popup_yes": "JA",
+    "birthday_popup_never_show": "DIT NIET MEER WEERGEVEN",
+    "birth_confirmation_notification_title": "Is je baby geboren?",
+    "birth_confirmation_notification_message": "Bevestig de uitgerekende datum/geboortedatum van je baby",
+    "birthday_popup_remind": "NEE, HERINNER MIJ LATER",
+    "length": "Geboortelengte",
+    "weight": "Geboortegewicht",
+    "full_term_baby_size":"grootte voldragen baby",
+    "cat":"kat",
+    "seat_height_of_a_chair":"Zithoogte van een stoel",
+    "laptop":"laptop",
+    "magayine":"magazine",
+    "spaghetti":"spaghetti",
+    "kitchen_paper":"rol keukenpapier",
+    "smartphone":"smartphone",
+    "pen":"pen",
+    "hand_cream":"handcrème",
+    "popsicle":"ijslolly",
+    "highlighter":"markeerstift",
+    "credit_card":"creditcard",
+    "nail_polish":"nagellak",
+    "lipstick":"lippenstift",
+    "hairpin":"haarspeld",
+    "earphone":"oortelefoon",
+    "button":"knoop",
+    "finger_nail":"vingernagel",
+    "lady_bug":"lieveheersbeestje",
+    "rice":"rijst",
+    "linen_seed":"lijnzaad",
+    "chia_seed":"chiazaad",
+    "snow_crystal":"sneeuwkristal",
+    "articles_offline_text": "Controleer de internetverbinding.",
+    "delete_popup_title": "Weet je het zeker?",
+    "2L/":"Frisdrankfles 2 l",
+    "ok": "JA",
+    "actual_baby_stomach_size": "Werkelijke grootte van de maag van de baby: ",
+    "baby_name_error": "Voer de naam van je baby in",
+    "article_details_offline_text": "De internetverbinding lijkt te zijn uitgevallen. Probeer het later nog eens."
+  },
+  "calendar": {
+    "week": "Week",
+    "time": "Tijd",
+    "size_of_egg": "De grootte van een ei",
+    "timer_alert": "Voer een geldige tijd in",
+    "date_time_alert": "Voer een geldige datum en tijd in",
+    "hours": "uur",
+    "mins": "min.",
+    "sec": "sec.",
+    "is_am": "AM",
+    "is_pm": "PM",
+    "period": "Aangepast",
+    "today": "Vandaag",
+    "yesterday": "Gisteren",
+    "last_week": "Vorige week",
+    "last_month": "Vorige maand",
+    "all": "Alles",
+    "start_time": "Begintijd",
+    "end_time": "Eindtijd",
+    "side":"kant",
+    "Creation_date":"Aanmaakdatum"
+  },
+  "checklist": {
+    "add_item": "Item toevoegen",
+    "checklist_title": "Checklists",
+    "add_item_list": "Item aan de lijst toevoegen",
+    "clear_all": "Alles wissen",
+    "clear_checklist": "Checklist wissen?",
+    "clear_checklist_message": "Weet je zeker dat je alle geselecteerde items wilt wissen?",
+    "items_left": "Items resterend",
+    "time": "Tijd"
+  },
+  "breastfeeding_pump": {
+    "duration": "Duur",
+    "breastfeed": "Borstvoeding",
+    "breastfeeding": "Borstvoeding",
+    "pumping": "Kolven",
+    "both": "Beide",
+    "right": "Rechts",
+    "left": "Links",
+    "experience": "Ervaring",
+    "good": "Goed",
+    "add_note": "Notitie toevoegen",
+    "pump_settings": "Instellingen borstkolf",
+    "total_volume": "Volume",
+    "total": "Totaal",
+    "bottle": "Fles",
+    "bag": "Zakje",
+    "number": "Aantal",
+    "tray": "Plaat",
+    "fridge": "Koelkast",
+    "freezer": "Vriezer",
+    "pump_setting": "Instellingen borstkolf",
+    "pump_level": "Niveau",
+    "phase_level": "Faseniveau",
+    "rhythem_level": "Ritmeniveau",
+    "pump_alert_title": "Waarschuwing",
+    "pump_off_alert_message": "De borstkolf is nu uitgeschakeld. Sla de bestaande gegevens op voordat je een nieuwe sessie start",
+    "pump_battery_alert_message": "De accu van de borstkolf is leeg. Sluit de borstkolf aan op netvoeding",
+    "timer": "Timer:",
+    "disclaimer": "Disclaimer",
+    "disclaimer_msg": "Sla de gegevens van je huidige afkolfsessie op voordat je een nieuwe afkolfsessie start, anders gaan de geregistreerde gegevens verloren.",
+    "air_leaked": "Luchtlekkage",
+    "breastfeeding_pumping_l": "Borstvoeding  L",
+    "breastfeeding_pumping_r": "Borstvoeding  R",
+    "pumping_b": "kolven B",
+    "Check_available_inventory": "Beschikbare voorraad controleren",
+    "ending_side": "Laatste kant",
+    "move_to": "Verplaatsen naar",
+    "phase": "Fase:",
+    "rhythm": "Ritme:",
+    "save_to_virtual_freezer": "Opslaan in Virtuele melkopslag",
+    "session_type": "Selecteer het sessietype",
+    "bad": "Moeilijk",
+    "difficult": "Moeilijk",
+    "freezer_title": "Virtuele melkopslag filteren",
+    "container_type_error":"Voeg type houder toe (zakje/fles)",
+    "location_type_error":"Voeg locatie toe (koelkast/vriezer)",
+    "number_error":"Voeg nummer van houder toe",
+    "tray_error":"Voeg nummer van rek toe",
+    "volume_error_msg": "Voeg hoeveelheid toe",
+    "number_zero_error":"Nummerwaarde mag niet 0 zijn",
+    "tray_zero_error":"Rekwaarde mag niet 0 zijn",
+    "container_special_character_error":"Kies een nummer voor de houder tussen 1 en 250",
+    "tray_special_character_error":"Kies een nummer voor het rek tussen 1 en 250",
+    "pumping_paused":"Afkolven gepauzeerd",
+    "pumping_paused_flex":"Druk op de aan/uit-knop van de borstkolf om de sessie te beëindigen.",
+    "pumping_paused_maxi":"Druk lang op de aan/uit-knop van de borstkolf om de sessie te beëindigen.",
+    "pumping_paused_sonata":"Druk lang op de pauzeknop op de borstkolf om de sessie te beëindigen.",
+    "breastfeeding_paused":"Borstvoeding onderbroken"
+  },
+  "can_not_edit_bag": {
+    "cancel": "Annuleren",
+    "ok": "OK",
+    "title": "Het is niet mogelijk om een hoeveelheid toe te voegen aan bestaande zakjes/flessen in de vriezer. Dit kan alleen bij flessen in de koelkast."
+  },
+  "sleep": {
+    "header_title": "Slapen",
+    "start": "Starten",
+    "stop": "Stoppen",
+    "pause": "Pauzeren",
+    "duration": "Duur"
+  },
+  "nappy_tracking": {
+    "add_note": "Notitie toevoegen",
+    "pee": "Plas",
+    "poo": "Poep",
+    "both": "Allebei",
+    "type": "Type",
+    "nappy": "Luier"
+  },
+  "bottle_tracking": {
+    "duration": "Duur",
+    "type": "Type",
+    "milk": "Melk",
+    "mix": "Mix",
+    "formula": "Kunstvoeding",
+    "both": "Beide",
+    "right": "Rechts",
+    "left": "Links",
+    "experience": "Ervaring",
+    "good": "Goed",
+    "add_note": "Notitie toevoegen",
+    "pump_settings": "Instellingen borstkolf",
+    "use_volume": "Volume gebruiken",
+    "total": "Totaal",
+    "bottle": "Fles",
+    "bag": "Zakje",
+    "number": "Aantal",
+    "tray": "Plaat",
+    "fridge": "Koelkast",
+    "freezer": "Vriezer",
+    "all": "Alles",
+    "breastmilk": "Moedermelk",
+    "use_from_virtual_freezer": "Gebruiken uit Virtuele melkopslag",
+    "volume": "Volume",
+    "bad": "Moeilijk",
+    "difficult": "Moeilijk",
+    "virtual_freezer": "Virtuelt mælkelager",
+    "bottle_feeding": "Flesvoeden"
+  },
+  "baby_growth": {
+    "volume_units": "mm",
+    "header": "Lengte",
+    "title": "Lengte van de baby"
+  },
+  "baby_weight": {
+    "header": "Gewicht",
+    "title": "Gewicht van de baby",
+    "volume_units": "g"
+  },
+  "volume_popup": {
+    "title": "Hoeveelheid toevoegen",
+    "message": "Voer de hoeveelheid afgekolfde \n moedermelk in",
+    "save_without_amount": "Opslaan zonder hoeveelheid",
+    "add_amount": "Hoeveelheid toevoegen",
+    "never_show_again": "Dit niet meer weergeven"
+  },
+  "stats_screen": {
+    "header_title": "Statistieken",
+    "day_overview": "Dagoverzicht",
+    "list": "Lijst",
+    "dashboard": "Overzicht",
+    "today": "Vandaag",
+    "past_7_days": "Laatste 7 dagen",
+    "empty_list_today_message": "Geen gegevens beschikbaar",
+    "empty_list_past_7_days_message": "Geen gegevens beschikbaar"
+  },
+  "stats_breastfeeding": {
+    "title": "Borstvoeding",
+    "session_key": "Sessie",
+    "avg_time_key": "Gem. tijd",
+    "left_key": "Links",
+    "right_key": "Rechts",
+    "mins": "min.",
+    "error_total_duration_sec": "Totaal aantal seconden moet lager zijn dan 60",
+    "error_left_duration_sec": "Aantal seconden links moet lager zijn dan 60",
+    "error_right_duration_sec": "Aantal seconden rechts moet lager zijn dan 60",
+    "error_sleep_duration_sec": "Aantal seconden moet lager zijn dan 60",
+    "error_sleep_duration_min": "Aantal minuten moet lager zijn dan 60",
+    "error_total_duration": "Duur mag niet langer zijn dan 60",
+    "total_time_key": "Totale tijd",
+    "error_sleep_duration_total_min": "Duur mag niet langer zijn dan 100"
+  },
+  "stats_pumping": {
+    "title": "Kolven",
+    "session_key": "Sessie",
+    "avg_time_key": "Gem. tijd",
+    "vol_key": "Volume",
+    "avg_vol_key": "Gem. vol.",
+    "mins": "min.",
+    "pumping_title": "Kolven B"
+  },
+  "stats_bottle": {
+    "session_key": "Hoeveelheid",
+    "avg_vol_key": "Gem. vol.",
+    "breastmilk_key": "Moedermelk",
+    "formula_key": "Kunstvoeding",
+    "mix_key": "Mix",
+    "saved_milk": "Opgeslagen melk",
+    "title": "Flesvoeden",
+    "total_vol_key": "Totale hoeveelheid"
+  },
+  "stats_nappy": {
+    "title": "Luier",
+    "session_key": "Hoeveelheid",
+    "pee_key": "Plas",
+    "poo_key": "Poep",
+    "both_key": "Allebei"
+  },
+  "stats_sleep": {
+    "title": "Slapen",
+    "session_key": "Sessie",
+    "total_sleep_key": "Totale slaap"
+  },
+  "stats_growth": {
+    "title": "Lengte",
+    "size_key": "Grootte",
+    "who": "WHO",
+    "stats": "Statistieken",
+    "inches": "inch"
+  },
+  "stats_weight": {
+    "title": "Gewicht",
+    "total_weight_key": "Grootte",
+    "lbs": "lbs"
+  },
+  "stats_contraction": {
+    "title": "Weeën",
+    "avg_time_key": "Gem. tijd",
+    "avg_frequency": "Gem. frequentie",
+    "duration": "Duur",
+    "frequency": "Frequentie",
+    "intensity": "Intensiteit",
+    "medium": "Medium",
+    "mild": "Zacht",
+    "none": "Geen",
+    "Pain_intensity": "Pijnniveau",
+    "strong": "Krachtig",
+    "very_mild": "Zeer zacht",
+    "very_strong": "Zeer krachtig"
+  },
+  "bluetooth": {
+    "turn_on": "Bluetooth inschakelen",
+    "to_connect_pump": "Als je je borstkolf met Medela Family wilt verbinden, moet je Bluetooth inschakelen op je telefoon.",
+    "header_title": "Borstkolf verbinden",
+    "continue": "doorgaan",
+    "searching": "Zoeken",
+    "search_again": "Opnieuw zoeken",
+    "which_pump": "Welke borstkolf wil je verbinden?",
+    "flex_pair_info": "Houd de aan/uit-knop gedurende twee seconden ingedrukt. Houd de telefoon dicht bij de borstkolf om de koppeling snel te kunnen bevestigen.",
+    "sonata_pair_info": "Houd de druppeltoets 3 seconden ingedrukt. Houd de telefoon dicht bij de borstkolf om de koppeling snel te kunnen bevestigen.",
+    "no_pump_found": "Borstkolf niet gevonden.",
+    "make_sure_bluetooth_on": "Zorg ervoor dat Bluetooth® is ingeschakeld en dat de borstkolf is aangesloten op netvoeding.",
+    "bluetooth_turned_on_steps": "1. Zet de borstkolf uit en weer aan. \n 2. Houd de druppeltoets 3 seconden ingedrukt. \n 3. Controleer of de naam van de borstkolf (4 tekens) op het apparaat wordt weergegeven.",
+    "bluetooth_turned_on_steps_swing_maxi":"1. Zet de borstkolf uit en weer aan. \n 2. Houd de druppeltoets 3 seconden ingedrukt.",
+    "bluetooth_turned_on_steps_flex": "1. Zet de borstkolf uit en weer aan. \n 2. Houd de druppeltoets 2 seconden ingedrukt. \n 3. Controleer of de naam van de borstkolf (2 tekens) op het apparaat wordt weergegeven.",
+    "congratulations": "Goed nieuws!",
+    "successfully_paired": "Je hebt je borstkolf succesvol gekoppeld met Medela Family. Je kunt nu beginnen met het registreren van je afkolfsessies en meer.",
+    "complete": "voltooien",
+    "your_device_name": "Naam van je borstkolf",
+    "your_pump": "Je borstkolf",
+    "remove_pump": "Deze borstkolf verwijderen",
+    "about_pump": "Over je borstkolf",
+    "instructions": "Instructies",
+    "tutorial_videos": "Instructievideo's",
+    "product_website": "Productwebsite",
+    "somethingWentWrong": "Er is iets misgegaan. Probeer het later opnieuw",
+    "location_permission_title": "Machtigingen nodig",
+    "location_permission_description": "Zorg ervoor dat u de Medela Family app toestemming geeft om Bluetooth te gebruiken in de telefooninstellingen. Daarnaast moet je de app en je smartphone toestemming geven om de locatie van je telefoon te gebruiken. Wij traceren de positie van uw telefoon niet, maar dit is een vereiste van het besturingssysteem van de smartphone om verbinding te maken met Bluetooth. ",
+    "location_enable_description": "Je hebt toegang tot het Medela Family BLE-apparaat wanneer de locatie is ingeschakeld. Schakel de locatie in om door te gaan...",
+    "cancel": "ANNULEREN",
+    "open_setting": "INSTELLINGEN OPENEN",
+    "confirm_pump_found_sub_title": "Er is een {0} borstkolf gevonden.",
+    "confirm_cta": "bevestigen",
+    "pump_add_failure_title": "Borstkolf toevoegen",
+    "ok": "OK",
+    "pump_select_dialog_title": "Info",
+    "confirm_pump_found_desc": "Druk op 'Bevestigen' om de koppeling te voltooien. Om de kwaliteit te waarborgen, heeft Medela de borstkolf getest. Er staat een voorbeeldsessie in je lijst met statistieken.",
+    "searching_message": "We zoeken je Medela borstkolf, een ogenblik geduld.",
+    "setting_up": "INSTELLEN",
+    "pump_remove_dis": "Je kunt de borstkolf niet verwijderen wanneer deze met de app is verbonden en er een sessie plaatsvindt.",
+    "plug_your_pump": "Controleer of de borstkolf is ingeschakeld",
+    "plug_your_swing_pump": "Druk op de druppeltoets en houd deze 3 seconden vast."
+  },
+  "stats_list_export": {
+    "header_title": "Exporteren",
+    "date_range_text": "Datumbereik",
+    "select_all_text": "Alles",
+    "select_date_text": "Datum selecteren",
+    "item_header_title": "Selecteer de gegevens die je wilt exporteren",
+    "export_button_title": "GEGEVENS EXPORTEREN",
+    "export_type": "xls",
+    "no_data_title": "Geen gegevens beschikbaar voor deze periode.",
+    "plz_select_data": "Selecteer een registratie om te exporteren.",
+    "export_fail_message": "Er is een fout opgetreden tijdens het aanmaken van je rapport.",
+    "export_failed": "Exporteren mislukt",
+    "export_succeeded": "Exporteren voltooid",
+    "export_success_message": "De gegevens zijn geëxporteerd en worden verzonden naar je e-mailadres."
+  },
+  "tests": {
+    "test_header_title": "Tests",
+    "test_bca_title": "Je vertrouwen in borstvoeding",
+    "test_bca_content": "Krijg meer vertrouwen en word expert",
+    "test_cp_title": "Inhoud personaliseren",
+    "test_cp_content": "Je app-ervaring personaliseren",
+    "bca_notification_popup": "Doe de test nu",
+    "bca_notification_title": "Hoe gaat het met je?",
+    "cp_notification_title": "De app personaliseren",
+    "bca_notification_message1": "Hoe gaat het met je? \n Heb jij de test voor vertrouwen in borstvoeding gedaan?",
+    "bca_notification_message2": "Hoe gaat het met je? \n Oké mama, het is tijd dat je je vertrouwen in borstvoeding nog eens test!",
+    "bca_notification_remind": "NEE, HERINNER MIJ LATER",
+    "cp_notification_message": "De app personaliseren \n\n Vertel ons wat meer over jezelf zodat we je tips, informatie en advies kunnen geven die optimaal op jouw situatie zijn afgestemd. Het kost maar twee minuten",
+    "cp_notification_popup": "NU PERSONALISEREN",
+    "cp_notification_remind": "NEE, HERINNER MIJ LATER"
+  },
+  "breastfeeding_confidence": {
+    "header_title": "Je vertrouwen in borstvoeding",
+    "motivation_text1": "Wil je je zelfvertrouwen vergroten?",
+    "motivation_text2": "Doe de test nu",
+    "slider_not_all_confidence": "Helemaal niet overtuigd",
+    "slider_not_very_confidence": "Niet erg overtuigd",
+    "slider_sometimes_confident": "Soms overtuigd",
+    "slider_confident": "Overtuigd",
+    "slider_very_confident": "Soms erg overtuigd",
+    "congratulations": "Goed nieuws!",
+    "congrats_message": "Je hebt je vertrouwen in borstvoeding getest.",
+    "congrats_update_message": "Uit je zelfbeoordeling blijkt dat je veel vertrouwen hebt in het geven van borstvoeding. Gefeliciteerd en veel succes tijdens je borstvoedingsperiode.",
+    "congrats_articles_update_message": "Zoals je kunt zien, bevat je zelfbeoordeling een paar lage scores. Maar maak je geen zorgen! Hier is wat informatie die je misschien kan helpen wat meer over deze onderwerpen te weten te komen en je meer zelfvertrouwen geeft.",
+    "finish": "VOLTOOIEN",
+    "no_data_popup_title": "Er is iets misgegaan.\n Probeer het later opnieuw",
+    "offline_popup_title": "Je bent offline.",
+    "offline_popup_message": "Zo te zien heb je geen actieve \n internetverbinding. \n Maak verbinding met internet.",
+    "five_star": "Vijf sterren",
+    "four_star": "Vier sterren",
+    "one_star": "Eén ster",
+    "three_star": "Drie sterren",
+    "two_star": "Twee sterren"
+  },
+  "ble_pumping": {
+    "connection_lost": "Verbinding verbroken",
+    "pumping_paused": "Afkolven gepauzeerd",
+    "pump_connected": "Borstkolf verbonden",
+    "connecting_pump": "Borstkolf verbinden"
+  },
+  "content_personalization": {
+    "header_title": "Inhoud personaliseren",
+    "question_title": "Welke van de volgende borstkolven heb je?",
+    "congratulations": "Goed nieuws!",
+    "congrats_message": "Je hebt de artikelen en tips op je startpagina succesvol gepersonaliseerd.",
+    "congrats_update_message": "Als er in de toekomst iets verandert, kun je deze informatie bijwerken via:",
+    "congrats_update_submessage": "Registreren > Tests > Inhoud personaliseren",
+    "get_started": "AAN DE SLAG!",
+    "no_data_popup_title": "Er is iets misgegaan. Probeer het later opnieuw"
+  },
+  "more": {
+    "header_title": "Meer",
+    "mom_info_title": "Wijzigen van naam, uitloggen, enz.",
+    "baby_info_title": "Wijzigen van naam, geboortedatum, enz.",
+    "pump_title": "Instellingen borstkolf",
+    "pump_info_title": "Verbinding met borstkolf en meer",
+    "store_title": "Winkelzoeker",
+    "share_title": "App delen",
+    "feedback_title": "Wij stellen je feedback op prijs",
+    "help_title": "Hulp",
+    "settings_title": "Algemene instellingen app",
+    "legal_title": "Juridisch",
+    "online_store": "Online shop",
+    "mom_profile": "Profiel mama",
+    "baby_profile": "Profiel baby",
+    "vip_pack_title": "VIP-pakket"
+  },
+  "baby_information": {
+    "header_title": "Gegevens van de baby",
+    "image_edit_offline_title": "‘Geen internet’-bericht",
+    "image_edit_offline_button": "Je kunt de afbeelding niet bewerken in de offline modus",
+    "edit_image": "Afbeelding bewerken",
+    "change_image": "Afbeelding wijzigen",
+    "add_image": "Afbeelding toevoegen",
+    "delete_image": "Afbeelding verwijderen",
+    "baby_boy": "Jongen",
+    "baby_girl": "Meisje",
+    "gender": "Geslacht",
+    "delete_baby": "BABY VERWIJDEREN",
+    "delete_baby_success_title": "Baby succesvol verwijderd",
+    "ok_btn": "OK",
+    "baby_name": "Naam/bijnaam van de baby",
+    "cancel": "Annuleren",
+    "select_photo": "Selecteer een foto",
+    "take_photo": "Maak een foto...",
+    "baby_birth_weight": "Geboortegewicht",
+    "baby_birth_height": "Geboortelengte",
+    "choose_from_library": "Kies uit bibliotheek..."
+  },
+  "moveTo_freezer_again": {
+    "cancel": "Annuleren",
+    "ok": "OK",
+    "title": "Het is niet mogelijk om melk uit de koelkast terug in de vriezer te doen."
+  },
+  "moveTo_freezer_popup": {
+    "cancel": "Annuleren",
+    "ok": "OK",
+    "title": "Weet je zeker dat je melk uit de koelkast in de vriezer wilt doen?"
+  },
+  "moveTo_fridge_popup": {
+    "cancel": "Annuleren",
+    "ok": "OK",
+    "title": "Weet je zeker dat je melk uit de vriezer in de koelkast wilt doen? Het is niet mogelijk om melk uit de koelkast terug in de vriezer te doen."
+  },
+  "mom_information": {
+    "header_title": "Gegevens van de moeder",
+    "dont_know_yet": "Ik weet het niet",
+    "do_not_plan_to_work": "Ik ben nog niet van plan om weer naar het werk (school/opleiding) te gaan",
+    "new_pregnancy_text": "NIEUWE ZWANGERSCHAP",
+    "log_out": "UITLOGGEN",
+    "delete_account": "ACCOUNT VERWIJDEREN",
+    "back_to_work_date": "Datum dat je weer naar het werk gaat",
+    "log_out_popup_title": "Wil je uitloggen?",
+    "ok": "OK",
+    "back_to_work_date_label": "Datum dat je weer naar het werk gaat",
+    "change_password_button": "BEVESTIGEN",
+    "change_password_congrts_msg": "Het wachtwoord is gewijzigd",
+    "change_password_title": "Wachtwoord wijzigen",
+    "current_password": "Huidig wachtwoord",
+    "current_password_error": "Onjuist wachtwoord",
+    "mom_name": "Naam/bijnaam van mama",
+    "new_password": "Nieuw wachtwoord",
+    "new_password_error": "8-20 tekens, min. 1 cijfer (a-z, 0-9)",
+    "repeat_password": "Wachtwoord herhalen",
+    "repeat_password_err": "Wachtwoorden komen niet overeen"
+  },
+  "help": {
+    "header_title": "Hulp",
+    "problem_solver": "Problemen oplossen",
+    "empty_list_message": "Geen artikelen beschikbaar",
+    "frequently_asked_questions": "Veelgestelde vragen",
+    "app_technical_support": "Technische ondersteuning voor de app",
+    "customer_service": "Klantenservice",
+    "lactation_consultant": "Lactatiekundige",
+    "mail_subject": "Feedback over de Medela Family app",
+    "medela_family": "Medela Family"
+  },
+  "legal": {
+    "header_title": "Juridisch",
+    "privacy_terms_conditions": "Privacy- en cookiebeleid",
+    "licences": "Gratis en opensource- licenties",
+    "imprint": "Colofon",
+    "imprint_version": "Versienummer",
+    "know_more": "MEER INFORMATIE"
+  },
+  "new_pregnancy_popup": {
+    "title": "Wil je een nieuwe zwangerschap starten?",
+    "cancel": "ANNULEREN",
+    "add_baby_due_date": "JA, EEN UITGEREKENDE DATUM TOEVOEGEN"
+  },
+  "vip_pack": {
+    "header_title": "VIP-pakket",
+    "voice_control": "Spraakbediening",
+    "voice_control_content": "Handsfree registreren",
+    "dark_mode": "Donkere modus",
+    "dark_mode_content": "Prettiger voor je ogen tijdens nachtelijke registratiesessies",
+    "welcome": "Ontdek hoe comfortabel het kan zijn!",
+    "popup_message": "Als je het VIP-pakket wilt ontgrendelen, verbind je je \n Sonata of Freestyle Flex borstkolf.",
+    "connect_pump_btn": "BORSTKOLF VERBINDEN",
+    "congrats_message": "",
+    "congrats_msg": "Goed nieuws! Je hebt het VIP-pakket ontgrendeld",
+    "congrats_title": "Goed nieuws \n Je hebt het VIP-pakket ontgrendeld!",
+    "connect_to_pump_btn": "KOPPELEN MET EEN SMART BORSTKOLF",
+    "findout_more": "MEER WETEN",
+    "register_pump_btn": "JE BORSTKOLF REGISTREREN",
+    "register_vip_link": "https://www.medela.us/breastfeeding/services/pump-registration",
+    "tutorial_instruction1": "Tik op het + teken rechtsboven in het scherm.",
+    "tutorial_instruction2": "Tik in het scherm 'Nieuwe snelkoppeling' op de knop 'Actie toevoegen'.",
+    "tutorial_instruction3": "Selecteer vervolgens 'Apps' linksboven. Selecteer daarna 'Medela Family' in de lijst met beschikbare apps.",
+    "tutorial_instruction4": "Je ziet nu een lijst met beschikbare opdrachten. Maak een keuze, bijvoorbeeld 'Beginnen met borstvoeding geven'. ",
+    "tutorial_instruction5": "Klik nu op 'Volgende' om een tekst toe te voegen van wat je wilt doen, bijvoorbeeld 'Beginnen met borstvoeding geven'",
+    "tutorial_instruction6": "Klaar! Je kunt nu met je stem Medela Family activeren.",
+    "tutorial_title1": "Open als je deze functie wilt gebruiken de app 'Opdrachten' van Apple. ",
+    "unlock_now_btn": "Ontgrendel het VIP-pakket nu",
+    "vip_active": "actief",
+    "vip_inactive": "inactief",
+    "vip_pack_text": "Het VIP-pakket is een exclusieve set functies die uitsluitend beschikbaar is voor klanten met bepaalde Medela borstkolven",
+    "vip_title": "VIP-pakket",
+    "tutorial_instruction7": "Klaar! Je kunt nu met je stem Medela Family activeren."
+  },
+  "settings": {
+    "header_title": "Instellingen",
+    "language_title": "Taal",
+    "language_info_title": "Engels (Verenigde Staten)",
+    "notification_title": "Meldingen",
+    "notification_info_title": "Medela Family meldingen beheren",
+    "Measurements_title": "Meeteenheden",
+    "Measurements_info_title": "Standaard: oz, in, lb"
+  },
+  "measurements": {
+    "header_title": "Meeteenheden",
+    "header_text": "Je kunt de notatie voor je regio bewerken.",
+    "standard_title": "Standaard",
+    "standard_info_title": "Ounce (oz), Inch (in) en Pound (lb)",
+    "metric_title": "Metriek",
+    "metric_info_title": "Milliliter (ml), Millimeter (mm) en Kilogram (kg)"
+  },
+  "share_app": {
+    "app_store": "App Store:",
+    "download_now": "Nu downloaden:",
+    "google_play": "Google Play:",
+    "message": "Medela Family is de slimme assistent die je helpt tijdens je zwangerschap, borstvoedingsperiode en meer.",
+    "title": "Medela Family app"
+  },
+  "feedback": {
+    "header_title": "Wij stellen je feedback op prijs",
+    "button_text": "Verzenden",
+    "input_placeholder": "Opmerking",
+    "success_feedback_text": "Bedankt voor je feedback",
+    "rating_text": "Wij stellen je feedback op prijs",
+    "feedback_text": "Wil je ons feedback geven?",
+    "button_title": "OK"
+  },
+  "chat": {
+    "header_title": "Chat",
+    "heading_description": " Maak kennis met Melissa -\n Je persoonlijke assistent!",
+    "chat_content1": "Melissa kan helpen met app-problemen, productaanbevelingen delen of baby- en borstvoedingstips geven.",
+    "chat_content2": "Wat het belangrijkste is? Hoe meer je Melissa vraagt, des te slimmer ze wordt! Chat dus zoveel met haar als je wilt.",
+    "choose_avatar": "Kies je assistent",
+    "edit_avatar": "Wissel van assistent",
+    "offline_text": "Maak verbinding met internet om met mij te kunnen praten.",
+    "chat_screen_link_text": "Tik hier om de chat te starten",
+    "avatar1_name": "Melissa",
+    "disclaimer_text": " Disclaimer: De chatbot biedt uitsluitend inhoud met een educatief karakter en dient niet ter vervanging van professioneel medisch advies. Als je ziek bent of je baby ziek is of er sprake is van een noodgeval, raadpleeg dan onmiddellijk je arts of lactatiekundige.",
+    "samira": "Samira",
+    "zoe": "Zoe",
+    "mei": "Mei",
+    "aurora": "Aurora",
+    "farrah": "Farrah",
+    "luna": "Luna",
+    "julia": "Julia",
+    "jahmelia": "Jahmelia",
+    "chatbot_header": "Medela Family",
+    "Chatbot_placeholder": "Typ hier",
+    "chatbot_send_text": "Verzenden"
+  },
+  "countries": {
+    "header_title": "Talen",
+    "English_International": "English (internationaal)",
+    "English_UnitedStates": "English (Verenigde Staten)",
+    "English_Canada": "English (Canada)",
+    "Français_Canada": "Français (Canada)",
+    "English_UnitedKingdom": "English (Verenigd Koninkrijk)",
+    "Deutsche_Germany": "Deutsch (Duitsland)",
+    "Français_France": "Français (Frankrijk)",
+    "Italiano_Italy": "Italiano (Italië)",
+    "Português_Portugal": "Português (Portugal)",
+    "Español_Spain": "Español (Spanje)",
+    "English_Australia": "English (Australië)",
+    "Français_Netherlands": "Français (Nederland)",
+    "Dutch_Netherlands": "Nederlands (Nederland)",
+    "Deutsche_Netherlands": "Deutsch (Nederland)",
+    "Deutsche_Switzerland": "Deutsch (Zwitserland)",
+    "Français_Switzerland": "Français (Zwitserland)",
+    "Italiano_Switzerland": "Italiano (Zwitserland)",
+    "English_India": "English (India)",
+    "Svenska_Sweden": "Svenska (Zweden)",
+    "Norsk_Norway": "Norsk (Noorwegen)",
+    "Dansk_Denmark": "Dansk (Denemarken)",
+    "русский_Russia": "русский (Rusland)",
+    "English_Israel": "English (Israël)",
+    "English_Ireland": "English (Ierland)",
+    "English_NewZealand": "English (Nieuw-Zeeland)",
+    "English_Malaysia": "English (Maleisië)",
+    "English_Singapore": "English (Singapore)",
+    "English_SouthAfrica": "English (Zuid-Afrika)",
+    "Arabic": "Arabisch",
+    "French": "Frans",
+    "German": "Duits",
+    "polish": "Polish"
+  },
+  "notifications": {
+    "header_title": "Meldingen",
+    "marketing_opt_ins_notifications": "Aanmelding voor marketing",
+    "marketing_opt_ins_description": "",
+    "marketing_opt_ins_notifications_list": [
+      "E-mailnieuwsbrieven",
+      "SMS",
+      "E-mail",
+      "Bètatester"
+    ],
+    "outofapp_notifications": "Pushmeldingen",
+    "outofapp_description": "Deze meldingen worden weergegeven in het vergrendelingsscherm en berichtencentrum op je telefoon.",
+    "outofapp_notifications_list": [
+      {
+        "list": [
+          "Allow Notifications"
+        ],
+        "title": ""
+      },
+      {
+        "list": [
+          "Pump Session Timeout"
+        ],
+        "title": "Kolven met verbinding"
+      },
+      {
+        "list": [
+          "Milk About to Expire",
+          "Milk Expired"
+        ],
+        "title": "Virtuele melkopslag"
+      }
+    ],
+    "inapp_notifications": "Notificaties in de app",
+    "inapp_description": "Deze meldingen worden als pop-upberichten weergegeven in de app.",
+    "inapp_notifications_list": [
+      {
+        "list": [
+          "Missing Milk Volume"
+        ],
+        "title": "Hoeveelheid toevoegen"
+      },
+      {
+        "list": [
+          "Breastfeeding Confidence",
+          "Content Personalization"
+        ],
+        "title": "Tests"
+      },
+      {
+        "list": [
+          "Baby Birth Date"
+        ],
+        "title": "Bevestiging van geboortedatum"
+      },
+      {
+        "list": [
+          "Congratulations"
+        ],
+        "title": "Virtuele melkopslag"
+      }
+    ],
+    "permission_header": "Meldingen",
+    "permission_text": "Wil je op de hoogte worden gehouden van je registratiesessies, houdbaarheidsdatums van de melk en andere app-activiteiten? \n Je kunt deze instelling later wijzigen in de app-instellingen in het scherm 'Meer'.",
+    "ok": "OK"
+  },
+  "babies": {
+    "header_title": "Baby's",
+    "baby_height": "Lengte van de baby",
+    "baby_weight": "Gewicht van de baby"
+  },
+  "articles": {
+    "articles_header_text": "Kenniscentrum",
+    "no_article_title": "Je lijst met favoriete artikelen is leeg",
+    "no_article_description": "Als je artikelen aan deze lijst wilt toevoegen, open je een artikel en tik je op het harticoontje rechtsboven.",
+    "favourite_articles_header_text": "Favorieten",
+    "load_more_text": "Meer laden",
+    "remove_favourite_article_text": "Verwijderen uit favorieten?",
+    "remove_favourite_article_description": "Weet je zeker dat \n je dit artikel uit je lijst met favorieten wilt verwijderen?",
+    "yes": "JA",
+    "no": "NEE",
+    "share_article_title": "Medela Family"
+  },
+  "offline": {
+    "offline_message": "Je bent offline."
+  },
+  "pump_list_setting": {
+    "title": "Verbonden borstkolf",
+    "description": "Klik op je kolf om video's, instructies en meer te bekijken",
+    "pump_status_offline": "Offline",
+    "pump_status_connected": "Verbonden",
+    "pump_something_wrong": "Er is iets misgegaan. Probeer het later opnieuw",
+    "no_pump": "Geen borstkolf gevonden",
+    "pump_addition_title": "Borstkolf toevoegen",
+    "pump_addition_success_message": "Borstkolf is succesvol toegevoegd",
+    "pump_addition_error_message": "Borstkolf kon niet worden toegevoegd, probeer het opnieuw",
+    "ok": "OK",
+    "version": "Versie",
+    "battery": "Accu",
+    "charging": "Opladen",
+    "pumps": "Kolven",
+    "setup_new_pump": "Een nieuwe borstkolf instellen",
+    "manual_tracking": "Handmatig registreren",
+    "pump_deletion_error_message": "Borstkolf kon niet worden verwijderd, probeer het opnieuw",
+    "pump_deletion_success_message": "De borstkolf is uit de app verwijderd.",
+    "pump_deletion_title": "Borstkolf verwijderen",
+    "connect_tracking": "Registratie borstkolf",
+    "connect_pump": "Borstkolf verbinden",
+    "pump_now": "Nu kolven",
+    "edit_pump_name":"Naam van borstkolf bewerken",
+    "cancel":"ANNULEREN"
+  },
+  "pump_phase": [
+    "Stimulatiefase",
+    "Afkolffase"
+  ],
+  "pump_rhythem": [
+    "Signature",
+    "Lifestyle"
+  ],
+  "contractions": {
+    "title": "Weeën",
+    "frequency": "Frequentie",
+    "pain": "Kies de intensiteit van de pijn",
+    "reset": "Resetten",
+    "reset_message": "Weet je zeker dat je de frequentietimer wilt resetten?",
+    "pain_intensity1": "Geen",
+    "pain_intensity2": "Zeer zacht",
+    "pain_intensity3": "Zacht",
+    "pain_intensity4": "Medium",
+    "pain_intensity5": "Krachtig",
+    "pain_intensity6": "Zeer krachtig"
+  },
+  "opted": {
+    "title": "Door je telefoonnummer op te geven, stem je ermee in om SMS-berichten van Medela te ontvangen. De standaardtarieven van je provider zijn van toepassing.",
+    "mail_ques": "Mogen we je post sturen?",
+    "become_tester": "Word bètatester om als eerste nieuwe producten, ervaringen en diensten van Medela te proberen. Iets voor jou?",
+    "phone": "Telefoonnummer",
+    "first_name": "Voornaam",
+    "last_name": "Achternaam",
+    "address": "Adres",
+    "apt_unit": "Appartement/unit/anders",
+    "city": "Plaats",
+    "state": "Staat",
+    "zip": "Postcode",
+    "address_dialog_desc": "Het wordt aanbevolen om de adresnotatie zoals in de VS te gebruiken om er zeker van te zijn dat leveringen aankomen.\nSelecteer een optie",
+    "address_dialog_nagetive": "MIJN ADRES BEWERKEN",
+    "address_dialog_positive": "GESELECTEERD ADRES GEBRUIKEN",
+    "address_dialog_same": "Hetzelfde houden",
+    "address_dialog_title": "Controleer je adres",
+    "address_dialog_us": "Adresnotatie zoals in de VS",
+    "no_address_title": "Waarschuwing",
+    "phone_error": "Voer een geldig telefoonnummer in",
+    "apt_unit_error": "Voer je appartement/unit/anders in",
+    "city_error": "Voer je plaats in",
+    "first_name_error": "Voer je voornaam in",
+    "last_name_error": "Voer je achternaam in",
+    "state_error": "Voer je land in",
+    "zip_error": "Voer je postcode in",
+    "address_error": "Voer je adres in"
+  },
+  "ble_instruction": {
+    "title": "Instructies",
+    "quick_start": "Snel aan de slag",
+    "front_panel": "Voorpaneel",
+    "user_manual": "Gebruiksaanwijzing"
+  },
+  "ble_quick_start": {
+    "title": "Snel aan de slag",
+    "charge_pump": "Borstkolf opladen",
+    "charge_pump_desc": "Sluit de borstkolf aan op een externe voedingsbron \n en laad het apparaat maximaal 12 uur op.",
+    "disassemble": "Het apparaat uit elkaar halen",
+    "disassemble_desc": "Haal de onderdelen uit elkaar voordat je ze reinigt. Verwijder vóór het eerste gebruik \n de beschermkap van het borstschild en gooi deze weg.",
+    "wash_part": "Onderdelen reinigen",
+    "wash_part_desc": "Vóór het eerste gebruik en na elk gebruik. \n Gebruik je gootsteen of afwasmachine. \n Reinig de slang niet voor het eerste gebruik.",
+    "Sanitize_parts": "Onderdelen desinfecteren",
+    "Sanitize_parts_desc": "Vóór het eerste gebruik en eenmaal per dag. \n Gebruik een pan of de magnetron. \nDesinfecteer de slang niet.",
+    "charge_pump_desc_swing_maxi": "Sluit de borstkolf aan op een externe voedingsbron \n en laad het apparaat maximaal 12 uur op."
+  },
+  "ble_front_panel": {
+    "title": "Voorpaneel"
+  },
+  "ble_offline_popup": {
+    "title": "De afkolfsessies die op je borstkolf zijn opgeslagen, zijn overgezet naar Medela Family",
+    "message": "Vergeet niet om de hoeveelheid moedermelk in te voeren, zodat je statistieken up-to-date blijven.",
+    "cancel": "Annuleren",
+    "view": "Weergeven"
+  },
+  "settings_screen": [
+    {
+      "title": "Taal",
+      "content": "Engels (Verenigde Staten)"
+    },
+    {
+      "title": "Meldingen",
+      "content": "Medela Family meldingen beheren"
+    },
+    {
+      "title": "Meeteenheden",
+      "content": "Standaard: oz, in, lb"
+    }
+  ],
+  "MoreList":{
+    "moreFirstListData":[
+      {
+        "selectedImage": "motherInformation",
+        "title": "Profiel mama",
+        "content": "Wijzigen van naam, uitloggen, enz."
+      },
+      {
+        "selectedImage": "babyInformation",
+        "title": "Profiel baby",
+        "content": "Wijzigen van naam, geboortedatum, enz."
+      },
+      {
+        "selectedImage": "pumpSettings",
+        "title": "Instellingen borstkolf",
+        "content": "Verbinding met borstkolf en meer"
+      }
+    ],
+    "moreSecondListData":[
+      {
+        "selectedImage": "vipPack",
+        "title": "VIP-pakket"
+      },
+      {
+        "selectedImage": "onlineShop",
+        "title": "Online Shop"
+      },
+      {
+        "selectedImage": "storeLocator",
+        "title": "Winkelzoeker"
+      },
+      {
+        "selectedImage": "shareApp",
+        "title": "App delen"
+      },
+      {
+        "selectedImage": "giveUsFeedback",
+        "title": "Wij stellen je feedback op prijs"
+      },
+      {
+        "selectedImage": "help",
+        "title": "Hulp"
+      },
+      {
+        "selectedImage": "settings",
+        "title": "Algemene instellingen app"
+      },
+      {
+        "selectedImage": "legal",
+        "title": "Juridisch"
+      }
+    ]
+  },
+  "days": {
+    "friday": "Vrijdag",
+    "monday": "Maandag",
+    "saturday": "Zaterdag",
+    "sunday": "Zondag",
+    "thursday": "Donderdag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "s1": "Zon",
+    "s2": "Zat",
+    "m": "Maa",
+    "t1": "Din",
+    "t2": "Don",
+    "w": "Woe",
+    "f": "Vri"
+  },
+  "freezer_popup": {
+    "ok": "OK",
+    "title": "Het flesje/zakje met dit nummer is al gebruikt. Gebruik een ander flesje/zakje"
+  },
+  "VipPackList": {
+    "VipPackListData":[
+      {
+        "title": "Spraakbediening",
+        "content": "Handsfree registreren"
+      },
+      {
+        "title": "Virtuele melkopslag",
+        "content": "Virtueel melkvoorraadsysteem"
+      }
+    ]
+  },
+  "virtual_freezer": {
+    "add_milk": "Melk toevoegen",
+    "clear_filter": "Filter wissen",
+    "created_on": "Gemaakt op",
+    "expire_at": "Verlopen op",
+    "move_milk": "Melk verplaatsen",
+    "net_volume": "Nettovolume",
+    "pumping": "Kolven",
+    "quick": "Snel",
+    "saved_in": "Opgeslagen in",
+    "tray": "Rek",
+    "notification_title1": "Goed nieuws",
+    "notification_title2": "Melk over de datum",
+    "notification_description1": "Je hebt je eerste diepvrieszakje aan je virtuele melkopslag toegevoegd Je bent nu begonnen om je moedermelkvoorraad op te bouwen!",
+    "notification_description2": "Het zakje/de fles nr. X in de koelkast/vriezer is nu over de datum. Gebruik deze niet meer voor een voeding. Gooi de melk weg of gebruik de melk ergens anders voor.",
+    "notification_title3": "Melk bijna over de datum",
+    "notification_description3": "Het zakje/de fles nr. X in de koelkast/vriezer is morgen over de datum. Gebruik de melk vandaag nog om verspilling te voorkomen!",
+    "number_limit_msg":"Aantal mag niet hoger zijn dan 250",
+    "tray_limit_msg":"Rek mag niet hoger zijn dan 250",
+    "feed_milk": "Melk voeden"
+  },
+  "CountriesList" : {
+    "countriesListData":[
+      {
+        "countryName": "English",
+        "countryCode": "en"
+      },
+      {
+        "countryName": "Arabic",
+        "countryCode": "ar"
+      },
+      {
+        "countryName": "French",
+        "countryCode": "fr"
+      },
+      {
+        "countryName": "Italian",
+        "countryCode": "it"
+      },
+      {
+        "countryName": "German",
+        "countryCode": "de"
+      },
+      {
+        "countryName": "Portuguese",
+        "countryCode": "pt"
+      },
+      {
+        "countryName": "Spanish",
+        "countryCode": "es"
+      },
+      {
+        "countryName": "Dutch",
+        "countryCode": "nl"
+      },
+      {
+        "countryName": "Swedish",
+        "countryCode": "sv"
+      },
+      {
+        "countryName": "Norwegian",
+        "countryCode": "no"
+      },
+      {
+        "countryName": "Danish",
+        "countryCode": "da"
+      },
+      {
+        "countryName": "Russian",
+        "countryCode": "ru"
+      },{
+        "countryName": "Hebrew",
+        "countryCode": "he"
+      },
+      {
+        "countryName": "Polish",
+        "countryCode": "pl"
+      }
+    ]
+  },
+  "NotificationsData" : {
+    "NotificationsData":[
+      {
+        "notifications_heading": "Pushmeldingen",
+        "notification_description": "Deze meldingen worden weergegeven in het vergrendelingsscherm en berichtencentrum op je telefoon.",
+        "notifications_list": [
+          {"Key": "Allow Notifications","title": "", "list": [{"Key":"Allow Notifications","item":"Meldingen toestaan"}]},
+          {"Key": "Connected Pumping","title": "Verbonden pompen", "list": [{"Key":"Pump Session Timeout","item":"Time-out pompsessie"}]},
+          {"Key": "Virtual Freezer","title": "Virtuele melkopslag", "list": [{"Key": "Milk About to Expire","item": "Melk verloopt bijna"}, {"Key": "Milk Expired","item": "Melk is verlopen"}]}
+        ]
+      },
+      {
+        "notifications_heading": "Meldingen in de app",
+        "notification_description": "Deze meldingen worden als pop-upberichten weergegeven in de app.",
+        "notifications_list": [
+          {"Key": "Add Volume","title": "Voeg volume toe", "list": [{"Key": "Missing Milk Volume","item": "Ontbrekend melkvolume"}]},
+          {"Key": "Difficult experience","title": "Moeilijk Ervaring", "list": [{"Key": "Breastfeeding & Pumping","item": "Borstvoeding geven & afkolven"}]},
+          {"Key": "Connected Pumping","title": "Kolven met verbinding", "list": [{"Key": "Pump Session Complete","item": "Afkolfsessie voltooid"}]},
+          {"Key": "Tests","title": "Tests", "list": [{"Key": "Breastfeeding Confidence","item": "Vertrouwen in borstvoeding"},{"Key": "Content Personalization","item": "Content personalisatie"}]},
+          {"Key": "Baby Birth Date","title": "Bevestiging van de geboortedatum van de baby", "list": [{"Key": "Baby Birth Date","item": "Geboortedatum van de"}]},
+          {"Key": "Virtual Freezer","title": "Virtuele melkopslag", "list": [{"Key": "Congratulations","item": "Gefeliciteerd"}]}
+        ]
+      },
+      {
+        "notifications_heading": "Aanmelding voor marketing",
+        "notification_description": "",
+        "notifications_list": [
+          {"Key": "Email newsletters","item": "E-mailnieuwsbrieven"},
+          {"Key": "SMS","item": "SMS"},
+          {"Key": "Mail","item": "E-mail"},
+          {"Key": "Beta Tester","item": "Bètatester"}
+        ]
+      }
+    ]
+  },
+  "HelpList": {
+    "helpListData":[
+      {
+        "selectedImage": "problemSolver",
+        "title": "Problemen oplossen"
+      },
+      {
+        "selectedImage": "appTechnicalSupport",
+        "title": "Technische ondersteuning bij de app"
+      },
+      {
+        "selectedImage": "customerService",
+        "title": "Klantenservice"
+      },
+      {
+        "selectedImage": "lactationConsultant",
+        "title": "Lactatiekundige"
+      }
+    ]
+  },
+  "LegalList": {
+    "LegalListData": [
+      {
+        "selectedImage": "Imprint",
+        "title": "Colofon"
+      },
+      {
+        "selectedImage": "privacyPolicyTermsAndCondition",
+        "title": "Privacy- en cookiebeleid"
+      },
+      {
+        "selectedImage": "licenses",
+        "title": "Gratis en opensource- \nlicenties"
+      }
+    ]
+  },
+  "time":{
+    "just_now":"Zojuist",
+    "day_ago":"dag geleden",
+    "days_ago":"dagen geleden",
+    "min_ago":"min. geleden",
+    "mins_ago":"min. geleden",
+    "h":"u",
+    "d":"d",
+    "day":"dag",
+    "days":"dagen",
+    "hour_ago":"uur geleden",
+    "hours_ago":"uur geleden",
+    "sec":"sec.",
+    "min":"min.",
+    "mins":"min.",
+    "hour":"uur",
+    "hours":"uur",
+    "h_ago":"u geleden",
+    "day_old":"dag oud",
+    "days_old":"dagen oud",
+    "h_old":"u oud",
+    "hour_old":"uur oud",
+    "hours_old":"uur oud",
+    "min_old":"min. oud",
+    "mins_old":"min. oud",
+    "month_ago":"1 maand geleden",
+    "months_ago":"maanden geleden",
+    "year_ago":"1 jaar geleden",
+    "years_ago":"jaren geleden"
+  },
+  "months":{
+    "january":"januari",
+    "february":"februari",
+    "march":"maart",
+    "april":"april",
+    "may":"mei",
+    "june":"juni",
+    "july":"juli",
+    "august":"augustus",
+    "september":"september",
+    "october":"oktober",
+    "november":"november",
+    "december":"december"
+  },
+  "chart": {
+    "age": "Leeftijd (weken)",
+    "inch": "inch",
+    "cm": "cm"
+  },
+  "chart_month": {
+    "age": "Leeftijd (Maanden)",
+    "inch": "inch",
+    "cm": "cm"
+  },
+  "voice_command": {
+    "active_breastfeeding_body": "Beëindig je huidige borstvoedingssessie om een nieuwe te starten.",
+    "active_breastfeeding_title": "Je kunt geen nieuwe borstvoedingssessie starten tijdens een actieve borstvoedingssessie.",
+    "active_pump_body": "Beëindig je huidige kolfsessie om een nieuwe te starten.",
+    "active_pump_title": "Je kunt geen nieuwe kolfsessie starten tijdens een actieve kolfsessie.",
+    "active_sleep_body": "Beëindig je huidige slaapsessie om een nieuwe te starten.",
+    "active_sleep_title": "Je kunt geen nieuwe slaapsessie starten tijdens een actieve slaapsessie.",
+    "continue_already_continue_title": "Je huidige borstvoedingssessie is al actief",
+    "continue_no_session_title": "Ga verder als er geen actieve sessie is.",
+    "ok": "OK",
+    "pause_already_pause_title": "Je huidige borstvoedingssessie is al gepauzeerd",
+    "pause_no_session_title": "Je hebt geen actieve sessie",
+    "vip_pack_not_active": "Ontgrendel nu het VIP-pakket om deze functie in te schakelen."
+},
+  "maintenancescreen":{
+    "text1":"Sorry, we zijn momenteel bezig met onderhoud.",
+    "text2":"De app zal snel weer werkzaam zijn.",
+    "text3":"Bedankt voor je geduld!"
+  },
+  "units": {
+    "cm": "cm",
+    "inch": "in",
+    "oz": "oz",
+    "ml": "ml",
+    "lb": "lb",
+    "kg": "Kg",
+    "in": "in"
+  },
+  "update_popup":{
+    "new_update":"Een nieuwe update is beschikbaar!",
+    "download_message":"Download de nieuwste update om Medela Family te blijven gebruiken",
+    "update_now":"Nu bijwerken",
+    "remind_later":"Herinner me later"
+  },
+  "force_update_popup":{
+    "new_update":"Belangrijke update beschikbaar",
+    "download_message":"Download de laatste update om Medela Family te blijven gebruiken.",
+    "update_now":"Update nu"
+  },
+  "accessibility_labels": {
+    "baby_data": "Baby gegevens"
+  },
+  "bluetooth_pre_permissions": {
+    "title": "Heb je een Medela slimme borstkolf?",
+    "iOS_text": "Zo ja, zorg er dan voor dat u de Medela Family-app toestemming geeft om Bluetooth te gebruiken om uw borstkolf te verbinden, anders kunt u geen verbinding maken met uw borstkolf.",
+    "android_text":"Zo ja, zorg er dan voor dat u de Medela Family-app toestemming geeft om Bluetooth en locatietoestemming te gebruiken om uw pomp te verbinden, anders kunt u geen verbinding maken met uw borstkolf. We houden de positie van uw telefoon niet bij, maar dit is een vereiste van het besturingssysteem van de smartphone.",
+    "button": "Doorgaan"
+  },
+  "feedback_popup": {
+    "title": "Ben je dol op onze app?",
+    "title1": "Wil je ons feedback sturen?",
+    "no": "Nee",
+    "yes": "Ja",
+    "popup2_title":"Tik op een ster om deze te beoordelen in de app store"
+  }
+}

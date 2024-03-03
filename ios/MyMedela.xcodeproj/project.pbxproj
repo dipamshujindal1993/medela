@@ -1,0 +1,2997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008C447E277317A700374D77 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C447D277317A700374D77 /* libc++.tbd */; };
+		008C4480277322EC00374D77 /* RealmJS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C447F277322EC00374D77 /* RealmJS.framework */; };
+		00E356F31AD99517003FC87E /* MyMedelaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyMedelaTests.m */; };
+		0D0A831926B86CDD00923608 /* dark_about_fr.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82E326B86CDC00923608 /* dark_about_fr.html */; };
+		0D0A831A26B86CDD00923608 /* about_fr.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82E426B86CDC00923608 /* about_fr.html */; };
+		0D0A831B26B86CDD00923608 /* about_nb.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82E526B86CDC00923608 /* about_nb.html */; };
+		0D0A831C26B86CDD00923608 /* dark_about_da.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82E626B86CDC00923608 /* dark_about_da.html */; };
+		0D0A831D26B86CDD00923608 /* about_ar.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82E726B86CDC00923608 /* about_ar.html */; };
+		0D0A831E26B86CDD00923608 /* about_es.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82E826B86CDC00923608 /* about_es.html */; };
+		0D0A831F26B86CDD00923608 /* about_sv.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82E926B86CDC00923608 /* about_sv.html */; };
+		0D0A832026B86CDD00923608 /* about_da.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82EA26B86CDC00923608 /* about_da.html */; };
+		0D0A832126B86CDD00923608 /* dark_about_nb.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82EB26B86CDC00923608 /* dark_about_nb.html */; };
+		0D0A832226B86CDD00923608 /* dark_about_sv.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82EC26B86CDC00923608 /* dark_about_sv.html */; };
+		0D0A832326B86CDD00923608 /* dark_about_es.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82ED26B86CDC00923608 /* dark_about_es.html */; };
+		0D0A832426B86CDD00923608 /* dark_about_ar.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82EE26B86CDC00923608 /* dark_about_ar.html */; };
+		0D0A832526B86CDD00923608 /* about_nl.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82EF26B86CDC00923608 /* about_nl.html */; };
+		0D0A832626B86CDD00923608 /* dark_about_nl.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F026B86CDC00923608 /* dark_about_nl.html */; };
+		0D0A832726B86CDD00923608 /* about_it.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F126B86CDC00923608 /* about_it.html */; };
+		0D0A832826B86CDD00923608 /* dark_about_de.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F226B86CDC00923608 /* dark_about_de.html */; };
+		0D0A832926B86CDD00923608 /* about_en.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F326B86CDC00923608 /* about_en.html */; };
+		0D0A832A26B86CDD00923608 /* dark_about_pl.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F426B86CDC00923608 /* dark_about_pl.html */; };
+		0D0A832B26B86CDD00923608 /* dark_about_ru.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F526B86CDC00923608 /* dark_about_ru.html */; };
+		0D0A832C26B86CDD00923608 /* about_pt.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F626B86CDC00923608 /* about_pt.html */; };
+		0D0A832D26B86CDD00923608 /* dark_about_it.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F726B86CDC00923608 /* dark_about_it.html */; };
+		0D0A832E26B86CDD00923608 /* dark_about_pt.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F826B86CDC00923608 /* dark_about_pt.html */; };
+		0D0A832F26B86CDD00923608 /* about_ru.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82F926B86CDC00923608 /* about_ru.html */; };
+		0D0A833026B86CDD00923608 /* about_pl.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82FA26B86CDC00923608 /* about_pl.html */; };
+		0D0A833126B86CDD00923608 /* dark_about_en.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82FB26B86CDC00923608 /* dark_about_en.html */; };
+		0D0A833226B86CDD00923608 /* about_de.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D0A82FC26B86CDC00923608 /* about_de.html */; };
+		0D1790D02664F76600764F6C /* NativeWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1790CF2664F76600764F6C /* NativeWebview.swift */; };
+		0D1790DE2664F96000764F6C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1790DD2664F96000764F6C /* WebViewController.swift */; };
+		0D1790E62664FB8100764F6C /* WebViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1790E52664FB8100764F6C /* WebViewHandler.m */; };
+		0D1F79F8267FACDC00A7DC24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D1F79FA267FACDC00A7DC24 /* InfoPlist.strings */; };
+		0D994E7726CA788200C7EE31 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0DA8B62625DFE96A003EF221 /* ModuleWithEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA8B62425DFE969003EF221 /* ModuleWithEmitter.m */; };
+		0DB7E16D26661EC500221D3A /* ImprintNativeWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E16C26661EC500221D3A /* ImprintNativeWebview.swift */; };
+		0DB7E17B26661F3300221D3A /* ImprintWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E17A26661F3300221D3A /* ImprintWebviewController.swift */; };
+		0DB7E1F72666218800221D3A /* ImprintWebViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E1F62666218800221D3A /* ImprintWebViewHandler.m */; };
+		0DB7E2ED2666286D00221D3A /* TermsNativeWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E2EC2666286D00221D3A /* TermsNativeWebview.swift */; };
+		0DB7E2FB2666288F00221D3A /* TermsWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E2FA2666288F00221D3A /* TermsWebviewController.swift */; };
+		0DB7E3152666295400221D3A /* TermsWebViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E3142666295400221D3A /* TermsWebViewHandler.m */; };
+		0DCC839A25B006BA003F4303 /* PacifySDKModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC839725B006BA003F4303 /* PacifySDKModule.swift */; };
+		0DCC839B25B006BA003F4303 /* PacifySDKModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC839925B006BA003F4303 /* PacifySDKModule.m */; };
+		0E90250DF3787A9920BBDBEE /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* MyMedelaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyMedelaTests.m */; };
+		47143E73E91C62AAE396F08F /* Pods_MyMedela_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFEE30C9DE82CAB08084F1A /* Pods_MyMedela_tvOS.framework */; };
+		574A9F1025D9958B001AE21C /* ContinueBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9F0F25D9958B001AE21C /* ContinueBreastfeedingIntentHandler.swift */; };
+		574A9F1125D9958B001AE21C /* ContinueBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9F0F25D9958B001AE21C /* ContinueBreastfeedingIntentHandler.swift */; };
+		574A9F1925D995BB001AE21C /* SwitchBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9F1825D995BB001AE21C /* SwitchBreastfeedingIntentHandler.swift */; };
+		574A9F1A25D995BB001AE21C /* SwitchBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9F1825D995BB001AE21C /* SwitchBreastfeedingIntentHandler.swift */; };
+		574A9F2825DA6FC2001AE21C /* StopBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9F2725DA6FC2001AE21C /* StopBreastfeedingIntentHandler.swift */; };
+		574A9F2925DA6FC2001AE21C /* StopBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9F2725DA6FC2001AE21C /* StopBreastfeedingIntentHandler.swift */; };
+		574A9FDD25E3E995001AE21C /* StartSleepIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FDC25E3E995001AE21C /* StartSleepIntentHandler.swift */; };
+		574A9FDE25E3E995001AE21C /* StartSleepIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FDC25E3E995001AE21C /* StartSleepIntentHandler.swift */; };
+		574A9FE625E3E9DD001AE21C /* StopSleepIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FE525E3E9DD001AE21C /* StopSleepIntentHandler.swift */; };
+		574A9FE725E3E9DD001AE21C /* StopSleepIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FE525E3E9DD001AE21C /* StopSleepIntentHandler.swift */; };
+		574A9FEF25E3EA0B001AE21C /* WhenWasTheLastSleepIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FEE25E3EA0B001AE21C /* WhenWasTheLastSleepIntentHandler.swift */; };
+		574A9FF025E3EA0B001AE21C /* WhenWasTheLastSleepIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FEE25E3EA0B001AE21C /* WhenWasTheLastSleepIntentHandler.swift */; };
+		574A9FF825E3EA65001AE21C /* TrackADiaperByTypeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FF725E3EA65001AE21C /* TrackADiaperByTypeIntentHandler.swift */; };
+		574A9FF925E3EA65001AE21C /* TrackADiaperByTypeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FF725E3EA65001AE21C /* TrackADiaperByTypeIntentHandler.swift */; };
+		574AA00125E3EA9D001AE21C /* WhenWasTheLastDiaperChangeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA00025E3EA9D001AE21C /* WhenWasTheLastDiaperChangeIntentHandler.swift */; };
+		574AA00225E3EA9D001AE21C /* WhenWasTheLastDiaperChangeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA00025E3EA9D001AE21C /* WhenWasTheLastDiaperChangeIntentHandler.swift */; };
+		574AA01025E537C2001AE21C /* TrackWeightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA00F25E537C1001AE21C /* TrackWeightIntentHandler.swift */; };
+		574AA01125E537C2001AE21C /* TrackWeightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA00F25E537C1001AE21C /* TrackWeightIntentHandler.swift */; };
+		574AA01925E53808001AE21C /* WhenWasTheLastWeightTrackingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA01825E53808001AE21C /* WhenWasTheLastWeightTrackingIntentHandler.swift */; };
+		574AA01A25E53808001AE21C /* WhenWasTheLastWeightTrackingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA01825E53808001AE21C /* WhenWasTheLastWeightTrackingIntentHandler.swift */; };
+		574AA02225E53826001AE21C /* TrackLengthIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA02125E53826001AE21C /* TrackLengthIntentHandler.swift */; };
+		574AA02325E53826001AE21C /* TrackLengthIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA02125E53826001AE21C /* TrackLengthIntentHandler.swift */; };
+		574AA02B25E53862001AE21C /* WhenWasTheLastLengthTrackingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA02A25E53862001AE21C /* WhenWasTheLastLengthTrackingIntentHandler.swift */; };
+		574AA02C25E53862001AE21C /* WhenWasTheLastLengthTrackingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA02A25E53862001AE21C /* WhenWasTheLastLengthTrackingIntentHandler.swift */; };
+		574AA15225E69696001AE21C /* HowmuchmilkdoIhaveinthefridgeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA15125E69696001AE21C /* HowmuchmilkdoIhaveinthefridgeIntentHandler.swift */; };
+		574AA15325E69696001AE21C /* HowmuchmilkdoIhaveinthefridgeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA15125E69696001AE21C /* HowmuchmilkdoIhaveinthefridgeIntentHandler.swift */; };
+		574AA15B25E696AD001AE21C /* HowmuchmilkdoIhaveinthefreezerIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA15A25E696AD001AE21C /* HowmuchmilkdoIhaveinthefreezerIntentHandler.swift */; };
+		574AA15C25E696AD001AE21C /* HowmuchmilkdoIhaveinthefreezerIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA15A25E696AD001AE21C /* HowmuchmilkdoIhaveinthefreezerIntentHandler.swift */; };
+		574AA17625E696E8001AE21C /* StartbottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA17525E696E8001AE21C /* StartbottlefeedingIntentHandler.swift */; };
+		574AA17725E696E8001AE21C /* StartbottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA17525E696E8001AE21C /* StartbottlefeedingIntentHandler.swift */; };
+		574AA17F25E697B6001AE21C /* PausebottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA17E25E697B6001AE21C /* PausebottlefeedingIntentHandler.swift */; };
+		574AA18025E697B6001AE21C /* PausebottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA17E25E697B6001AE21C /* PausebottlefeedingIntentHandler.swift */; };
+		574AA18825E697CD001AE21C /* StopbottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA18725E697CD001AE21C /* StopbottlefeedingIntentHandler.swift */; };
+		574AA18925E697CD001AE21C /* StopbottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA18725E697CD001AE21C /* StopbottlefeedingIntentHandler.swift */; };
+		574AA19125E697E5001AE21C /* ContinuebottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA19025E697E5001AE21C /* ContinuebottlefeedingIntentHandler.swift */; };
+		574AA19225E697E5001AE21C /* ContinuebottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA19025E697E5001AE21C /* ContinuebottlefeedingIntentHandler.swift */; };
+		574AA19A25E6980A001AE21C /* TrackaformulafeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA19925E6980A001AE21C /* TrackaformulafeedingIntentHandler.swift */; };
+		574AA19B25E6980A001AE21C /* TrackaformulafeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA19925E6980A001AE21C /* TrackaformulafeedingIntentHandler.swift */; };
+		574AA1A325E6983C001AE21C /* WhenwasthelastbottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1A225E6983C001AE21C /* WhenwasthelastbottlefeedingIntentHandler.swift */; };
+		574AA1A425E6983C001AE21C /* WhenwasthelastbottlefeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1A225E6983C001AE21C /* WhenwasthelastbottlefeedingIntentHandler.swift */; };
+		574AA1B825E7D9B3001AE21C /* StartpumpingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1B725E7D9B3001AE21C /* StartpumpingIntentHandler.swift */; };
+		574AA1B925E7D9B3001AE21C /* StartpumpingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1B725E7D9B3001AE21C /* StartpumpingIntentHandler.swift */; };
+		574AA1C125E7D9CC001AE21C /* StoppumpingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1C025E7D9CC001AE21C /* StoppumpingIntentHandler.swift */; };
+		574AA1C225E7D9CC001AE21C /* StoppumpingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1C025E7D9CC001AE21C /* StoppumpingIntentHandler.swift */; };
+		574AA1CA25E7D9EE001AE21C /* SavemilkIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1C925E7D9EE001AE21C /* SavemilkIntentHandler.swift */; };
+		574AA1CB25E7D9EE001AE21C /* SavemilkIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1C925E7D9EE001AE21C /* SavemilkIntentHandler.swift */; };
+		574AA1D325E7DA1B001AE21C /* SavepumpingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1D225E7DA1B001AE21C /* SavepumpingIntentHandler.swift */; };
+		574AA1D425E7DA1B001AE21C /* SavepumpingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1D225E7DA1B001AE21C /* SavepumpingIntentHandler.swift */; };
+		574AA1DC25E7DA30001AE21C /* WhenwasthelastpumpingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1DB25E7DA30001AE21C /* WhenwasthelastpumpingIntentHandler.swift */; };
+		574AA1DD25E7DA30001AE21C /* WhenwasthelastpumpingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA1DB25E7DA30001AE21C /* WhenwasthelastpumpingIntentHandler.swift */; };
+		574AA2B525ED5910001AE21C /* UseMilkIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA2B425ED590F001AE21C /* UseMilkIntentHandler.swift */; };
+		574AA2B625ED5910001AE21C /* UseMilkIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AA2B425ED590F001AE21C /* UseMilkIntentHandler.swift */; };
+		57D3A6D325CC019B00C1B39B /* StartBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3A6D225CC019B00C1B39B /* StartBreastfeedingIntentHandler.swift */; };
+		57D3A6DA25CC298A00C1B39B /* StartBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3A6D225CC019B00C1B39B /* StartBreastfeedingIntentHandler.swift */; };
+		57E77B2F25D3FE370066A962 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82928EC625C6A4E200A809F9 /* IntentViewController.swift */; };
+		57E77BE825D57AC30066A962 /* PauseBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E77BE725D57AC30066A962 /* PauseBreastfeedingIntentHandler.swift */; };
+		57E77BE925D57AC30066A962 /* PauseBreastfeedingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E77BE725D57AC30066A962 /* PauseBreastfeedingIntentHandler.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		825D85B9263E6F0E0059BEA7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 825D85BD263E6F0E0059BEA7 /* Intents.intentdefinition */; };
+		825D85BA263E6F0E0059BEA7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 825D85BD263E6F0E0059BEA7 /* Intents.intentdefinition */; };
+		825D85BB263E6F0E0059BEA7 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 825D85BD263E6F0E0059BEA7 /* Intents.intentdefinition */; };
+		82928EB925C6A4E100A809F9 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82928EB825C6A4E000A809F9 /* Intents.framework */; };
+		82928EBC25C6A4E100A809F9 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82928EBB25C6A4E100A809F9 /* IntentHandler.swift */; };
+		82928EC425C6A4E200A809F9 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82928EC325C6A4E200A809F9 /* IntentsUI.framework */; };
+		82928EC725C6A4E200A809F9 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82928EC625C6A4E200A809F9 /* IntentViewController.swift */; };
+		82928ECA25C6A4E200A809F9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82928EC825C6A4E200A809F9 /* MainInterface.storyboard */; };
+		82928ECE25C6A4E200A809F9 /* IntentExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 82928EC225C6A4E200A809F9 /* IntentExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82928ED125C6A4E300A809F9 /* IntentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 82928EB725C6A4E000A809F9 /* IntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82928F0E25C6A5F800A809F9 /* ShortcutsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82928F0C25C6A5F800A809F9 /* ShortcutsManager.swift */; };
+		82928F1125C6A5F800A809F9 /* AllShortcutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82928F0D25C6A5F800A809F9 /* AllShortcutsViewController.swift */; };
+		829291E825C6B3C000A809F9 /* ShortcutsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82928F0C25C6A5F800A809F9 /* ShortcutsManager.swift */; };
+		829291FC25C6B42200A809F9 /* AllShortcutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82928F0D25C6A5F800A809F9 /* AllShortcutsViewController.swift */; };
+		8292935B25C7774500A809F9 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82928EBB25C6A4E100A809F9 /* IntentHandler.swift */; };
+		8AB2A5A8CDE0649A5F4C03A7 /* Pods_MyMedela.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB450E5C624FFFF7AD311D60 /* Pods_MyMedela.framework */; };
+		BF8615364D13B6DEAF777FAE /* Pods_MyMedela_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93DBFD0501168B532F5F2EB /* Pods_MyMedela_tvOSTests.framework */; };
+		C12C143726EF688000CF468D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C12C143626EF688000CF468D /* GoogleService-Info.plist */; };
+		C1BE6BCD277C4C2300998B8C /* dark_tnc_es.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BB1277C4C2300998B8C /* dark_tnc_es.html */; };
+		C1BE6BCE277C4C2300998B8C /* tnc_eng_AR.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BB2277C4C2300998B8C /* tnc_eng_AR.html */; };
+		C1BE6BCF277C4C2300998B8C /* dark_tnc_sv.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BB3277C4C2300998B8C /* dark_tnc_sv.html */; };
+		C1BE6BD0277C4C2300998B8C /* LegalList.js in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BB4277C4C2300998B8C /* LegalList.js */; };
+		C1BE6BD1277C4C2300998B8C /* tnc_nl.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BB5277C4C2300998B8C /* tnc_nl.html */; };
+		C1BE6BD2277C4C2300998B8C /* dark_tnc_nb.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BB6277C4C2300998B8C /* dark_tnc_nb.html */; };
+		C1BE6BD3277C4C2300998B8C /* dark_tnc_da.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BB7277C4C2300998B8C /* dark_tnc_da.html */; };
+		C1BE6BD4277C4C2300998B8C /* tnc_pt.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BB8277C4C2300998B8C /* tnc_pt.html */; };
+		C1BE6BD5277C4C2300998B8C /* tnc_it.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BB9277C4C2300998B8C /* tnc_it.html */; };
+		C1BE6BD6277C4C2300998B8C /* tnc_de.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BBA277C4C2300998B8C /* tnc_de.html */; };
+		C1BE6BD7277C4C2300998B8C /* tnc_ru.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BBB277C4C2300998B8C /* tnc_ru.html */; };
+		C1BE6BD8277C4C2300998B8C /* tnc_pl.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BBC277C4C2300998B8C /* tnc_pl.html */; };
+		C1BE6BD9277C4C2300998B8C /* dark_tnc_fr.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BBD277C4C2300998B8C /* dark_tnc_fr.html */; };
+		C1BE6BDA277C4C2300998B8C /* dark_tnc_eng.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BBE277C4C2300998B8C /* dark_tnc_eng.html */; };
+		C1BE6BDB277C4C2300998B8C /* dark_tnc_pt.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BBF277C4C2300998B8C /* dark_tnc_pt.html */; };
+		C1BE6BDC277C4C2300998B8C /* dark_tnc_it.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC0277C4C2300998B8C /* dark_tnc_it.html */; };
+		C1BE6BDD277C4C2300998B8C /* tnc_eng.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC1277C4C2300998B8C /* tnc_eng.html */; };
+		C1BE6BDE277C4C2300998B8C /* dark_tnc_de.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC2277C4C2300998B8C /* dark_tnc_de.html */; };
+		C1BE6BDF277C4C2300998B8C /* dark_tnc_pl.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC3277C4C2300998B8C /* dark_tnc_pl.html */; };
+		C1BE6BE0277C4C2300998B8C /* dark_tnc_ru.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC4277C4C2300998B8C /* dark_tnc_ru.html */; };
+		C1BE6BE1277C4C2300998B8C /* tnc_fr.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC5277C4C2300998B8C /* tnc_fr.html */; };
+		C1BE6BE2277C4C2300998B8C /* tnc_sv.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC6277C4C2300998B8C /* tnc_sv.html */; };
+		C1BE6BE3277C4C2300998B8C /* dark_tnc_nl.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC7277C4C2300998B8C /* dark_tnc_nl.html */; };
+		C1BE6BE4277C4C2300998B8C /* tnc_es.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC8277C4C2300998B8C /* tnc_es.html */; };
+		C1BE6BE5277C4C2300998B8C /* dark_tnc_eng_AR.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BC9277C4C2300998B8C /* dark_tnc_eng_AR.html */; };
+		C1BE6BE6277C4C2300998B8C /* tnc_nb.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BCA277C4C2300998B8C /* tnc_nb.html */; };
+		C1BE6BE7277C4C2300998B8C /* medela_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BCB277C4C2300998B8C /* medela_logo.png */; };
+		C1BE6BE8277C4C2300998B8C /* tnc_da.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BE6BCC277C4C2300998B8C /* tnc_da.html */; };
+		F423190E2518B769009BE69B /* FuturaSBMedela-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F423190B2518B769009BE69B /* FuturaSBMedela-Light.otf */; };
+		F423190F2518B769009BE69B /* FuturaSBMedela-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = F423190C2518B769009BE69B /* FuturaSBMedela-Book.otf */; };
+		F42319102518B769009BE69B /* FuturaSBMedela-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F423190D2518B769009BE69B /* FuturaSBMedela-DemiBold.otf */; };
+		FEFDCCEE45F3A609A4375E31 /* Pods_MyMedelaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA6137C751FAB6FF22B8DDB /* Pods_MyMedelaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = MyMedela;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "MyMedela-tvOS";
+		};
+		82928ECC25C6A4E200A809F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82928EC125C6A4E200A809F9;
+			remoteInfo = IntentExtensionUI;
+		};
+		82928ECF25C6A4E300A809F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82928EB625C6A4E000A809F9;
+			remoteInfo = IntentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D994E7826CA788300C7EE31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0D994E7726CA788200C7EE31 /* BuildFile in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82928EDE25C6A4E300A809F9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				82928ED125C6A4E300A809F9 /* IntentExtension.appex in Embed App Extensions */,
+				82928ECE25C6A4E200A809F9 /* IntentExtensionUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		000CC951277300F7007A26B2 /* RealmJS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmJS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0040CC3E2772399700BDC96A /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00810FA6277210C4007D92AE /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00810FA8277211EA007D92AE /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00810FAA27723E59007D92AE /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00810FAD277240AD007D92AE /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00810FAF2772F2BE007D92AE /* realm-js-ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "realm-js-ios.xcframework"; path = "../node_modules/realm/react-native/ios/realm-js-ios.xcframework"; sourceTree = "<group>"; };
+		008C447D277317A700374D77 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		008C447F277322EC00374D77 /* RealmJS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmJS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00A790D9275F579000DD0616 /* react_native_splash_screen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = react_native_splash_screen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A790DB275F584100DD0616 /* react_native_geolocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = react_native_geolocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CB80C227735B0D0013DD82 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MyMedelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMedelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MyMedelaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMedelaTests.m; sourceTree = "<group>"; };
+		0D0A82E326B86CDC00923608 /* dark_about_fr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_fr.html; sourceTree = "<group>"; };
+		0D0A82E426B86CDC00923608 /* about_fr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_fr.html; sourceTree = "<group>"; };
+		0D0A82E526B86CDC00923608 /* about_nb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_nb.html; sourceTree = "<group>"; };
+		0D0A82E626B86CDC00923608 /* dark_about_da.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_da.html; sourceTree = "<group>"; };
+		0D0A82E726B86CDC00923608 /* about_ar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_ar.html; sourceTree = "<group>"; };
+		0D0A82E826B86CDC00923608 /* about_es.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_es.html; sourceTree = "<group>"; };
+		0D0A82E926B86CDC00923608 /* about_sv.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_sv.html; sourceTree = "<group>"; };
+		0D0A82EA26B86CDC00923608 /* about_da.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_da.html; sourceTree = "<group>"; };
+		0D0A82EB26B86CDC00923608 /* dark_about_nb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_nb.html; sourceTree = "<group>"; };
+		0D0A82EC26B86CDC00923608 /* dark_about_sv.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_sv.html; sourceTree = "<group>"; };
+		0D0A82ED26B86CDC00923608 /* dark_about_es.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_es.html; sourceTree = "<group>"; };
+		0D0A82EE26B86CDC00923608 /* dark_about_ar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_ar.html; sourceTree = "<group>"; };
+		0D0A82EF26B86CDC00923608 /* about_nl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_nl.html; sourceTree = "<group>"; };
+		0D0A82F026B86CDC00923608 /* dark_about_nl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_nl.html; sourceTree = "<group>"; };
+		0D0A82F126B86CDC00923608 /* about_it.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_it.html; sourceTree = "<group>"; };
+		0D0A82F226B86CDC00923608 /* dark_about_de.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_de.html; sourceTree = "<group>"; };
+		0D0A82F326B86CDC00923608 /* about_en.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_en.html; sourceTree = "<group>"; };
+		0D0A82F426B86CDC00923608 /* dark_about_pl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_pl.html; sourceTree = "<group>"; };
+		0D0A82F526B86CDC00923608 /* dark_about_ru.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_ru.html; sourceTree = "<group>"; };
+		0D0A82F626B86CDC00923608 /* about_pt.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_pt.html; sourceTree = "<group>"; };
+		0D0A82F726B86CDC00923608 /* dark_about_it.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_it.html; sourceTree = "<group>"; };
+		0D0A82F826B86CDC00923608 /* dark_about_pt.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_pt.html; sourceTree = "<group>"; };
+		0D0A82F926B86CDC00923608 /* about_ru.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_ru.html; sourceTree = "<group>"; };
+		0D0A82FA26B86CDC00923608 /* about_pl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_pl.html; sourceTree = "<group>"; };
+		0D0A82FB26B86CDC00923608 /* dark_about_en.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_about_en.html; sourceTree = "<group>"; };
+		0D0A82FC26B86CDC00923608 /* about_de.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_de.html; sourceTree = "<group>"; };
+		0D1790CF2664F76600764F6C /* NativeWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeWebview.swift; sourceTree = "<group>"; };
+		0D1790DD2664F96000764F6C /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0D1790E52664FB8100764F6C /* WebViewHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewHandler.m; sourceTree = "<group>"; };
+		0D1F79F9267FACDC00A7DC24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A01267FAF4400A7DC24 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A02267FAF6A00A7DC24 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A03267FAF7700A7DC24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A04267FAF8900A7DC24 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A08267FB03D00A7DC24 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A09267FB05000A7DC24 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A0A267FB08500A7DC24 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0D1F7A0B267FB09B00A7DC24 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A0C267FB0A500A7DC24 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A0D267FB0AE00A7DC24 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A0E267FB0BD00A7DC24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D1F7A63267FCECC00A7DC24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A65267FCECE00A7DC24 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A6D267FCED200A7DC24 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A6F267FCED500A7DC24 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A71267FCED600A7DC24 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A79267FCED800A7DC24 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A7B267FCEDA00A7DC24 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A7D267FCEDB00A7DC24 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A7F267FCEDD00A7DC24 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Intents.strings"; sourceTree = "<group>"; };
+		0D1F7A81267FCEDE00A7DC24 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A89267FCEDF00A7DC24 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D1F7A91267FCEE000A7DC24 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Intents.strings; sourceTree = "<group>"; };
+		0D5D2AA225B034B900C263A4 /* React.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = React.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA8B62425DFE969003EF221 /* ModuleWithEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleWithEmitter.m; sourceTree = "<group>"; };
+		0DA8B62525DFE96A003EF221 /* ModuleWithEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleWithEmitter.h; sourceTree = "<group>"; };
+		0DB7E16C26661EC500221D3A /* ImprintNativeWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprintNativeWebview.swift; sourceTree = "<group>"; };
+		0DB7E17A26661F3300221D3A /* ImprintWebviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprintWebviewController.swift; sourceTree = "<group>"; };
+		0DB7E1F62666218800221D3A /* ImprintWebViewHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImprintWebViewHandler.m; sourceTree = "<group>"; };
+		0DB7E2EC2666286D00221D3A /* TermsNativeWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsNativeWebview.swift; sourceTree = "<group>"; };
+		0DB7E2FA2666288F00221D3A /* TermsWebviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsWebviewController.swift; sourceTree = "<group>"; };
+		0DB7E3142666295400221D3A /* TermsWebViewHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermsWebViewHandler.m; sourceTree = "<group>"; };
+		0DCB541526B8708D000199FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DCB541726B8708D000199FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DCB541926B8708D000199FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DCC839625B006B9003F4303 /* MyMedela-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMedela-Bridging-Header.h"; sourceTree = "<group>"; };
+		0DCC839725B006BA003F4303 /* PacifySDKModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacifySDKModule.swift; sourceTree = "<group>"; };
+		0DCC839825B006BA003F4303 /* MyMedela-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyMedela-Bridging-Header.h"; sourceTree = "<group>"; };
+		0DCC839925B006BA003F4303 /* PacifySDKModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacifySDKModule.m; sourceTree = "<group>"; };
+		0DDC0BEA26286A0700CE6C61 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		0FA6137C751FAB6FF22B8DDB /* Pods_MyMedelaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMedelaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AD3F45F1C41FC6AA3B1C09 /* Pods-MyMedela.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela.release.xcconfig"; path = "Target Support Files/Pods-MyMedela/Pods-MyMedela.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MyMedela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMedela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyMedela/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyMedela/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyMedela/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyMedela/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyMedela/main.m; sourceTree = "<group>"; };
+		25F4845B7D62911C6D080816 /* Pods-MyMedela-tvOSTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOSTests.dev.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOSTests/Pods-MyMedela-tvOSTests.dev.xcconfig"; sourceTree = "<group>"; };
+		298AA47DFCF1CB437BE08E9C /* Pods-MyMedela-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOSTests/Pods-MyMedela-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* MyMedela-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyMedela-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* MyMedela-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyMedela-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E60E5AA4EA6190F14AAF3C1 /* Pods-MyMedelaTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedelaTests.dev.xcconfig"; path = "Target Support Files/Pods-MyMedelaTests/Pods-MyMedelaTests.dev.xcconfig"; sourceTree = "<group>"; };
+		3CFA578E0EA54265E7C311D8 /* Pods-MyMedela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela.debug.xcconfig"; path = "Target Support Files/Pods-MyMedela/Pods-MyMedela.debug.xcconfig"; sourceTree = "<group>"; };
+		46FB09E093C12BD6B4348B8D /* Pods-MyMedela-tvOSTests.prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOSTests.prod.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOSTests/Pods-MyMedela-tvOSTests.prod.xcconfig"; sourceTree = "<group>"; };
+		4B2A2F7E0D6E29D7722D1155 /* Pods-MyMedelaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedelaTests.debug.xcconfig"; path = "Target Support Files/Pods-MyMedelaTests/Pods-MyMedelaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		574A9F0F25D9958B001AE21C /* ContinueBreastfeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueBreastfeedingIntentHandler.swift; sourceTree = "<group>"; };
+		574A9F1825D995BB001AE21C /* SwitchBreastfeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchBreastfeedingIntentHandler.swift; sourceTree = "<group>"; };
+		574A9F2725DA6FC2001AE21C /* StopBreastfeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopBreastfeedingIntentHandler.swift; sourceTree = "<group>"; };
+		574A9FDC25E3E995001AE21C /* StartSleepIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSleepIntentHandler.swift; sourceTree = "<group>"; };
+		574A9FE525E3E9DD001AE21C /* StopSleepIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopSleepIntentHandler.swift; sourceTree = "<group>"; };
+		574A9FEE25E3EA0B001AE21C /* WhenWasTheLastSleepIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenWasTheLastSleepIntentHandler.swift; sourceTree = "<group>"; };
+		574A9FF725E3EA65001AE21C /* TrackADiaperByTypeIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackADiaperByTypeIntentHandler.swift; sourceTree = "<group>"; };
+		574AA00025E3EA9D001AE21C /* WhenWasTheLastDiaperChangeIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenWasTheLastDiaperChangeIntentHandler.swift; sourceTree = "<group>"; };
+		574AA00F25E537C1001AE21C /* TrackWeightIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackWeightIntentHandler.swift; sourceTree = "<group>"; };
+		574AA01825E53808001AE21C /* WhenWasTheLastWeightTrackingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenWasTheLastWeightTrackingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA02125E53826001AE21C /* TrackLengthIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLengthIntentHandler.swift; sourceTree = "<group>"; };
+		574AA02A25E53862001AE21C /* WhenWasTheLastLengthTrackingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenWasTheLastLengthTrackingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA15125E69696001AE21C /* HowmuchmilkdoIhaveinthefridgeIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowmuchmilkdoIhaveinthefridgeIntentHandler.swift; sourceTree = "<group>"; };
+		574AA15A25E696AD001AE21C /* HowmuchmilkdoIhaveinthefreezerIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowmuchmilkdoIhaveinthefreezerIntentHandler.swift; sourceTree = "<group>"; };
+		574AA17525E696E8001AE21C /* StartbottlefeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartbottlefeedingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA17E25E697B6001AE21C /* PausebottlefeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PausebottlefeedingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA18725E697CD001AE21C /* StopbottlefeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopbottlefeedingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA19025E697E5001AE21C /* ContinuebottlefeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuebottlefeedingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA19925E6980A001AE21C /* TrackaformulafeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackaformulafeedingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA1A225E6983C001AE21C /* WhenwasthelastbottlefeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenwasthelastbottlefeedingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA1B725E7D9B3001AE21C /* StartpumpingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartpumpingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA1C025E7D9CC001AE21C /* StoppumpingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoppumpingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA1C925E7D9EE001AE21C /* SavemilkIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavemilkIntentHandler.swift; sourceTree = "<group>"; };
+		574AA1D225E7DA1B001AE21C /* SavepumpingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavepumpingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA1DB25E7DA30001AE21C /* WhenwasthelastpumpingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenwasthelastpumpingIntentHandler.swift; sourceTree = "<group>"; };
+		574AA2B425ED590F001AE21C /* UseMilkIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseMilkIntentHandler.swift; sourceTree = "<group>"; };
+		57D3A6D225CC019B00C1B39B /* StartBreastfeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartBreastfeedingIntentHandler.swift; sourceTree = "<group>"; };
+		57E77BE725D57AC30066A962 /* PauseBreastfeedingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseBreastfeedingIntentHandler.swift; sourceTree = "<group>"; };
+		5B83C582A02B20D644DC90FE /* Pods-MyMedela-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOS/Pods-MyMedela-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		670494A11C7DB16B310AF8A5 /* Pods-MyMedela-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOS/Pods-MyMedela-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6C630F18F1185B02665EF225 /* Pods-MyMedela-tvOS.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOS.stage.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOS/Pods-MyMedela-tvOS.stage.xcconfig"; sourceTree = "<group>"; };
+		72379BC935CBD9C8AA8534C9 /* Pods-MyMedela.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela.dev.xcconfig"; path = "Target Support Files/Pods-MyMedela/Pods-MyMedela.dev.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyMedela/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		825D85D2263E6F320059BEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Intents.intentdefinition; sourceTree = "<group>"; };
+		82928EB225C6A4AA00A809F9 /* MyMedela.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MyMedela.entitlements; path = MyMedela/MyMedela.entitlements; sourceTree = "<group>"; };
+		82928EB725C6A4E000A809F9 /* IntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		82928EB825C6A4E000A809F9 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		82928EBB25C6A4E100A809F9 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		82928EBD25C6A4E100A809F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82928EC225C6A4E200A809F9 /* IntentExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IntentExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		82928EC325C6A4E200A809F9 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		82928EC625C6A4E200A809F9 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		82928EC925C6A4E200A809F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		82928ECB25C6A4E200A809F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82928F0C25C6A5F800A809F9 /* ShortcutsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutsManager.swift; sourceTree = "<group>"; };
+		82928F0D25C6A5F800A809F9 /* AllShortcutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllShortcutsViewController.swift; sourceTree = "<group>"; };
+		833EC290D44E3C26FDF5679A /* Pods-MyMedela.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela.stage.xcconfig"; path = "Target Support Files/Pods-MyMedela/Pods-MyMedela.stage.xcconfig"; sourceTree = "<group>"; };
+		A290319037383532FB6C4988 /* Pods-MyMedela-tvOSTests.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOSTests.stage.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOSTests/Pods-MyMedela-tvOSTests.stage.xcconfig"; sourceTree = "<group>"; };
+		A4C9231EF8EE3D07C4C7DED2 /* Pods-MyMedelaTests.prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedelaTests.prod.xcconfig"; path = "Target Support Files/Pods-MyMedelaTests/Pods-MyMedelaTests.prod.xcconfig"; sourceTree = "<group>"; };
+		AFFEE30C9DE82CAB08084F1A /* Pods_MyMedela_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMedela_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D75EBB76FAD9583CDFD0EC /* Pods-MyMedela-tvOS.prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOS.prod.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOS/Pods-MyMedela-tvOS.prod.xcconfig"; sourceTree = "<group>"; };
+		B93DBFD0501168B532F5F2EB /* Pods_MyMedela_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMedela_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12C143626EF688000CF468D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1BE6BB1277C4C2300998B8C /* dark_tnc_es.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_es.html; sourceTree = "<group>"; };
+		C1BE6BB2277C4C2300998B8C /* tnc_eng_AR.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_eng_AR.html; sourceTree = "<group>"; };
+		C1BE6BB3277C4C2300998B8C /* dark_tnc_sv.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_sv.html; sourceTree = "<group>"; };
+		C1BE6BB4277C4C2300998B8C /* LegalList.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = LegalList.js; sourceTree = "<group>"; };
+		C1BE6BB5277C4C2300998B8C /* tnc_nl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_nl.html; sourceTree = "<group>"; };
+		C1BE6BB6277C4C2300998B8C /* dark_tnc_nb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_nb.html; sourceTree = "<group>"; };
+		C1BE6BB7277C4C2300998B8C /* dark_tnc_da.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_da.html; sourceTree = "<group>"; };
+		C1BE6BB8277C4C2300998B8C /* tnc_pt.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_pt.html; sourceTree = "<group>"; };
+		C1BE6BB9277C4C2300998B8C /* tnc_it.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_it.html; sourceTree = "<group>"; };
+		C1BE6BBA277C4C2300998B8C /* tnc_de.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_de.html; sourceTree = "<group>"; };
+		C1BE6BBB277C4C2300998B8C /* tnc_ru.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_ru.html; sourceTree = "<group>"; };
+		C1BE6BBC277C4C2300998B8C /* tnc_pl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_pl.html; sourceTree = "<group>"; };
+		C1BE6BBD277C4C2300998B8C /* dark_tnc_fr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_fr.html; sourceTree = "<group>"; };
+		C1BE6BBE277C4C2300998B8C /* dark_tnc_eng.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_eng.html; sourceTree = "<group>"; };
+		C1BE6BBF277C4C2300998B8C /* dark_tnc_pt.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_pt.html; sourceTree = "<group>"; };
+		C1BE6BC0277C4C2300998B8C /* dark_tnc_it.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_it.html; sourceTree = "<group>"; };
+		C1BE6BC1277C4C2300998B8C /* tnc_eng.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_eng.html; sourceTree = "<group>"; };
+		C1BE6BC2277C4C2300998B8C /* dark_tnc_de.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_de.html; sourceTree = "<group>"; };
+		C1BE6BC3277C4C2300998B8C /* dark_tnc_pl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_pl.html; sourceTree = "<group>"; };
+		C1BE6BC4277C4C2300998B8C /* dark_tnc_ru.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_ru.html; sourceTree = "<group>"; };
+		C1BE6BC5277C4C2300998B8C /* tnc_fr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_fr.html; sourceTree = "<group>"; };
+		C1BE6BC6277C4C2300998B8C /* tnc_sv.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_sv.html; sourceTree = "<group>"; };
+		C1BE6BC7277C4C2300998B8C /* dark_tnc_nl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_nl.html; sourceTree = "<group>"; };
+		C1BE6BC8277C4C2300998B8C /* tnc_es.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_es.html; sourceTree = "<group>"; };
+		C1BE6BC9277C4C2300998B8C /* dark_tnc_eng_AR.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dark_tnc_eng_AR.html; sourceTree = "<group>"; };
+		C1BE6BCA277C4C2300998B8C /* tnc_nb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_nb.html; sourceTree = "<group>"; };
+		C1BE6BCB277C4C2300998B8C /* medela_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medela_logo.png; sourceTree = "<group>"; };
+		C1BE6BCC277C4C2300998B8C /* tnc_da.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tnc_da.html; sourceTree = "<group>"; };
+		D0014BE87301AE368BA43D4B /* Pods-MyMedela.prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela.prod.xcconfig"; path = "Target Support Files/Pods-MyMedela/Pods-MyMedela.prod.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EF9F6440CEC68DDDA6E0F22A /* Pods-MyMedela-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOSTests/Pods-MyMedela-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F33F61C23ED6E3E5BEE4F838 /* Pods-MyMedelaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedelaTests.release.xcconfig"; path = "Target Support Files/Pods-MyMedelaTests/Pods-MyMedelaTests.release.xcconfig"; sourceTree = "<group>"; };
+		F423190B2518B769009BE69B /* FuturaSBMedela-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaSBMedela-Light.otf"; sourceTree = "<group>"; };
+		F423190C2518B769009BE69B /* FuturaSBMedela-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaSBMedela-Book.otf"; sourceTree = "<group>"; };
+		F423190D2518B769009BE69B /* FuturaSBMedela-DemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaSBMedela-DemiBold.otf"; sourceTree = "<group>"; };
+		FB450E5C624FFFF7AD311D60 /* Pods_MyMedela.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMedela.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5368C7EDDDA48F2D1D2910 /* Pods-MyMedela-tvOS.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedela-tvOS.dev.xcconfig"; path = "Target Support Files/Pods-MyMedela-tvOS/Pods-MyMedela-tvOS.dev.xcconfig"; sourceTree = "<group>"; };
+		FE29154A0B5BFFE0A605D1E8 /* Pods-MyMedelaTests.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMedelaTests.stage.xcconfig"; path = "Target Support Files/Pods-MyMedelaTests/Pods-MyMedelaTests.stage.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFDCCEE45F3A609A4375E31 /* Pods_MyMedelaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008C4480277322EC00374D77 /* RealmJS.framework in Frameworks */,
+				008C447E277317A700374D77 /* libc++.tbd in Frameworks */,
+				8AB2A5A8CDE0649A5F4C03A7 /* Pods_MyMedela.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E90250DF3787A9920BBDBEE /* BuildFile in Frameworks */,
+				47143E73E91C62AAE396F08F /* Pods_MyMedela_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8615364D13B6DEAF777FAE /* Pods_MyMedela_tvOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82928EB425C6A4E000A809F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82928EB925C6A4E100A809F9 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82928EBF25C6A4E200A809F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82928EC425C6A4E200A809F9 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* MyMedelaTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* MyMedelaTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = MyMedelaTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DA56381931634AA7594A5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA578E0EA54265E7C311D8 /* Pods-MyMedela.debug.xcconfig */,
+				72379BC935CBD9C8AA8534C9 /* Pods-MyMedela.dev.xcconfig */,
+				12AD3F45F1C41FC6AA3B1C09 /* Pods-MyMedela.release.xcconfig */,
+				5B83C582A02B20D644DC90FE /* Pods-MyMedela-tvOS.debug.xcconfig */,
+				FC5368C7EDDDA48F2D1D2910 /* Pods-MyMedela-tvOS.dev.xcconfig */,
+				EF9F6440CEC68DDDA6E0F22A /* Pods-MyMedela-tvOSTests.debug.xcconfig */,
+				25F4845B7D62911C6D080816 /* Pods-MyMedela-tvOSTests.dev.xcconfig */,
+				298AA47DFCF1CB437BE08E9C /* Pods-MyMedela-tvOSTests.release.xcconfig */,
+				A290319037383532FB6C4988 /* Pods-MyMedela-tvOSTests.stage.xcconfig */,
+				46FB09E093C12BD6B4348B8D /* Pods-MyMedela-tvOSTests.prod.xcconfig */,
+				4B2A2F7E0D6E29D7722D1155 /* Pods-MyMedelaTests.debug.xcconfig */,
+				2E60E5AA4EA6190F14AAF3C1 /* Pods-MyMedelaTests.dev.xcconfig */,
+				F33F61C23ED6E3E5BEE4F838 /* Pods-MyMedelaTests.release.xcconfig */,
+				A4C9231EF8EE3D07C4C7DED2 /* Pods-MyMedelaTests.prod.xcconfig */,
+				833EC290D44E3C26FDF5679A /* Pods-MyMedela.stage.xcconfig */,
+				D0014BE87301AE368BA43D4B /* Pods-MyMedela.prod.xcconfig */,
+				670494A11C7DB16B310AF8A5 /* Pods-MyMedela-tvOS.release.xcconfig */,
+				6C630F18F1185B02665EF225 /* Pods-MyMedela-tvOS.stage.xcconfig */,
+				B5D75EBB76FAD9583CDFD0EC /* Pods-MyMedela-tvOS.prod.xcconfig */,
+				FE29154A0B5BFFE0A605D1E8 /* Pods-MyMedelaTests.stage.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0D0A82E226B86CDC00923608 /* imprint */ = {
+			isa = PBXGroup;
+			children = (
+				0D0A82E326B86CDC00923608 /* dark_about_fr.html */,
+				0D0A82E426B86CDC00923608 /* about_fr.html */,
+				0D0A82E526B86CDC00923608 /* about_nb.html */,
+				0D0A82E626B86CDC00923608 /* dark_about_da.html */,
+				0D0A82E726B86CDC00923608 /* about_ar.html */,
+				0D0A82E826B86CDC00923608 /* about_es.html */,
+				0D0A82E926B86CDC00923608 /* about_sv.html */,
+				0D0A82EA26B86CDC00923608 /* about_da.html */,
+				0D0A82EB26B86CDC00923608 /* dark_about_nb.html */,
+				0D0A82EC26B86CDC00923608 /* dark_about_sv.html */,
+				0D0A82ED26B86CDC00923608 /* dark_about_es.html */,
+				0D0A82EE26B86CDC00923608 /* dark_about_ar.html */,
+				0D0A82EF26B86CDC00923608 /* about_nl.html */,
+				0D0A82F026B86CDC00923608 /* dark_about_nl.html */,
+				0D0A82F126B86CDC00923608 /* about_it.html */,
+				0D0A82F226B86CDC00923608 /* dark_about_de.html */,
+				0D0A82F326B86CDC00923608 /* about_en.html */,
+				0D0A82F426B86CDC00923608 /* dark_about_pl.html */,
+				0D0A82F526B86CDC00923608 /* dark_about_ru.html */,
+				0D0A82F626B86CDC00923608 /* about_pt.html */,
+				0D0A82F726B86CDC00923608 /* dark_about_it.html */,
+				0D0A82F826B86CDC00923608 /* dark_about_pt.html */,
+				0D0A82F926B86CDC00923608 /* about_ru.html */,
+				0D0A82FA26B86CDC00923608 /* about_pl.html */,
+				0D0A82FB26B86CDC00923608 /* dark_about_en.html */,
+				0D0A82FC26B86CDC00923608 /* about_de.html */,
+			);
+			name = imprint;
+			path = MyMedela/imprint;
+			sourceTree = "<group>";
+		};
+		0DCB541326B8708D000199FB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				0DCB541426B8708D000199FB /* Prod */,
+				0DCB541626B8708D000199FB /* Stage */,
+				0DCB541826B8708D000199FB /* Debug */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		0DCB541426B8708D000199FB /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				0DCB541526B8708D000199FB /* GoogleService-Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		0DCB541626B8708D000199FB /* Stage */ = {
+			isa = PBXGroup;
+			children = (
+				0DCB541726B8708D000199FB /* GoogleService-Info.plist */,
+			);
+			path = Stage;
+			sourceTree = "<group>";
+		};
+		0DCB541826B8708D000199FB /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				0DCB541926B8708D000199FB /* GoogleService-Info.plist */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* MyMedela */ = {
+			isa = PBXGroup;
+			children = (
+				C1BE6BB0277C4C2300998B8C /* legal */,
+				C12C143626EF688000CF468D /* GoogleService-Info.plist */,
+				0DCB541326B8708D000199FB /* Firebase */,
+				0D0A82E226B86CDC00923608 /* imprint */,
+				0DA8B62525DFE96A003EF221 /* ModuleWithEmitter.h */,
+				0D1790CF2664F76600764F6C /* NativeWebview.swift */,
+				0DB7E16C26661EC500221D3A /* ImprintNativeWebview.swift */,
+				0DB7E2EC2666286D00221D3A /* TermsNativeWebview.swift */,
+				0DB7E2FA2666288F00221D3A /* TermsWebviewController.swift */,
+				0DB7E3142666295400221D3A /* TermsWebViewHandler.m */,
+				0D1790DD2664F96000764F6C /* WebViewController.swift */,
+				0DB7E17A26661F3300221D3A /* ImprintWebviewController.swift */,
+				0D1790E52664FB8100764F6C /* WebViewHandler.m */,
+				0DA8B62425DFE969003EF221 /* ModuleWithEmitter.m */,
+				82928F0B25C6A5F800A809F9 /* Siri */,
+				82928EB225C6A4AA00A809F9 /* MyMedela.entitlements */,
+				0DCC839825B006BA003F4303 /* MyMedela-Bridging-Header.h */,
+				0DB7E1F62666218800221D3A /* ImprintWebViewHandler.m */,
+				0DCC839925B006BA003F4303 /* PacifySDKModule.m */,
+				0DCC839725B006BA003F4303 /* PacifySDKModule.swift */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				0D1F79FA267FACDC00A7DC24 /* InfoPlist.strings */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				0DCC839625B006B9003F4303 /* MyMedela-Bridging-Header.h */,
+				825D85BD263E6F0E0059BEA7 /* Intents.intentdefinition */,
+			);
+			name = MyMedela;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00CB80C227735B0D0013DD82 /* Kingfisher.framework */,
+				008C447F277322EC00374D77 /* RealmJS.framework */,
+				008C447D277317A700374D77 /* libc++.tbd */,
+				000CC951277300F7007A26B2 /* RealmJS.framework */,
+				00810FAF2772F2BE007D92AE /* realm-js-ios.xcframework */,
+				00810FAD277240AD007D92AE /* Realm.framework */,
+				00810FAA27723E59007D92AE /* Realm.framework */,
+				0040CC3E2772399700BDC96A /* AFNetworking.framework */,
+				00810FA8277211EA007D92AE /* AFNetworking.framework */,
+				00810FA6277210C4007D92AE /* AFNetworking.framework */,
+				00A790DB275F584100DD0616 /* react_native_geolocation.framework */,
+				00A790D9275F579000DD0616 /* react_native_splash_screen.framework */,
+				0DDC0BEA26286A0700CE6C61 /* libc++.1.tbd */,
+				0D5D2AA225B034B900C263A4 /* React.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				82928EB825C6A4E000A809F9 /* Intents.framework */,
+				82928EC325C6A4E200A809F9 /* IntentsUI.framework */,
+				FB450E5C624FFFF7AD311D60 /* Pods_MyMedela.framework */,
+				B93DBFD0501168B532F5F2EB /* Pods_MyMedela_tvOSTests.framework */,
+				0FA6137C751FAB6FF22B8DDB /* Pods_MyMedelaTests.framework */,
+				AFFEE30C9DE82CAB08084F1A /* Pods_MyMedela_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82928EBA25C6A4E100A809F9 /* IntentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				82928EBB25C6A4E100A809F9 /* IntentHandler.swift */,
+				82928EBD25C6A4E100A809F9 /* Info.plist */,
+				57D3A6D225CC019B00C1B39B /* StartBreastfeedingIntentHandler.swift */,
+				57E77BE725D57AC30066A962 /* PauseBreastfeedingIntentHandler.swift */,
+				574A9F0F25D9958B001AE21C /* ContinueBreastfeedingIntentHandler.swift */,
+				574A9F1825D995BB001AE21C /* SwitchBreastfeedingIntentHandler.swift */,
+				574A9F2725DA6FC2001AE21C /* StopBreastfeedingIntentHandler.swift */,
+				574AA15A25E696AD001AE21C /* HowmuchmilkdoIhaveinthefreezerIntentHandler.swift */,
+				574A9FDC25E3E995001AE21C /* StartSleepIntentHandler.swift */,
+				574A9FE525E3E9DD001AE21C /* StopSleepIntentHandler.swift */,
+				574A9FEE25E3EA0B001AE21C /* WhenWasTheLastSleepIntentHandler.swift */,
+				574A9FF725E3EA65001AE21C /* TrackADiaperByTypeIntentHandler.swift */,
+				574AA00025E3EA9D001AE21C /* WhenWasTheLastDiaperChangeIntentHandler.swift */,
+				574AA00F25E537C1001AE21C /* TrackWeightIntentHandler.swift */,
+				574AA02125E53826001AE21C /* TrackLengthIntentHandler.swift */,
+				574AA02A25E53862001AE21C /* WhenWasTheLastLengthTrackingIntentHandler.swift */,
+				574AA01825E53808001AE21C /* WhenWasTheLastWeightTrackingIntentHandler.swift */,
+				574AA15125E69696001AE21C /* HowmuchmilkdoIhaveinthefridgeIntentHandler.swift */,
+				574AA17525E696E8001AE21C /* StartbottlefeedingIntentHandler.swift */,
+				574AA17E25E697B6001AE21C /* PausebottlefeedingIntentHandler.swift */,
+				574AA18725E697CD001AE21C /* StopbottlefeedingIntentHandler.swift */,
+				574AA19025E697E5001AE21C /* ContinuebottlefeedingIntentHandler.swift */,
+				574AA19925E6980A001AE21C /* TrackaformulafeedingIntentHandler.swift */,
+				574AA1A225E6983C001AE21C /* WhenwasthelastbottlefeedingIntentHandler.swift */,
+				574AA1B725E7D9B3001AE21C /* StartpumpingIntentHandler.swift */,
+				574AA1C025E7D9CC001AE21C /* StoppumpingIntentHandler.swift */,
+				574AA1C925E7D9EE001AE21C /* SavemilkIntentHandler.swift */,
+				574AA1D225E7DA1B001AE21C /* SavepumpingIntentHandler.swift */,
+				574AA1DB25E7DA30001AE21C /* WhenwasthelastpumpingIntentHandler.swift */,
+				574AA2B425ED590F001AE21C /* UseMilkIntentHandler.swift */,
+			);
+			path = IntentExtension;
+			sourceTree = "<group>";
+		};
+		82928EC525C6A4E200A809F9 /* IntentExtensionUI */ = {
+			isa = PBXGroup;
+			children = (
+				82928EC625C6A4E200A809F9 /* IntentViewController.swift */,
+				82928EC825C6A4E200A809F9 /* MainInterface.storyboard */,
+				82928ECB25C6A4E200A809F9 /* Info.plist */,
+			);
+			path = IntentExtensionUI;
+			sourceTree = "<group>";
+		};
+		82928F0B25C6A5F800A809F9 /* Siri */ = {
+			isa = PBXGroup;
+			children = (
+				82928F0C25C6A5F800A809F9 /* ShortcutsManager.swift */,
+				82928F0D25C6A5F800A809F9 /* AllShortcutsViewController.swift */,
+			);
+			path = Siri;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				F46AA8D82513C8DC009DC557 /* fonts */,
+				13B07FAE1A68108700A75B9A /* MyMedela */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* MyMedelaTests */,
+				82928EBA25C6A4E100A809F9 /* IntentExtension */,
+				82928EC525C6A4E200A809F9 /* IntentExtensionUI */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				04DA56381931634AA7594A5C /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MyMedela.app */,
+				00E356EE1AD99517003FC87E /* MyMedelaTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* MyMedela-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* MyMedela-tvOSTests.xctest */,
+				82928EB725C6A4E000A809F9 /* IntentExtension.appex */,
+				82928EC225C6A4E200A809F9 /* IntentExtensionUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BE6BB0277C4C2300998B8C /* legal */ = {
+			isa = PBXGroup;
+			children = (
+				C1BE6BB1277C4C2300998B8C /* dark_tnc_es.html */,
+				C1BE6BB2277C4C2300998B8C /* tnc_eng_AR.html */,
+				C1BE6BB3277C4C2300998B8C /* dark_tnc_sv.html */,
+				C1BE6BB4277C4C2300998B8C /* LegalList.js */,
+				C1BE6BB5277C4C2300998B8C /* tnc_nl.html */,
+				C1BE6BB6277C4C2300998B8C /* dark_tnc_nb.html */,
+				C1BE6BB7277C4C2300998B8C /* dark_tnc_da.html */,
+				C1BE6BB8277C4C2300998B8C /* tnc_pt.html */,
+				C1BE6BB9277C4C2300998B8C /* tnc_it.html */,
+				C1BE6BBA277C4C2300998B8C /* tnc_de.html */,
+				C1BE6BBB277C4C2300998B8C /* tnc_ru.html */,
+				C1BE6BBC277C4C2300998B8C /* tnc_pl.html */,
+				C1BE6BBD277C4C2300998B8C /* dark_tnc_fr.html */,
+				C1BE6BBE277C4C2300998B8C /* dark_tnc_eng.html */,
+				C1BE6BBF277C4C2300998B8C /* dark_tnc_pt.html */,
+				C1BE6BC0277C4C2300998B8C /* dark_tnc_it.html */,
+				C1BE6BC1277C4C2300998B8C /* tnc_eng.html */,
+				C1BE6BC2277C4C2300998B8C /* dark_tnc_de.html */,
+				C1BE6BC3277C4C2300998B8C /* dark_tnc_pl.html */,
+				C1BE6BC4277C4C2300998B8C /* dark_tnc_ru.html */,
+				C1BE6BC5277C4C2300998B8C /* tnc_fr.html */,
+				C1BE6BC6277C4C2300998B8C /* tnc_sv.html */,
+				C1BE6BC7277C4C2300998B8C /* dark_tnc_nl.html */,
+				C1BE6BC8277C4C2300998B8C /* tnc_es.html */,
+				C1BE6BC9277C4C2300998B8C /* dark_tnc_eng_AR.html */,
+				C1BE6BCA277C4C2300998B8C /* tnc_nb.html */,
+				C1BE6BCB277C4C2300998B8C /* medela_logo.png */,
+				C1BE6BCC277C4C2300998B8C /* tnc_da.html */,
+			);
+			name = legal;
+			path = MyMedela/legal;
+			sourceTree = "<group>";
+		};
+		F46AA8D82513C8DC009DC557 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F423190C2518B769009BE69B /* FuturaSBMedela-Book.otf */,
+				F423190D2518B769009BE69B /* FuturaSBMedela-DemiBold.otf */,
+				F423190B2518B769009BE69B /* FuturaSBMedela-Light.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* MyMedelaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyMedelaTests" */;
+			buildPhases = (
+				9989FE48D08D59A47CB86CE3 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = MyMedelaTests;
+			productName = MyMedelaTests;
+			productReference = 00E356EE1AD99517003FC87E /* MyMedelaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* MyMedela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyMedela" */;
+			buildPhases = (
+				C9D6F4C1906513EE89E1398C /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				7879BC77264D3DBB0001F531 /* Select Firebase According to Build Enviornment */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				82928EDE25C6A4E300A809F9 /* Embed App Extensions */,
+				0D994E7826CA788300C7EE31 /* Embed Frameworks */,
+				B6E22FB3FE93E6EF4537DD5C /* [CP] Embed Pods Frameworks */,
+				78C5E545FBADBCD14C9FB2C2 /* [CP-User] [RNFB] Core Configuration */,
+				5425ED8A764E0C542A50DFAD /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82928ECD25C6A4E200A809F9 /* PBXTargetDependency */,
+				82928ED025C6A4E300A809F9 /* PBXTargetDependency */,
+			);
+			name = MyMedela;
+			productName = MyMedela;
+			productReference = 13B07F961A680F5B00A75B9A /* MyMedela.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* MyMedela-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MyMedela-tvOS" */;
+			buildPhases = (
+				7962241C3AF58C0D470F21C9 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyMedela-tvOS";
+			productName = "MyMedela-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* MyMedela-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* MyMedela-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MyMedela-tvOSTests" */;
+			buildPhases = (
+				1E1E10D0793714E66D94AF06 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "MyMedela-tvOSTests";
+			productName = "MyMedela-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* MyMedela-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82928EB625C6A4E000A809F9 /* IntentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82928ED825C6A4E300A809F9 /* Build configuration list for PBXNativeTarget "IntentExtension" */;
+			buildPhases = (
+				82928EB325C6A4E000A809F9 /* Sources */,
+				82928EB425C6A4E000A809F9 /* Frameworks */,
+				82928EB525C6A4E000A809F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntentExtension;
+			productName = IntentExtension;
+			productReference = 82928EB725C6A4E000A809F9 /* IntentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		82928EC125C6A4E200A809F9 /* IntentExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82928ED225C6A4E300A809F9 /* Build configuration list for PBXNativeTarget "IntentExtensionUI" */;
+			buildPhases = (
+				82928EBE25C6A4E200A809F9 /* Sources */,
+				82928EBF25C6A4E200A809F9 /* Frameworks */,
+				82928EC025C6A4E200A809F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntentExtensionUI;
+			productName = IntentExtensionUI;
+			productReference = 82928EC225C6A4E200A809F9 /* IntentExtensionUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = JH7VLN8YGT;
+						ProvisioningStyle = Manual;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 2KAL3NND99;
+						LastSwiftMigration = 1230;
+						ProvisioningStyle = Manual;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JH7VLN8YGT;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+					82928EB625C6A4E000A809F9 = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = 2KAL3NND99;
+						ProvisioningStyle = Manual;
+					};
+					82928EC125C6A4E200A809F9 = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = 2KAL3NND99;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyMedela" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				da,
+				nl,
+				de,
+				es,
+				fr,
+				it,
+				"pt-PT",
+				nb,
+				ru,
+				sv,
+				ar,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* MyMedela */,
+				00E356ED1AD99517003FC87E /* MyMedelaTests */,
+				2D02E47A1E0B4A5D006451C7 /* MyMedela-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* MyMedela-tvOSTests */,
+				82928EB625C6A4E000A809F9 /* IntentExtension */,
+				82928EC125C6A4E200A809F9 /* IntentExtensionUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BE6BE8277C4C2300998B8C /* tnc_da.html in Resources */,
+				C1BE6BD1277C4C2300998B8C /* tnc_nl.html in Resources */,
+				C1BE6BDC277C4C2300998B8C /* dark_tnc_it.html in Resources */,
+				C1BE6BE1277C4C2300998B8C /* tnc_fr.html in Resources */,
+				0D0A833126B86CDD00923608 /* dark_about_en.html in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				0D0A831B26B86CDD00923608 /* about_nb.html in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C1BE6BD0277C4C2300998B8C /* LegalList.js in Resources */,
+				0D1F79F8267FACDC00A7DC24 /* InfoPlist.strings in Resources */,
+				0D0A832226B86CDD00923608 /* dark_about_sv.html in Resources */,
+				C1BE6BE6277C4C2300998B8C /* tnc_nb.html in Resources */,
+				0D0A832C26B86CDD00923608 /* about_pt.html in Resources */,
+				C1BE6BD2277C4C2300998B8C /* dark_tnc_nb.html in Resources */,
+				F423190F2518B769009BE69B /* FuturaSBMedela-Book.otf in Resources */,
+				0D0A832B26B86CDD00923608 /* dark_about_ru.html in Resources */,
+				C1BE6BDB277C4C2300998B8C /* dark_tnc_pt.html in Resources */,
+				C1BE6BD9277C4C2300998B8C /* dark_tnc_fr.html in Resources */,
+				C1BE6BCF277C4C2300998B8C /* dark_tnc_sv.html in Resources */,
+				C1BE6BDE277C4C2300998B8C /* dark_tnc_de.html in Resources */,
+				0D0A832726B86CDD00923608 /* about_it.html in Resources */,
+				0D0A832426B86CDD00923608 /* dark_about_ar.html in Resources */,
+				0D0A831A26B86CDD00923608 /* about_fr.html in Resources */,
+				C1BE6BE0277C4C2300998B8C /* dark_tnc_ru.html in Resources */,
+				0D0A831E26B86CDD00923608 /* about_es.html in Resources */,
+				C1BE6BD7277C4C2300998B8C /* tnc_ru.html in Resources */,
+				C1BE6BD6277C4C2300998B8C /* tnc_de.html in Resources */,
+				0D0A833026B86CDD00923608 /* about_pl.html in Resources */,
+				C1BE6BDF277C4C2300998B8C /* dark_tnc_pl.html in Resources */,
+				0D0A832126B86CDD00923608 /* dark_about_nb.html in Resources */,
+				0D0A832026B86CDD00923608 /* about_da.html in Resources */,
+				0D0A832626B86CDD00923608 /* dark_about_nl.html in Resources */,
+				0D0A832D26B86CDD00923608 /* dark_about_it.html in Resources */,
+				0D0A832926B86CDD00923608 /* about_en.html in Resources */,
+				C1BE6BD5277C4C2300998B8C /* tnc_it.html in Resources */,
+				C1BE6BE7277C4C2300998B8C /* medela_logo.png in Resources */,
+				C1BE6BD8277C4C2300998B8C /* tnc_pl.html in Resources */,
+				F42319102518B769009BE69B /* FuturaSBMedela-DemiBold.otf in Resources */,
+				0D0A831D26B86CDD00923608 /* about_ar.html in Resources */,
+				C1BE6BDA277C4C2300998B8C /* dark_tnc_eng.html in Resources */,
+				0D0A832A26B86CDD00923608 /* dark_about_pl.html in Resources */,
+				0D0A832326B86CDD00923608 /* dark_about_es.html in Resources */,
+				0D0A831C26B86CDD00923608 /* dark_about_da.html in Resources */,
+				C1BE6BE5277C4C2300998B8C /* dark_tnc_eng_AR.html in Resources */,
+				C1BE6BCD277C4C2300998B8C /* dark_tnc_es.html in Resources */,
+				C1BE6BD4277C4C2300998B8C /* tnc_pt.html in Resources */,
+				C1BE6BE3277C4C2300998B8C /* dark_tnc_nl.html in Resources */,
+				0D0A832F26B86CDD00923608 /* about_ru.html in Resources */,
+				C1BE6BE4277C4C2300998B8C /* tnc_es.html in Resources */,
+				C1BE6BCE277C4C2300998B8C /* tnc_eng_AR.html in Resources */,
+				0D0A831926B86CDD00923608 /* dark_about_fr.html in Resources */,
+				F423190E2518B769009BE69B /* FuturaSBMedela-Light.otf in Resources */,
+				0D0A832526B86CDD00923608 /* about_nl.html in Resources */,
+				0D0A833226B86CDD00923608 /* about_de.html in Resources */,
+				C12C143726EF688000CF468D /* GoogleService-Info.plist in Resources */,
+				0D0A831F26B86CDD00923608 /* about_sv.html in Resources */,
+				C1BE6BD3277C4C2300998B8C /* dark_tnc_da.html in Resources */,
+				C1BE6BDD277C4C2300998B8C /* tnc_eng.html in Resources */,
+				0D0A832E26B86CDD00923608 /* dark_about_pt.html in Resources */,
+				0D0A832826B86CDD00923608 /* dark_about_de.html in Resources */,
+				C1BE6BE2277C4C2300998B8C /* tnc_sv.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82928EB525C6A4E000A809F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82928EC025C6A4E200A809F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82928ECA25C6A4E200A809F9 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		1E1E10D0793714E66D94AF06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMedela-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		5425ED8A764E0C542A50DFAD /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		7879BC77264D3DBB0001F531 /* Select Firebase According to Build Enviornment */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Select Firebase According to Build Enviornment";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nPATH_TO_GOOGLE_PLISTS=\"${PROJECT_DIR}/Firebase\"\n\ncase \"${CONFIGURATION}\" in\n\n   \"Debug\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/Debug/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n        \n   \"Prod\" )\n    cp -r \"$PATH_TO_GOOGLE_PLISTS/Prod/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n\n   \"Stage\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/Stage/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n\n    *)\n        ;;\nesac\n";
+		};
+		78C5E545FBADBCD14C9FB2C2 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		7962241C3AF58C0D470F21C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMedela-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9989FE48D08D59A47CB86CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMedelaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6E22FB3FE93E6EF4537DD5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMedela/Pods-MyMedela-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/BVLinearGradient/BVLinearGradient.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/EDStarRating/EDStarRating.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseABTesting/FirebaseABTesting.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseRemoteConfig/FirebaseRemoteConfig.framework",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MultiplatformBleAdapter/MultiplatformBleAdapter.framework",
+				"${PODS_ROOT}/PacifySDK/PacifySDK.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/RCT-Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCAsyncStorage/RNCAsyncStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCMaskedView/RNCMaskedView.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCPushNotificationIOS/RNCPushNotificationIOS.framework",
+				"${BUILT_PRODUCTS_DIR}/RNDeviceInfo/RNDeviceInfo.framework",
+				"${BUILT_PRODUCTS_DIR}/RNDeviceTimeFormat/RNDeviceTimeFormat.framework",
+				"${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework",
+				"${BUILT_PRODUCTS_DIR}/RNI18n/RNI18n.framework",
+				"${BUILT_PRODUCTS_DIR}/RNReanimated/RNReanimated.framework",
+				"${BUILT_PRODUCTS_DIR}/RNSVG/RNSVG.framework",
+				"${BUILT_PRODUCTS_DIR}/RNScreens/RNScreens.framework",
+				"${BUILT_PRODUCTS_DIR}/RNUserDefaults/RNUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/RNVectorIcons/RNVectorIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/React-logger/logger.framework",
+				"${BUILT_PRODUCTS_DIR}/React-perflogger/reactperflogger.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactNativeDarkMode/ReactNativeDarkMode.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmJS/RealmJS.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/fmt/fmt.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-ble-plx/react_native_ble_plx.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-blur/react_native_blur.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-cameraroll/react_native_cameraroll.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-config/react_native_config.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-cookies/react_native_cookies.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-dialogflow/react_native_dialogflow.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-geolocation/react_native_geolocation.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-image-picker/react_native_image_picker.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-in-app-review/react_native_in_app_review.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-netinfo/react_native_netinfo.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-restart/react_native_restart.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-simple-toast/react_native_simple_toast.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-slider/react_native_slider.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-splash-screen/react_native_splash_screen.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-voice/react_native_voice.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-webview/react_native_webview.framework",
+				"${BUILT_PRODUCTS_DIR}/rn-fetch-blob/rn_fetch_blob.framework",
+				"${BUILT_PRODUCTS_DIR}/zipzap/zipzap.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TwilioVideo/TwilioVideo.framework/TwilioVideo",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BVLinearGradient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EDStarRating.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseABTesting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseRemoteConfig.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MultiplatformBleAdapter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PacifySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCAsyncStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCMaskedView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCPushNotificationIOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNDeviceInfo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNDeviceTimeFormat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNGestureHandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNI18n.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNReanimated.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNSVG.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNScreens.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNVectorIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/logger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/reactperflogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactNativeDarkMode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmJS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fmt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_ble_plx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_blur.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_cameraroll.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_config.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_cookies.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_dialogflow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_geolocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_image_picker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_in_app_review.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_netinfo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_restart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_safe_area_context.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_simple_toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_slider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_splash_screen.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_voice.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_webview.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/rn_fetch_blob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/zipzap.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioVideo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMedela/Pods-MyMedela-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D6F4C1906513EE89E1398C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMedela-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* MyMedelaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E77B2F25D3FE370066A962 /* IntentViewController.swift in Sources */,
+				0D1790DE2664F96000764F6C /* WebViewController.swift in Sources */,
+				574AA02B25E53862001AE21C /* WhenWasTheLastLengthTrackingIntentHandler.swift in Sources */,
+				574A9F1025D9958B001AE21C /* ContinueBreastfeedingIntentHandler.swift in Sources */,
+				574A9FF825E3EA65001AE21C /* TrackADiaperByTypeIntentHandler.swift in Sources */,
+				574AA02225E53826001AE21C /* TrackLengthIntentHandler.swift in Sources */,
+				574AA1CA25E7D9EE001AE21C /* SavemilkIntentHandler.swift in Sources */,
+				574A9FE625E3E9DD001AE21C /* StopSleepIntentHandler.swift in Sources */,
+				574AA2B525ED5910001AE21C /* UseMilkIntentHandler.swift in Sources */,
+				0DCC839B25B006BA003F4303 /* PacifySDKModule.m in Sources */,
+				574A9F1925D995BB001AE21C /* SwitchBreastfeedingIntentHandler.swift in Sources */,
+				0D1790D02664F76600764F6C /* NativeWebview.swift in Sources */,
+				574AA17625E696E8001AE21C /* StartbottlefeedingIntentHandler.swift in Sources */,
+				574AA19A25E6980A001AE21C /* TrackaformulafeedingIntentHandler.swift in Sources */,
+				82928F1125C6A5F800A809F9 /* AllShortcutsViewController.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				57D3A6DA25CC298A00C1B39B /* StartBreastfeedingIntentHandler.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				574A9F2825DA6FC2001AE21C /* StopBreastfeedingIntentHandler.swift in Sources */,
+				82928F0E25C6A5F800A809F9 /* ShortcutsManager.swift in Sources */,
+				574AA01025E537C2001AE21C /* TrackWeightIntentHandler.swift in Sources */,
+				574AA01925E53808001AE21C /* WhenWasTheLastWeightTrackingIntentHandler.swift in Sources */,
+				0DA8B62625DFE96A003EF221 /* ModuleWithEmitter.m in Sources */,
+				0DB7E3152666295400221D3A /* TermsWebViewHandler.m in Sources */,
+				825D85B9263E6F0E0059BEA7 /* Intents.intentdefinition in Sources */,
+				57E77BE825D57AC30066A962 /* PauseBreastfeedingIntentHandler.swift in Sources */,
+				0DB7E2ED2666286D00221D3A /* TermsNativeWebview.swift in Sources */,
+				574AA19125E697E5001AE21C /* ContinuebottlefeedingIntentHandler.swift in Sources */,
+				574AA17F25E697B6001AE21C /* PausebottlefeedingIntentHandler.swift in Sources */,
+				574AA1D325E7DA1B001AE21C /* SavepumpingIntentHandler.swift in Sources */,
+				0DB7E2FB2666288F00221D3A /* TermsWebviewController.swift in Sources */,
+				0DB7E1F72666218800221D3A /* ImprintWebViewHandler.m in Sources */,
+				574AA1A325E6983C001AE21C /* WhenwasthelastbottlefeedingIntentHandler.swift in Sources */,
+				574AA1DC25E7DA30001AE21C /* WhenwasthelastpumpingIntentHandler.swift in Sources */,
+				574AA1B825E7D9B3001AE21C /* StartpumpingIntentHandler.swift in Sources */,
+				0DB7E17B26661F3300221D3A /* ImprintWebviewController.swift in Sources */,
+				0D1790E62664FB8100764F6C /* WebViewHandler.m in Sources */,
+				574A9FEF25E3EA0B001AE21C /* WhenWasTheLastSleepIntentHandler.swift in Sources */,
+				8292935B25C7774500A809F9 /* IntentHandler.swift in Sources */,
+				574AA15B25E696AD001AE21C /* HowmuchmilkdoIhaveinthefreezerIntentHandler.swift in Sources */,
+				574AA00125E3EA9D001AE21C /* WhenWasTheLastDiaperChangeIntentHandler.swift in Sources */,
+				0DCC839A25B006BA003F4303 /* PacifySDKModule.swift in Sources */,
+				0DB7E16D26661EC500221D3A /* ImprintNativeWebview.swift in Sources */,
+				574AA18825E697CD001AE21C /* StopbottlefeedingIntentHandler.swift in Sources */,
+				574A9FDD25E3E995001AE21C /* StartSleepIntentHandler.swift in Sources */,
+				574AA15225E69696001AE21C /* HowmuchmilkdoIhaveinthefridgeIntentHandler.swift in Sources */,
+				574AA1C125E7D9CC001AE21C /* StoppumpingIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* MyMedelaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82928EB325C6A4E000A809F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E77BE925D57AC30066A962 /* PauseBreastfeedingIntentHandler.swift in Sources */,
+				574AA1CB25E7D9EE001AE21C /* SavemilkIntentHandler.swift in Sources */,
+				574AA18025E697B6001AE21C /* PausebottlefeedingIntentHandler.swift in Sources */,
+				574AA00225E3EA9D001AE21C /* WhenWasTheLastDiaperChangeIntentHandler.swift in Sources */,
+				829291FC25C6B42200A809F9 /* AllShortcutsViewController.swift in Sources */,
+				574AA15C25E696AD001AE21C /* HowmuchmilkdoIhaveinthefreezerIntentHandler.swift in Sources */,
+				574A9F2925DA6FC2001AE21C /* StopBreastfeedingIntentHandler.swift in Sources */,
+				574A9F1125D9958B001AE21C /* ContinueBreastfeedingIntentHandler.swift in Sources */,
+				829291E825C6B3C000A809F9 /* ShortcutsManager.swift in Sources */,
+				574AA1B925E7D9B3001AE21C /* StartpumpingIntentHandler.swift in Sources */,
+				574AA1DD25E7DA30001AE21C /* WhenwasthelastpumpingIntentHandler.swift in Sources */,
+				574AA01125E537C2001AE21C /* TrackWeightIntentHandler.swift in Sources */,
+				574AA2B625ED5910001AE21C /* UseMilkIntentHandler.swift in Sources */,
+				574AA02C25E53862001AE21C /* WhenWasTheLastLengthTrackingIntentHandler.swift in Sources */,
+				574AA01A25E53808001AE21C /* WhenWasTheLastWeightTrackingIntentHandler.swift in Sources */,
+				574A9F1A25D995BB001AE21C /* SwitchBreastfeedingIntentHandler.swift in Sources */,
+				825D85BA263E6F0E0059BEA7 /* Intents.intentdefinition in Sources */,
+				574AA19B25E6980A001AE21C /* TrackaformulafeedingIntentHandler.swift in Sources */,
+				574AA15325E69696001AE21C /* HowmuchmilkdoIhaveinthefridgeIntentHandler.swift in Sources */,
+				574AA17725E696E8001AE21C /* StartbottlefeedingIntentHandler.swift in Sources */,
+				574AA02325E53826001AE21C /* TrackLengthIntentHandler.swift in Sources */,
+				574AA1A425E6983C001AE21C /* WhenwasthelastbottlefeedingIntentHandler.swift in Sources */,
+				574AA19225E697E5001AE21C /* ContinuebottlefeedingIntentHandler.swift in Sources */,
+				574A9FE725E3E9DD001AE21C /* StopSleepIntentHandler.swift in Sources */,
+				574AA1D425E7DA1B001AE21C /* SavepumpingIntentHandler.swift in Sources */,
+				574AA18925E697CD001AE21C /* StopbottlefeedingIntentHandler.swift in Sources */,
+				574A9FF025E3EA0B001AE21C /* WhenWasTheLastSleepIntentHandler.swift in Sources */,
+				82928EBC25C6A4E100A809F9 /* IntentHandler.swift in Sources */,
+				574A9FF925E3EA65001AE21C /* TrackADiaperByTypeIntentHandler.swift in Sources */,
+				57D3A6D325CC019B00C1B39B /* StartBreastfeedingIntentHandler.swift in Sources */,
+				574A9FDE25E3E995001AE21C /* StartSleepIntentHandler.swift in Sources */,
+				574AA1C225E7D9CC001AE21C /* StoppumpingIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82928EBE25C6A4E200A809F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825D85BB263E6F0E0059BEA7 /* Intents.intentdefinition in Sources */,
+				82928EC725C6A4E200A809F9 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* MyMedela */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* MyMedela-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+		82928ECD25C6A4E200A809F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82928EC125C6A4E200A809F9 /* IntentExtensionUI */;
+			targetProxy = 82928ECC25C6A4E200A809F9 /* PBXContainerItemProxy */;
+		};
+		82928ED025C6A4E300A809F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82928EB625C6A4E000A809F9 /* IntentExtension */;
+			targetProxy = 82928ECF25C6A4E300A809F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D1F79FA267FACDC00A7DC24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D1F79F9267FACDC00A7DC24 /* en */,
+				0D1F7A01267FAF4400A7DC24 /* da */,
+				0D1F7A02267FAF6A00A7DC24 /* nl */,
+				0D1F7A03267FAF7700A7DC24 /* de */,
+				0D1F7A04267FAF8900A7DC24 /* es */,
+				0D1F7A08267FB03D00A7DC24 /* fr */,
+				0D1F7A09267FB05000A7DC24 /* it */,
+				0D1F7A0A267FB08500A7DC24 /* pt-PT */,
+				0D1F7A0B267FB09B00A7DC24 /* nb */,
+				0D1F7A0C267FB0A500A7DC24 /* ru */,
+				0D1F7A0D267FB0AE00A7DC24 /* sv */,
+				0D1F7A0E267FB0BD00A7DC24 /* ar */,
+			);
+			name = InfoPlist.strings;
+			path = MyMedela;
+			sourceTree = "<group>";
+		};
+		825D85BD263E6F0E0059BEA7 /* Intents.intentdefinition */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825D85D2263E6F320059BEA7 /* Base */,
+				0D1F7A63267FCECC00A7DC24 /* en */,
+				0D1F7A65267FCECE00A7DC24 /* ar */,
+				0D1F7A6D267FCED200A7DC24 /* da */,
+				0D1F7A6F267FCED500A7DC24 /* nl */,
+				0D1F7A71267FCED600A7DC24 /* fr */,
+				0D1F7A79267FCED800A7DC24 /* de */,
+				0D1F7A7B267FCEDA00A7DC24 /* it */,
+				0D1F7A7D267FCEDB00A7DC24 /* nb */,
+				0D1F7A7F267FCEDD00A7DC24 /* pt-PT */,
+				0D1F7A81267FCEDE00A7DC24 /* ru */,
+				0D1F7A89267FCEDF00A7DC24 /* es */,
+				0D1F7A91267FCEE000A7DC24 /* sv */,
+			);
+			name = Intents.intentdefinition;
+			sourceTree = "<group>";
+		};
+		82928EC825C6A4E200A809F9 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82928EC925C6A4E200A809F9 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2A2F7E0D6E29D7722D1155 /* Pods-MyMedelaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyMedelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela.app/MyMedela";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F33F61C23ED6E3E5BEE4F838 /* Pods-MyMedelaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				INFOPLIST_FILE = MyMedelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela.app/MyMedela";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFA578E0EA54265E7C311D8 /* Pods-MyMedela.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MyMedela/MyMedela.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				INFOPLIST_FILE = MyMedela/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/../../node_modules/realm/vendor/realm-ios\"",
+					"$(inherited)",
+				);
+				MARKETING_VERSION = 5.1.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all;
+				PRODUCT_NAME = MyMedela;
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribution.all;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMedela-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12AD3F45F1C41FC6AA3B1C09 /* Pods-MyMedela.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MyMedela/MyMedela.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				INFOPLIST_FILE = MyMedela/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/../../node_modules/realm/vendor/realm-ios\"",
+					"$(inherited)",
+				);
+				MARKETING_VERSION = 5.1.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all;
+				PRODUCT_NAME = MyMedela;
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribution.all;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMedela-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B83C582A02B20D644DC90FE /* Pods-MyMedela-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670494A11C7DB16B310AF8A5 /* Pods-MyMedela-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9F6440CEC68DDDA6E0F22A /* Pods-MyMedela-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela-tvOS.app/MyMedela-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298AA47DFCF1CB437BE08E9C /* Pods-MyMedela-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela-tvOS.app/MyMedela-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		82928ED325C6A4E300A809F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtensionUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtensionUI;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82928ED425C6A4E300A809F9 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtensionUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtensionUI;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Dev;
+		};
+		82928ED525C6A4E300A809F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtensionUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtensionUI;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		82928ED625C6A4E300A809F9 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtensionUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtensionUI;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Stage;
+		};
+		82928ED725C6A4E300A809F9 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtensionUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtensionUI;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Prod;
+		};
+		82928ED925C6A4E300A809F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82928EDA25C6A4E300A809F9 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Dev;
+		};
+		82928EDB25C6A4E300A809F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		82928EDC25C6A4E300A809F9 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Stage;
+		};
+		82928EDD25C6A4E300A809F9 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IntentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MARKETING_VERSION = 5.1.6;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all.IntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribute.all.IntentExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Prod;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44BBF0525262EF100A42A95 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Dev;
+		};
+		F44BBF0625262EF100A42A95 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72379BC935CBD9C8AA8534C9 /* Pods-MyMedela.dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MyMedela/MyMedela.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				INFOPLIST_FILE = MyMedela/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/../../node_modules/realm/vendor/realm-ios\"",
+					"$(inherited)",
+				);
+				MARKETING_VERSION = 5.1.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all;
+				PRODUCT_NAME = MyMedela;
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribution.all;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMedela-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Dev;
+		};
+		F44BBF0725262EF200A42A95 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E60E5AA4EA6190F14AAF3C1 /* Pods-MyMedelaTests.dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyMedelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela.app/MyMedela";
+			};
+			name = Dev;
+		};
+		F44BBF0825262EF200A42A95 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5368C7EDDDA48F2D1D2910 /* Pods-MyMedela-tvOS.dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Dev;
+		};
+		F44BBF0925262EF200A42A95 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F4845B7D62911C6D080816 /* Pods-MyMedela-tvOSTests.dev.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela-tvOS.app/MyMedela-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Dev;
+		};
+		F44BBF0A25262F4600A42A95 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Stage;
+		};
+		F44BBF0B25262F4600A42A95 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833EC290D44E3C26FDF5679A /* Pods-MyMedela.stage.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MyMedela/MyMedela.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				INFOPLIST_FILE = MyMedela/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/../../node_modules/realm/vendor/realm-ios\"",
+					"$(inherited)",
+				);
+				MARKETING_VERSION = 5.1.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all;
+				PRODUCT_NAME = MyMedela;
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribution.all;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMedela-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Stage;
+		};
+		F44BBF0C25262F4600A42A95 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE29154A0B5BFFE0A605D1E8 /* Pods-MyMedelaTests.stage.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				INFOPLIST_FILE = MyMedelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela.app/MyMedela";
+			};
+			name = Stage;
+		};
+		F44BBF0D25262F4600A42A95 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C630F18F1185B02665EF225 /* Pods-MyMedela-tvOS.stage.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Stage;
+		};
+		F44BBF0E25262F4600A42A95 /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A290319037383532FB6C4988 /* Pods-MyMedela-tvOSTests.stage.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela-tvOS.app/MyMedela-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Stage;
+		};
+		F44BBF0F25262F6100A42A95 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Prod;
+		};
+		F44BBF1025262F6100A42A95 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0014BE87301AE368BA43D4B /* Pods-MyMedela.prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MyMedela/MyMedela.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				INFOPLIST_FILE = MyMedela/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/../../node_modules/realm/vendor/realm-ios\"",
+					"$(inherited)",
+				);
+				MARKETING_VERSION = 5.1.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.A1Distribute.all;
+				PRODUCT_NAME = MyMedela;
+				PROVISIONING_PROFILE_SPECIFIER = com.A1Distribution.all;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMedela-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Prod;
+		};
+		F44BBF1125262F6100A42A95 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C9231EF8EE3D07C4C7DED2 /* Pods-MyMedelaTests.prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				INFOPLIST_FILE = MyMedelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela.app/MyMedela";
+			};
+			name = Prod;
+		};
+		F44BBF1225262F6100A42A95 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D75EBB76FAD9583CDFD0EC /* Pods-MyMedela-tvOS.prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JH7VLN8YGT;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Prod;
+		};
+		F44BBF1325262F6100A42A95 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FB09E093C12BD6B4348B8D /* Pods-MyMedela-tvOSTests.prod.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MyMedela-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MyMedela-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMedela-tvOS.app/MyMedela-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Prod;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyMedelaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				F44BBF0725262EF200A42A95 /* Dev */,
+				00E356F71AD99517003FC87E /* Release */,
+				F44BBF0C25262F4600A42A95 /* Stage */,
+				F44BBF1125262F6100A42A95 /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyMedela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				F44BBF0625262EF100A42A95 /* Dev */,
+				13B07F951A680F5B00A75B9A /* Release */,
+				F44BBF0B25262F4600A42A95 /* Stage */,
+				F44BBF1025262F6100A42A95 /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MyMedela-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				F44BBF0825262EF200A42A95 /* Dev */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+				F44BBF0D25262F4600A42A95 /* Stage */,
+				F44BBF1225262F6100A42A95 /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MyMedela-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				F44BBF0925262EF200A42A95 /* Dev */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+				F44BBF0E25262F4600A42A95 /* Stage */,
+				F44BBF1325262F6100A42A95 /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82928ED225C6A4E300A809F9 /* Build configuration list for PBXNativeTarget "IntentExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82928ED325C6A4E300A809F9 /* Debug */,
+				82928ED425C6A4E300A809F9 /* Dev */,
+				82928ED525C6A4E300A809F9 /* Release */,
+				82928ED625C6A4E300A809F9 /* Stage */,
+				82928ED725C6A4E300A809F9 /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82928ED825C6A4E300A809F9 /* Build configuration list for PBXNativeTarget "IntentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82928ED925C6A4E300A809F9 /* Debug */,
+				82928EDA25C6A4E300A809F9 /* Dev */,
+				82928EDB25C6A4E300A809F9 /* Release */,
+				82928EDC25C6A4E300A809F9 /* Stage */,
+				82928EDD25C6A4E300A809F9 /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyMedela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				F44BBF0525262EF100A42A95 /* Dev */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+				F44BBF0A25262F4600A42A95 /* Stage */,
+				F44BBF0F25262F6100A42A95 /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

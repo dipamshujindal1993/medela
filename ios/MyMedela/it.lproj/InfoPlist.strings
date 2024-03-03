@@ -1,0 +1,7 @@
+/* Localized versions of Info.plist keys */
+
+NSPhotoLibraryUsageDescription = "We use this access to let you choose a baby picture from your albums.";
+NSBluetoothPeripheralUsageDescription = "Bluetooth is required to connect to a smart Medela breast pump.";
+NSCameraUsageDescription = "Abbiamo bisogno di questo accesso per consentirti di aggiungere un'immagine al profilo del tuo bambino.";
+NSMicrophoneUsageDescription = "We use this to share your voice with our expert 24/7 Lactation Consultant.";
+NSBluetoothAlwaysUsageDescription = "Abbiamo bisogno di questo accesso per consentirti di connetterti al tiralatte smart Medela.";

@@ -1,0 +1,163 @@
+{
+    "timeStamp": "2015-10-01T10:00:00+01:00",
+    "checkListItems": [
+        {
+            "title": "Pakowanie się do szpitala",
+            "description": "",
+            "orderNumber": 10,
+            "uuid": "000000-0010-0000-000000",
+            "image": "hospital_suitcase",
+            "checkListItems": [
+                {
+                    "title": "Ogólne:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0010-0000-010000",
+                    "checkListItems": [
+                        {
+                            "title": "Karty ubezpieczeniowe; plan porodu",
+                            "orderNumber": 12,
+                            "uuid": "000000-0010-0000-010010"
+                        },
+                        {
+                            "title": "Telefon i ładowarka",
+                            "orderNumber": 13,
+                            "uuid": "000000-0010-0000-010020"
+                        },
+                        {
+                            "title": "Torba z ubraniem na zmianę, dezodorantem i szczoteczką do zębów dla taty",
+                            "orderNumber": 14,
+                            "uuid": "000000-0010-0000-010030"
+                        },
+                        {
+                            "title": "Ręcznik w samochodzie (na wypadek, gdyby odeszły Ci wody)",
+                            "orderNumber": 15,
+                            "uuid": "000000-0010-0000-010040"
+                        },
+                        {
+                            "title": "Lodówka na przekąski/napoje i reszta do automatów z napojami",
+                            "orderNumber": 16,
+                            "uuid": "000000-0010-0000-010050"
+                        }
+                    ]
+                },
+                {
+                    "title": "Dla dziecka:",
+                    "orderNumber": 17,
+                    "uuid": "000000-0010-0000-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Księga dziecka",
+                            "orderNumber": 18,
+                            "uuid": "000000-0010-0000-020010"
+                        },
+                        {
+                            "title": "Pajacyk; śpioszki; skarpetki i czapeczka",
+                            "orderNumber": 19,
+                            "uuid": "000000-0010-0000-020020"
+                        },
+                        {
+                            "title": "Koc",
+                            "orderNumber": 20,
+                            "uuid": "000000-0010-0000-020030"
+                        },
+                        {
+                            "title": "Strój na powrót do domu",
+                            "orderNumber": 21,
+                            "uuid": "000000-0010-0000-020040"
+                        },
+                        {
+                            "title": "Fotelik samochodowy",
+                            "orderNumber": 22,
+                            "uuid": "000000-0010-0000-020050"
+                        }
+                    ]
+                },
+                {
+                    "title": "Dla mamy:",
+                    "orderNumber": 23,
+                    "uuid": "000000-0010-0000-030000",
+                    "checkListItems": [
+                        {
+                            "title": "3 tank topy i spodnie do jogi",
+                            "orderNumber": 24,
+                            "uuid": "000000-0010-0000-030010"
+                        },
+                        {
+                            "title": "Wygodne skarpety i bawełniany szlafrok",
+                            "orderNumber": 25,
+                            "uuid": "000000-0010-0000-030020"
+                        },
+                        {
+                            "title": "Biustonosze do karmienia, wkładki do biustonoszy, opaski na brzuch/ nakładki na rurki",
+                            "orderNumber": 26,
+                            "uuid": "000000-0010-0000-030030"
+                        },
+                        {
+                            "title": "Torba do makijażu, balsam, dezodorant, szczoteczka i pasta do zębów",
+                            "orderNumber": 27,
+                            "uuid": "000000-0010-0000-030040"
+                        },
+                        {
+                            "title": "Uchwyty do włosów, szczotka i suszarka do włosów",
+                            "orderNumber": 28,
+                            "uuid": "000000-0010-0000-030050"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Powrót do pracy",
+            "description": "",
+            "orderNumber": 100,
+            "uuid": "000000-0100-0000-000000",
+            "image": "back_to_work",
+            "checkListItems": [
+                {
+                    "title": "Planuj z wyprzedzeniem:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0100-0000-010000",
+                    "checkListItems": [
+                        {
+                            "title": "W miarę możliwości wróć do pracy na pół etatu przez pierwsze kilka tygodni.  ",
+                            "orderNumber": 12,
+                            "uuid": "000000-0100-0000-010010"
+                        },
+                        {
+                            "title": "Wróć w połowie tygodnia, więc masz tylko dwa lub trzy dni przed weekendem i możesz się przegrupować ",
+                            "orderNumber": 13,
+                            "uuid": "000000-0100-0000-010020"
+                        },
+                        {
+                            "title": "Jazda próbna: wzięcie prysznica, ubranie się, jazda samochodem i odstawienie dziecka do dostawcy usług opieki.  Używaj pompy i postępuj zgodnie z harmonogramem przerw, który będziesz mieć.  ",
+                            "orderNumber": 14,
+                            "uuid": "000000-0100-0000-010030"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tuż przed:",
+                    "orderNumber": 15,
+                    "uuid": "000000-0100-0000-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Przygotować ubrania dla siebie i dziecka.   Umieścić części pompy w torbie i umieścić w pobliżu drzwi.",
+                            "orderNumber": 16,
+                            "uuid": "000000-0100-0000-020010"
+                        },
+                        {
+                            "title": "Dobrze się wysypiaj",
+                            "orderNumber": 17,
+                            "uuid": "000000-0100-0000-020020"
+                        },
+                        {
+                            "title": "W dzień, karm dziecko piersią przed pracą i pierwszą rzeczą po powrocie do domu.",
+                            "orderNumber": 18,
+                            "uuid": "000000-0100-0000-020030"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

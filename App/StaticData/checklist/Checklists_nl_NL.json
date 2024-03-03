@@ -1,0 +1,558 @@
+{
+    "timeStamp": "2015-10-01T10:00:00+01:00",
+    "checkListItems": [
+        {
+            "title": "Wat neem je mee naar het ziekenhuis?",
+            "description": "Een baby laat zich niet plannen, want maar 4 procent van alle baby's wordt ook echt geboren op de uitgerekende datum. Om stress te voorkomen en op alles voorbereid te zijn, kun je het beste je ziekenhuistas in de 34e week van je zwangerschap klaar hebben staan. Ook als je voor een thuisgeboorte hebt gekozen, is het goed om een tas ingepakt te hebben voor het geval dat. ",
+            "orderNumber": 10,
+            "uuid": "000000-0010-1006-000000",
+            "image": "hospital_suitcase",
+            "checkListItems": [
+                {
+                    "title": "Alle documenten die je nodig kunt hebben:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0010-1006-010000",
+                    "checkListItems": [
+                        {
+                            "title": "pasje zorgverzekering en polispas ziekenhuis",
+                            "orderNumber": 12,
+                            "uuid": "000000-0010-1006-010010"
+                        },
+                        {
+                            "title": "zwangerschapskaart of -boekje",
+                            "orderNumber": 13,
+                            "uuid": "000000-0010-1006-010020"
+                        },
+                        {
+                            "title": "allergiepas",
+                            "orderNumber": 14,
+                            "uuid": "000000-0010-1006-010030"
+                        },
+                        {
+                            "title": "geldig paspoort of ID-bewijs",
+                            "orderNumber": 15,
+                            "uuid": "000000-0010-1006-010040"
+                        }
+                    ]
+                },
+                {
+                    "title": "Niet vergeten voor thuis:",
+                    "orderNumber": 16,
+                    "uuid": "000000-0010-1006-020000",
+                    "checkListItems": [
+                        {
+                            "title": "zet je bed minimaal drie weken voor de uitgerekende datum alvast op klossen. Deze kun je huren bij een thuiszorgwinkel in de buurt.",
+                            "orderNumber": 17,
+                            "uuid": "000000-0010-1006-020010"
+                        },
+                        {
+                            "title": "zorg dat je je kraampakket in huis hebt voor een mogelijke thuisbevalling.",
+                            "orderNumber": 18,
+                            "uuid": "000000-0010-1006-020020"
+                        },
+                        {
+                            "title": "regel opvang voor je kinderen of huisdieren.",
+                            "orderNumber": 19,
+                            "uuid": "000000-0010-1006-020030"
+                        }
+                    ]
+                },
+                {
+                    "title": "Voor de bevalling:",
+                    "orderNumber": 20,
+                    "uuid": "000000-0010-1006-030000",
+                    "checkListItems": [
+                        {
+                            "title": "een lang katoenen shirt of hemd",
+                            "orderNumber": 21,
+                            "uuid": "000000-0010-1006-030010"
+                        },
+                        {
+                            "title": "vest om snel even iets aan te kunnen doen",
+                            "orderNumber": 22,
+                            "uuid": "000000-0010-1006-030020"
+                        },
+                        {
+                            "title": "dikke warme sokken (met koude voeten komen de weeën namelijk niet zo goed op gang)",
+                            "orderNumber": 23,
+                            "uuid": "000000-0010-1006-030030"
+                        },
+                        {
+                            "title": "schoenen die je snel even aan kunt schieten of pantoffels",
+                            "orderNumber": 24,
+                            "uuid": "000000-0010-1006-030040"
+                        },
+                        {
+                            "title": "lippenbalsem",
+                            "orderNumber": 25,
+                            "uuid": "000000-0010-1006-030050"
+                        },
+                        {
+                            "title": "haarelastiek",
+                            "orderNumber": 26,
+                            "uuid": "000000-0010-1006-030060"
+                        },
+                        {
+                            "title": "geboorteplan",
+                            "orderNumber": 27,
+                            "uuid": "000000-0010-1006-030070"
+                        },
+                        {
+                            "title": "kleine snacks, druivensuiker en iets te drinken voor de kleine trek en dorst tussendoor (de aanstaande vader niet vergeten!)",
+                            "orderNumber": 28,
+                            "uuid": "000000-0010-1006-030080"
+                        },
+                        {
+                            "title": "bril en/of contactlenzen + brillenkoker en contactlenzenvloeistof",
+                            "orderNumber": 29,
+                            "uuid": "000000-0010-1006-030090"
+                        },
+                        {
+                            "title": "eventuele persoonlijke medicijnen",
+                            "orderNumber": 30,
+                            "uuid": "000000-0010-1006-030100"
+                        },
+                        {
+                            "title": "fototoestel en/of camera met opgeladen accu of batterij",
+                            "orderNumber": 31,
+                            "uuid": "000000-0010-1006-030110"
+                        }
+                    ]
+                },
+                {
+                    "title": "Mocht je in het ziekenhuis moeten blijven:",
+                    "orderNumber": 32,
+                    "uuid": "000000-0010-1006-040000",
+                    "checkListItems": [
+                        {
+                            "title": "gemakkelijk zittende kleding",
+                            "orderNumber": 33,
+                            "uuid": "000000-0010-1006-040010"
+                        },
+                        {
+                            "title": "pyjama/nachthemd met knoopsluiting",
+                            "orderNumber": 34,
+                            "uuid": "000000-0010-1006-040020"
+                        },
+                        {
+                            "title": "een paar T-shirts waarin je gemakkelijk borstvoeding kunt geven",
+                            "orderNumber": 35,
+                            "uuid": "000000-0010-1006-040030"
+                        },
+                        {
+                            "title": "voedingsbustiers/-bh's",
+                            "orderNumber": 36,
+                            "uuid": "000000-0010-1006-040040"
+                        },
+                        {
+                            "title": "zoogkompressen",
+                            "orderNumber": 37,
+                            "uuid": "000000-0010-1006-040050"
+                        },
+                        {
+                            "title": "slipjes (reken gerust 2 per dag)",
+                            "orderNumber": 38,
+                            "uuid": "000000-0010-1006-040060"
+                        },
+                        {
+                            "title": "kraamverband (die krijg je wel in het ziekenhuis, maar het is altijd goed iets achter de hand te hebben!)",
+                            "orderNumber": 39,
+                            "uuid": "000000-0010-1006-040070"
+                        },
+                        {
+                            "title": "handdoeken en washandjes",
+                            "orderNumber": 40,
+                            "uuid": "000000-0010-1006-040080"
+                        },
+                        {
+                            "title": "cosmetische artikelen: tandpasta + tandenborstel, douchegel, shampoo, gezichtscrème, deodorant, haarborstel, make-upartikelen, föhn",
+                            "orderNumber": 41,
+                            "uuid": "000000-0010-1006-040090"
+                        },
+                        {
+                            "title": "lekker zittende kleding voor als je naar huis gaat ",
+                            "orderNumber": 42,
+                            "uuid": "000000-0010-1006-040100"
+                        }
+                    ]
+                },
+                {
+                    "title": "Voor de baby:",
+                    "orderNumber": 43,
+                    "uuid": "000000-0010-1006-050000",
+                    "checkListItems": [
+                        {
+                            "title": "rompertje met korte mouwtjes, maat 56",
+                            "orderNumber": 44,
+                            "uuid": "000000-0010-1006-050010"
+                        },
+                        {
+                            "title": "rompertje met lange mouwen, maat 56",
+                            "orderNumber": 45,
+                            "uuid": "000000-0010-1006-050020"
+                        },
+                        {
+                            "title": "kruippakje, maat 56",
+                            "orderNumber": 46,
+                            "uuid": "000000-0010-1006-050030"
+                        },
+                        {
+                            "title": "sokjes om snel aan te kunnen trekken",
+                            "orderNumber": 47,
+                            "uuid": "000000-0010-1006-050040"
+                        },
+                        {
+                            "title": "mutsjes",
+                            "orderNumber": 48,
+                            "uuid": "000000-0010-1006-050050"
+                        },
+                        {
+                            "title": "afhankelijk van het jaargetijde jasje of babypak voor de reis naar huis",
+                            "orderNumber": 49,
+                            "uuid": "000000-0010-1006-050060"
+                        },
+                        {
+                            "title": "spuugdoekjes",
+                            "orderNumber": 50,
+                            "uuid": "000000-0010-1006-050070"
+                        },
+                        {
+                            "title": "dekentje om de baby onderweg naar huis toe te kunnen dekken",
+                            "orderNumber": 51,
+                            "uuid": "000000-0010-1006-050080"
+                        },
+                        {
+                            "title": "autostoeltje met verkleiningsinzet of kinderwagen",
+                            "orderNumber": 52,
+                            "uuid": "000000-0010-1006-050090"
+                        }
+                    ]
+                },
+                {
+                    "title": "Voor de vader: wat heb je nodig bij de aangifte:",
+                    "orderNumber": 53,
+                    "uuid": "000000-0010-1006-060000",
+                    "checkListItems": [
+                        {
+                            "title": "de geboortedatum en geboortetijd van het kind. Hiervoor kun je een verklaring van een arts of verloskundige meenemen (waar ook de naam van de moeder op staat). De verklaring is niet verplicht; je mag de informatie ook zelf doorgeven. ",
+                            "orderNumber": 54,
+                            "uuid": "000000-0010-1006-060010"
+                        },
+                        {
+                            "title": "de geboortenamen van het kind ",
+                            "orderNumber": 55,
+                            "uuid": "000000-0010-1006-060020"
+                        },
+                        {
+                            "title": "een geldig identiteitsbewijs van jezelf ",
+                            "orderNumber": 56,
+                            "uuid": "000000-0010-1006-060030"
+                        },
+                        {
+                            "title": "bij voorkeur een geldig identiteitsbewijs van de moeder. Dit is niet wettelijk verplicht, maar versnelt wel de procedure. ",
+                            "orderNumber": 57,
+                            "uuid": "000000-0010-1006-060040"
+                        },
+                        {
+                            "title": "eventueel het trouwboekje, zodat het kind daarin kan worden bijgeschreven. ",
+                            "orderNumber": 58,
+                            "uuid": "000000-0010-1006-060050"
+                        },
+                        {
+                            "title": "Heb je je kind vóór de geboorte al erkend in een andere gemeente of bij een notaris? Of hebben jullie al naamskeuze gedaan? Dan heb je ook nodig: een afschrift van de akte 'Erkenning ongeboren vrucht', een afschrift van de akte van naamskeuze.",
+                            "orderNumber": 59,
+                            "uuid": "000000-0010-1006-060060"
+                        }
+                    ]
+                },
+                {
+                    "title": "Diversen:",
+                    "orderNumber": 60,
+                    "uuid": "000000-0010-1006-070000",
+                    "checkListItems": [
+                        {
+                            "title": "wat geld voor kleine inkopen in de ziekenhuiswinkel",
+                            "orderNumber": 61,
+                            "uuid": "000000-0010-1006-070010"
+                        },
+                        {
+                            "title": "mobiele telefoon + oplader",
+                            "orderNumber": 62,
+                            "uuid": "000000-0010-1006-070020"
+                        },
+                        {
+                            "title": "telefoonnummers van familie, vriendenverloskundige en kraambureau",
+                            "orderNumber": 63,
+                            "uuid": "000000-0010-1006-070030"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Basis uitzet voor een pasgeborene",
+            "description": "",
+            "orderNumber": 20,
+            "uuid": "000000-0020-1006-000000",
+            "image": "equipment_life_newborn",
+            "checkListItems": [
+                {
+                    "title": "Voor de babykamer:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0020-1006-010000",
+                    "checkListItems": [
+                        {
+                            "title": "commode",
+                            "orderNumber": 12,
+                            "uuid": "000000-0020-1006-010010"
+                        },
+                        {
+                            "title": "luieremmer met deksel",
+                            "orderNumber": 13,
+                            "uuid": "000000-0020-1006-010020"
+                        },
+                        {
+                            "title": "2 kruiken ",
+                            "orderNumber": 14,
+                            "uuid": "000000-0020-1006-010030"
+                        },
+                        {
+                            "title": "bedje; ideaal is een bedje dat aan mama's bed aangebouwd kan worden, zodat je 's nachts niet zo vaak hoeft op te staan",
+                            "orderNumber": 15,
+                            "uuid": "000000-0020-1006-010040"
+                        },
+                        {
+                            "title": "draagbare wieg of reiswieg die je overdag kunt meenemen naar de huiskamer",
+                            "orderNumber": 16,
+                            "uuid": "000000-0020-1006-010050"
+                        }
+                    ]
+                },
+                {
+                    "title": "Voor de verzorging van je baby:",
+                    "orderNumber": 17,
+                    "uuid": "000000-0020-1006-020000",
+                    "checkListItems": [
+                        {
+                            "title": "2 pakken wegwerpluiers, maat Newborn, of 20 wasbare luiers/katoenen luiers",
+                            "orderNumber": 18,
+                            "uuid": "000000-0020-1006-020010"
+                        },
+                        {
+                            "title": "10 hydrofiele luiers/spuugdoekjes",
+                            "orderNumber": 19,
+                            "uuid": "000000-0020-1006-020020"
+                        },
+                        {
+                            "title": "babybadje of bademmer",
+                            "orderNumber": 20,
+                            "uuid": "000000-0020-1006-020030"
+                        },
+                        {
+                            "title": "grote badcape",
+                            "orderNumber": 21,
+                            "uuid": "000000-0020-1006-020040"
+                        },
+                        {
+                            "title": "babydoekjes of hydrofiele washandjes om de billetjes schoon te maken",
+                            "orderNumber": 22,
+                            "uuid": "000000-0020-1006-020050"
+                        },
+                        {
+                            "title": "milde zeep, shampoo of olie voor baby´s",
+                            "orderNumber": 23,
+                            "uuid": "000000-0020-1006-020060"
+                        },
+                        {
+                            "title": "kleine zachte haarborstel",
+                            "orderNumber": 24,
+                            "uuid": "000000-0020-1006-020070"
+                        },
+                        {
+                            "title": "nagelvijl en -schaartje",
+                            "orderNumber": 25,
+                            "uuid": "000000-0020-1006-020080"
+                        },
+                        {
+                            "title": "1 pak babydoekjes",
+                            "orderNumber": 26,
+                            "uuid": "000000-0020-1006-020090"
+                        },
+                        {
+                            "title": "wasmand",
+                            "orderNumber": 27,
+                            "uuid": "000000-0020-1006-020100"
+                        },
+                        {
+                            "title": "badthermometer",
+                            "orderNumber": 28,
+                            "uuid": "000000-0020-1006-020110"
+                        },
+                        {
+                            "title": "koortsthermometer",
+                            "orderNumber": 29,
+                            "uuid": "000000-0020-1006-020120"
+                        }
+                    ]
+                },
+                {
+                    "title": "Voor baby's kledingkast:",
+                    "orderNumber": 30,
+                    "uuid": "000000-0020-1006-030000",
+                    "checkListItems": [
+                        {
+                            "title": "voldoende rompertjes in maat 56 en 62",
+                            "orderNumber": 31,
+                            "uuid": "000000-0020-1006-030010"
+                        },
+                        {
+                            "title": "shirtjes of truitjes met lange mouwen, in maat 56 en in maat 62",
+                            "orderNumber": 32,
+                            "uuid": "000000-0020-1006-030020"
+                        },
+                        {
+                            "title": "(box)pakjes of zachte katoenen broeken met stoffen band",
+                            "orderNumber": 33,
+                            "uuid": "000000-0020-1006-030030"
+                        },
+                        {
+                            "title": "trappelzak",
+                            "orderNumber": 34,
+                            "uuid": "000000-0020-1006-030040"
+                        },
+                        {
+                            "title": "4 paar babysokjes",
+                            "orderNumber": 35,
+                            "uuid": "000000-0020-1006-030050"
+                        },
+                        {
+                            "title": "warme slofjes om snel aan te kunnen trekken",
+                            "orderNumber": 36,
+                            "uuid": "000000-0020-1006-030060"
+                        },
+                        {
+                            "title": "2 katoenen mutsjes",
+                            "orderNumber": 37,
+                            "uuid": "000000-0020-1006-030070"
+                        },
+                        {
+                            "title": "mutsje en jasje voor buiten",
+                            "orderNumber": 38,
+                            "uuid": "000000-0020-1006-030080"
+                        },
+                        {
+                            "title": "zacht babydekentje",
+                            "orderNumber": 39,
+                            "uuid": "000000-0020-1006-030090"
+                        }
+                    ]
+                },
+                {
+                    "title": "Voor baby's eerste uitstapjes:",
+                    "orderNumber": 40,
+                    "uuid": "000000-0020-1006-040000",
+                    "checkListItems": [
+                        {
+                            "title": "autostoeltje",
+                            "orderNumber": 41,
+                            "uuid": "000000-0020-1006-040010"
+                        },
+                        {
+                            "title": "kinderwagen",
+                            "orderNumber": 42,
+                            "uuid": "000000-0020-1006-040020"
+                        },
+                        {
+                            "title": "draaghulp/draagdoek",
+                            "orderNumber": 43,
+                            "uuid": "000000-0020-1006-040030"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Benodigdheden voor voeden en afkolven",
+            "description": "",
+            "orderNumber": 30,
+            "uuid": "000000-0030-0402-000000",
+            "image": "breastfeeding",
+            "checkListItems": [
+                {
+                    "title": "Voor het voeden:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0030-0402-010000",
+                    "checkListItems": [
+                        {
+                            "title": "ten minste 2 voedingsbeha's of 2 voedingsbustiers",
+                            "orderNumber": 12,
+                            "uuid": "000000-0030-0402-010010"
+                        },
+                        {
+                            "title": "shirts/blouses met knoopsluiting of wijde hals om makkelijk te voeden (een coltrui is bijvoorbeeld niet zo geschikt)",
+                            "orderNumber": 13,
+                            "uuid": "000000-0030-0402-010020"
+                        },
+                        {
+                            "title": "lang vest of jas om snel even aan te trekken",
+                            "orderNumber": 14,
+                            "uuid": "000000-0030-0402-010030"
+                        },
+                        {
+                            "title": "2 pyjama's/nachthemden waar je in kunt voeden",
+                            "orderNumber": 15,
+                            "uuid": "000000-0030-0402-010040"
+                        },
+                        {
+                            "title": "voedingskussen",
+                            "orderNumber": 16,
+                            "uuid": "000000-0030-0402-010050"
+                        },
+                        {
+                            "title": "sjaal van soepele lichte stof om je borst te bedekken tijdens het voeden in openbare ruimten",
+                            "orderNumber": 17,
+                            "uuid": "000000-0030-0402-010060"
+                        },
+                        {
+                            "title": "2 pakken disposable zoogkompressen",
+                            "orderNumber": 18,
+                            "uuid": "000000-0030-0402-010070"
+                        },
+                        {
+                            "title": "PureLan tepelzalf",
+                            "orderNumber": 19,
+                            "uuid": "000000-0030-0402-010080"
+                        },
+                        {
+                            "title": "speciale kruidenthee voor zogende moeders en een reep chocola, voor als het eens niet meezit",
+                            "orderNumber": 20,
+                            "uuid": "000000-0030-0402-010090"
+                        }
+                    ]
+                },
+                {
+                    "title": "Voor het afkolven:",
+                    "orderNumber": 21,
+                    "uuid": "000000-0030-0402-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Harmony handkolf of de elektrische borstkolf Swing, Swing maxi, Freestyle of Symphony, afhankelijk van je behoefte en situatie",
+                            "orderNumber": 22,
+                            "uuid": "000000-0030-0402-020010"
+                        },
+                        {
+                            "title": "3 moedermelkflesjes van 150 ml",
+                            "orderNumber": 23,
+                            "uuid": "000000-0030-0402-020020"
+                        },
+                        {
+                            "title": "2 Calma spenen",
+                            "orderNumber": 24,
+                            "uuid": "000000-0030-0402-020030"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

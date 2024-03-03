@@ -1,0 +1,97 @@
+diff --git a/node_modules/react-native-swiper/src/index.js b/node_modules/react-native-swiper/src/index.js
+index 3e63ca7..10dc949 100644
+--- a/node_modules/react-native-swiper/src/index.js
++++ b/node_modules/react-native-swiper/src/index.js
+@@ -21,9 +21,7 @@ import {
+  */
+ const styles = {
+   container: {
+-    backgroundColor: 'transparent',
+-    position: 'relative',
+-    flex: 1
++    height:70
+   },
+ 
+   wrapperIOS: {
+@@ -41,12 +39,12 @@ const styles = {
+ 
+   pagination_x: {
+     position: 'absolute',
+-    bottom: 25,
++    bottom: 5,
+     left: 0,
+-    right: 0,
++    right: 10,
+     flexDirection: 'row',
+     flex: 1,
+-    justifyContent: 'center',
++    justifyContent: 'flex-end',
+     alignItems: 'center',
+     backgroundColor: 'transparent'
+   },
+@@ -58,8 +56,8 @@ const styles = {
+     bottom: 0,
+     flexDirection: 'column',
+     flex: 1,
+-    justifyContent: 'center',
+-    alignItems: 'center',
++    justifyContent: 'flex-end',
++    alignItems: 'flex-end',
+     backgroundColor: 'transparent'
+   },
+ 
+@@ -347,15 +345,15 @@ export default class extends Component {
+           } else if (this.state.index === this.state.total - 1) {
+             this.props.horizontal === false
+               ? this.scrollView.scrollTo({
+-                  x: 0,
+-                  y: this.state.height * this.state.total,
+-                  animated: false
+-                })
++                x: 0,
++                y: this.state.height * this.state.total,
++                animated: false
++              })
+               : this.scrollView.scrollTo({
+-                  x: this.state.width * this.state.total,
+-                  y: 0,
+-                  animated: false
+-                })
++                x: this.state.width * this.state.total,
++                y: 0,
++                animated: false
++              })
+           }
+         }
+       },
+@@ -399,7 +397,7 @@ export default class extends Component {
+     // update scroll state
+     this.internals.isScrolling = true
+     this.props.onScrollBeginDrag &&
+-      this.props.onScrollBeginDrag(e, this.fullState(), this)
++    this.props.onScrollBeginDrag(e, this.fullState(), this)
+   }
+ 
+   /**
+@@ -429,7 +427,7 @@ export default class extends Component {
+     })
+     // if `onMomentumScrollEnd` registered will be called here
+     this.props.onMomentumScrollEnd &&
+-      this.props.onMomentumScrollEnd(e, this.fullState(), this)
++    this.props.onMomentumScrollEnd(e, this.fullState(), this)
+   }
+ 
+   /*
+@@ -864,9 +862,9 @@ export default class extends Component {
+       <View style={[styles.container, containerStyle]} onLayout={this.onLayout}>
+         {this.renderScrollView(pages)}
+         {showsPagination &&
+-          (renderPagination
+-            ? renderPagination(index, total, this)
+-            : this.renderPagination())}
++        (renderPagination
++          ? renderPagination(index, total, this)
++          : this.renderPagination())}
+         {this.renderTitle()}
+         {showsButtons && this.renderButtons()}
+       </View>

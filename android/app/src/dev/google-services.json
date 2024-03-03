@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "992075309831",
+    "project_id": "mymedela-b02c3",
+    "storage_bucket": "mymedela-b02c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992075309831:android:1601cfe2af15a0f241dba2",
+        "android_client_info": {
+          "package_name": "com.medela.mymedela.v.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992075309831-k0rku2femc12na38vuibg6u1pqsuhe3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARxVbV34tulPjIDsBClnbd3a-w_5hHZew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992075309831-k0rku2femc12na38vuibg6u1pqsuhe3c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "992075309831-6ia361bvmddhhuskgs81ahvi52o58c44.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.medela.mymedela.v.debug"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992075309831:android:65b1cbee055b01c041dba2",
+        "android_client_info": {
+          "package_name": "com.medela.mymedela.v.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992075309831-k0rku2femc12na38vuibg6u1pqsuhe3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARxVbV34tulPjIDsBClnbd3a-w_5hHZew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992075309831-k0rku2femc12na38vuibg6u1pqsuhe3c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "992075309831-6ia361bvmddhhuskgs81ahvi52o58c44.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.medela.mymedela.v.debug"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992075309831:android:497e9fc5717e69f241dba2",
+        "android_client_info": {
+          "package_name": "com.medela.mymedela.v.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992075309831-k0rku2femc12na38vuibg6u1pqsuhe3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARxVbV34tulPjIDsBClnbd3a-w_5hHZew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992075309831-k0rku2femc12na38vuibg6u1pqsuhe3c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "992075309831-6ia361bvmddhhuskgs81ahvi52o58c44.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.medela.mymedela.v.debug"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

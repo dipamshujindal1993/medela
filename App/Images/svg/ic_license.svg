@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_1239" d="M0 0H39V44H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#898d8d}
+        </style>
+    </defs>
+    <g id="ic-growth" transform="translate(-153 -266)">
+        <circle id="Ellipse_216" cx="35" cy="35" r="35" fill="#eddced" transform="translate(153 266)"/>
+        <g id="Group_2497" transform="translate(169 279)">
+            <g id="Group_2496" clip-path="url(#clip-path)">
+                <path id="Path_7998" d="M11 0v19H0v13.5A6.508 6.508 0 0 0 6.5 39H19v4a1 1 0 0 0 1.634.773l3.866-3.164 3.866 3.164A1 1 0 0 0 29 44a.977.977 0 0 0 .428-.1A1 1 0 0 0 30 43v-4h2.5a6.508 6.508 0 0 0 6.5-6.5V0zM2 32.5V21h9v11.5a4.5 4.5 0 0 1-9 0m22.5-1a6.25 6.25 0 1 1 6.25-6.25 6.257 6.257 0 0 1-6.25 6.25m.634 7.044a1 1 0 0 0-1.268 0L21 40.89v-8.18a8.148 8.148 0 0 0 7 0v8.18zM37 32.5a4.505 4.505 0 0 1-4.5 4.5H30v-5.618a8.25 8.25 0 1 0-11 0V37h-7.82A6.476 6.476 0 0 0 13 32.5V2h24z" class="cls-1"/>
+                <path id="Rectangle_1237" d="M0 0H15V2H0z" class="cls-1" transform="translate(17 8)"/>
+                <path id="Rectangle_1238" d="M0 0H15V2H0z" class="cls-1" transform="translate(17 12)"/>
+                <path id="Path_7999" d="M24.5 21a4.25 4.25 0 1 0 4.25 4.25A4.254 4.254 0 0 0 24.5 21m0 6.5a2.25 2.25 0 1 1 2.25-2.25 2.253 2.253 0 0 1-2.25 2.25" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <style>
+        @font-face {
+            font-family: myFirstFont;
+            src: url('../fonts/FuturaSBMedela-Light.otf');
+        }
+
+        @font-face {
+            font-family: mySecondFont;
+            src: url('../fonts/FuturaSBMedela-Book.otf');
+        }
+
+        @font-face {
+            font-family: myThirdFont;
+            src: url('../fonts/FuturaSBMedela-DemiBold.otf');
+        }
+
+        body {
+            padding: 10px 0 0 0;
+        }
+
+        .panel-title {
+            font-family: mySecondFont;
+
+        }
+
+        *:focus {
+            outline: 0 !important;
+        }
+
+        .btn-link {
+            color: #737070;
+            font-size: 18px;
+            text-decoration: none;
+            text-align: left;
+            white-space: normal;
+            padding: 0;
+            margin: 0 0 5px 0;
+        }
+
+        .panel {
+            border: none;
+            box-shadow: none;
+        }
+
+        .panel-default>.panel-heading {
+            color: #737070;
+            background-color: #fff;
+            border-color: #fff;
+            padding: 0;
+        }
+
+        .btn.focus,
+        .btn:focus {
+            outline: 0;
+            box-shadow: none !important;
+        }
+
+        .glyphicon-minus:before {
+            content: "\2212";
+            font-family: mySecondFont;
+            position: relative;
+            top: -2px;
+            background: #FECD00;
+            border-radius: 30px;
+            width: 20px;
+            height: 20px;
+            display: block;
+            text-align: center;
+            color: #fff;
+            line-height: 16px;
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+
+        .glyphicon-plus:before {
+            content: "\002b";
+            font-family: mySecondFont;
+            position: relative;
+            top: -2px;
+            background: #FECD00;
+            border-radius: 30px;
+            width: 20px;
+            height: 20px;
+            display: block;
+            text-align: center;
+            color: #fff;
+            line-height: 16px;
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+
+
+        .btn-link:focus,
+        .btn-link:hover {
+            color: #737070;
+            text-decoration: none;
+            background-color: transparent;
+        }
+
+        button:focus {
+            outline: 0;
+        }
+
+        .panel-group .panel-heading+.panel-collapse>.list-group,
+        .panel-group .panel-heading+.panel-collapse>.panel-body {
+            border-top: none;
+        }
+
+        .panel-body ul {
+            padding: 0 0 0 40px
+        }
+
+        .panel-body ul li {
+            font-family: myFirstFont;
+            font-size: 16px;
+            color: #737070;
+        }
+
+        .panel-body p {
+            font-family: myFirstFont;
+            font-size: 16px;
+            padding: 0 0 0 20px;
+            color: #737070;
+        }
+
+        .glyphicon-plus {
+            margin-right: 10px;
+        }
+
+        .glyphicon-minus {
+            margin-right: 10px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('.collapse.in').each(function () {
+                $(this).parent().find(".glyphicon").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+            });
+
+            $('.collapse').on('shown.bs.collapse', function () {
+                $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+            }).on('hidden.bs.collapse', function () {
+                $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel-group" id="accordion1">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn-link" data-target="#Exampleone" data-toggle="collapse"
+                                    data-parent="#accordion1">
+                                    <span class="glyphicon glyphicon-minus"></span>
+                                    How can I edit/delete tracked sessions?
+                                </button>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse in" id="Exampleone">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>Go to Stats&gt;List</li>
+                                    <li>Scroll back to find older entries or stay on the current day page</li>
+                                    <li>Tap on the entry you wish to edit or delete</li>
+                                    <li>Tap on the field you wish to edit or scroll to the bottom of the page to delete
+                                        the entry</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" data-target="#Exampletwo" data-toggle="collapse"
+                                    data-parent="#accordion1">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    How do I take or retake the content personalization survey?
+                                </button>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="Exampletwo">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>Go to More&gt;Profile&gt;Content personalization</li>
+                                    <li>Answer each question then tap the Finish button</li>
+                                    <li>You can retake the survey as often as you want</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" data-target="#Examplethree" data-toggle="collapse"
+                                    data-parent="#accordion1">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    How do I shop with MyMedela?
+                                </button>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="Examplethree">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>Go to My Page</li>
+                                    <li>There are two shopping carts, one at the upper right of your screen and one on
+                                        the lower left</li>
+                                    <li>Tap either of the shopping carts to start shopping</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" data-target="#Examplefour" data-toggle="collapse"
+                                    data-parent="#accordion1">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    How many babies can I track in MyMedela at once?
+                                </button>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="Examplefour">
+                            <div class="panel-body">
+                                <p>With MyMedela, you can track multiples - up to 6 babies born at the same time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" data-target="#Examplefive" data-toggle="collapse"
+                                    data-parent="#accordion1">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    How do I switch between babies in the app?
+                                </button>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="Examplefive">
+                            <div class="panel-body">
+                                <p>From the My Baby, Track or Stats screens, tap on the baby photo in the upper right to
+                                    switch
+                                    between baby records</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" data-target="#Examplesix" data-toggle="collapse"
+                                    data-parent="#accordion1">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    How do I turn on/off notifications?
+                                </button>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="Examplesix">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>Go to More&gt;Preferences&gt;Notification</li>
+                                    <li>On this screen, you can turn on or off all notifications</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" data-target="#Exampleseven" data-toggle="collapse"
+                                    data-parent="#accordion1">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    Why does the app prevent me from tracking weight &amp; height sometimes/How often
+                                    can I track baby weight &amp; height?
+                                </button>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="Exampleseven">
+                            <div class="panel-body">
+                                <p>The app will allow you to track baby's measurements as recommended by the American
+                                    Academy of Pediatrics based on baby's growth patterns:</p>
+                                <ul>
+                                    <li>If baby is less than 2 weeks old, track measurements once per day</li>
+                                    <li>If baby is more than 2 weeks old, track measurements once per week</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" data-target="#Exampleeight" data-toggle="collapse"
+                                    data-parent="#accordion1">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    How do I provide feedback to Medela on changes, improvements or problems with this
+                                    app?
+                                </button>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="Exampleeight">
+                            <div class="panel-body">
+                                <p>The app will allow you to track baby's measurements as recommended by the American
+                                    Academy of Pediatrics based on baby's growth patterns:</p>
+                                <ul>
+                                    <li>Go to More&gt;Rate MyMedela</li>
+                                    <li>On this screen, you can rate MyMedela with stars and send us feedback of any
+                                        kind</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

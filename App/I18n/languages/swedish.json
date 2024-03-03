@@ -1,0 +1,1433 @@
+{
+  "common": {
+    "app_name": "Appnamn"
+  },
+  "startup": {
+    "sign_up_now": "REGISTRERA DIG NU",
+    "already_have_account": "JAG HAR REDAN ETT KONTO",
+    "desc1": "Amningsinformation och annat \n när du behöver det som mest.",
+    "desc2": "24/7 LC™ virtuellt amningsstöd och ett heltäckande \nbibliotek med expertråd",
+    "desc3": "Tips och verktyg som växer med dig från \ngraviditeten och in i föräldraskapet",
+    "desc4": "VIP-tillgång till unika appfunktioner för \nAnvändare av Medela-bröstpumpar",
+    "desc5": "Dina data lagras på ett säkert sätt i enlighet med världens striktaste \ndataskyddsföreskrifter",
+    "title1": "Medela Family-community",
+    "title2": "Amningsstöd",
+    "title3": "Anpassad upplevelse",
+    "title4": "Exklusiva Medela-fördelar",
+    "title5": "Säker datalagring"
+  },
+  "login": {
+    "title": "Inloggning",
+    "email": "E-post",
+    "password": "Lösenord",
+    "forgot_your_password": "Har du glömt lösenordet?",
+    "login": "LOGGA IN",
+    "forgot_password_title": "Glömt lösenord",
+    "forgot_password_message": "Är du säker på att du vill återställa \n ditt lösenord?",
+    "ok": "OK",
+    "cancel": "AVBRYT",
+    "forgot_password_success_title": "E-postmeddelande skickat",
+    "forgot_password_success_message": "Vi har skickat ett \n e-postmeddelande till dig med ett nytt lösenord.",
+    "email_error_message": "Ange en giltig e-postadress",
+    "blank_password_error_message": "Ange ditt lösenord",
+    "account_not_exist": "Det kontot finns inte",
+    "login_failed": "Inloggning misslyckades",
+    "edit_email": "Redigera e-post",
+    "sign_up": "Registrering",
+    "yes": "JA",
+    "no": "NEJ",
+    "subscribed_user_msg": "Du prenumererar redan på Medela Family-programmet.\nVälj ett lösenord för att skydda ditt konto.",
+    "email_subscription_msg":"Bekräfta din prenumeration genom att klicka på länken i det mejl vi har skickat till dig",
+    "no_space_in_password": "Lösenordet får inte innehålla mellanslag"
+  },
+  "signup": {
+    "title": "Skapa ditt konto",
+    "email": "E-post *",
+    "password": "Lösenord *",
+    "offer": "Jag vill hålla mig uppdaterad om nyheter och specialerbjudanden från Medela via e-post",
+    "signUpBtn": "REGISTRERA DIG",
+    "terms": "Genom att registrera dig godkänner du vår",
+    "privacyPolicy": " Sekretesspolicy inklusive behandling av känsliga personuppgifter",
+    "emailAlreadyExist": "Det finns redan en användare med denna e-postadress.",
+    "somethingWentWrong": "Något gick fel. Försök igen senare",
+    "show": "Visa",
+    "hide": "Dölj",
+    "email_error": "Ogiltig e-postadress",
+    "password_no_numbers": "inga siffror",
+    "password_no_letters": "inga bokstäver",
+    "password_too_weak": "För svagt",
+    "password_too_long": "För långt",
+    "password_invalid_characters": "ogiltiga tecken",
+    "password_null": "8–20 tecken med minst en siffra (a-z, 0-9)",
+    "edit_email": "Redigera e-post",
+    "login_up": "Inloggning",
+    "password_min_length": "Lösenordet måste bestå av minst sju tecken och innehålla både bokstäver och siffror."
+  },
+  "profileSetup": {
+    "title": "Några fler detaljer behövs för att komplettera \n din profil",
+    "name": "Ditt namn/smeknamn *",
+    "babyDob": "Barnets födelsedatum/beräknat förlossningsdatum *",
+    "isFirstBaby": "Är det här ditt första barn?",
+    "yes": "Ja",
+    "no": "Nej",
+    "next": "NÄSTA",
+    "dontKnow": "Jag vet inte",
+    "planReturnWork": "Ingår arbete utanför hemmet i din föräldraplan?",
+    "chooseDate": "När förväntar du dig att börja?",
+    "babyName": "Barnets namn/smeknamn *",
+    "username_error": "Ange ditt namn",
+    "baby_name_error": "Ange barnets namn",
+    "baby_dob_error": "Välj barnets födelsedatum/beräknat förlossningsdatum",
+    "back_to_work_date": "Välj datum för återgång till arbetet",
+    "upload": "Ladda upp en bild på barnet",
+    "name_error": "Ange ditt namn"
+  },
+  "profileSetup2": {
+    "title": "Låt oss ta reda på hur vi på bästa sätt kan hjälpa dig\ngenom din resa",
+    "havePump": "Har du en bröstpump?",
+    "pumpBrand": "Vilket märke är det på den pump du har i dag?",
+    "yes": "Ja",
+    "no": "Nej",
+    "medela": "Medela",
+    "other": "Annat",
+    "pumpFor": "Jag fick min nuvarande pump för",
+    "insurancePump": "Min nuvarande pump",
+    "coveredByMyInsurance": "Täcktes av min försäkring",
+    "notPurchasedInsurance": "Har jag fått eller inte köpt via min försäkring",
+    "finishBtn": "AVSLUTA",
+    "previousPregnancy": "Tidigare graviditet",
+    "skip": "HOPPA ÖVER",
+    "thisPregnancy": "Denna graviditet"
+  },
+  "welcome": {
+    "title": "Välkommen till Medela Family\n",
+    "subTitle": "Här får du GRATIS tillgång till verktyg och \n tips gällande graviditet och amning",
+    "dashboardBtn": "GÅ TILL DIN INSTRUMENTBRÄDA"
+  },
+  "newWelcome":{
+    "title": "Välkommen till Medela Family!\n",
+    "subTitle": "Medela Family ersätter vår tidigare MyMedela-app och erbjuder en helt ny användarupplevelse, fantastiska förbättrade funktioner och nytt informativt innehåll.",
+    "subTitle2": "Kolla in vår nya funktion för virtuell lagring av bröstmjölk, få svar på dina frågor av vår personliga hjälpreda och spara mycket tid med röstkommandon för handsfree-loggning!",
+    "subTitle3":"Vi hoppas att du kommer att älska appen lika mycket som vi gör!",
+    "subTitle4":"Ditt Medela-team",
+    "dashboardBtn": "GÅ TILL DIN INSTRUMENTBRÄDA"
+  },
+  "tab_bar": {
+    "my_baby": "MITT BARN",
+    "stats": "STATISTIK",
+    "chat": "CHATT",
+    "more": "MER"
+  },
+  "generic": {
+    "confirm": "Bekräfta",
+    "yes": "Ja",
+    "no": "Nej",
+    "cancel": "Avbryt",
+    "error_message": "Något gick fel. Försök igen senare",
+    "save": "Spara",
+    "alert_title": "Hoppsan ...",
+    "no_internet": "Internetanslutningen verkar vara nere",
+    "cancelled_picker": "Bildväljaren avbröts av användaren",
+    "tap_custom_btn": "Användaren tryckte på den anpassade knappen: ",
+    "image_error": "Bildväljarfel: ",
+    "add_new_baby": "Lägg till nytt barn",
+    "delete": "RADERA",
+    "stop_watch": "Stoppa stoppuret först",
+    "retry": "Försök igen",
+    "minutes_error": "Antalet minuter måste vara under 60",
+    "seconds_error": "Antalet sekunder måste vara under 60",
+    "submit": "SKICKA",
+    "close": "Stäng",
+    "done": "Klart",
+    "select_state": "Välj tillstånd",
+    "maximum_limit":"Maximal gräns överskriden, d.v.s."
+  },
+  "tracking": {
+    "checklists": "Checklistor",
+    "24x7": "24/7 LC",
+    "questionnaires": "Tester",
+    "weight": "Vikt",
+    "sleep": "Sömn",
+    "nappy": "Blöja",
+    "breastfeeding": "Amning och pumpning",
+    "who": "WHO-kod",
+    "title": "Loggning",
+    "tracking_clear_message": "Är du säker på att du vill lämna den här loggade sessionen?",
+    "delete_tracking_message": "Är du säker på att du vill radera den här loggade sessionen?",
+    "tools": "Verktyg",
+    "contraction": "Sammandragning",
+    "tracking_toaster_text": "Din loggning har sparats",
+    "nappy_notification_title": "Blöjor",
+    "firstday_nappy_notification_text": "Under de första dagarna efter förlossningen kan du förvänta dig 1–2 (eller fler) kissblöjor och 1 (eller fler) bajsblöjor.",
+    "thirdday_nappy_notification_text": "Dag tre efter förlossningen kan du förvänta dig 3 (eller fler) kissblöjor och 2 (eller fler) bajsblöjor.",
+    "fourthday_nappy_notification_text": "Dag fyra efter förlossningen kan du förvänta dig 4 (eller fler) kissblöjor och 2 (eller fler) bajsblöjor. Du bör märka att de blir tyngre med tiden.",
+    "who_popup_title": "Kön",
+    "who_popup_description": "Välj kön \n Jämför ditt barns utveckling med Världshälsoorganisationens standard genom att välja kön.",
+    "who_popup_option1": "Flicka",
+    "who_popup_option2": "Pojke",
+    "who_popup_option3": "Inte nu",
+    "baby": "Barnloggning",
+    "bottle": "Flaskmatning",
+    "breastfeed": "Amning",
+    "Breastfeeding_and_Pumping": "Du har loggat färre än åtta amningar och/eller pumpningar under de senaste 24 timmarna. Har du glömt att logga något tillfälle? Barn behöver få mat minst 8 till 12 gånger per dygn under de första fyra veckorna. Efter det kan du märka att barnet börjar äta färre gånger per dygn.  Så länge barnet går upp i vikt som det ska och mår bra i övrigt är det här helt perfekt för ditt barn.",
+    "Breastfeeding_and_Pumping_5hrs": "Under de senaste 24 timmarna finns en lucka på 5 timmar mellan två eller fler amningar/pumpningar. Har du glömt att logga en amning eller pumpning?",
+    "Breastfeeding_and_Pumping_5hrs2": "Under de senaste dagarna varierade tiden mellan flera amningar och/eller pumpningar längre än 5 timmar. Uteblivna matningstillfällen kan, oavsett skäl, leda till att din mjölkproduktion minskar. Bara som en påminnelse – det verkar som om du har glömt logga en amning eller pumpning. Vill du lägga in den nu?",
+    "Breastfeeding_and_Pumping_7hrs": "Under de senaste 24 timmarna finns en lucka på 7 timmar mellan två eller fler amningar/pumpningar. Har du glömt att logga en amning eller pumpning?",
+    "Breastfeeding_and_Pumping_7hrs2": "Under de senaste dagarna varierade tiden mellan flera amningar och/eller pumpningar längre än 7 timmar. Uteblivna matningstillfällen kan, oavsett skäl, leda till att din mjölkproduktion minskar. Bara som en påminnelse – det verkar som om du har glömt logga en amning eller pumpning. Vill du lägga in den nu?",
+    "Breastfeeding_and_Pumping_title": "Amning och pumpning",
+    "Breastfeeding_and_Pumping1": "Under de första fyra veckorna bygger din mjölkproduktion upp sig själv. Därför är det väldigt viktigt att dina bröst stimuleras genom antingen amning eller pumpning minst åtta gånger per dygn. Det säkrar att du producerar tillräckligt med bröstmjölk både nu och framöver. Uteblivna matningstillfällen kan, oavsett skäl, leda till att din mjölkproduktion minskar. Bara som en påminnelse – det verkar som om du har glömt logga en amning eller pumpning. Vill du lägga in den nu?",
+    "four_weeks_nappy_notification_text": "Vi skulle alla vilja slippa hålla reda på använda blöjor, men det är viktigt att du loggar dem här! Glömde du logga en blöja?",
+    "four_weeks_nappy_notification_text2": "Under de första fyra veckorna efter förlossningen bajsar de flesta barn minst två gånger per dag, och bajset är löst och gult. Med tanke på det antal blöjor du har loggat i appen rekommenderar vi att du tar kontakt med barnets vårdgivare",
+    "four_weeks_nappy_notification_text3": "Bajset förändras efter omkring 4 till 6 veckor. Från och med då kan barnet fortsätta bajsa flera gånger om dagen – eller inte bajsa alls på flera dagar, till och med en hel vecka! ",
+    "freezer": "Förvaring",
+    "growth": "Längd",
+    "height_tracking": "Se till att ha regelbunden kontakt med din vårdgivare angående barnets längd.",
+    "height_tracking_notification_text": "Se till att ha regelbunden kontakt med din vårdgivare angående barnets längd.",
+    "height_tracking_notification_title": "Loggning av längd",
+    "height_tracking_title": "Loggning av längd",
+    "mom": "Loggning av graviditeten",
+    "nappy_notification_title2": "Bajsblöjor",
+    "pumping": "Pumpning",
+    "tracking_toaster_update_text": "Din loggning har uppdaterats.",
+    "weight_tracking": "Se till att ha regelbunden kontakt med din vårdgivare angående barnets vikt.",
+    "weight_tracking_notification_text": "Se till att ha regelbunden kontakt med din vårdgivare angående barnets vikt.",
+    "weight_tracking_notification_title": "Loggning av vikt",
+    "weight_tracking_title": "Loggning av vikt",
+    "wet_diapers": "Kissblöjor",
+    "wet_diapers_notification_text": "Under de första sex veckorna efter förlossningen kan du förvänta dig minst fem genomvåta blöjor per dygn. Vi har märkt att du inte har loggat så många blöjor. Glömde du logga en blöja? ",
+    "wet_diapers_notification_text2": "Efter sex veckor kan antalet kissblöjor minska till fyra–fem per dygn, men mängden urin ökar till 4–6+ teskedar (60–90+ ml) eftersom barnets blåsa blir större.",
+    "cont": "Forts.",
+    "left": "V-",
+    "right": "H-",
+    "breast": "B-",
+    "manual_session_lost": "Din manuella pumpning har försvunnit eftersom du nu har en pump ansluten.",
+    "offline_session":"Offline-pumpningar",
+    "total_Pumping": "Total pumpning",
+    "bad_session_popup_tite": "Vill du läsa våra artiklar om problemlösning?",
+    "bad_session_popup_option1": "JA",
+    "bad_session_popup_option2": "NEJ",
+    "bad_session_popup_option3": "VISA ALDRIG MER",
+    "breastfeedingPumpingShortcut": "Genväg för amning"
+  },
+  "addBaby": {
+    "my_baby": "Mitt barn",
+    "babyDob": "Barnets födelsedatum/beräknat förlossningsdatum *",
+    "gender": "Kön",
+    "male": "Pojke",
+    "female": "Flicka",
+    "save": "SPARA",
+    "upload": "Ladda upp en bild på barnet",
+    "baby_dob_error": "Välj barnets födelsedatum/beräknat förlossningsdatum",
+    "baby_name_error": "Ange barnets namn",
+    "add_baby_Title": "Lägg till barn",
+    "add_baby_success_message": "Barnet har lagts till",
+    "babyHeight": "Barnets födelselängd",
+    "babyName": "Barnets namn/smeknamn",
+    "babyWeight": "Barnets födelsevikt"
+  },
+  "my_baby": {
+    "switch": "VÄXLA",
+    "read_more": "Läs mer",
+    "months_before_birth": "Månader före födseln",
+    "actual_tummy_size": "Magens aktuella storlek: ",
+    "actual_baby_size": "Barnets aktuella storlek: ",
+    "size_of_cherry": "körsbär",
+    "size_of_walnut": "valnöt",
+    "size_of_apricot": "aprikos",
+    "size_of_egg": "ägg",
+    "size_of_lemon": "citron",
+    "no_child": "Inget barn hittades!",
+    "no_child_message": "Du har inte lagt till något andra barn än! Lägg till för att växla mellan barn.",
+    "add_baby": "LÄGG TILL BARN",
+    "cancel": "AVBRYT",
+    "week": "vecka",
+    "weeks": "veckor",
+    "days": "dagar",
+    "day": "dag",
+    "same_day_born_message": "Ditt barn är fött",
+    "date_of_birth": "Födelsedatum",
+    "after_birth": "efter födseln",
+    "day_old": "dag gammal",
+    "days_old": "dagar gammal",
+    "week_old": "vecka gammal",
+    "weeks_old": "veckor gammal",
+    "month": "månad",
+    "months": "månader",
+    "year": "år",
+    "years": "år",
+    "before_birth": "före födseln",
+    "birth": "födsel",
+    "volume": "Volym: ",
+    "volume1": "10–50 ml per dag",
+    "volume2": "100–700 ml per dag",
+    "volume3": "400–800 ml per dag",
+    "volume4": "400–1 000 ml per dag",
+    "volume5": "440 ml–1 000 ml per dag",
+    "volume6": "I genomsnitt 800 ml per dag",
+    "approx_size": "Ungefärlig fosterstorlek",
+    "last_tracked": "Senast loggat",
+    "birthday_popup_title": "Har ditt barn kommit?",
+    "birthday_popup_yes": "JA",
+    "birthday_popup_never_show": "VISA ALDRIG DETTA IGEN",
+    "birth_confirmation_notification_title": "Har ditt barn kommit?",
+    "birth_confirmation_notification_message": "Bekräfta födelsedatum/beräknat förlossningsdatum",
+    "birthday_popup_remind": "NEJ, PÅMINN MIG SENARE",
+    "length": "Födelselängd",
+    "weight": "Födelsevikt",
+    "full_term_baby_size":"storlek – fullgånget barn",
+    "cat":"katt",
+    "seat_height_of_a_chair":"Sitthöjd för en stol",
+    "laptop":"bärbar dator",
+    "magayine":"tidning",
+    "spaghetti":"spaghetti",
+    "kitchen_paper":"hushållspappersrulle",
+    "smartphone":"smartphone",
+    "pen":"penna",
+    "hand_cream":"handkräm",
+    "popsicle":"godisklubba",
+    "highlighter":"highlighter",
+    "credit_card":"betalkort",
+    "nail_polish":"nagellack",
+    "lipstick":"läppstift",
+    "hairpin":"hårnål",
+    "earphone":"hörlurar",
+    "button":"knapp",
+    "finger_nail":"fingernagel",
+    "lady_bug":"nyckelpiga",
+    "rice":"riskorn",
+    "linen_seed":"linfrö",
+    "chia_seed":"chiafrö",
+    "snow_crystal":"snöflinga",
+    "articles_offline_text": "Kontrollera din internetanslutning.",
+    "delete_popup_title": "Är du säker?",
+    "2L/":"Tvålitersflaska/halvlitersflaska med läsk",
+    "ok": "JA",
+    "actual_baby_stomach_size": "Nuvarande storlek på barnets mage: ",
+    "baby_name_error": "Ange barnets namn",
+    "article_details_offline_text": "Internetanslutningen verkar vara nere. Försök igen senare."
+  },
+  "calendar": {
+    "week": "Vecka",
+    "time": "Tid",
+    "size_of_egg": "Som ett ägg",
+    "timer_alert": "Ange giltig tid",
+    "date_time_alert": "Ange giltigt datum och giltig tid",
+    "hours": "timmar",
+    "mins": "min.",
+    "sec": "sek.",
+    "is_am": "AM",
+    "is_pm": "PM",
+    "period": "Anpassad",
+    "today": "Idag",
+    "yesterday": "Igår",
+    "last_week": "Förra veckan",
+    "last_month": "Förra månaden",
+    "all": "Alla",
+    "start_time": "Starttid",
+    "end_time": "Sluttid",
+    "side":"sida",
+    "Creation_date":"Skapelsedagen"
+  },
+  "checklist": {
+    "add_item": "Lägg till post",
+    "checklist_title": "Checklistor",
+    "add_item_list": "Lägg till post i listan",
+    "clear_all": "Rensa alla",
+    "clear_checklist": "Rensa checklistan?",
+    "clear_checklist_message": "Är du säker på att du vill ta bort alla markerade poster?",
+    "items_left": "Poster kvar",
+    "time": "Tid"
+  },
+  "breastfeeding_pump": {
+    "duration": "Varaktighet",
+    "breastfeed": "Amma",
+    "breastfeeding": "Amning",
+    "pumping": "Pumpning",
+    "both": "Båda",
+    "right": "Höger",
+    "left": "Vänster",
+    "experience": "Upplevelse",
+    "good": "Bra",
+    "add_note": "Lägg till anteckning",
+    "pump_settings": "Pumpinställningar",
+    "total_volume": "Volym",
+    "total": "Totalt",
+    "bottle": "Flaska",
+    "bag": "Påse",
+    "number": "Antal",
+    "tray": "Bricka",
+    "fridge": "Kylskåp",
+    "freezer": "Frys",
+    "pump_setting": "Pumpinställningar",
+    "pump_level": "Nivå",
+    "phase_level": "Fasnivå",
+    "rhythem_level": "Rytmnivå",
+    "pump_alert_title": "Avisering",
+    "pump_off_alert_message": "Pumpen är avstängd nu, spara dina befintliga data innan du påbörjar en ny session",
+    "pump_battery_alert_message": "Batteriet i pumpen är lågt, anslut till elnätet",
+    "timer": "Timer:",
+    "disclaimer": "Ansvarsfriskrivning",
+    "disclaimer_msg": "Spara data för den aktuella pumpningen innan du påbörjar en ny pumpning, annars försvinner de registrerade uppgifterna.",
+    "air_leaked": "Luftläckage",
+    "breastfeeding_pumping_l": "Amning  V",
+    "breastfeeding_pumping_r": "Amning  H",
+    "pumping_b": "Pumpningg B",
+    "Check_available_inventory": "Kontrollera tillgänglig mängd",
+    "ending_side": "Avslutningssida",
+    "move_to": "Gå till",
+    "phase": "Fas:",
+    "rhythm": "Rytm:",
+    "save_to_virtual_freezer": "Spara i virtuell bröstmjölksförvaring",
+    "session_type": "Välj sessionstyp",
+    "bad": "Svårt",
+    "difficult": "Svårt",
+    "freezer_title": "Filtrera virtuell bröstmjölksförvaring",
+    "container_type_error":"Lägg till behållartyp (påse/flaska)",
+    "location_type_error":"Lägg till plats (kyl/frys)",
+    "number_error":"Lägg till behållarnummer",
+    "tray_error":"Lägg till bricknummer",
+    "volume_error_msg": "Lägg till volym",
+    "number_zero_error":"Nummervärdet måste vara ett annat än 0",
+    "tray_zero_error":"Värdet för bricka måste vara ett annat än 0",
+    "container_special_character_error":"Välj ett behållarnummer mellan 1 och 250",
+    "tray_special_character_error":"Välj ett bricknummer mellan 1 och 250",
+    "pumping_paused":"Pumpningen pausad",
+    "pumping_paused_flex":"Tryck på strömbrytaren på bröstpumpen för att avsluta sessionen.",
+    "pumping_paused_maxi":"Tryck länge på strömknappen på bröstpumpen för att avsluta sessionen.",
+    "pumping_paused_sonata":"Tryck länge på pausknappen på bröstpumpen för att avsluta sessionen.",
+    "breastfeeding_paused":"Amningen pausad"
+  },
+  "can_not_edit_bag": {
+    "cancel": "Avbryt",
+    "ok": "OK",
+    "title": "Det går inte att lägga till mjölk i befintliga påsar/flaskor i frysen, bara i flaskor i kylskåpet."
+  },
+  "sleep": {
+    "header_title": "Sömn",
+    "start": "Start",
+    "stop": "Stopp",
+    "pause": "Pausar",
+    "duration": "Varaktighet"
+  },
+  "nappy_tracking": {
+    "add_note": "Lägg till anteckning",
+    "pee": "Kiss",
+    "poo": "Bajs",
+    "both": "Båda",
+    "type": "Sort",
+    "nappy": "Blöja"
+  },
+  "bottle_tracking": {
+    "duration": "Varaktighet",
+    "type": "Sort",
+    "milk": "Bröstmjölk",
+    "mix": "Mix",
+    "formula": "Ersättning",
+    "both": "Båda",
+    "right": "Höger",
+    "left": "Vänster",
+    "experience": "Upplevelse",
+    "good": "Bra",
+    "add_note": "Lägg till anteckning",
+    "pump_settings": "Pumpinställningar",
+    "use_volume": "Använd volym",
+    "total": "Totalt",
+    "bottle": "Flaska",
+    "bag": "Påse",
+    "number": "Antal",
+    "tray": "Bricka",
+    "fridge": "Kylskåp",
+    "freezer": "Frys",
+    "all": "Alla",
+    "breastmilk": "Bröstmjölk",
+    "use_from_virtual_freezer": "Använd från virtuell bröstmjölksförvaring",
+    "virtual_freezer": "Virtuell bröstmjölksförvaring",
+    "volume": "Volym",
+    "bad": "Svårt",
+    "difficult": "Svårt",
+    "bottle_feeding": "Flaskmatning"
+  },
+  "baby_growth": {
+    "title": "Barnets längd",
+    "volume_units": "mm",
+    "header": "Längd"
+  },
+  "baby_weight": {
+    "header": "Vikt",
+    "title": "Barnets vikt",
+    "volume_units": "g"
+  },
+  "volume_popup": {
+    "title": "Lägg till mängd",
+    "message": "Skriv in mängden \nbröstmjölk som pumpades ur",
+    "save_without_amount": "Spara utan mängd",
+    "add_amount": "Lägg till mängd",
+    "never_show_again": "Visa aldrig detta igen"
+  },
+  "stats_screen": {
+    "header_title": "Statistik",
+    "day_overview": "Dagsöversikt",
+    "list": "Lista",
+    "dashboard": "Resumen",
+    "today": "Idag",
+    "past_7_days": "Senaste 7 dagarna",
+    "empty_list_today_message": "Inga data tillgängliga",
+    "empty_list_past_7_days_message": "Inga data tillgängliga"
+  },
+  "stats_breastfeeding": {
+    "title": "Amning",
+    "session_key": "Session",
+    "avg_time_key": "Genomsn. tid",
+    "left_key": "Vänster",
+    "right_key": "Höger",
+    "mins": "min",
+    "error_total_duration_sec": "Den totala varaktigheten måste vara under 60 sek.",
+    "error_left_duration_sec": "Varaktigheten för vänster sida måste vara under 60 sek.",
+    "error_right_duration_sec": "Varaktigheten för höger sida måste vara under 60 sek.",
+    "error_sleep_duration_sec": "Varaktigheten måste vara under 60 sek.",
+    "error_sleep_duration_min": "Varaktigheten måste vara under 60 min.",
+    "error_total_duration": "Varaktigheten får inte överstiga 60",
+    "total_time_key": "Tid totalt",
+    "error_sleep_duration_total_min": "Varaktigheten får inte överstiga min"
+  },
+  "stats_pumping": {
+    "title": "Pumpning",
+    "session_key": "Session",
+    "avg_time_key": "Genomsn. tid",
+    "vol_key": "Volym",
+    "avg_vol_key": "Genomsn. vol.",
+    "mins": "min",
+    "pumping_title": "Pumpning B"
+  },
+  "stats_bottle": {
+    "session_key": "Mängd",
+    "avg_vol_key": "Genomsn. vol.",
+    "breastmilk_key": "Bröstmjölk",
+    "formula_key": "Ersättning",
+    "mix_key": "Mix",
+    "saved_milk": "Sparad bröstmjölk",
+    "title": "Flaskmatning",
+    "total_vol_key": "Volym totalt"
+  },
+  "stats_nappy": {
+    "title": "Blöja",
+    "session_key": "Mängd",
+    "pee_key": "Kiss",
+    "poo_key": "Bajs",
+    "both_key": "Båda"
+  },
+  "stats_sleep": {
+    "title": "Sömn",
+    "session_key": "Session",
+    "total_sleep_key": "Total sömn"
+  },
+  "stats_growth": {
+    "title": "Längd",
+    "size_key": "Storlek",
+    "who": "WHO",
+    "stats": "Statistik",
+    "inches": "tum"
+  },
+  "stats_weight": {
+    "title": "Vikt",
+    "total_weight_key": "Storlek",
+    "lbs": "lbs"
+  },
+  "stats_contraction": {
+    "title": "Sammandragningar",
+    "avg_time_key": "Genomsn. tid",
+    "avg_frequency": "Genomsn. frekvens",
+    "duration": "Varaktighet",
+    "frequency": "Frekvens",
+    "intensity": "Intensitet",
+    "medium": "Medelstark",
+    "mild": "Mild",
+    "none": "Ingen",
+    "Pain_intensity": "Smärtintensitet",
+    "strong": "Stark",
+    "very_mild": "Mycket mild",
+    "very_strong": "Mycket stark"
+  },
+  "bluetooth": {
+    "turn_on": "Slå på Bluetooth",
+    "to_connect_pump": "För att kunna ansluta din pump till Medela Family måste du slå på Bluetooth i din telefon!",
+    "header_title": "Anslut bröstpumpen",
+    "continue": "fortsätt",
+    "searching": "Söker",
+    "search_again": "Sök igen",
+    "which_pump": "Vilken bröstpump vill du ansluta?",
+    "flex_pair_info": "Håll på-/avknappen intryckt i två sekunder. Håll telefonen nära pumpen för snabb parkopplingsbekräftelse.",
+    "sonata_pair_info": "Håll mjölkutdrivningsknappen intryckt i tre sekunder. Håll telefonen nära pumpen för snabb parkopplingsbekräftelse.",
+    "no_pump_found": "Ingen bröstpump hittades.",
+    "make_sure_bluetooth_on": "Kontrollera att Bluetooth® är aktiverat och att pumpen är ansluten.",
+    "bluetooth_turned_on_steps": "1. Stäng av pumpen och starta den igen.\n2. Håll mjölkutdrivningsknappen intryckt i tre sekunder.\n3. Kontrollera att pumpnamnet med fyra tecken visas på displayen.",
+    "bluetooth_turned_on_steps_swing_maxi":"1. Stäng av pumpen och starta den igen.\n2. Håll mjölkutdrivningsknappen intryckt i tre sekunder.",
+    "bluetooth_turned_on_steps_flex": "1. Stäng av pumpen och starta om den. \n2. Håll ned mjölkknappen i två sekunder. \n3. Kontrollera att pumpnamnet med två tecken visas på displayen.",
+    "congratulations": "Grattis!",
+    "successfully_paired": "Du har kopplat din bröstpump till Medela Family. Nu kan du börja logga dina pumpningar och mycket annat!",
+    "complete": "slutför",
+    "your_device_name": "Namn på din bröstpump",
+    "your_pump": "Din pump",
+    "remove_pump": "Ta bort denna pump",
+    "about_pump": "Om din bröstpump",
+    "instructions": "Instruktioner",
+    "tutorial_videos": "Handledningsfilmer",
+    "product_website": "Produktwebbplats",
+    "somethingWentWrong": "Något gick fel. Försök igen senare",
+    "location_permission_title": "Behörigheter som behövs",
+    "location_permission_description": "Se till att ge Medela Family-appen behörighet att använda Bluetooth i telefoninställningarna. Dessutom måste du ge appen och din smartphone tillstånd att använda telefonens position. Vi spårar inte din telefons position, men detta är ett krav från smarttelefonens operativsystem för att kunna ansluta till Bluetooth. ",
+    "location_enable_description": "Du kan komma åt Medela Family ble-enheten när den är på. Aktivera platstjänster för att fortsätta ...",
+    "cancel": "AVBRYT",
+    "open_setting": "ÖPPNA INSTÄLLNINGAR",
+    "confirm_pump_found_sub_title": "En {0} bröstpump hittades!",
+    "confirm_cta": "bekräfta",
+    "pump_add_failure_title": "Lägga till pump",
+    "ok": "OK",
+    "pump_select_dialog_title": "Info",
+    "confirm_pump_found_desc": "Tryck på ”Bekräfta” för att slutföra sammankopplingen. Din pump har testats av Medela i syfte att säkerställa kvaliteten, och en provsession finns med i din statistiklista.",
+    "searching_message": "Vänta en liten stund medan vi letar rätt på din Medela-pump.",
+    "setting_up": "FÖRBEREDELSER",
+    "pump_remove_dis": "Du kan inte ta bort pumpen när den är ansluten till appen och pumpning pågår.",
+    "plug_your_pump": "Se till att pumpen är påslagen",
+    "plug_your_swing_pump": "Håll mjölkutdrivningsknappen intryckt i tre sekunder."
+  },
+  "stats_list_export": {
+    "header_title": "Exportera",
+    "date_range_text": "Datumintervall",
+    "select_all_text": "Alla",
+    "select_date_text": "Välj datum",
+    "item_header_title": "Välj data som ska exporteras",
+    "export_button_title": "EXPORTERA DATA",
+    "export_type": "xls",
+    "no_data_title": "Det finns inga data för denna period.",
+    "plz_select_data": "Välj logg som ska exporteras.",
+    "export_fail_message": "Tyvärr uppstod ett fel när din rapport skapades.",
+    "export_failed": "Exporten misslyckades",
+    "export_succeeded": "Exporten slutförd",
+    "export_success_message": "Informationen har exporterats och kommer att skickas till din e-postadress."
+  },
+  "tests": {
+    "test_header_title": "Tester",
+    "test_bca_title": "Amningssjälvförtroende",
+    "test_bca_content": "Öka ditt självförtroende och bli expert",
+    "test_cp_title": "Innehållsanpassning",
+    "test_cp_content": "Anpassa inställningarna i appen",
+    "bca_notification_popup": "Gör det nu",
+    "bca_notification_title": "Hur mår du?",
+    "cp_notification_title": "Anpassa appen",
+    "bca_notification_message1": "Hur mår du? \n Har du fyllt i amningsutvärderingen?",
+    "bca_notification_message2": "Hur mår du? \n Nu är det dags att göra amningsutvärderingen igen!",
+    "bca_notification_remind": "NEJ, PÅMINN MIG SENARE",
+    "cp_notification_message": "Anpassa appen \n\n Berätta lite mer om dig själv så vi kan ge dig optimerad information, tips och råd. Det tar bara ett par minuter",
+    "cp_notification_popup": "ANPASSA NU",
+    "cp_notification_remind": "NEJ, PÅMINN MIG SENARE"
+  },
+  "breastfeeding_confidence": {
+    "header_title": "Amningssjälvförtroende",
+    "motivation_text1": "Behöver du motivation?",
+    "motivation_text2": "Gör testet nu",
+    "slider_not_all_confidence": "Inte alls säker",
+    "slider_not_very_confidence": "Inte särskilt säker",
+    "slider_sometimes_confident": "Säker ibland",
+    "slider_confident": "Säker",
+    "slider_very_confident": "Mycket säker ibland",
+    "congratulations": "Grattis!",
+    "congrats_message": "Du har fyllt i amningsutvärderingen.",
+    "congrats_update_message": "Din självutvärdering visar att du är säker på din egen förmåga när det gäller amningen. Grattis och lycka till på din amningsresa.",
+    "congrats_articles_update_message": "Som du ser har du gett dig själv låga poäng i utvärderingen. Oroa dig inte! Här finns information som kan hjälpa dig och lära dig lite mer om dessa ämnen och stärka ditt självförtroende.",
+    "finish": "AVSLUTA",
+    "no_data_popup_title": "Något gick fel.\n Försök igen senare",
+    "offline_popup_title": "Du är offline!",
+    "offline_popup_message": "Det verkar som om du inte har någon aktiv \n internetanslutning. \n Anslut till internet.",
+    "five_star": "Fem stjärnor",
+    "four_star": "Fyra stjärnor",
+    "one_star": "En stjärna",
+    "three_star": "Tre stjärnor",
+    "two_star": "Två stjärnor"
+  },
+  "ble_pumping": {
+    "connection_lost": "Anslutningen avbröts",
+    "pumping_paused": "Pumpningen pausad",
+    "pump_connected": "Pump ansluten",
+    "connecting_pump": "Ansluter pump"
+  },
+  "content_personalization": {
+    "header_title": "Innehållsanpassning",
+    "question_title": "Vilken, om någon, av följande pumpar har du",
+    "congratulations": "Grattis!",
+    "congrats_message": "Du har nu anpassat artiklarna och tipsen på din hemsida.",
+    "congrats_update_message": "Om något ändras i framtiden kan du uppdatera den här informationen under:",
+    "congrats_update_submessage": "Loggning > Tester > Innehållsanpassning",
+    "get_started": "KOM IGÅNG!",
+    "no_data_popup_title": "Något gick fel.\n Försök igen senare"
+  },
+  "more": {
+    "header_title": "Mer",
+    "mom_info_title": "Ändra namn, logga ut o.s.v.",
+    "baby_info_title": "Ändra namn, födelsedatum o.s.v.",
+    "pump_title": "Pumpinställningar",
+    "pump_info_title": "Pumpanslutning med mera",
+    "store_title": "Hitta butik",
+    "share_title": "Dela app",
+    "feedback_title": "Vi uppskattar dina synpunkter",
+    "help_title": "Hjälp",
+    "settings_title": "Allmänna appinställningar",
+    "legal_title": "Juridiskt",
+    "online_store": "Onlinebutik",
+    "mom_profile": "Mammaprofil",
+    "baby_profile": "Barnprofil",
+    "vip_pack_title": "VIP-paket"
+  },
+  "baby_information": {
+    "header_title": "Information om barnet",
+    "image_edit_offline_title": "Meddelande – inget internet",
+    "image_edit_offline_button": "Du kan inte redigera bilden i offlineläge",
+    "edit_image": "Redigera bild",
+    "change_image": "Byt bild",
+    "add_image": "Lägg till bild",
+    "delete_image": "Ta bort bild",
+    "baby_boy": "Pojke",
+    "baby_girl": "Flicka",
+    "gender": "Kön",
+    "delete_baby": "TA BORT BARNET",
+    "delete_baby_success_title": "Barnet har tagits bort",
+    "ok_btn": "OK",
+    "baby_name": "Barnets namn/smeknamn",
+    "cancel": "Avbryt",
+    "select_photo": "Välj en bild",
+    "take_photo": "Ta en bild ...",
+    "baby_birth_weight": "Födelsevikt",
+    "baby_birth_height": "Födelselängd",
+    "choose_from_library": "Välj ur bibliotek ..."
+  },
+  "mom_information": {
+    "header_title": "Information om mamman",
+    "dont_know_yet": "Jag vet inte",
+    "do_not_plan_to_work": "Jag planerar inte att gå tillbaks till jobbet (skolan/utbildningen) ännu",
+    "new_pregnancy_text": "NY GRAVIDITET",
+    "log_out": "LOGGA UT",
+    "delete_account": "TA BORT KONTO",
+    "back_to_work_date": "Datum för återgång till jobbet",
+    "log_out_popup_title": "Vill du logga ut?",
+    "ok": "OK",
+    "back_to_work_date_label": "Datum för återgång till jobbet",
+    "change_password_button": "BEKRÄFTA",
+    "change_password_congrts_msg": "Lösenordet har ändrats",
+    "change_password_title": "Ändra lösenord",
+    "current_password": "Nuvarande lösenord",
+    "current_password_error": "Fel lösenord",
+    "mom_name": "Mammans namn/smeknamn",
+    "new_password": "Nytt lösenord",
+    "new_password_error": "8–20 tecken med minst en siffra (a–z, 0–9)",
+    "repeat_password": "Upprepa lösenordet",
+    "repeat_password_err": "Lösenorden stämmer inte överens"
+  },
+  "moveTo_freezer_again": {
+    "cancel": "Avbryt",
+    "ok": "OK",
+    "title": "Det går inte att flytta tillbaka bröstmjölk från kylskåpet till frysen."
+  },
+  "moveTo_freezer_popup": {
+    "cancel": "Avbryt",
+    "ok": "OK",
+    "title": "Är du säker på att du vill flytta bröstmjölk från kylskåpet till frysen?"
+  },
+  "moveTo_fridge_popup": {
+    "cancel": "Avbryt",
+    "ok": "OK",
+    "title": "Är du säker på att du vill flytta bröstmjölk från frysen till kylskåpet? Du kommer inte att kunna flytta tillbaka bröstmjölk från kylskåpet till frysen senare."
+  },
+  "help": {
+    "header_title": "Hjälp",
+    "problem_solver": "Problemlösaren",
+    "empty_list_message": "Inga artiklar tillgängliga",
+    "frequently_asked_questions": "Vanliga frågor",
+    "app_technical_support": "Teknisk support för appen",
+    "customer_service": "Kundservice",
+    "lactation_consultant": "Amningsrådgivare",
+    "mail_subject": "Feedback om Medela Family-appen",
+    "medela_family": "Medela Family"
+  },
+  "legal": {
+    "header_title": "Juridiskt",
+    "privacy_terms_conditions": "Policy – sekretess och cookies",
+    "licences": "Fri programvara med öppen källkod Licenser",
+    "imprint": "Tryck",
+    "imprint_version": "Versionsnummer",
+    "know_more": "TA REDA PÅ MER"
+  },
+  "new_pregnancy_popup": {
+    "title": "Vill du starta en ny graviditet?",
+    "cancel": "AVBRYT",
+    "add_baby_due_date": "JA, LÄGG TILL BERÄKNAT FÖRLOSSNINGSDATUM"
+  },
+  "vip_pack": {
+    "header_title": "VIP-paket",
+    "voice_control": "Röststyrning",
+    "voice_control_content": "Handsfree-loggning",
+    "dark_mode": "Mörkt läge",
+    "dark_mode_content": "Skönt för ögonen vid loggning nattetid",
+    "welcome": "Förbered dig för en ny nivå av komfort!",
+    "popup_message": "För att låsa upp VIP-paketet, anslut din \n Freestyle Flex- eller Sonata-pump.",
+    "connect_pump_btn": "ANSLUT PUMP",
+    "congrats_message": "",
+    "congrats_msg": "Grattis! Du har låst upp VIP-paketet",
+    "congrats_title": "Grattis \n Du har låst upp VIP-paketet!",
+    "connect_to_pump_btn": "ANSLUT TILL EN SMART PUMP",
+    "findout_more": "TA REDA PÅ MER",
+    "register_pump_btn": "REGISTRERA DIN PUMP",
+    "register_vip_link": "https://www.medela.us/breastfeeding/services/pump-registration",
+    "tutorial_instruction1": "Där trycker du på plustecknet (+) längst upp till höger på skärmen.",
+    "tutorial_instruction2": "På skärmen ”Ny genväg” trycker du på ”Lägg till åtgärd”.",
+    "tutorial_instruction3": "Välj sedan ”Appar” längst upp till vänster. Välj sedan ”Medela Family” i listan över tillgängliga appar.",
+    "tutorial_instruction4": "Nu visas en lista över tillgängliga kommandon. Välj ett, till exempel ”Börja amma”. ",
+    "tutorial_instruction5": "Tryck sedan på nästa för att lägga till något/några ord som du vill ska aktivera kommandot, till exempel ”Börja amma”",
+    "tutorial_instruction6": "Klart! Nu kan du aktivera Medela Family med rösten!",
+    "tutorial_title1": "Använd den här funktionen genom att öppna appen Genvägar i Apple. ",
+    "unlock_now_btn": "Lås upp VIP-paketet nu",
+    "vip_active": "aktiverad",
+    "vip_inactive": "inaktiverad",
+    "vip_pack_text": "VIP-paketet innehåller en uppsättning exklusiva funktioner som bara är tillgängliga för kunder som äger vissa av Medelas bröstpumpar.",
+    "vip_title": "VIP-paket",
+    "tutorial_instruction7": "Klart! Nu kan du aktivera Medela Family med rösten!"
+  },
+  "settings": {
+    "header_title": "Inställningar",
+    "language_title": "Språk",
+    "language_info_title": "Svenska",
+    "notification_title": "Notiser",
+    "notification_info_title": "Hantera Medela Family-notiser",
+    "Measurements_title": "Mått",
+    "Measurements_info_title": "Standard: oz,in,lb"
+  },
+  "measurements": {
+    "header_title": "Mått",
+    "header_text": "Här kan du välja önskat format.",
+    "standard_title": "Standard",
+    "standard_info_title": "Ounce (oz), Inch (in) och Pound (lb)",
+    "metric_title": "Metriska",
+    "metric_info_title": "Milliliter (ml), millimeter (mm) och kilogram (kg)"
+  },
+  "share_app": {
+    "app_store": "App Store:",
+    "download_now": "Hämta nu:",
+    "google_play": "Google Play",
+    "message": "Medela Family är din smarta hjälpreda som finns där för dig under hela graviditeten, amningsperioden och tiden därefter.",
+    "title": "Medela Family-appen"
+  },
+  "feedback": {
+    "header_title": "Vi uppskattar dina synpunkter",
+    "button_text": "Skicka",
+    "input_placeholder": "Notering",
+    "success_feedback_text": "Tack för att du delade med dig av din åsikt",
+    "rating_text": "Vi uppskattar dina synpunkter",
+    "feedback_text": "Skulle du vilja ge oss lite feedback?",
+    "button_title": "Okej"
+  },
+  "chat": {
+    "header_title": "Chatt",
+    "chat_content1": "Melissa kan hjälpa till med approblem, ge produktrekommendationer eller ge tips om barnet och amningen.",
+    "chat_content2": "Det bästa av allt? Ju fler frågor du ställer till Melissa, desto smartare blir hon! Så varsågod att chatta med henne så mycket du vill.",
+    "choose_avatar": "Välj hjälpreda",
+    "edit_avatar": "Byt hjälpreda",
+    "heading_description": " Här är Melissa –\n din personliga hjälpreda!",
+    "offline_text": "Du måste vara ansluten till internet för att kunna prata med mig.",
+    "chat_screen_link_text": "Tryck här för att starta chatten",
+    "avatar1_name": "Melissa",
+    "disclaimer_text": " Ansvarsfriskrivning: Observera att chattboten endast erbjuder information av utbildningskaraktär och inte kan ersätta professionell medicinsk rådgivning. Om du eller ditt barn är sjuka eller befinner er i en nödsituation ska du omedelbart kontakta din läkare eller amningsrådgivare.",
+    "samira": "Samira",
+    "zoe": "Zoe",
+    "mei": "Mei",
+    "aurora": "Aurora",
+    "farrah": "Farrah",
+    "luna": "Luna",
+    "julia": "Julia",
+    "jahmelia": "Jahmelia",
+    "chatbot_header": "Medela Family",
+    "Chatbot_placeholder": "Skriv här",
+    "chatbot_send_text": "Skicka"
+  },
+  "countries": {
+    "header_title": "Språk",
+    "English_International": "English (internationell)",
+    "English_UnitedStates": "English (USA)",
+    "English_Canada": "English (Kanada)",
+    "Français_Canada": "Français (Kanada)",
+    "English_UnitedKingdom": "English (Storbritannien)",
+    "Deutsche_Germany": "Deutsche (Tyskland)",
+    "Français_France": "Français (Frankrike)",
+    "Italiano_Italy": "Italiano (Italien)",
+    "Português_Portugal": "Português (Portugal)",
+    "Español_Spain": "Español (Spanien)",
+    "English_Australia": "English (Australien)",
+    "Français_Netherlands": "Français (Nederländerna)",
+    "Dutch_Netherlands": "Dutch (Nederländerna)",
+    "Deutsche_Netherlands": "Deutsche (Nederländerna)",
+    "Deutsche_Switzerland": "Deutsche (Schweiz)",
+    "Français_Switzerland": "Français (Schweiz)",
+    "Italiano_Switzerland": "Italiano (Schweiz)",
+    "English_India": "English (Indien)",
+    "Svenska_Sweden": "Svenska (Sverige)",
+    "Norsk_Norway": "Norsk (Norge)",
+    "Dansk_Denmark": "Dansk (Danmark)",
+    "русский_Russia": "русский (Ryssland)",
+    "English_Israel": "English (Israel)",
+    "English_Ireland": "English (Irland)",
+    "English_NewZealand": "English (Nya Zeeland)",
+    "English_Malaysia": "English (Malaysia)",
+    "English_Singapore": "English (Singapore)",
+    "English_SouthAfrica": "English (Sydafrika)",
+    "Arabic": "Arabiska",
+    "French": "Franska",
+    "German": "Tyska",
+    "polish": "Polish"
+  },
+  "days": {
+    "friday": "Fredag",
+    "monday": "Måndag",
+    "saturday": "Lördag",
+    "sunday": "Söndag",
+    "thursday": "Torsdag",
+    "tuesday": "Tisdag",
+    "wednesday": "Onsdag",
+    "s1": "Sön",
+    "s2": "Lör",
+    "m": "Mån",
+    "t1": "Tis",
+    "t2": "Tor",
+    "w": "Ons",
+    "f": "Fre"
+  },
+  "freezer_popup": {
+    "ok": "OK",
+    "title": "En flaska/påse med detta nummer har redan använts. Använd en flaska/påse med ett annat nummer"
+  },
+  "notifications": {
+    "header_title": "Notiser",
+    "marketing_opt_ins_notifications": "Reklamprenumerationer",
+    "marketing_opt_ins_description": "",
+    "marketing_opt_ins_notifications_list": [
+      "E-postnyhetsbrev",
+      "SMS",
+      "E-post",
+      "Betatestare"
+    ],
+    "outofapp_notifications": "Push-meddelanden",
+    "outofapp_description": "Dessa notiser visas på telefonens låsskärm och i notiscentret.",
+    "outofapp_notifications_list": [
+      {
+        "list": [
+          "Allow Notifications"
+        ],
+        "title": ""
+      },
+      {
+        "list": [
+          "Pump Session Timeout"
+        ],
+        "title": "Ansluten pumpning"
+      },
+      {
+        "list": [
+          "Milk About to Expire",
+          "Milk Expired"
+        ],
+        "title": "Virtuell bröstmjölksförvaring"
+      }
+    ],
+    "inapp_notifications": "Notiser inne i appen",
+    "inapp_description": "De här notiserna visas som popup-meddelanden inne i appen.",
+    "inapp_notifications_list": [
+      {
+        "list": [
+          "Missing Milk Volume"
+        ],
+        "title": "Lägg till volym"
+      },
+      {
+        "list": [
+          "Breastfeeding Confidence",
+          "Content Personalization"
+        ],
+        "title": "Tester"
+      },
+      {
+        "list": [
+          "Baby Birth Date"
+        ],
+        "title": "Bekräftelse av barnets födelsedatum"
+      },
+      {
+        "list": [
+          "Congratulations"
+        ],
+        "title": "Virtuell bröstmjölksförvaring"
+      }
+    ],
+    "permission_header": "Notiser",
+    "permission_text": "Vill du att vi håller dig informerad om dina loggningssessioner, utgångsdatum för bröstmjölken och andra appaktiviteter? \n Du kan ändra den här inställningen senare i appinställningarna under Mer.",
+    "ok": "OK"
+  },
+  "babies": {
+    "header_title": "Barn",
+    "baby_height": "Barnets längd",
+    "baby_weight": "Barnets vikt"
+  },
+  "articles": {
+    "articles_header_text": "Kunskapscenter",
+    "no_article_title": "Din lista med favoritartiklar är tom",
+    "no_article_description": "För att lägga till artiklar i listan öppnar du en artikel och trycker på hjärtikonen i det övre högra hörnet.",
+    "favourite_articles_header_text": "Favoriter",
+    "load_more_text": "Läs in fler",
+    "remove_favourite_article_text": "Ta bort från favoriter?",
+    "remove_favourite_article_description": "Är du säker på att du vill ta bort \nden här artikeln från din favoritlista?",
+    "yes": "JA",
+    "no": "NEJ",
+    "share_article_title": "Medela Family"
+  },
+  "offline": {
+    "offline_message": "Du är offline!"
+  },
+  "pump_list_setting": {
+    "title": "Ansluten bröstpump",
+    "description": "Tryck på din pump för att se videor, instruktioner och annat",
+    "pump_status_offline": "Offline",
+    "pump_status_connected": "Ansluten",
+    "pump_something_wrong": "Något gick fel. Försök igen senare",
+    "no_pump": "Ingen pump hittades",
+    "pump_addition_title": "Lägga till pump",
+    "pump_addition_success_message": "Pumpen har lagts till",
+    "pump_addition_error_message": "Pumpen har inte lagts till, försök igen",
+    "ok": "OK",
+    "version": "Version",
+    "battery": "Batteri",
+    "charging": "Laddning",
+    "pumps": "Pumpar",
+    "setup_new_pump": "Konfigurera en ny bröstpump",
+    "manual_tracking": "Manuell loggning",
+    "pump_deletion_error_message": "Pumpen har inte tagits bort, försök igen",
+    "pump_deletion_success_message": "Pumpen är nu borttagen från appen.",
+    "pump_deletion_title": "Ta bort pump",
+    "connect_tracking": "Pumploggning",
+    "connect_pump": "Anslut pump",
+    "pump_now": "Pumpa nu",
+    "edit_pump_name":"Redigera pumpnamn",
+    "cancel":"AVBRYT"
+
+  },
+  "pump_phase": [
+    "Stimulation",
+    "Expression"
+  ],
+  "pump_rhythem": [
+    "Signature",
+    "Lifestyle"
+  ],
+  "contractions": {
+    "title": "Sammandragningar",
+    "frequency": "Frekvens",
+    "pain": "Välj smärtintensitet",
+    "reset": "Återställ",
+    "reset_message": "Är du säker på att du vill återställa frekvenstimern?",
+    "pain_intensity1": "Ingen",
+    "pain_intensity2": "Mycket mild",
+    "pain_intensity3": "Mild",
+    "pain_intensity4": "Medelstark",
+    "pain_intensity5": "Stark",
+    "pain_intensity6": "Mycket stark"
+  },
+  "opted": {
+    "title": "Genom att ange ditt telefonnummer samtycker du till att få SMS från Medela. Standardtaxor från leverantörer gäller.",
+    "mail_ques": "Får vi skicka saker till dig via e-post?",
+    "become_tester": "Bli betatestare för att testa nya produkter, upplevelser och tjänster från Medela före alla andra. Är du med?",
+    "phone": "Telefonnummer",
+    "first_name": "Förnamn",
+    "last_name": "Efternamn",
+    "address": "Adress",
+    "apt_unit": "Lägenhetsnummer/annat",
+    "city": "Ort",
+    "state": "Stat",
+    "zip": "Postnummer",
+    "address_dialog_desc": "Vi rekommenderar att du använder amerikanskt adressformat för att du säkert ska få dina leveranser.\nVälj ett alternativ",
+    "address_dialog_nagetive": "REDIGERA MIN ADRESS",
+    "address_dialog_positive": "ANVÄND VALD ADRESS",
+    "address_dialog_same": "Behåll som den är",
+    "address_dialog_title": "Kontrollera din adress",
+    "address_dialog_us": "Amerikanskt adressformat",
+    "no_address_title": "Avisering",
+    "phone_error": "Ange ett giltigt telefonnummer",
+    "address_error": "Ange adress",
+    "apt_unit_error": "Ange lägenhetsnr/annat",
+    "city_error": "Ange ort",
+    "first_name_error": "Ange förnamn",
+    "last_name_error": "Ange efternamn",
+    "state_error": "Ange delstat",
+    "zip_error": "Ange postnummer"
+  },
+  "ble_instruction": {
+    "title": "Instruktioner",
+    "quick_start": "Snabbstart",
+    "front_panel": "Frontpanel",
+    "user_manual": "Bruksanvisning"
+  },
+  "ble_quick_start": {
+    "title": "Snabbstart",
+    "charge_pump": "Ladda pumpen",
+    "charge_pump_desc": "Anslut bröstpumpen till en extern strömkälla\noch ladda i upp till 12 timmar.",
+    "disassemble": "Ta isär delarna",
+    "disassemble_desc": "Ta isär pumpens delar inför rengöring. Ta bort och kassera \nskyddshöljet från brösttratten före första användningen.",
+    "wash_part": "Rengör delarna",
+    "wash_part_desc": "Före första användningen och efter varje användning. \nDiska delarna för hand eller i diskmaskin. \nRengör inte slangen före första användningen.",
+    "Sanitize_parts": "Desinficera delarna",
+    "Sanitize_parts_desc": "Före första användningen och en gång varje dag. \nAnvänd en kastrull eller mikrovågsugnen. \nDesinficera inte slangen.",
+    "charge_pump_desc_swing_maxi": "Anslut bröstpumpen till en extern strömkälla\noch ladda i upp till 12 timmar."
+  },
+  "ble_front_panel": {
+    "title": "Frontpanel"
+  },
+  "ble_offline_popup": {
+    "title": "Pumpningar som har sparats på din pump har överförts till Medela Family.",
+    "message": "Glöm inte att skriva in bröstmjölksmängden så att statistiken blir helt korrekt.",
+    "cancel": "Avbryt",
+    "view": "Visa"
+  },
+  "settings_screen": [
+    {
+      "title": "Språk",
+      "content": "Svenska"
+    },
+    {
+      "title": "Notiser",
+      "content": "Hantera Medela Family-notiser"
+    },
+    {
+      "title": "Mått",
+      "content": "Standard: oz,in,lb"
+    }
+  ],
+  "MoreList":{
+    "moreFirstListData":[
+      {
+        "selectedImage": "motherInformation",
+        "title": "Mammaprofil",
+        "content": "Ändra namn, logga ut o.s.v."
+      },
+      {
+        "selectedImage": "babyInformation",
+        "title": "Barnprofil",
+        "content": "Ändra namn, födelsedatum o.s.v."
+      },
+      {
+        "selectedImage": "pumpSettings",
+        "title": "Pumpinställningar",
+        "content": "Pumpanslutning med mera"
+      }
+    ],
+    "moreSecondListData":[
+      {
+        "selectedImage": "vipPack",
+        "title": "VIP-paket"
+      },
+      {
+        "selectedImage": "onlineShop",
+        "title": "Onlinebutik"
+      },
+      {
+        "selectedImage": "storeLocator",
+        "title": "Hitta butik"
+      },
+      {
+        "selectedImage": "shareApp",
+        "title": "Dela app"
+      },
+      {
+        "selectedImage": "giveUsFeedback",
+        "title": "Vi uppskattar dina synpunkter"
+      },
+      {
+        "selectedImage": "help",
+        "title": "Hjälp"
+      },
+      {
+        "selectedImage": "settings",
+        "title": "Allmänna appinställningar"
+      },
+      {
+        "selectedImage": "legal",
+        "title": "Juridiskt"
+      }
+    ]
+  },
+  "VipPackList": {
+    "VipPackListData":[
+      {
+        "title": "Röststyrning",
+        "content": "Handsfree-loggning"
+      },
+      {
+        "title": "Virtuell bröstmjölksförvaring",
+        "content": "Virtuellt förvaringssystem för bröstmjölk"
+      }
+    ]
+  },
+  "virtual_freezer": {
+    "add_milk": "Lägg till bröstmjölk",
+    "clear_filter": "Rensa filter",
+    "created_on": "Skapad den",
+    "expire_at": "Utgår den",
+    "move_milk": "Flytta bröstmjölk",
+    "net_volume": "Nettovolym",
+    "pumping": "Pumpning",
+    "quick": "Snabb",
+    "saved_in": "Sparad den",
+    "tray": "Bricka",
+    "notification_title1": "Grattis",
+    "notification_title2": "Mjölken har gått ut",
+    "notification_description1": "Du har lagt till din första fryspåse i din virtuella bröstmjölksförvaring Du är på väg att bygga upp ditt bröstmjölkslager!",
+    "notification_description2": "Påse/flaska nr X som förvaras i kylen/frysen har just gått ut. Använd den inte längre för matning. Kassera eller använd den till något annat.",
+    "notification_title3": "Mjölken håller på att gå ut",
+    "notification_description3": "Påse/flaska nr X som förvaras i kylen/frysen går ut i morgon. Se till att använda den i dag så att den inte går till spillo!",
+    "number_limit_msg":"Antalet får inte överstiga 250",
+    "tray_limit_msg":"Brickan får inte överskrida 250",
+    "feed_milk": "Bröstmjölk för matning"
+  },
+  "CountriesList" : {
+    "countriesListData":[
+      {
+        "countryName": "English",
+        "countryCode": "en"
+      },
+      {
+        "countryName": "Arabic",
+        "countryCode": "ar"
+      },
+      {
+        "countryName": "French",
+        "countryCode": "fr"
+      },
+      {
+        "countryName": "Italian",
+        "countryCode": "it"
+      },
+      {
+        "countryName": "German",
+        "countryCode": "de"
+      },
+      {
+        "countryName": "Portuguese",
+        "countryCode": "pt"
+      },
+      {
+        "countryName": "Spanish",
+        "countryCode": "es"
+      },
+      {
+        "countryName": "Dutch",
+        "countryCode": "nl"
+      },
+      {
+        "countryName": "Swedish",
+        "countryCode": "sv"
+      },
+      {
+        "countryName": "Norwegian",
+        "countryCode": "no"
+      },
+      {
+        "countryName": "Danish",
+        "countryCode": "da"
+      },
+      {
+        "countryName": "Russian",
+        "countryCode": "ru"
+      },{
+        "countryName": "Hebrew",
+        "countryCode": "he"
+      },
+      {
+        "countryName": "Polish",
+        "countryCode": "pl"
+      }
+    ]
+  },
+  "NotificationsData" : {
+    "NotificationsData":[
+      {
+        "notifications_heading": "Push-meddelanden",
+        "notification_description": "Dessa notiser visas på telefonens låsskärm och i notiscentret.",
+        "notifications_list": [
+          {"Key": "Allow Notifications","title": "", "list": [{"Key":"Allow Notifications","item": "Tillåt aviseringar"}]},
+          {"Key": "Connected Pumping","title": "Ansluten pumpning", "list": [{"Key":"Pump Session Timeout","item":"Timeout för pumpsession"}]},
+          {"Key": "Virtual Freezer","title": "Virtuell bröstmjölksförvaring", "list": [{"Key": "Milk About to Expire","item": "Mjölk håller på att löpa ut"}, {"Key": "Milk Expired","item": "Mjölken har gått ut"}]}
+        ]
+      },
+      {
+        "notifications_heading": "Notiser inne i appen",
+        "notification_description": "Det här är notiser som visas som popup-meddelanden i Medela Family-appen.",
+        "notifications_list": [
+          {"Key": "Add Volume","title": "Lägg till volym", "list": [{"Key": "Missing Milk Volume","item": "Mjölkvolym saknas"}]},
+          {"Key": "Difficult experience","title": "Svårt Upplevelse", "list": [{"Key": "Breastfeeding & Pumping","item": "Amning och pumpning"}]},
+          {"Key": "Connected Pumping","title": "Ansluten pumpning", "list": [{"Key": "Pump Session Complete","item": "Pumpning slutförd"}]},
+          {"Key": "Tests","title": "Tester", "list": [{"Key": "Breastfeeding Confidence","item": "Amningstillstånd"},{"Key": "Content Personalization","item": "Innehållsanpassning"}]},
+          {"Key": "Baby Birth Date","title": "Baby födelsedatum bekräftelse", "list": [{"Key": "Baby Birth Date","item": "Baby födelsedatum"}]},
+          {"Key": "Virtual Freezer","title": "Virtuell bröstmjölksförvaring", "list": [{"Key": "Congratulations","item": "Grattis"}]}
+        ]
+      },
+      {
+        "notifications_heading": "Reklamprenumerationer",
+        "notification_description": "",
+        "notifications_list": [
+          {"Key": "Email newsletters","item": "E-postnyhetsbrev"},
+          {"Key": "SMS","item": "SMS"},
+          {"Key": "Mail","item": "E-post"},
+          {"Key": "Beta Tester","item": "Betatestare"}
+        ]
+      }
+    ]
+  },
+  "LegalList": {
+    "LegalListData": [
+      {
+        "selectedImage": "Imprint",
+        "title": "Tryck"
+      },
+      {
+        "selectedImage": "privacyPolicyTermsAndCondition",
+        "title": "Policy – sekretess och cookies"
+      },
+      {
+        "selectedImage": "licenses",
+        "title": "Fri programvara med öppen källkod \nLicenser"
+      }
+    ]
+  },
+  "HelpList": {
+    "helpListData":[
+      {
+        "selectedImage": "problemSolver",
+        "title": "Problemlösaren"
+      },
+      {
+        "selectedImage": "appTechnicalSupport",
+        "title": "Teknisk support för appen"
+      },
+      {
+        "selectedImage": "customerService",
+        "title": "Kundservice"
+      },
+      {
+        "selectedImage": "lactationConsultant",
+        "title": "Amningsrådgivare"
+      }
+    ]
+  },
+  "time":{
+    "just_now":"Precis nu",
+    "day_ago":"dag sedan",
+    "days_ago":"dagar sedan",
+    "min_ago":"min. sedan",
+    "mins_ago":"min. sedan",
+    "h":"tim.",
+    "d":"d",
+    "day":"dag",
+    "days":"dagar",
+    "hour_ago":"timme sedan",
+    "hours_ago":"timmar sedan",
+    "sec":"sek.",
+    "min":"min.",
+    "mins":"min.",
+    "hour":"timme",
+    "hours":"timmar",
+    "h_ago":"tim. sedan",
+    "day_old":"dag gammal",
+    "days_old":"dagar gammal",
+    "h_old":"tim. gammal",
+    "hour_old":"timme gammal",
+    "hours_old":"timmar gammal",
+    "min_old":"min. gammal",
+    "mins_old":"min. gammal",
+    "month_ago":"1 månad sedan",
+    "months_ago":"månader sedan",
+    "year_ago":"1 år sedan",
+    "years_ago":"för flera år sedan"
+  },
+  "months":{
+    "january":"januari",
+    "february":"februari",
+    "march":"mars",
+    "april":"april",
+    "may":"maj",
+    "june":"juni",
+    "july":"juli",
+    "august":"augusti",
+    "september":"september",
+    "october":"oktober",
+    "november":"november",
+    "december":"december"
+  },
+  "chart": {
+    "age": "Ålder (veckor)",
+    "inch": "tum",
+    "cm": "cm"
+  },
+  "chart_month": {
+    "age": "Ålder (månader)",
+    "inch": "tum",
+    "cm": "cm"
+  },
+  "voice_command": {
+  "active_breastfeeding_body": "Avsluta den pågående amningssessionen för att påbörja en ny.",
+  "active_breastfeeding_title":" Du kan inte påbörja en ny amningssession under en pågående amningssession.",
+  "active_pump_body": "Avsluta den pågående pumpningen för att påbörja en ny.",
+  "active_pump_title":" Du kan inte påbörja en ny pumpning under en pågående pumpning.",
+  "active_sleep_body": "Avsluta den pågående sömnsessionen för att påbörja en ny.",
+  "active_sleep_title": "Du kan inte påbörja en ny sömnsession under en pågående sömnsession.",
+  "continue_already_continue_title": "Din nuvarande amningssession pågår redan",
+  "continue_no_session_title": "Fortsätt när det inte finns någon pågående session.",
+  "ok": "OK",
+  "pause_already_pause_title": "Din nuvarande amningssession är redan pausad",
+  "pause_no_session_title": "Du har ingen pågående session",
+  "vip_pack_not_active": "Lås upp VIP-paketet nu för att aktivera den här funktionen."
+  },
+  "maintenancescreen":{
+    "text1":"Ursäkta, vi har stängt på grund av underhåll.",
+    "text2":"Vi kommer snart tillbaka.",
+    "text3":"Tack för ditt tålamod!"
+  },
+  "units": {
+    "cm": "cm",
+    "inch": "in",
+    "oz": "oz",
+    "ml": "ml",
+    "lb": "lb",
+    "kg": "kg",
+    "in": "in"
+  },
+  "update_popup":{
+    "new_update":"En ny uppdatering är tillgänglig!",
+    "download_message":"Ladda ner den senaste uppdateringen för att fortsätta använda Medela Family",
+    "update_now":"Uppdatera nu",
+    "remind_later":"Påminn mig senare"
+  },
+  "force_update_popup":{
+    "new_update":"Viktig uppdatering tillgänglig",
+    "download_message":"Ladda ner den senaste uppdateringen för att fortsätta använda Medela Family.",
+    "update_now":"Uppdatera nu"
+  },
+  "accessibility_labels": {
+    "baby_data": "Uppgifter om barn"
+  },
+  "bluetooth_pre_permissions": {
+    "title": "Äger du en Medela smart bröstpump?",
+    "iOS_text": "Om ja, se till att ge Medela Family-appen tillåtelse att använda Bluetooth för att ansluta din bröstpump, annars kommer du inte att kunna ansluta din pump.",
+    "android_text":"Om ja, se till att ge Medela Family-appen behörighet att använda Bluetooth och platsbehörighet för att ansluta din pump, annars kommer du inte att kunna ansluta din bröstpump. Vi spårar inte positionen för din telefon, men detta är ett krav för smartphonens operativsystem.",
+    "button": "Fortsätta"
+  },
+  "feedback_popup": {
+    "title": "Älskar du vår app?",
+    "title1": "Vill du skicka feedback till oss?",
+    "no": "Nej",
+    "yes": "Ja",
+    "popup2_title":"Tryck på en stjärna för att betygsätta den i appbutiken"
+  }
+}

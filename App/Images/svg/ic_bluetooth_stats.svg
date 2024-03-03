@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="ic-bluetooth" transform="translate(-3421.701 -4528)">
+    <circle id="Ellipse_209" data-name="Ellipse 209" cx="20" cy="20" r="20" transform="translate(3421.701 4528)"  fill="#898d8d"/>
+    <g id="Group_1939" data-name="Group 1939" transform="translate(2522.701 3423)">
+      <path id="Path_2081" data-name="Path 2081" d="M918,1139a.987.987,0,0,1-.383-.076A1,1,0,0,1,917,1138v-10.031l-3.359,2.8a1,1,0,0,1-1.282-1.538l4.479-3.731-4.479-3.731a1,1,0,0,1,1.282-1.538l3.359,2.8V1113a1,1,0,0,1,1.707-.707l7,7a1,1,0,0,1-.066,1.476l-5.679,4.731,5.679,4.731a1,1,0,0,1,.066,1.476l-7,7A1,1,0,0,1,918,1139Zm1-11.7v8.284l4.519-4.519Zm0-11.888v8.284l4.519-3.765Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

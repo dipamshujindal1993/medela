@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="ic-hospitalcheklist" transform="translate(-24 -119)">
+    <circle id="Ellipse_445" data-name="Ellipse 445" cx="35" cy="35" r="35" transform="translate(24 119)" fill="#fdf1d2"/>
+    <path id="ic-hospitalcheklist-2" data-name="ic-hospitalcheklist" d="M5,39a5.006,5.006,0,0,1-5-5V12a1,1,0,0,1,1-1H8V6.83A6.923,6.923,0,0,1,15,0a6.924,6.924,0,0,1,7,6.83V11h7a1,1,0,0,1,1,1V34a5.005,5.005,0,0,1-5,5ZM2,34a3,3,0,0,0,3,3H25a3,3,0,0,0,3-3V13H22v3.267a2,2,0,1,1-2,0V13H10v3.267a2,2,0,1,1-2,0V13H2ZM20,11V6.83A4.923,4.923,0,0,0,15,2a4.923,4.923,0,0,0-5,4.83V11Z" transform="translate(44 135)" fill="#898d8d" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

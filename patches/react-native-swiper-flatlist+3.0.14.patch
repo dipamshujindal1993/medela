@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-native-swiper-flatlist/src/components/SwiperFlatList/SwiperFlatList.tsx b/node_modules/react-native-swiper-flatlist/src/components/SwiperFlatList/SwiperFlatList.tsx
+index 564a106..be81072 100644
+--- a/node_modules/react-native-swiper-flatlist/src/components/SwiperFlatList/SwiperFlatList.tsx
++++ b/node_modules/react-native-swiper-flatlist/src/components/SwiperFlatList/SwiperFlatList.tsx
+@@ -84,7 +84,8 @@ export const SwiperFlatList = React.forwardRef(
+     );
+
+     const _scrollToIndex = (params: ScrollToIndex, extra: ScrollToIndexInternal) => {
+-      const { index: indexToScroll, animated = true } = params;
++      let { index: indexToScroll, animated = true } = params;
++      indexToScroll=data!=undefined&&data.length&&data.length>0&&data.some((item)=>item.is_active==false)?0:indexToScroll;
+       const newParams = { animated, index: indexToScroll };
+
+       setIgnoreOnMomentumScrollEnd(true);

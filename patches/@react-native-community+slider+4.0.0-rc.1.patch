@@ -1,0 +1,15 @@
+diff --git a/node_modules/@react-native-community/slider/ios/RNCSliderManager.m b/node_modules/@react-native-community/slider/ios/RNCSliderManager.m
+index e457dc3..e8f72af 100644
+--- a/node_modules/@react-native-community/slider/ios/RNCSliderManager.m
++++ b/node_modules/@react-native-community/slider/ios/RNCSliderManager.m
+@@ -63,6 +63,10 @@ - (void)tapHandler:(UITapGestureRecognizer *)gesture {
+   [slider setValue:discreteValue(slider, value) animated: YES];
+   
+   // Trigger onValueChange to address https://github.com/react-native-community/react-native-slider/issues/212
++    //For slider issue in RTL layout
++    if ([UIView userInterfaceLayoutDirectionForSemanticContentAttribute:slider.semanticContentAttribute] == UIUserInterfaceLayoutDirectionRightToLeft) {
++        slider.semanticContentAttribute = UISemanticContentAttributeForceLeftToRight;
++    }
+   if (slider.onRNCSliderValueChange) {
+     slider.onRNCSliderValueChange(@{
+       @"value": @(slider.value),

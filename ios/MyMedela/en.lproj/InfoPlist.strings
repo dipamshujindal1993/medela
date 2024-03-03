@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  MyMedela
+
+  Created by Nitish Saini on 21/06/21.
+  
+*/
+NSPhotoLibraryUsageDescription = "We use this access to let you choose a baby picture from your albums.";
+NSBluetoothPeripheralUsageDescription = "Bluetooth is required to connect to a smart Medela breast pump.";
+NSCameraUsageDescription = "We need this access for you to be able to add a picture to your baby's profile or if you want to talk to the 24/7 Lactation Consultant.";
+NSMicrophoneUsageDescription = "We use this to share your voice with our expert 24/7 Lactation Consultant.";
+NSBluetoothAlwaysUsageDescription = "We need this access for you to be able to connect to your Medela smart breast pump.";

@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-custom-radio-group/lib/RadioButton.component.js b/node_modules/react-native-custom-radio-group/lib/RadioButton.component.js
+index 941e5d5..bddda04 100644
+--- a/node_modules/react-native-custom-radio-group/lib/RadioButton.component.js
++++ b/node_modules/react-native-custom-radio-group/lib/RadioButton.component.js
+@@ -19,7 +19,7 @@ class RadioButton extends Component {
+     return (
+       <TouchableWithoutFeedback onPress={this.onToggle}>
+         <View style={[styles.container, buttonContainerStyle, activeContainerStyles]}>
+-          <Text style={[styles.text, buttonTextStyle, activeTextStyles]}>{label}</Text>
++          <Text maxFontSizeMultiplier={1.7} style={[styles.text, buttonTextStyle, activeTextStyles]}>{label}</Text>
+         </View>
+       </TouchableWithoutFeedback>);
+   }

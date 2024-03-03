@@ -1,0 +1,519 @@
+{
+    "timeStamp": "2015-10-01T10:00:00+01:00",
+    "checkListItems": [
+        {
+            "title": "O que devo levar na mala da maternidade?",
+            "description": "Frequentemente, os bebés não nascem na data prevista. Apenas 4% nascem na altura esperada. Para estar preparada para tudo com antecedência, deverá ter a sua mala da maternidade pronta, o mais tardar, na 34.ª semana de gravidez. Mesmo que tenha optado por um parto em casa, é bom ter a mala pronta e estar preparada para todas as eventualidades. ",
+            "orderNumber": 10,
+            "uuid": "000000-0010-0804-000000",
+            "image": "hospital_suitcase",
+            "checkListItems": [
+                {
+                    "title": "Os documentos necessários:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0010-0804-010000",
+                    "checkListItems": [
+                        {
+                            "title": "Boletim de Saúde da Grávida",
+                            "orderNumber": 12,
+                            "uuid": "000000-0010-0804-010010"
+                        },
+                        {
+                            "title": "Cartão do cidadão ou bilhete de identidade",
+                            "orderNumber": 13,
+                            "uuid": "000000-0010-0804-010020"
+                        },
+                        {
+                            "title": "Certidão de casamento e, no caso de mães que não são casadas, a certidão de nascimento",
+                            "orderNumber": 14,
+                            "uuid": "000000-0010-0804-010030"
+                        },
+                        {
+                            "title": "Álbum de família",
+                            "orderNumber": 15,
+                            "uuid": "000000-0010-0804-010040"
+                        },
+                        {
+                            "title": "Cartão de utente/cartão do seguro de saúde",
+                            "orderNumber": 16,
+                            "uuid": "000000-0010-0804-010050"
+                        },
+                        {
+                            "title": "Se necessário, credencial do obstetra",
+                            "orderNumber": 17,
+                            "uuid": "000000-0010-0804-010060"
+                        },
+                        {
+                            "title": "Boletim de alergias",
+                            "orderNumber": 18,
+                            "uuid": "000000-0010-0804-010070"
+                        }
+                    ]
+                },
+                {
+                    "title": "Para o parto:",
+                    "orderNumber": 19,
+                    "uuid": "000000-0010-0804-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Uma camisa ou t-shirt comprida de algodão",
+                            "orderNumber": 20,
+                            "uuid": "000000-0010-0804-020010"
+                        },
+                        {
+                            "title": "Um casaco de malha para vestir rapidamente, se necessário",
+                            "orderNumber": 21,
+                            "uuid": "000000-0010-0804-020020"
+                        },
+                        {
+                            "title": "Meias grossas e confortáveis (as contrações demoram mais com os pés frios)",
+                            "orderNumber": 22,
+                            "uuid": "000000-0010-0804-020030"
+                        },
+                        {
+                            "title": "Sapatos fáceis de calçar",
+                            "orderNumber": 23,
+                            "uuid": "000000-0010-0804-020040"
+                        },
+                        {
+                            "title": "Batom para o cieiro",
+                            "orderNumber": 24,
+                            "uuid": "000000-0010-0804-020050"
+                        },
+                        {
+                            "title": "Elástico para o cabelo",
+                            "orderNumber": 25,
+                            "uuid": "000000-0010-0804-020060"
+                        },
+                        {
+                            "title": "Plano de nascimento",
+                            "orderNumber": 26,
+                            "uuid": "000000-0010-0804-020070"
+                        },
+                        {
+                            "title": "Pequenos snacks, glucose e bebidas para os momentos em que surge um pouco de fome e de sede (não esquecer o futuro papá!)",
+                            "orderNumber": 27,
+                            "uuid": "000000-0010-0804-020080"
+                        },
+                        {
+                            "title": "Óculos e/ou lentes de contacto + estojo dos óculos e líquido de limpeza para as lentes de contacto",
+                            "orderNumber": 28,
+                            "uuid": "000000-0010-0804-020090"
+                        },
+                        {
+                            "title": "Máquina fotográfica",
+                            "orderNumber": 29,
+                            "uuid": "000000-0010-0804-020100"
+                        }
+                    ]
+                },
+                {
+                    "title": "Para os primeiros momentos na maternidade:",
+                    "orderNumber": 30,
+                    "uuid": "000000-0010-0804-030000",
+                    "checkListItems": [
+                        {
+                            "title": "Roupas confortáveis",
+                            "orderNumber": 31,
+                            "uuid": "000000-0010-0804-030010"
+                        },
+                        {
+                            "title": "Pijama/camisa de noite com botões",
+                            "orderNumber": 32,
+                            "uuid": "000000-0010-0804-030020"
+                        },
+                        {
+                            "title": "Algumas t-shirts que facilitem a amamentação",
+                            "orderNumber": 33,
+                            "uuid": "000000-0010-0804-030030"
+                        },
+                        {
+                            "title": "Top/sutiã de amamentação",
+                            "orderNumber": 34,
+                            "uuid": "000000-0010-0804-030040"
+                        },
+                        {
+                            "title": "Discos de amamentação",
+                            "orderNumber": 35,
+                            "uuid": "000000-0010-0804-030050"
+                        },
+                        {
+                            "title": "Cuecas (contar com, pelo menos, duas por dia)",
+                            "orderNumber": 36,
+                            "uuid": "000000-0010-0804-030060"
+                        },
+                        {
+                            "title": "Pensos higiénicos muito absorventes (são fornecidos na maternidade, mas mais vale ter uns de reserva!)",
+                            "orderNumber": 37,
+                            "uuid": "000000-0010-0804-030070"
+                        },
+                        {
+                            "title": "Toalhas e luvas de banho",
+                            "orderNumber": 38,
+                            "uuid": "000000-0010-0804-030080"
+                        },
+                        {
+                            "title": "Artigos de cosmética: pasta e escova de dentes; gel de banho; champô; creme para a cara; desodorizante; escova do cabelo; maquilhagem; secador de cabelo",
+                            "orderNumber": 39,
+                            "uuid": "000000-0010-0804-030090"
+                        },
+                        {
+                            "title": "Uma roupa bonita e confortável para voltar para casa ",
+                            "orderNumber": 40,
+                            "uuid": "000000-0010-0804-030100"
+                        }
+                    ]
+                },
+                {
+                    "title": "Para o bebé:",
+                    "orderNumber": 41,
+                    "uuid": "000000-0010-0804-040000",
+                    "checkListItems": [
+                        {
+                            "title": "Body de manga curta, tamanho 56",
+                            "orderNumber": 42,
+                            "uuid": "000000-0010-0804-040010"
+                        },
+                        {
+                            "title": "Camisola de manga comprida, tamanho 56",
+                            "orderNumber": 43,
+                            "uuid": "000000-0010-0804-040020"
+                        },
+                        {
+                            "title": " babygrow, tamanho 56",
+                            "orderNumber": 44,
+                            "uuid": "000000-0010-0804-040030"
+                        },
+                        {
+                            "title": "Meias de malha para vestir por cima",
+                            "orderNumber": 45,
+                            "uuid": "000000-0010-0804-040040"
+                        },
+                        {
+                            "title": "Gorro",
+                            "orderNumber": 46,
+                            "uuid": "000000-0010-0804-040050"
+                        },
+                        {
+                            "title": "Dependendo da época do ano, um casaco ou macacão para o regresso a casa",
+                            "orderNumber": 47,
+                            "uuid": "000000-0010-0804-040060"
+                        },
+                        {
+                            "title": "Babetes",
+                            "orderNumber": 48,
+                            "uuid": "000000-0010-0804-040070"
+                        },
+                        {
+                            "title": "Uma mantinha para tapar o bebé no regresso a casa",
+                            "orderNumber": 49,
+                            "uuid": "000000-0010-0804-040080"
+                        },
+                        {
+                            "title": "Cadeirinha de bebé com redutor ou carrinho de bebé",
+                            "orderNumber": 50,
+                            "uuid": "000000-0010-0804-040090"
+                        }
+                    ]
+                },
+                {
+                    "title": "Diversos:",
+                    "orderNumber": 51,
+                    "uuid": "000000-0010-0804-050000",
+                    "checkListItems": [
+                        {
+                            "title": "Algum dinheiro para pequenas compras no quiosque da maternidade",
+                            "orderNumber": 52,
+                            "uuid": "000000-0010-0804-050010"
+                        },
+                        {
+                            "title": "Telemóvel e carregador",
+                            "orderNumber": 53,
+                            "uuid": "000000-0010-0804-050020"
+                        },
+                        {
+                            "title": "Contactos telefónicos da família, dos amigos, da enfermeira especialista e do(a) ginecologista.",
+                            "orderNumber": 54,
+                            "uuid": "000000-0010-0804-050030"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Equipamento básico para a vida de um recém-nascido",
+            "description": "",
+            "orderNumber": 20,
+            "uuid": "000000-0020-0804-000000",
+            "image": "equipment_life_newborn",
+            "checkListItems": [
+                {
+                    "title": "Para o quarto do bebé:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0020-0804-010000",
+                    "checkListItems": [
+                        {
+                            "title": "Mesa muda-fralda",
+                            "orderNumber": 12,
+                            "uuid": "000000-0020-0804-010010"
+                        },
+                        {
+                            "title": "Caixote do lixo com tampa para fraldas",
+                            "orderNumber": 13,
+                            "uuid": "000000-0020-0804-010020"
+                        },
+                        {
+                            "title": "Berço para dormir -- ideal para instalar junto à cama da mamã. Assim não terá de se levantar tantas vezes durante a noite para amamentar",
+                            "orderNumber": 14,
+                            "uuid": "000000-0020-0804-010030"
+                        },
+                        {
+                            "title": "Alcofa para levar para a sala durante o dia",
+                            "orderNumber": 15,
+                            "uuid": "000000-0020-0804-010040"
+                        }
+                    ]
+                },
+                {
+                    "title": "Para os cuidados do bebé:",
+                    "orderNumber": 16,
+                    "uuid": "000000-0020-0804-020000",
+                    "checkListItems": [
+                        {
+                            "title": "2 embalagens de fraldas tamanho de recém-nascido ou 20 fraldas reutilizáveis/fraldas de pano",
+                            "orderNumber": 17,
+                            "uuid": "000000-0020-0804-020010"
+                        },
+                        {
+                            "title": "10 x fraldas de pano/babetes",
+                            "orderNumber": 18,
+                            "uuid": "000000-0020-0804-020020"
+                        },
+                        {
+                            "title": "Banheira para o bebé ou balde de banho",
+                            "orderNumber": 19,
+                            "uuid": "000000-0020-0804-020030"
+                        },
+                        {
+                            "title": "Toalha de capuz grande",
+                            "orderNumber": 20,
+                            "uuid": "000000-0020-0804-020040"
+                        },
+                        {
+                            "title": "Toalhetes ",
+                            "orderNumber": 21,
+                            "uuid": "000000-0020-0804-020050"
+                        },
+                        {
+                            "title": "ou pequenas toalhas laváveis para molhar e limpar o rabinho",
+                            "orderNumber": 22,
+                            "uuid": "000000-0020-0804-020060"
+                        },
+                        {
+                            "title": "Creme protetor de assaduras",
+                            "orderNumber": 23,
+                            "uuid": "000000-0020-0804-020070"
+                        },
+                        {
+                            "title": "Creme hidratante para o bebé",
+                            "orderNumber": 24,
+                            "uuid": "000000-0020-0804-020080"
+                        },
+                        {
+                            "title": "Uma pequena escova macia",
+                            "orderNumber": 25,
+                            "uuid": "000000-0020-0804-020090"
+                        },
+                        {
+                            "title": "1 caixa de lenços de papel",
+                            "orderNumber": 26,
+                            "uuid": "000000-0020-0804-020100"
+                        },
+                        {
+                            "title": "Cesto da roupa suja",
+                            "orderNumber": 27,
+                            "uuid": "000000-0020-0804-020110"
+                        },
+                        {
+                            "title": "Termómetro de banho",
+                            "orderNumber": 28,
+                            "uuid": "000000-0020-0804-020120"
+                        },
+                        {
+                            "title": "Pequena bacia de plástico para água quente para ter na mesa muda-fralda",
+                            "orderNumber": 29,
+                            "uuid": "000000-0020-0804-020130"
+                        }
+                    ]
+                },
+                {
+                    "title": "Para o roupeiro do bebé:",
+                    "orderNumber": 30,
+                    "uuid": "000000-0020-0804-030000",
+                    "checkListItems": [
+                        {
+                            "title": "7 bodys tamanho 56 e 7 de tamanho 62",
+                            "orderNumber": 31,
+                            "uuid": "000000-0020-0804-030010"
+                        },
+                        {
+                            "title": "7 camisolas de manga comprida tamanho 56 e 7 tamanho 62",
+                            "orderNumber": 32,
+                            "uuid": "000000-0020-0804-030020"
+                        },
+                        {
+                            "title": "7 babygrows ou calças de algodão macias com cós elástico",
+                            "orderNumber": 33,
+                            "uuid": "000000-0020-0804-030030"
+                        },
+                        {
+                            "title": "Saco de dormir",
+                            "orderNumber": 34,
+                            "uuid": "000000-0020-0804-030040"
+                        },
+                        {
+                            "title": "4 pares de meias para bebé",
+                            "orderNumber": 35,
+                            "uuid": "000000-0020-0804-030050"
+                        },
+                        {
+                            "title": "Meias de malha para vestir por cima",
+                            "orderNumber": 36,
+                            "uuid": "000000-0020-0804-030060"
+                        },
+                        {
+                            "title": "2 gorros de algodão",
+                            "orderNumber": 37,
+                            "uuid": "000000-0020-0804-030070"
+                        },
+                        {
+                            "title": "Gorro e casaco para ir à rua",
+                            "orderNumber": 38,
+                            "uuid": "000000-0020-0804-030080"
+                        },
+                        {
+                            "title": "Mantinha para o bebé",
+                            "orderNumber": 39,
+                            "uuid": "000000-0020-0804-030090"
+                        },
+                        {
+                            "title": "Macacão para ir à rua",
+                            "orderNumber": 40,
+                            "uuid": "000000-0020-0804-030100"
+                        }
+                    ]
+                },
+                {
+                    "title": "Para os primeiros passeios do bebé:",
+                    "orderNumber": 41,
+                    "uuid": "000000-0020-0804-040000",
+                    "checkListItems": [
+                        {
+                            "title": "Cadeirinha de bebé para o carro",
+                            "orderNumber": 42,
+                            "uuid": "000000-0020-0804-040010"
+                        },
+                        {
+                            "title": "Carrinho de bebé",
+                            "orderNumber": 43,
+                            "uuid": "000000-0020-0804-040020"
+                        },
+                        {
+                            "title": "Canguru/Pano para transportar o bebé",
+                            "orderNumber": 44,
+                            "uuid": "000000-0020-0804-040030"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Equipamento básico para amamentar e extrair leite",
+            "description": "",
+            "orderNumber": 30,
+            "uuid": "000000-0030-0804-000000",
+            "image": "breastfeeding",
+            "checkListItems": [
+                {
+                    "title": "Para a amamentação:",
+                    "orderNumber": 11,
+                    "uuid": "000000-0030-0804-010000",
+                    "checkListItems": [
+                        {
+                            "title": "Pelo menos 2 sutiãs ou tops de amamentação",
+                            "orderNumber": 12,
+                            "uuid": "000000-0030-0804-010010"
+                        },
+                        {
+                            "title": "T-shirts/blusas de amamentação com botões ou decote largo (as camisolas de gola alta não são apropriadas)",
+                            "orderNumber": 13,
+                            "uuid": "000000-0030-0804-010020"
+                        },
+                        {
+                            "title": "Casaco de 3/4 para vestir por cima",
+                            "orderNumber": 14,
+                            "uuid": "000000-0030-0804-010030"
+                        },
+                        {
+                            "title": "2 pijamas/camisas de noite apropriadas para amamentação",
+                            "orderNumber": 15,
+                            "uuid": "000000-0030-0804-010040"
+                        },
+                        {
+                            "title": "Almofada de amamentação",
+                            "orderNumber": 16,
+                            "uuid": "000000-0030-0804-010050"
+                        },
+                        {
+                            "title": "Écharpe para amamentar, que cubra os seios durante a amamentação em público",
+                            "orderNumber": 17,
+                            "uuid": "000000-0030-0804-010060"
+                        },
+                        {
+                            "title": "2 embalagens de discos de amamentação descartáveis",
+                            "orderNumber": 18,
+                            "uuid": "000000-0030-0804-010070"
+                        },
+                        {
+                            "title": "Creme Purelan",
+                            "orderNumber": 19,
+                            "uuid": "000000-0030-0804-010080"
+                        },
+                        {
+                            "title": "Chá de amamentação e tabletes de chocolate para os nervos, quando nem tudo corre assim tão bem",
+                            "orderNumber": 20,
+                            "uuid": "000000-0030-0804-010090"
+                        }
+                    ]
+                },
+                {
+                    "title": "Para a extração de leite:",
+                    "orderNumber": 21,
+                    "uuid": "000000-0030-0804-020000",
+                    "checkListItems": [
+                        {
+                            "title": "Extrator de leite manual Harmony ou extrator de leite elétrico Swing, Swing maxi, Freestyle ou Symphony",
+                            "orderNumber": 22,
+                            "uuid": "000000-0030-0804-020010"
+                        },
+                        {
+                            "title": "Conjunto de frascos de leite de 150 ml, 3 unidades",
+                            "orderNumber": 23,
+                            "uuid": "000000-0030-0804-020020"
+                        },
+                        {
+                            "title": "2 tetinas Calma",
+                            "orderNumber": 24,
+                            "uuid": "000000-0030-0804-020030"
+                        },
+                        {
+                            "title": "Discos de amamentação descartáveis",
+                            "orderNumber": 25,
+                            "uuid": "000000-0030-0804-020040"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

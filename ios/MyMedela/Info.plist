@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Medela Family</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>NSBluetoothAlwaysUsageDescriptionLocalized</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>NSBluetoothAlwaysUsageDescriptionLocalized</string>
+	<key>NSCameraUsageDescription</key>
+	<string>NSCameraUsageDescriptionLocalized</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>&gt;Need location access for using the bluetooth device</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Need location access for using the bluetooth device</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need location access for using the bluetooth device</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>NSMicrophoneUsageDescriptionLocalized</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>NSCameraUsageDescriptionLocalized</string>
+	<key>NSSiriUsageDescription</key>
+	<string>We require Siri access to send commands to the app </string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>NSMicrophoneUsageDescriptionLocalized</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ContinuebreastfeedingIntent</string>
+		<string>PausebreastfeedingIntent</string>
+		<string>StartbreastfeedingIntent</string>
+		<string>StartpumpingIntent</string>
+		<string>StartsleepIntent</string>
+		<string>StopbreastfeedingIntent</string>
+		<string>StoppumpingIntent</string>
+		<string>StopsleepIntent</string>
+		<string>TrackadiaperbytypeIntent</string>
+		<string>TracklengthIntent</string>
+		<string>TrackweightIntent</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>FuturaSBMedela-Book.otf</string>
+		<string>FuturaSBMedela-DemiBold.otf</string>
+		<string>FuturaSBMedela-Light.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

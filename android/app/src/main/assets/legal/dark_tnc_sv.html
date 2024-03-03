@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<style>
+    
+    @font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/FuturaSBMedela-Light.otf');
+  }
+
+  @font-face {
+    font-family: mySecondFont;
+    src: url('../fonts/FuturaSBMedela-Book.otf');
+  }
+
+  @font-face {
+    font-family: myThirdFont;
+    src: url('../fonts/FuturaSBMedela-DemiBold.otf');
+  }
+
+  body {
+    padding: 10px 0 0 0;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.panel-title{
+    font-family:mySecondFont;
+
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.btn-link {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: left;
+    white-space: normal;
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-family: mySecondFont;
+    min-height: 48px;
+}
+
+
+.panel{
+    border:none;
+    box-shadow:none;
+    background: #000000;
+}
+
+.panel-default>.panel-heading {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #FFFFFF;
+    padding: 0;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.glyphicon-minus:before {
+    content: "\2212";
+    font-family: mySecondFont;
+    position: relative;
+    top: -2px;
+    background: #FECD00;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.glyphicon-plus:before {
+    content: "\002b";
+    font-family: mySecondFont;
+    position: relative;
+    top: -2px;
+    background: #FECD00;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+.btn-link:focus, .btn-link:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+button:focus {outline:0;}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
+.panel-body ul{
+    padding:0 0 0 40px
+}
+
+.panel-body ul li{
+    font-family: myFirstFont;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.panel-body p{
+    font-family: mySecondFont;
+    font-size: 16px;
+    padding: 0 0 0 0px;
+    color: #FFFFFF;
+}
+
+.para{
+    font-family: myFirstFont;
+    font-size: 16px;
+    padding: 0 0 0 0px;
+    color: #FFFFFF;
+}
+.glyphicon-plus{
+    margin-right: 10px;
+}
+.glyphicon-minus{
+    margin-right: 10px;
+}
+.borderbtm {
+    border-bottom: 5px solid rgb(255 205 0);
+    width: 30px;
+    margin: 20px 0 30px 0;
+}
+.header-txt {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: myThirdFont;
+}
+.panel-body {
+    padding: 10px 0;
+}
+</style>
+<script>
+    $(document).ready(function(){
+          $('.collapse.in').each(function(){
+            $(this).parent().find(".glyphicon").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        });
+          
+        $('.collapse').on('shown.bs.collapse', function(){
+            $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        }).on('hidden.bs.collapse', function(){
+            $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+        });       
+    });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+     <div class="row">
+         <div class="col-xs-12">
+          <p class="header-txt">SEKRETESS- OCH COOKIEPOLICY F&Ouml;R APP</p>
+          <div class="borderbtm"></div>
+          <p class="para">Denna sekretess- och cookiepolicy (&rdquo;sekretess- och cookiepolicy f&ouml;r app&rdquo;) g&auml;ller mobilappen Medela Family App (&rdquo;appen&rdquo;) som drivs och kontrolleras av Medela AG, L&auml;ttichstrasse 4b, 6340 Baar, Schweiz (&rdquo;Medela&rdquo; eller &rdquo;vi&rdquo;). <br><br> Denna sekretess- och cookiepolicy f&ouml;r appen reglerar insamling, bearbetning och anv&auml;ndning av dina personuppgifter n&auml;r du anv&auml;nder v&aring;r app. H&auml;r f&ouml;rklaras v&aring;ra rutiner n&auml;r det g&auml;ller placeringen av cookies, inklusive vilka typer av cookies vi anv&auml;nder och hur du kan hantera dem. <br><br> Denna sekretess- och cookiepolicy f&ouml;r appen reviderades senast den 1 april 2021. <br><br></p>
+          <div class="panel-group" id="accordion1">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn-link" data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 1. INSAMLING, BEARBETNING OCH ANV&Auml;NDNING AV PERSONUPPGIFTER</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse in" id="Exampleone">
+                      <div class="panel-body">
+                          <p><b>1.1 Registrering och anv&auml;ndning av v&aring;r app</b></p>
+                          <p>F&ouml;r att kunna anv&auml;nda v&aring;r app m&aring;ste du f&ouml;rst registrera ett konto hos oss. N&auml;r du registrerar dig beh&ouml;ver du uppge en del information, bland annat f&ouml;rnamn/smeknamn, e-postadress och barnets ber&auml;knade eller faktiska f&ouml;delsedatum, och du beh&ouml;ver &auml;ven v&auml;lja ett l&ouml;senord. Om du inte registrerar ett konto kan du inte anv&auml;nda appen. Som en del av registreringen kan vi be dig om ytterligare (frivillig) information, till exempel din br&ouml;stpumpssituation, f&ouml;r att anpassa inneh&aring;llet i v&aring;r app efter dina behov och intressen. Registreringen utf&ouml;rs via en skyddad serveranslutning till Medela. Om inget annat anges i denna sekretess- och cookiepolicy f&ouml;r appen (i synnerhet avsnitt&nbsp;1.2, 1.3 och 1.4) kommer vi att anv&auml;nda de personuppgifter du delar med oss enbart i enlighet med denna policy och f&ouml;r att hantera ditt konto hos oss, lagra och sammanst&auml;lla din information p&aring; v&aring;ra servrar (i den m&aring;n det kr&auml;vs f&ouml;r att vi ska kunna tillhandah&aring;lla v&aring;ra tj&auml;nster) och f&ouml;r att erbjuda dig de funktioner och tj&auml;nster du vill ha. <br><br> Under registreringsprocessen kommer vi dessutom att be dig om ditt samtycke till att anv&auml;nda dina personuppgifter i marknadsf&ouml;ringssyfte f&ouml;r att regelbundet kunna skicka uppdateringar om tj&auml;nster, produkter och event med koppling till Medela och dess dotterbolag. Vi kan ocks&aring; komma att bjuda in dig att delta i unders&ouml;kningar som genomf&ouml;rs av oss. N&auml;r du har gett ditt samtycke, och baserat p&aring; din region, kan du komma att f&aring; ett e-postmeddelande med en bekr&auml;ftelse som inneh&aring;ller en l&auml;nk som du m&aring;ste klicka p&aring; f&ouml;r att bekr&auml;fta ditt samtycke. Denna procedur med dubbla godk&auml;nnanden hj&auml;lper oss att s&auml;kerst&auml;lla identifieringen av e-postkontots innehavare. <br><br> Dina personuppgifter kommer inte att delas med tredje part och heller inte anv&auml;ndas f&ouml;r annat &auml;ndam&aring;l &auml;n vad denna sekretess- och cookiepolicy f&ouml;r appen anger, f&ouml;rs&aring;vitt du inte p&aring; f&ouml;rhand har gett ditt uttryckliga tillst&aring;nd. <br><br> Genom att installera/starta v&aring;r app och registrera ett konto hos oss ger du ditt tillst&aring;nd till att Medela placerar cookies p&aring; din enhet och/eller anv&auml;nder vissa analysverktyg f&ouml;r att samla in och analysera statistisk information, till exempel anv&auml;ndarbeteende, anv&auml;ndningsm&ouml;nster, genomsnittlig anv&auml;ndningstid och intresseomr&aring;den. Vi samlar in och bearbetar denna information f&ouml;r att f&ouml;rst&aring; hur v&aring;ra kunder anv&auml;nder v&aring;r app och f&ouml;r att bed&ouml;ma trender, statistik och kundernas behov. Detta hj&auml;lper oss att f&ouml;rb&auml;ttra v&aring;r app och ge b&auml;ttre service till v&aring;ra kunder, inklusive m&ouml;jligheten att ge dig en mer personlig upplevelse av appen och anpassade erbjudanden. I&nbsp;avsnitt&nbsp;,2, 2.4 och 2.5 nedan finns en detaljerad beskrivning av vilka cookies och/eller analysverktyg vi anv&auml;nder f&ouml;r detta &auml;ndam&aring;l, och av dina r&auml;ttigheter att v&auml;lja bort denna typ av datainsamling. Om du inte godtar ovanst&aring;ende rutiner och vill undvika alla typer av sp&aring;rning och insamling av dina uppgifter, &auml;ven i anonymiserad form, ska du inte installera appen p&aring; din enhet.</p>
+  
+                              <p><b>1.2 Anv&auml;nda appens funktioner</b></p>
+                              <p>V&aring;r app inneh&aring;ller funktioner d&auml;r du frivilligt kan v&auml;lja att dela med dig av ytterligare information till oss. Denna information inkluderar personuppgifter om b&aring;de barn (t.ex. namn, bild, f&ouml;delsedatum) och mamma (t.ex. f&ouml;rv&auml;ntningar p&aring;/erfarenheter av amning och pumpning eller f&ouml;rv&auml;ntat datum f&ouml;r &aring;terg&aring;ng till utbildning/arbete). Med v&aring;r app kan du dessutom sp&aring;ra och &ouml;vervaka graviditetsaktiviteter, s&aring;som sammandragningsinformation, men ocks&aring; aktiviteter efter f&ouml;rlossningen, s&aring;som amning, pumpning och flaskmatning, br&ouml;stmj&ouml;lkshantering samt barnets vikt, l&auml;ngd, s&ouml;mn, bl&ouml;jbyten och andra anteckningar. Du kan ocks&aring; anv&auml;nda appen f&ouml;r att ansluta till v&aring;ra pumpar som erbjuder denna m&ouml;jlighet f&ouml;r att enkelt sp&aring;ra och logga sessionstider, anv&auml;nda inst&auml;llningar och registrera pumpade m&auml;ngder br&ouml;stmj&ouml;lk, f&aring; p&aring;minnelser s&aring; att du kan h&aring;lla schemat och ha koll p&aring; n&auml;r pumpens batteri h&aring;ller p&aring; att ta slut samt f&aring; hj&auml;lp med mj&ouml;lkproduktionen (om detta finns tillg&auml;ngligt p&aring; din marknad). Du kan ocks&aring; fylla i fr&aring;geformul&auml;r f&ouml;r att m&auml;ta hur framg&aring;ngsrik amningen &auml;r och f&ouml;r att skr&auml;ddarsy din anv&auml;ndarupplevelse med v&aring;r app, registrera din pump och f&aring; fri tillg&aring;ng till VIP-paketet (om det finns tillg&auml;ngligt p&aring; din marknad), hitta en butik n&auml;ra dig d&auml;r du kan k&ouml;pa v&aring;ra produkter och ge feedback om appen. Slutligen kan du anv&auml;nda v&aring;r chatbotfunktion och f&aring; teknisk support, produktrekommendationer och amningsst&ouml;d. <br><br> Endast f&ouml;r Androidanv&auml;ndare: N&auml;r du kopplar ihop v&aring;r app med en Bluetooth-aktiverad Medela-pump kr&auml;ver operativsystemet &aring;tkomst till enhetens plats (GPS). Medela lagrar eller anv&auml;nder dock inte dina platsdata vid n&aring;got tillf&auml;lle. Om du inte till&aring;ter lokalisering kan det leda till problem med anslutningen av pumpen. <br><br> Om du inte har gett ditt uttryckliga tillst&aring;nd, och f&ouml;rs&aring;vitt inget annat anges i denna sekretess- och cookiepolicy f&ouml;r appen, kommer vi endast att lagra, bearbeta och anv&auml;nda information i den utstr&auml;ckning som kr&auml;vs f&ouml;r att du ska kunna utnyttja v&aring;ra funktioner och tj&auml;nster, inklusive att erbjuda dig anpassat inneh&aring;ll, utbildningsinformation och praktiska tips baserade p&aring; just dina uppgifter och din anv&auml;ndning, och du f&aring;r ocks&aring; m&ouml;jlighet att skicka oss feedback om appen. <br><br> Du kan sj&auml;lv best&auml;mma dina intresseomr&aring;den och/eller &auml;ndra de val du har gjort genom att n&auml;r som helst &auml;ndra inst&auml;llningarna i appen (Verktygsmenyn → Tester → Inneh&aring;llsanpassning). Om du inte vill ta emot n&aring;gon form av anpassat inneh&aring;ll eller n&aring;gra tj&auml;nster st&aring;r det dig fritt att inte uppge n&aring;gra personuppgifter (och du b&ouml;r ocks&aring; avst&aring; fr&aring;n att besvara fr&aring;gorna i appen som r&ouml;r personlig anpassning). <br><br> Du kan ocks&aring; n&auml;r som helst &auml;ndra inst&auml;llningarna f&ouml;r personliga notiser i appen (Mer → Allm&auml;nna appinst&auml;llningar → Notiser). <br><br> F&ouml;r att du ska kunna l&auml;gga in en bild av ditt barn kommer appen att fr&aring;ga om du vill till&aring;ta att den f&aring;r &aring;tkomst till din kamera eller dina bilder. Vi kommer inte att utnyttja detta medgivande annat &auml;n vad som &auml;r n&ouml;dv&auml;ndigt f&ouml;r just detta &auml;ndam&aring;l. <br><br> Ut&ouml;ver vad som har beskrivits ovan kan vi komma att anv&auml;nda insamlade personuppgifter i anonymiserad form (dvs. i en form som g&ouml;r det om&ouml;jligt att koppla dem till din identitet) f&ouml;r statistiska &auml;ndam&aring;l och f&ouml;r intern utv&auml;rdering av hur vi kan f&ouml;rb&auml;ttra v&aring;ra produkter och tj&auml;nster. Dina personuppgifter kommer inte att behandlas f&ouml;r andra &auml;ndam&aring;l eller utanf&ouml;r ramen f&ouml;r denna integritetspolicy, s&aring;vida det inte uttryckligen till&aring;ts eller kr&auml;vs enligt g&auml;llande lag.</p>
+  
+                                  <p><b>1.3 Behandling av k&auml;nsliga personuppgifter</b></p>
+                                  <p>I allm&auml;nhet beg&auml;r eller behandlar vi inga k&auml;nsliga personuppgifter (t.ex. h&auml;lsoinformation, genetiska/biometriska data). Genom att anv&auml;nda v&aring;r app kan du dock frivilligt l&auml;mna ut s&aring;dana uppgifter (t.ex. sammandragningsinformation, barnets vikt/l&auml;ngd) till Medela. Genom att registrera ett konto hos oss och ange s&aring;dana k&auml;nsliga personuppgifter samtycker du uttryckligen till att Medela behandlar dessa uppgifter. Du kan n&auml;r som helst ta tillbaka ditt samtycke genom att ta bort dessa data eller appen. Detta skulle inte p&aring;verka lagligheten hos databehandlingen i enlighet med ditt samtycke som gavs innan du tog tillbaka det.</p>
+  
+                                      <p><b>1.4 Skapa en enda post med information fr&aring;n andra k&auml;llor</b></p>
+                                      <p>Om du best&auml;mmer dig f&ouml;r att anv&auml;nda andra tj&auml;nster som erbjuds av oss, till exempel n&auml;r du registrerar dig f&ouml;r Medela Family via webbplatsen, som ger dig fri tillg&aring;ng till ytterligare utbildningsinformation och direktmarknadsf&ouml;ring om v&aring;ra produkter och tj&auml;nster, kan vi skapa ett enda register f&ouml;r dig som kombinerar de uppgifter vi f&aring;r fr&aring;n dig genom din anv&auml;ndning av dessa &ouml;vriga tj&auml;nster med de uppgifter vi f&aring;r fr&aring;n dig genom din anv&auml;ndning av appen. Genom att registrera ditt konto hos oss i appen registreras du automatiskt f&ouml;r hela Medela Family-programmet. Du kan n&auml;r som helst v&auml;lja bort enskilda tj&auml;nster fr&aring;n Medela Family genom att &auml;ndra inst&auml;llningarna i din profil. <br><br> Denna enda registerpost g&ouml;r det enklare f&ouml;r oss att f&ouml;rst&aring; vad du vill och &ouml;nskar s&aring; att vi kan leverera de produkter och tj&auml;nster du efterfr&aring;gar, inklusive m&ouml;jligheten att erbjuda dig en mer personanpassad upplevelse. <br><br> Ut&ouml;ver vad som anges i denna sekretess- och cookiepolicy f&ouml;r appen kommer vi inte att utnyttja informationen f&ouml;r andra &auml;ndam&aring;l eller dela med oss av den till tredje part f&ouml;rs&aring;vitt inte till&auml;mplig lagstiftning till&aring;ter eller kr&auml;ver detta.</p>
+  
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 2. COOKIES, SP&Aring;RNINGS- OCH ANALYSVERKTYG</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Exampletwo">
+                      <div class="panel-body">
+                         <p><b>2.1 N&ouml;dv&auml;ndiga cookies</b></p>
+                         <p>Cookies &auml;r sm&aring; textfiler, och du blir tillfr&aring;gad i appen innan de sparas p&aring; din surfplatta, smartphone eller annan enhet. Om din enhet &auml;r inst&auml;lld s&aring; att den godk&auml;nner cookies kommer texten i denna lilla fil att sparas p&aring; den. <br><br> Om inget annat anges i denna sekretess- och cookiepolicy f&ouml;r appen &auml;r de cookies vi anv&auml;nder n&ouml;dv&auml;ndiga f&ouml;r att v&aring;r app ska fungera korrekt och med god prestanda. De kan till exempel se till att appen fungerar mer effektivt och underl&auml;tta din anv&auml;ndning av de funktioner och tj&auml;nster som erbjuds. Dessa funktions- och/eller prestandacookies tas bort fr&aring;n enheten n&auml;r det har g&aring;tt tv&aring; (2) veckor utan att du har anv&auml;nt v&aring;r app. Vi kommer inte att anv&auml;nda den information som lagras i n&ouml;dv&auml;ndiga cookies f&ouml;r n&aring;got annat &auml;ndam&aring;l &auml;n vad som &auml;r absolut n&ouml;dv&auml;ndigt f&ouml;r att f&ouml;rse dig med de tj&auml;nster och funktioner som beg&auml;rs.</p>
+                          <p><b>2.2 Medgivande till lagring av ej n&ouml;dv&auml;ndiga cookies och anv&auml;ndning av analysverktyg</b></p>
+  
+                          <p>N&auml;r du installerar/startar v&aring;r app och registrerar ett konto hos oss till&aring;ter du samtidigt att Medela sparar ytterligare cookies p&aring; din enhet och/eller att Medela anv&auml;nder vissa sp&aring;rnings- och analysverktyg. Dessa cookies och verktyg &auml;r inte absolut n&ouml;dv&auml;ndiga f&ouml;r att appen ska fungera korrekt och effektivt, men de hj&auml;lper oss att samla in opersonlig information om hur du anv&auml;nder appen. Syftet &auml;r att f&ouml;rb&auml;ttra appen och dess tj&auml;nster och/eller erbjuda dig information och tj&auml;nster som i h&ouml;gre grad &auml;r anpassade efter din smak, inklusive riktade erbjudanden via v&aring;r app (se &auml;ven avsnitten 2.4 och 2.5 nedanf&ouml;r f&ouml;r en f&ouml;rklaring av vissa sp&aring;rnings- och analysverktyg som vi anv&auml;nder). <br><br> Du har r&auml;tt att n&auml;r som helst &aring;terta ditt medgivande och/eller att v&auml;lja bort lagring av cookies och/eller eventuell insamling av dina uppgifter f&ouml;r de olika &auml;ndam&aring;len via sp&aring;rnings- och analysverktygen. Inst&auml;llningarna g&auml;ller fr&aring;n och med den tidpunkt du gjorde ditt val. F&ouml;lj anvisningarna i avsnitten nedan f&ouml;r detta &auml;ndam&aring;l. Om du vill &aring;terta ditt medgivande fullst&auml;ndigt och f&ouml;rhindra alla former av sp&aring;rning och insamling av dina uppgifter m&aring;ste du ta bort appen fr&aring;n din enhet.</p>
+                            
+                              <p><b>2.3 Hantera inst&auml;llningar f&ouml;r cookies</b></p>
+                              <p>De flesta mobila enheter &auml;r fr&aring;n b&ouml;rjan inst&auml;llda f&ouml;r att acceptera cookies. Om du vill kan du &auml;ndra inst&auml;llningarna s&aring; att enheten generellt inte accepterar cookies, tar bort cookies som redan har placerats p&aring; enheten eller varnar dig innan en cookie placeras ut. Se instruktionerna f&ouml;r din enhet eller g&aring; till www.allaboutcookies.org om du vill veta mer om hur du kan &auml;ndra inst&auml;llningarna f&ouml;r din mobila enhet. <br><br> Om du v&auml;ljer att inte acceptera cookies kan detta g&ouml;ra det sv&aring;rare f&ouml;r dig att anv&auml;nda appen och du kanske inte kan dra nytta av vissa av de funktioner och tj&auml;nster som erbjuds. <br><br> Om du anv&auml;nder v&aring;r app p&aring; flera olika mobila enheter (t.ex. smartphone, surfplatta m.m.) m&aring;ste du se till att inst&auml;llningarna f&ouml;r cookies &auml;r l&auml;mpliga p&aring; samtliga dessa enheter.</p>
+                                  <p><b>2.4 Anv&auml;ndning av Google Mobile App Analytics</b></p>
+                                  <p>F&ouml;r denna app anv&auml;nds Google Mobile App Analytics (&rdquo;Google Analytics&rdquo;), en webbanalystj&auml;nst som tillhandah&aring;lls av Google,&nbsp;Inc. (USA) och Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irland (EU) (&rdquo;Google&rdquo;). Google Analytics kan anv&auml;nda sp&aring;rningsteknik f&ouml;r att hj&auml;lpa oss att analysera hur anv&auml;ndarna utnyttjar v&aring;r app, inklusive antalet aktiva anv&auml;ndare och anv&auml;ndarnas beteende (t.ex. genomsnittlig anv&auml;ndningstid, &aring;terv&auml;ndande anv&auml;ndare, sk&auml;rmvisningar per m&aring;nad, de popul&auml;raste artiklarna). All information som genereras om din anv&auml;ndning av v&aring;r app vidarebefordras som regel till (och lagras av) Google p&aring; servrar som finns i USA. I&nbsp;den h&auml;r appen har vi implementerat den IP-anonymiseringsfunktion som erbjuds av Google. Det inneb&auml;r att Google f&ouml;rkortar din IP-adress innan den &ouml;verf&ouml;rs till USA om du befinner dig i ett EU- eller EES-land. Endast i undantagsfall kommer hela din IP-adress att &ouml;verf&ouml;ras till en av Googles servrar i USA och f&ouml;rkortas d&auml;r. <br><br> Vi har gett Google uppdraget att genom databehandling hj&auml;lpa oss att utv&auml;rdera anv&auml;ndningen av v&aring;r app. D&auml;rf&ouml;r kan Google anv&auml;nda denna information f&ouml;r att sammanst&auml;lla rapporter om aktiviteter i appen och tillhandah&aring;lla andra statistik- och analystj&auml;nster som r&ouml;r anv&auml;ndningen av v&aring;r app. Den IP-adress som &ouml;verf&ouml;rs av din mobila enhet inom ramen f&ouml;r Google Analytics kommer inte att f&ouml;rknippas med n&aring;gra andra data som Google innehar. <br><br> Om du inte vill bli sp&aring;rad av Google Analytics kan du n&auml;r som helst f&ouml;rhindra detta genom att ta bort appen fr&aring;n din mobila enhet. <br><br> Klicka <a href="medelaFamily://openexternal?url=https://support.google.com/analytics/answer/6004245">h&auml;r</a> om du vill visa en &ouml;versikt om sekretess hos Google.</p>
+  
+                                      <p><b>2.5 Anv&auml;ndning av App Analytics-verktyg</b></p>
+  
+                                      <p>Medela anv&auml;nder ocks&aring; vissa analysverktyg och analystj&auml;nster f&ouml;r appar f&ouml;r att samla in sammanst&auml;lld och anonymiserad statistisk information om hur du anv&auml;nder v&aring;r app. <br><br> Vi anv&auml;nder iTunes Connect App Analytics som tillhandah&aring;lls av Apple,&nbsp;Inc (&rdquo;Apple&rdquo;). Detta verktyg samlar in anonymiserade och sammanst&auml;llda data fr&aring;n appanv&auml;ndare p&aring; mobila Apple-enheter med iOS 8 eller senare. iTunes Connect App Analytics levererar information om anv&auml;ndning av appen i form av olika v&auml;rden, till exempel f&ouml;r antal g&aring;nger som appen har installerats, antalet g&aring;nger appen har anv&auml;nts och antalet aktiva sessioner inom en viss tidsperiod. <br><br> Vi anv&auml;nder &auml;ven liknande analys- och statistiktj&auml;nster fr&aring;n Google Inc. (USA) och Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irland (f&ouml;r EU) (&rdquo;Google&rdquo;) via Google Play Developer Console och/eller Google Firebase Console. Den information vi erh&aring;ller inkluderar endast sammanst&auml;lld och anonymiserad statistisk information fr&aring;n appanv&auml;ndare p&aring; Android-enheter, till exempel v&auml;rden f&ouml;r antal installationer och uppgraderingar, information om krascher, anv&auml;ndarbetyg, inh&auml;mtningsv&auml;gar samt vilka regioner som bes&ouml;kare finns&nbsp;i. <br><br> Om den aktuella funktionen &auml;r aktiverad p&aring; din enhet kommer Apple eller Google att samla in, bearbeta och anv&auml;nda s&aring;dan information f&ouml;r att hj&auml;lpa oss att utv&auml;rdera anv&auml;ndningen av v&aring;r app, f&ouml;r att sammanst&auml;lla rapporter om aktiviteter i appen och tillhandah&aring;lla andra statistik- och analystj&auml;nster som r&ouml;r anv&auml;ndningen av v&aring;r app. <br><br> Vi erh&aring;ller endast informationen ovan om du, p&aring; din mobila enhet, har valt att dela med dig av dina data till tredjepartsleverant&ouml;rer. Du kan n&auml;r som helst g&ouml;ra en ny inst&auml;llning eller &auml;ndra dig (v&auml;lja till eller bort denna funktion) i inst&auml;llningsmenyn p&aring; din enhet (f&ouml;r iOS-enheter, se: Inst&auml;llningar → Integritet → Forskningssensor- och anv&auml;ndningsdata; f&ouml;r Android-enheter, se Inst&auml;llningar → Anv&auml;ndare och backup → Google → Mer → Anv&auml;ndning och diagnostik).</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplethree" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 3. UTL&Auml;MNANDE AV PERSONUPPGIFTER</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplethree">
+                      <div class="panel-body">
+                          <p>Medela ansvarar f&ouml;r att driva appen och &auml;r d&auml;rmed personuppgiftsansvarig. F&ouml;r att s&auml;kerst&auml;lla att v&aring;r kundrelation med dig hanteras p&aring; ett effektivt s&auml;tt och f&ouml;r att ge dig en god kundupplevelse kommer v&aring;r relation emellertid &auml;ven att hanteras p&aring; lokal niv&aring; av ett lokalt koncernf&ouml;retag, det av v&aring;ra dotterbolag som ansvarar f&ouml;r v&aring;r verksamhet i ditt land. Ut&ouml;ver detta f&aring;r v&aring;ra koncernf&ouml;retag endast erh&aring;lla anonymiserade statistiska rapport och andra analysdata om anv&auml;ndning av och aktivitet i appen. Dessa data kommer inte att inneh&aring;lla n&aring;gon personligt identifierbar information. <br> <br> Dessutom anlitar Medela externa tekniska tj&auml;nsteleverant&ouml;rer som har tillst&aring;nd att tillhandah&aring;lla tj&auml;nster f&ouml;r annans r&auml;kning och i enlighet med givna instruktioner. Dessa f&ouml;retag kan f&aring; tillg&aring;ng till dina personuppgifter, men endast i den m&aring;n det &auml;r n&ouml;dv&auml;ndigt f&ouml;r att m&ouml;jligg&ouml;ra anv&auml;ndandet av v&aring;r app och tillhandah&aring;lla v&aring;ra tj&auml;nster eller hantera dina &ouml;nskem&aring;l eller f&ouml;rfr&aring;gningar. Medela (och/eller, beroende p&aring; vad som &auml;r till&auml;mpligt, det lokala koncernf&ouml;retaget) kan komma att anv&auml;nda tj&auml;nsteleverant&ouml;rer f&ouml;r utveckling av och/eller som v&auml;rd f&ouml;r appen, f&ouml;r att lagra dina uppgifter, f&ouml;r att aktivera chattbotfunktionen, f&ouml;r att aktivera funktionen f&ouml;r delning via sociala medier, f&ouml;r hantering av kundrelationen, f&ouml;r att skicka marknadsf&ouml;ringsrelaterad kommunikation om v&aring;ra produkter och tj&auml;nster, f&ouml;r behandling av din hyresf&ouml;rfr&aring;gan, f&ouml;r att ge r&ouml;stkommandon med st&ouml;d av Siri (iOS) och Google Assistant (Android) eller analysera de uppgifter som samlats in enligt beskrivningen i denna policy.  Dessa tj&auml;nsteleverant&ouml;rer f&aring;r inte &ouml;verl&auml;mna dina personuppgifter till n&aring;gon obeh&ouml;rig part eller anv&auml;nda dina personuppgifter f&ouml;r andra &auml;ndam&aring;l &auml;n vad instruktionerna anger. Vissa av dessa tj&auml;nsteleverant&ouml;rer kan finnas i l&auml;nder utanf&ouml;r Schweiz och EU/EES, vilket kan inneb&auml;ra att dataskyddet inte ligger p&aring; samma niv&aring; som i det land d&auml;r du bor. Medela, och/eller, beroende p&aring; vad som &auml;r till&auml;mpligt, det lokala koncernf&ouml;retaget, har ing&aring;tt l&auml;mpliga avtal med dessa tj&auml;nsteleverant&ouml;rer f&ouml;r att s&auml;kerst&auml;lla att de vidtar alla &aring;tg&auml;rder som kr&auml;vs f&ouml;r att skydda dina personuppgifter i enlighet med g&auml;llande krav. Om du vill ha mer information om v&aring;ra tj&auml;nsteleverant&ouml;rer kan du kontakta oss enligt beskrivningen i avsnittet Dina r&auml;ttigheter och hur du kontaktar oss. <br> <br> Vi kan komma att l&auml;mna dina personuppgifter till tredje part f&ouml;r att behandla transaktioner (t.ex. adressvalidering, frakt, skatteber&auml;kning). <br> <br> Ut&ouml;ver vad som anges ovan kommer vi inte att vidarebefordra dina personuppgifter till n&aring;gon tredje part utan ditt samtycke, s&aring;vida vi inte tvingas enligt lag att g&ouml;ra det.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplefour" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 4. LAGRING AV PERSONUPPGIFTER OCH DATAS&Auml;KERHET</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplefour">
+                      <div class="panel-body">
+                          <p>Dina uppgifter kommer att lagras p&aring; servrar p&aring; Irland och i Nederl&auml;nderna. Anv&auml;ndardata fr&aring;n USA och Kanada kommer dessutom att lagras i USA. Dessutom kan Medela och/eller, beroende p&aring; vad som &auml;r till&auml;mpligt, det lokala koncernf&ouml;retaget, komma att anv&auml;nda leverant&ouml;rer av molntj&auml;nster som finns i l&auml;nder utanf&ouml;r Schweiz och EU/EES, inklusive USA, f&ouml;r att fungera som v&auml;rd och hantera dina personuppgifter f&ouml;r lagring, kommunikation, support och marknadsf&ouml;rings&auml;ndam&aring;l. Visserligen kanske lagstiftningen i s&aring;dana l&auml;nder inte erbjuder dataskydd av en s&aring;dan niv&aring; som anses tillfredsst&auml;llande i Schweiz eller EU/EES, men vi har vidtagit n&ouml;dv&auml;ndiga &aring;tg&auml;rder f&ouml;r att s&auml;kerst&auml;lla att dina personuppgifter hanteras och skyddas p&aring; l&auml;mpligt s&auml;tt och endast bearbetas f&ouml;r v&aring;r r&auml;kning och i enlighet med v&aring;ra instruktioner. <br><br> Alla dina personuppgifter raderas o&aring;terkalleligt och automatiskt efter ett &aring;rs inaktivitet (om du inte anv&auml;nder appen). Personuppgifter fr&aring;n inv&aring;nare i USA och Kanada raderas efter tre &aring;rs inaktivitet. <br><br> Dina personuppgifter behandlas konfidentiellt. Vi har vidtagit l&auml;mpliga tekniska och organisatoriska s&auml;kerhets&aring;tg&auml;rder f&ouml;r att skydda dina personuppgifter mot obeh&ouml;rigt r&ouml;jande eller obeh&ouml;rig &aring;tkomst, &auml;ndring, felaktig anv&auml;ndning, olycksh&auml;ndelse eller olaglig f&ouml;rst&ouml;relse eller f&ouml;rlust.</p>
+    
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplefive" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 5. HIPAA-MEDDELANDE OM SEKRETESSKYDD F&Ouml;R SKYDDAD H&Auml;LSOINFORMATION</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplefive">
+                      <div class="panel-body">
+                          <p>Om du kan komma att &ouml;verl&auml;mna skyddad h&auml;lsoinformation enligt definitionen i amerikansk lagstiftning i samband med att du har &aring;tkomst till eller anv&auml;nder appen, se v&aring;r s&auml;rskilda sekretesspolicy <a href="medelaFamily://openexternal?url=https://www.medela.us/medela-us/breastfeeding/hipaa-privacy-policy">HIPAA Privacy Policy and Notice of Privacy Practices</a> f&ouml;r att l&auml;ra k&auml;nna dina r&auml;ttigheter och f&aring; information om hur vi kan komma att anv&auml;nda och &ouml;verl&auml;mna din skyddade h&auml;lsoinformation.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplesix" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 6. INV&Aring;NARE I KALIFORNIEN</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplesix">
+                      <div class="panel-body">
+                         <p>Medelas <a href="medelaFamily://openexternal?url=https://www.medela.us/dam/Legal-Policies/ccpa_privacy_notice_01192021?uuid=jcr:b9a23d89-1c61-4471-ab9b-dc5ee08250f5">integritetsmeddelande f&ouml;r inv&aring;nare i Kalifornien</a> kompletterar informationen i denna sekretess- och cookiepolicy f&ouml;r appen och g&auml;ller endast bes&ouml;kare, anv&auml;ndare och andra som &auml;r bosatta i Kalifornien i USA.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Exampleseven" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 7. DINA R&Auml;TTIGHETER OCH HUR DU KONTAKTAR OSS</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Exampleseven">
+                      <div class="panel-body">
+                          <p>Du kan, enligt din lokala lagstiftning om dataskydd och integritet, ha r&auml;tt att beg&auml;ra att vi l&auml;mnar ut alla personuppgifter som vi har om dig, beg&auml;ra r&auml;ttelse, radering och/eller blockering av dina personuppgifter, inv&auml;nda mot behandling av dina personuppgifter av ber&auml;ttigade sk&auml;l eller beg&auml;ra en elektronisk kopia av dina personuppgifter f&ouml;r att &ouml;verf&ouml;ra dem till ett annat f&ouml;retag (dataportabilitet). <br><br> Du kan n&auml;r som helst &aring;terkalla det samtycke du har l&auml;mnat, med verkan f&ouml;r framtiden, genom att radera appen fr&aring;n din(a) enhet(er) och beg&auml;ra radering genom att skriva till e-postadressen nedan. <br><br> Om du har fr&aring;gor om insamling, bearbetning och/eller anv&auml;ndning av dina personuppgifter eller om hur du kan ut&ouml;va dina r&auml;ttigheter kan du skicka ett e-postmeddelande till <a href="mailto:privacy@medela.com">privacy@medela.com</a>. <br><br> Inv&aring;nare i USA: F&ouml;r att ut&ouml;va dina r&auml;ttigheter till radering eller att f&aring; reda p&aring; vilken information vi har samlat in om dig, fyll i <a href="medelaFamily://openexternal?url=https://www.medela.us/dam/Legal-Policies/privacy_request_form_02012021.pdf?uuid=jcr:b32a0378-93e0-43c1-9652-ceba774fb001">formul&auml;ret f&ouml;r beg&auml;ran om integritet</a> och skicka det ifyllda formul&auml;ret till oss via e-post p&aring; <a href="mailto:privacy.us@medela.com">privacy.us@medela.com</a>. <br><br> Inv&aring;nare i Nevada: Utan att ovanst&aring;ende begr&auml;nsas kan Nevadas lagar inneb&auml;ra att du specifikt kan instruera oss att inte s&auml;lja de uppgifter du har delat med oss till tredje part. Om du bor i Nevada kan du skicka en s&aring;dan opt-out-beg&auml;ran via e-post till <a href="mailto:privacy.us@medela.com">privacy.us@medela.com</a>. F&ouml;r att din beg&auml;ran ska kunna behandlas m&aring;ste den inneh&aring;lla ditt fullst&auml;ndiga namn, din adress och din e-postadress, s&aring; att vi kan f&ouml;rs&ouml;ka verifiera att din beg&auml;ran &auml;r autentisk.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Exampleeight" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 8. &Auml;NDRINGAR I DENNA SEKRETESS- OCH COOKIEPOLICY F&Ouml;R APPEN</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Exampleeight">
+                      <div class="panel-body">
+                         <p>Vi f&ouml;rbeh&aring;ller oss r&auml;tten att g&ouml;ra &auml;ndringar i denna sekretess- och cookiepolicy f&ouml;r appen n&auml;r som helst med verkan f&ouml;r framtiden. Den senaste versionen av denna sekretess- och cookiepolicy f&ouml;r appen &auml;r alltid tillg&auml;nglig p&aring; webbplatsen. Vi har inte f&ouml;r avsikt att g&ouml;ra regelbundna &auml;ndringar i denna policy, men det &auml;r alltid en bra id&eacute; att kontrollera den senaste policyversionen n&auml;r du bes&ouml;ker v&aring;r webbplats f&ouml;r att vara s&auml;ker p&aring; att du har l&auml;st om och samtycker till vilken information vi samlar in, hur vi anv&auml;nder den och under vilka omst&auml;ndigheter vi vidarebefordrar den.</p>
+                      </div>
+                  </div>
+               </div>
+          </div> 
+         </div>
+     </div>
+    </div> 
+    </body>
+</html>

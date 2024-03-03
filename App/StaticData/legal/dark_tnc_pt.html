@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<style>
+    
+    @font-face {
+    font-family: myFirstFont;
+    src: url('FuturaSBMedela-Light.otf');
+  }
+
+  @font-face {
+    font-family: mySecondFont;
+    src: url('FuturaSBMedela-Book.otf');
+  }
+
+  @font-face {
+    font-family: myThirdFont;
+    src: url('FuturaSBMedela-DemiBold.otf');
+  }
+
+body {
+    padding: 10px 0 0 0;
+    background: #000000;
+    color: #767676;
+}
+
+.panel-title{
+    font-family:mySecondFont;
+
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.btn-link {
+    color: #767676;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: left;
+    white-space: normal;
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-family: mySecondFont;
+    min-height: 48px;
+}
+
+
+.panel{
+    border:none;
+    box-shadow:none;
+    background: #000000;
+}
+
+.panel-default>.panel-heading {
+    color: #767676;
+    background-color: #000000;
+    border-color: #767676;
+    padding: 0;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.glyphicon-minus:before {
+    content: "\2212";
+    font-family: mySecondFont;
+    position: relative;
+    top: -2px;
+    background: #FECD00;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.glyphicon-plus:before {
+    content: "\002b";
+    font-family: mySecondFont;
+    position: relative;
+    top: -2px;
+    background: #FECD00;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+.btn-link:focus, .btn-link:hover {
+    color: #767676;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+button:focus {outline:0;}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
+.panel-body ul{
+    padding:0 0 0 40px
+}
+
+.panel-body ul li{
+    font-family: myFirstFont;
+    font-size: 16px;
+    color: #767676;
+}
+
+.panel-body p{
+    font-family: mySecondFont;
+    font-size: 16px;
+    padding: 0 0 0 0px;
+    color: #767676;
+}
+
+.para{
+    font-family: myFirstFont;
+    font-size: 16px;
+    padding: 0 0 0 0px;
+    color: #767676;
+}
+.glyphicon-plus{
+    margin-right: 10px;
+}
+.glyphicon-minus{
+    margin-right: 10px;
+}
+.borderbtm {
+    border-bottom: 5px solid rgb(255 205 0);
+    width: 30px;
+    margin: 20px 0 30px 0;
+}
+.header-txt {
+    color: #767676;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: myThirdFont;
+}
+.panel-body {
+    padding: 10px 0;
+}
+</style>
+<script>
+    $(document).ready(function(){
+          $('.collapse.in').each(function(){
+            $(this).parent().find(".glyphicon").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        });
+          
+        $('.collapse').on('shown.bs.collapse', function(){
+            $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        }).on('hidden.bs.collapse', function(){
+            $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+        });       
+    });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+     <div class="row">
+         <div class="col-xs-12">
+          <p class="header-txt">POL&Iacute;TICA DE PRIVACIDADE E DE COOKIES DA APLICA&Ccedil;&Atilde;O</p>
+          <div class="borderbtm"></div>
+          <p class="para">Esta Pol&iacute;tica de privacidade e de cookies (&quot;Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o&quot;) aplica-se &agrave; aplica&ccedil;&atilde;o sobre amamenta&ccedil;&atilde;o para dispositivos m&oacute;veis MyMedela (&quot;Aplica&ccedil;&atilde;o&quot;) que &eacute; operada e controlada pela Medela AG, L&auml;ttichstrasse 4b, 6340 Baar, Su&iacute;&ccedil;a (&quot;Medela&quot; ou &quot;n&oacute;s&quot;). <br><br> A presente Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o governa a recolha, tratamento e utiliza&ccedil;&atilde;o dos seus dados pessoais sempre que utiliza a nossa aplica&ccedil;&atilde;o e explica as nossas pr&aacute;ticas de coloca&ccedil;&atilde;o de cookies, incluindo os tipos de cookies utilizados e como pode geri-los. <br><br> Esta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o foi revista pela &uacute;ltima vez em 1 de abril de 2021. <br><br></p>
+          <div class="panel-group" id="accordion1">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn-link" data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 1. RECOLHA, TRATAMENTO E UTILIZA&Ccedil;&Atilde;O DOS SEUS DADOS PESSOAIS</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse in" id="Exampleone">
+                      <div class="panel-body">
+                          <p><b>1.1 Registo e utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o</b></p>
+                          <p>Para utilizar a nossa aplica&ccedil;&atilde;o, deve efetuar o registo de uma conta nos nossos servi&ccedil;os. Durante o processo de registo, ir&aacute; ser-lhe pedido que faculte determinada informa&ccedil;&atilde;o, como o nome pr&oacute;prio/alcunha, o endere&ccedil;o de email e a data prevista ou real do nascimento do seu beb&eacute; e que escolha uma palavra-passe. Se n&atilde;o registar uma conta, n&atilde;o pode utilizar a aplica&ccedil;&atilde;o. Como parte do registo, podemos pedir-lhe informa&ccedil;&atilde;o adicional (opcional), como a situa&ccedil;&atilde;o do seu extrator de leite, para personalizar o conte&uacute;do da nossa aplica&ccedil;&atilde;o de acordo com as suas necessidades e interesses. O processo de registo ocorre atrav&eacute;s de uma liga&ccedil;&atilde;o &agrave; Medela atrav&eacute;s de um servidor protegido. Salvo se indicado em contr&aacute;rio nesta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o (em particular, nas sec&ccedil;&otilde;es 1.2, 1.3 e 1.4), utilizaremos os dados pessoais que revelar apenas como indicado nesta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o e para gerir a sua conta, armazenar e agregar a sua informa&ccedil;&atilde;o nos nossos servidores (conforme necess&aacute;rio para o fornecimento dos nossos servi&ccedil;os) e para lhe oferecer as funcionalidades e servi&ccedil;os solicitados. <br><br> Al&eacute;m disto, durante o processo de registo pediremos o seu consentimento para utilizarmos os seus dados pessoais para efeitos de marketing, a fim de lhe fornecermos atualiza&ccedil;&otilde;es regulares sobre servi&ccedil;os, produtos e eventos da Medela e das empresas afiliadas do grupo. Tamb&eacute;m podemos convid&aacute;-la a participar em inqu&eacute;ritos realizados por n&oacute;s. Depois de ter dado o seu consentimento e com base na sua regi&atilde;o, poder&aacute; receber um email de confirma&ccedil;&atilde;o com uma hiperliga&ccedil;&atilde;o na qual tem de clicar para confirmar o seu consentimento. Este procedimento de dupla ades&atilde;o ajuda-nos a garantir a identifica&ccedil;&atilde;o do titular da conta de email. <br><br> Os seus dados n&atilde;o ser&atilde;o partilhados com terceiros, nem utilizados para qualquer outro fim que n&atilde;o o indicado nesta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o, a menos que nos tenha dado o seu consentimento expresso previamente. <br><br> Ao instalar/iniciar a nossa aplica&ccedil;&atilde;o e registar uma conta nos nossos servi&ccedil;os, consente que a Medela coloque cookies no seu dispositivo, os quais s&atilde;o utilizados para determinadas an&aacute;lises anonimizadas atrav&eacute;s da recolha e tratamento de informa&ccedil;&atilde;o estat&iacute;stica, como o comportamento como utilizador, padr&otilde;es de navega&ccedil;&atilde;o, tempo de utiliza&ccedil;&atilde;o m&eacute;dio e &aacute;reas de interesse. Recolhemos e tratamos esta informa&ccedil;&atilde;o para compreendermos o modo como os nossos clientes utilizam a nossa aplica&ccedil;&atilde;o e para avaliarmos as tend&ecirc;ncias, as estat&iacute;sticas e as necessidades dos nossos clientes. Isto ajuda-nos a melhorar a nossa aplica&ccedil;&atilde;o e a prestar um melhor servi&ccedil;o, incluindo providenciar-lhe uma experi&ecirc;ncia da aplica&ccedil;&atilde;o mais personalizada e fazer-lhe ofertas direcionadas. Consulte as sec&ccedil;&otilde;es 2, 2.4 e 2.5 abaixo para obter uma descri&ccedil;&atilde;o detalhada dos cookies e/ou das ferramentas de an&aacute;lise que utilizamos para este fim e para ver os seus direitos de auto-exclus&atilde;o. Se n&atilde;o concordar com as pr&aacute;ticas descritas acima e pretender evitar por completo a monitoriza&ccedil;&atilde;o e recolha da sua informa&ccedil;&atilde;o, mesmo que de forma an&oacute;nima, n&atilde;o instale a aplica&ccedil;&atilde;o no(s) seu(s) dispositivo(s).</p>
+  
+                              <p><b>1.2 Utiliza&ccedil;&atilde;o das funcionalidades da nossa aplica&ccedil;&atilde;o</b></p>
+                              <p>A nossa aplica&ccedil;&atilde;o oferece diferentes funcionalidades nas quais pode decidir voluntariamente se pretende partilhar mais informa&ccedil;&atilde;o connosco. Essa informa&ccedil;&atilde;o inclui dados pessoais relacionados com o beb&eacute; (por exemplo, nome, fotografias, data de nascimento) e com a m&atilde;e (por exemplo, expetativas/experi&ecirc;ncias de amamenta&ccedil;&atilde;o e extra&ccedil;&atilde;o ou data prevista de regresso aos estudos/trabalho). A nossa aplica&ccedil;&atilde;o permite-lhe ainda acompanhar e monitorizar as atividades pr&eacute;-parto, como informa&ccedil;&atilde;o sobre contra&ccedil;&otilde;es, mas tamb&eacute;m atividades p&oacute;s-parto, como as suas sess&otilde;es de amamenta&ccedil;&atilde;o, extra&ccedil;&atilde;o e alimenta&ccedil;&atilde;o com biber&atilde;o e a gest&atilde;o do leite materno, bem como o peso, a altura, o sono e as mudan&ccedil;as de fraldas do seu beb&eacute;, al&eacute;m de outras notas. Al&eacute;m disto, a nossa aplica&ccedil;&atilde;o permite-lhe ligar-se aos nossos extratores conectados para monitorizar e registar facilmente o tempo das sess&otilde;es e as defini&ccedil;&otilde;es utilizadas e registar o volume de leite materno extra&iacute;do; para receber lembretes que a mant&ecirc;m informada e a avisam quando a bateria do seu extrator est&aacute; fraca e para aceder a apoio ao aleitamento em tempo real (se isto estiver dispon&iacute;vel no seu mercado). Tamb&eacute;m pode preencher question&aacute;rios para medir o sucesso da sua amamenta&ccedil;&atilde;o e, para personalizar a sua experi&ecirc;ncia de utilizador da nossa aplica&ccedil;&atilde;o, tem a possibilidade de registar o seu extrator e obter acesso gratuito ao pacote VIP (se este estiver dispon&iacute;vel no seu mercado), para encontrar uma loja perto de si para comprar os nossos produtos e para dar feedback relativamente &agrave; aplica&ccedil;&atilde;o. Por fim, pode utilizar a nossa funcionalidade de chatbot e obter apoio t&eacute;cnico, recomenda&ccedil;&otilde;es de produtos e apoio &agrave; amamenta&ccedil;&atilde;o. <br><br> Apenas para utilizadores Android: Quando liga a nossa aplica&ccedil;&atilde;o a um extrator da Medela com Bluetooth, o sistema operativo necessita do acesso &agrave; localiza&ccedil;&atilde;o (GPS) do dispositivo. Contudo, a Medela nunca armazena nem utiliza os seus dados de localiza&ccedil;&atilde;o. N&atilde;o dar a permiss&atilde;o de localiza&ccedil;&atilde;o leva a problemas com a liga&ccedil;&atilde;o do extrator. <br><br> A menos que tenha dado o seu consentimento expresso e salvo se indicado em contr&aacute;rio nesta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o, iremos armazenar, tratar e utilizar essa informa&ccedil;&atilde;o apenas na medida em que seja necess&aacute;ria para permitir que utilize as nossas funcionalidades e servi&ccedil;os, incluindo para lhe fornecer conte&uacute;dos personalizados, informa&ccedil;&atilde;o did&aacute;tica e sugest&otilde;es pr&aacute;ticas com base nos seus dados &uacute;nicos e no seu progresso na aplica&ccedil;&atilde;o, bem como a possibilidade de nos enviar o seu feedback sobre a aplica&ccedil;&atilde;o. <br><br> Pode determinar as suas &aacute;reas de interesse e/ou alterar as suas op&ccedil;&otilde;es modificando as suas defini&ccedil;&otilde;es de personaliza&ccedil;&atilde;o na aplica&ccedil;&atilde;o (Menu de ferramentas → Testes → Personaliza&ccedil;&atilde;o de conte&uacute;do) a qualquer momento. Se n&atilde;o pretender receber quaisquer conte&uacute;dos ou servi&ccedil;os personalizados, pode n&atilde;o fornecer qualquer informa&ccedil;&atilde;o pessoal (e deve abster-se de responder &agrave;s perguntas de personaliza&ccedil;&atilde;o na aplica&ccedil;&atilde;o). <br><br> Pode ainda alterar as suas defini&ccedil;&otilde;es de notifica&ccedil;&atilde;o pessoais na aplica&ccedil;&atilde;o (Mais → Defini&ccedil;&otilde;es Gerais da Aplica&ccedil;&atilde;o → Notifica&ccedil;&otilde;es) a qualquer momento. <br><br> Para que possa carregar uma fotografia do seu beb&eacute;, a aplica&ccedil;&atilde;o pedir&aacute; permiss&atilde;o para aceder &agrave; sua c&acirc;mara/fotografias. N&atilde;o utilizaremos a permiss&atilde;o concedida para qualquer outro fim. <br><br> Al&eacute;m das utiliza&ccedil;&otilde;es explicadas acima, utilizaremos todos os dados pessoais que recebermos apenas de forma anonimizada (ou seja, de uma forma que n&atilde;o identifica a pessoa e n&atilde;o permite tirar conclus&otilde;es sobre a sua identidade) para fins de estat&iacute;stica e para avalia&ccedil;&atilde;o interna, para melhorar os nossos produtos e servi&ccedil;os. Os seus dados pessoais n&atilde;o ser&atilde;o tratados para outros fins, nem fora do &acirc;mbito desta Pol&iacute;tica de privacidade, exceto se expressamente autorizado ou exigido pela lei aplic&aacute;vel.</p>
+  
+                                  <p><b>1.3 Tratamento de dados pessoais sens&iacute;veis</b></p>
+                                  <p>Em geral, n&atilde;o solicitamos nem processamos quaisquer dados pessoais sens&iacute;veis (p. ex., informa&ccedil;&atilde;o sobre sa&uacute;de, dados gen&eacute;ticos/biom&eacute;tricos). Contudo, ao utilizar a nossa aplica&ccedil;&atilde;o, pode divulgar tais dados (p. ex., informa&ccedil;&atilde;o sobre contra&ccedil;&otilde;es, peso/altura do beb&eacute;) voluntariamente &agrave; Medela. Ao registar uma conta connosco e ao introduzir esses dados pessoais sens&iacute;veis, consente explicitamente no tratamento de tais dados pela Medela. Pode retirar o seu consentimento a qualquer momento, apagando os respetivos dados ou apagando a aplica&ccedil;&atilde;o. Isto n&atilde;o afetaria a legalidade do tratamento de dados de acordo com o seu consentimento dado antes da retirada.</p>
+  
+                                      <p><b>1.4 Cria&ccedil;&atilde;o de um &uacute;nico registo com informa&ccedil;&atilde;o de outras fontes</b></p>
+                                      <p>Se decidir utilizar outros servi&ccedil;os oferecidos por n&oacute;s, como quando se regista na Medela Family atrav&eacute;s do website, o que lhe oferece acesso gratuito a informa&ccedil;&atilde;o did&aacute;tica adicional e a comunica&ccedil;&otilde;es de marketing direto sobre os nossos produtos e servi&ccedil;os, podemos criar um registo &uacute;nico para si, o qual combina os dados que recebemos de si atrav&eacute;s da sua utiliza&ccedil;&atilde;o destes outros servi&ccedil;os com os dados que recebemos de si atrav&eacute;s da sua utiliza&ccedil;&atilde;o da aplica&ccedil;&atilde;o. Ao registar a sua conta connosco na aplica&ccedil;&atilde;o, fica automaticamente registada em todo o Programa da Medela Family. Pode cancelar os servi&ccedil;os individuais da Medela Family a qualquer momento, alterando as defini&ccedil;&otilde;es no seu perfil. <br><br> Este registo &uacute;nico ajuda-nos a compreender melhor as suas necessidades e prefer&ecirc;ncias para lhe fornecermos, de forma mais eficiente, os produtos e servi&ccedil;os solicitados, incluindo permitir que beneficie de uma experi&ecirc;ncia mais personalizada. <br><br> Al&eacute;m das utiliza&ccedil;&otilde;es indicadas nesta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o, n&atilde;o utilizaremos a informa&ccedil;&atilde;o para qualquer outro fim, nem a partilharemos com terceiros, exceto se expressamente permitido ou exigido pela lei aplic&aacute;vel.</p>
+  
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 2. COOKIES, FERRAMENTAS DE MONITORIZA&Ccedil;&Atilde;O E AN&Aacute;LISE</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Exampletwo">
+                      <div class="panel-body">
+                         <p><b>2.1 Cookies essenciais</b></p>
+                         <p>Os cookies s&atilde;o pequenos ficheiros de texto que a nossa aplica&ccedil;&atilde;o pede para colocar no seu tablet, smartphone ou outro dispositivo. Se o seu dispositivo estiver definido para aceitar cookies, o texto ser&aacute; adicionado a&iacute; num pequeno ficheiro. <br><br> Exceto como indicado em contr&aacute;rio nesta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o, os cookies que utilizamos s&atilde;o essenciais para o funcionamento e desempenho da nossa aplica&ccedil;&atilde;o, tornando o seu funcionamento mais eficiente e fazendo com que seja mais f&aacute;cil para si utilizar as funcionalidade e os servi&ccedil;os disponibilizados. Estes cookies de funcionalidade e/ou desempenho ser&atilde;o apagados do seu dispositivo ao fim de duas (2) semanas de n&atilde;o utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o. N&atilde;o utilizaremos a informa&ccedil;&atilde;o guardada em cookies essenciais para nenhum outro fim que n&atilde;o o estritamente necess&aacute;rio para lhe fornecer os servi&ccedil;os e funcionalidades solicitados.</p>
+                          <p><b>2.2 Consentimento para a coloca&ccedil;&atilde;o de cookies n&atilde;o essenciais e utiliza&ccedil;&atilde;o de ferramentas de an&aacute;lise</b></p>
+  
+                          <p>Quando instala/inicia a nossa aplica&ccedil;&atilde;o e efetua o registo de uma conta nos nossos servi&ccedil;os, consente que a Medela coloque cookies adicionais no seu dispositivo e/ou utilize determinadas ferramentas de monitoriza&ccedil;&atilde;o e an&aacute;lise. Estes cookies e ferramentas n&atilde;o s&atilde;o estritamente necess&aacute;rios para garantir o funcionamento e o desempenho da nossa aplica&ccedil;&atilde;o, mas ajudam-nos a recolher alguma informa&ccedil;&atilde;o n&atilde;o personalizada relacionada com o seu comportamento como utilizadora da aplica&ccedil;&atilde;o, de modo a melhorarmos a oferta e os servi&ccedil;os na aplica&ccedil;&atilde;o e/ou a fornecer-lhe informa&ccedil;&atilde;o e servi&ccedil;os mais personalizados, incluindo ofertas direcionadas atrav&eacute;s da nossa aplica&ccedil;&atilde;o (consulte tamb&eacute;m as sec&ccedil;&otilde;es 2.4 e 2.5 abaixo para obter uma explica&ccedil;&atilde;o sobre determinadas ferramentas de monitoriza&ccedil;&atilde;o e an&aacute;lise que utilizamos). <br><br> Tem o direito de retirar o seu consentimento e/ou de se auto-excluir individualmente da coloca&ccedil;&atilde;o de cookies e/ou de qualquer recolha da sua informa&ccedil;&atilde;o para os diferentes fins atrav&eacute;s das ferramentas de monitoriza&ccedil;&atilde;o e an&aacute;lise, a qualquer momento e com efeito futuro. Para isso, siga as instru&ccedil;&otilde;es descritas nas sec&ccedil;&otilde;es abaixo. Para retirar por completo o seu consentimento e evitar qualquer monitoriza&ccedil;&atilde;o e recolha da sua informa&ccedil;&atilde;o, apague a aplica&ccedil;&atilde;o do(s) seu(s) dispositivo(s).</p>
+                            
+                              <p><b>2.3 Gest&atilde;o das suas defini&ccedil;&otilde;es de cookies</b></p>
+                              <p>A maioria dos dispositivos m&oacute;veis est&aacute; definida &agrave; partida para aceitar cookies. Se preferir, pode alterar as suas defini&ccedil;&otilde;es para rejeitar cookies, apagar cookies que j&aacute; foram colocados no seu dispositivo ou ser avisada antes da coloca&ccedil;&atilde;o de um cookie. Consulte as instru&ccedil;&otilde;es do seu dispositivo ou www.allaboutcookies.org para saber mais sobre como ajustar ou modificar as defini&ccedil;&otilde;es do seu dispositivo m&oacute;vel. <br><br> Se optar por n&atilde;o aceitar cookies, isso poder&aacute; interferir com a utiliza&ccedil;&atilde;o da aplica&ccedil;&atilde;o e poder&aacute; n&atilde;o conseguir tirar partido de algumas das fun&ccedil;&otilde;es e servi&ccedil;os oferecidos. <br><br> Se utilizar diferentes dispositivos m&oacute;veis para aceder &agrave; nossa aplica&ccedil;&atilde;o (p. ex., smartphone, tablet, etc.), ter&aacute; de se certificar de que as defini&ccedil;&otilde;es em cada dispositivo s&atilde;o ajustadas de modo a refletir as suas prefer&ecirc;ncias de cookies.</p>
+                                  <p><b>2.4 Utiliza&ccedil;&atilde;o do Google Mobile App Analytics</b></p>
+                                  <p>Esta aplica&ccedil;&atilde;o utiliza o Google Mobile App Analytics (&quot;Google Analytics&quot;), um servi&ccedil;o de an&aacute;lise web fornecido pela Google, Inc. (EUA) e a Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irlanda (para a UE) (&quot;Google&quot;). O Google Analytics poder&aacute; utilizar determinadas tecnologias de monitoriza&ccedil;&atilde;o para nos ajudar a analisar de que modo os utilizadores usam a nossa aplica&ccedil;&atilde;o, incluindo o n&uacute;mero de utilizadores ativos e o comportamento dos utilizadores (p. ex., per&iacute;odo de tempo de utiliza&ccedil;&atilde;o m&eacute;dio, utilizadores recorrentes, visualiza&ccedil;&otilde;es de ecr&atilde; por m&ecirc;s, melhores artigos). Em regra, qualquer informa&ccedil;&atilde;o gerada pela sua utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o ser&aacute; transmitida e armazenada pela Google em servidores nos EUA. Dado que esta aplica&ccedil;&atilde;o implementou a funcionalidade de anonimiza&ccedil;&atilde;o do IP disponibilizada pela Google, antes de ser transferido para os EUA, o seu endere&ccedil;o IP ser&aacute; encurtado pela Google no seio dos Estados-Membros da Uni&atilde;o Europeia ou noutros estados que tenham aderido ao tratado do Espa&ccedil;o Econ&oacute;mico Europeu. O seu endere&ccedil;o IP completo s&oacute; em casos excecionais ser&aacute; transferido para um servidor da Google nos EUA e a&iacute; encurtado. <br><br> A Google utilizar&aacute; esta informa&ccedil;&atilde;o na qualidade de processador de dados subcontratado, para nos ajudar a avaliar a utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o, compilar relat&oacute;rios sobre a atividade na aplica&ccedil;&atilde;o e fornecer outros servi&ccedil;os estat&iacute;sticos e anal&iacute;ticos relacionados com a utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o. O endere&ccedil;o IP transmitido pelo seu dispositivo m&oacute;vel no contexto do Google Analytics n&atilde;o ser&aacute; associado a quaisquer outros dados na posse da Google. <br><br> Se n&atilde;o pretender a monitoriza&ccedil;&atilde;o pelo Google Analytics, pode exclu&iacute;-la a qualquer momento, apagando a aplica&ccedil;&atilde;o do seu dispositivo m&oacute;vel. <br><br> Para uma vis&atilde;o geral da pol&iacute;tica de privacidade da Google, clique <a href="medelaFamily://openexternal?url=https://support.google.com/analytics/answer/6004245">aqui</a>.</p>
+  
+                                      <p><b>2.5 Utiliza&ccedil;&atilde;o de ferramentas de an&aacute;lise de aplica&ccedil;&otilde;es</b></p>
+  
+                                      <p>A Medela tamb&eacute;m utiliza determinadas ferramentas e servi&ccedil;os de an&aacute;lise de aplica&ccedil;&otilde;es para recolher informa&ccedil;&atilde;o estat&iacute;stica agregada e anonimizada sobre a utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o. <br><br> Utilizamos o iTunes Connect App Analytics fornecido pela Apple, Inc. (&quot;Apple&quot;). Esta ferramenta recolhe dados anonimizados e agregados de utilizadores de aplica&ccedil;&otilde;es em dispositivos m&oacute;veis Apple que utilizam o iOS 8 ou superior. O iTunes Connect App Analytics fornece-nos dados m&eacute;tricos de utiliza&ccedil;&atilde;o da aplica&ccedil;&atilde;o, tais como o n&uacute;mero total de vezes que foi instalada, o n&uacute;mero de vezes que foi utilizada e o n&uacute;mero de sess&otilde;es ativas num per&iacute;odo de tempo espec&iacute;fico. <br><br> Utilizamos ainda servi&ccedil;os de an&aacute;lise e estat&iacute;stica similares fornecidos pela Google Inc. (EUA) e pela Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Irlanda (para a UE) (&quot;Google&quot;) atrav&eacute;s da Consola de Programadores do Google Play e/ou da Consola Firebase da Google. A informa&ccedil;&atilde;o que recebemos inclui apenas informa&ccedil;&atilde;o estat&iacute;stica agregada e anonimizada de utilizadores de aplica&ccedil;&otilde;es em dispositivos Android, como o n&uacute;mero de instala&ccedil;&otilde;es e atualiza&ccedil;&otilde;es, o n&uacute;mero de falhas, informa&ccedil;&atilde;o sobre uma falha, classifica&ccedil;&otilde;es de utilizadores, canais de aquisi&ccedil;&atilde;o e regi&otilde;es dos visitantes. <br><br> Se a respetiva funcionalidade estiver ativada no seu dispositivo, a Apple ou a Google (respetivamente) proceder&atilde;o &agrave; recolha, tratamento e utiliza&ccedil;&atilde;o dessa informa&ccedil;&atilde;o para nos ajudar a avaliar a utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o, compilar relat&oacute;rios sobre a atividade na aplica&ccedil;&atilde;o e fornecer outros servi&ccedil;os estat&iacute;sticos e anal&iacute;ticos relacionados com a utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o. <br><br> S&oacute; recebemos a informa&ccedil;&atilde;o indicada acima se optar pela partilha dos seus dados com fornecedores terceiros no seu dispositivo m&oacute;vel. Pode efetuar e alterar a sua escolha (subscrever ou cancelar) a qualquer momento no menu de defini&ccedil;&otilde;es do seu dispositivo m&oacute;vel (para dispositivos iOS, consulte: Defini&ccedil;&otilde;es → Privacidade → Diagn&oacute;stico e utiliza&ccedil;&atilde;o; para dispositivos Android consulte Defini&ccedil;&otilde;es → Utilizador e c&oacute;pia de seguran&ccedil;a → Google → Mais → Utiliza&ccedil;&atilde;o e diagn&oacute;stico).</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplethree" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 3. DIVULGA&Ccedil;&Atilde;O DOS SEUS DADOS PESSOAIS</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplethree">
+                      <div class="panel-body">
+                          <p>A Medela &eacute; respons&aacute;vel por operar a aplica&ccedil;&atilde;o na qualidade de respons&aacute;vel pelo tratamento dos dados. No entanto, para garantir que a rela&ccedil;&atilde;o consigo como cliente &eacute; gerida de forma eficiente e para lhe oferecer uma boa experi&ecirc;ncia de cliente, essa rela&ccedil;&atilde;o tamb&eacute;m poder&aacute; ser gerida a n&iacute;vel local pela empresa do grupo local, que &eacute; a nossa empresa afiliada do grupo respons&aacute;vel pelo seu pa&iacute;s. Al&eacute;m disso, as nossas empresas afiliadas do grupo s&oacute; poder&atilde;o receber relat&oacute;rios estat&iacute;sticos anonimizados e outros dados anal&iacute;ticos sobre a utiliza&ccedil;&atilde;o e atividade da aplica&ccedil;&atilde;o que n&atilde;o contenham informa&ccedil;&atilde;o identific&aacute;vel pessoalmente. <br> <br> Adicionalmente, a Medela e/ou a empresa do grupo local poder&aacute; utilizar fornecedores de servi&ccedil;os externos que estejam autorizados a prestar servi&ccedil;os em seu nome e de acordo com estas instru&ccedil;&otilde;es. Estas entidades podem ter acesso aos seus dados pessoais, mas apenas na medida do necess&aacute;rio para lhe possibilitar a utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o, incluindo prestar os nossos servi&ccedil;os ou processar os seus pedidos ou quest&otilde;es. Por exemplo, a Medela (e/ou, conforme aplic&aacute;vel, a empresa do grupo local) poder&aacute; utilizar prestadores de servi&ccedil;os para desenvolver e/ou alojar a aplica&ccedil;&atilde;o, armazenar os seus dados, ativar a funcionalidade do chatbot, permitir a partilha de funcionalidade atrav&eacute;s das redes sociais, gerir a rela&ccedil;&atilde;o com o cliente, fornecer comunica&ccedil;&otilde;es relacionadas com marketing sobre os nossos produtos e servi&ccedil;os, processar o seu pedido de aluguer, dar comandos de voz apoiados pelo Siri (iOS) e pelo Google Assistant (Android) ou analisar a informa&ccedil;&atilde;o recolhida como explicado nesta pol&iacute;tica. Estes prestadores de servi&ccedil;os n&atilde;o poder&atilde;o divulgar os seus dados pessoais a qualquer terceiro n&atilde;o autorizado, nem utilizar os seus dados pessoais para qualquer fim que n&atilde;o os indicados. Alguns destes prestadores de servi&ccedil;os poder&atilde;o estar situados em pa&iacute;ses fora da Su&iacute;&ccedil;a e da UE/EEE, que poder&atilde;o n&atilde;o oferecer o mesmo n&iacute;vel de prote&ccedil;&atilde;o de dados que o seu pa&iacute;s de resid&ecirc;ncia. No entanto, a Medela e/ou, conforme aplic&aacute;vel, a empresa do grupo local celebrou contratos adequados com estes fornecedores de servi&ccedil;os para assegurar que estes tomar&atilde;o todas as precau&ccedil;&otilde;es necess&aacute;rias para proteger os seus dados pessoais de acordo com os requisitos aplic&aacute;veis. Para obter mais informa&ccedil;&atilde;o sobre os nossos prestadores de servi&ccedil;os, contacte-nos de acordo com as indica&ccedil;&otilde;es constantes da Sec&ccedil;&atilde;o &quot;Os Seus Direitos e Como Contactar-nos&quot;. <br> <br> Podemos fornecer os seus dados pessoais a terceiros para processar transa&ccedil;&otilde;es (p. ex., valida&ccedil;&atilde;o de endere&ccedil;os, envios, c&aacute;lculo de impostos). <br> <br> Al&eacute;m dos casos indicados acima, a Medela n&atilde;o disponibilizar&aacute; os seus dados pessoais a nenhuma outra entidade sem a sua autoriza&ccedil;&atilde;o pr&eacute;via, exceto se a isso for obrigada por lei.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplefour" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 4. ARMAZENAMENTO DOS SEUS DADOS PESSOAIS E SEGURAN&Ccedil;A DOS DADOS</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplefour">
+                      <div class="panel-body">
+                          <p>Os seus dados ser&atilde;o armazenados em servidores na Irlanda e nos Pa&iacute;ses Baixos. Os dados de utilizadores dos EUA e do Canad&aacute; ser&atilde;o armazenados nos EUA, adicionalmente. Al&eacute;m disso, a Medela e/ou, conforme aplic&aacute;vel, a empresa do grupo local poder&aacute; utilizar prestadores de servi&ccedil;os na &quot;cloud&quot; situados em pa&iacute;ses fora da Su&iacute;&ccedil;a e da UE/EEE, incluindo os EUA, para alojar e tratar os seus dados pessoais para fins de armazenamento, comunica&ccedil;&atilde;o, apoio e marketing. Embora as leis de tais pa&iacute;ses possam n&atilde;o fornecer o mesmo n&iacute;vel de prote&ccedil;&atilde;o de dados considerado adequado na Su&iacute;&ccedil;a ou na EU/EEE, tom&aacute;mos as medidas necess&aacute;rias para garantir que os seus dados pessoais ser&atilde;o tratados e protegidos adequadamente e s&oacute; ser&atilde;o tratados em nosso nome e de acordo com as nossas instru&ccedil;&otilde;es. <br><br> Todos os seus dados pessoais ser&atilde;o apagados automaticamente e de forma irrevers&iacute;vel ap&oacute;s um ano de inatividade (n&atilde;o utiliza&ccedil;&atilde;o da aplica&ccedil;&atilde;o). Os dados pessoais dos residentes nos EUA e no Canad&aacute; ser&atilde;o apagados ap&oacute;s tr&ecirc;s anos de inatividade. <br><br> Trataremos os seus dados pessoais com confidencialidade. A Medela implementou medidas de seguran&ccedil;a t&eacute;cnica e organizacional apropriadas para proteger os seus dados pessoais contra a divulga&ccedil;&atilde;o ou acesso n&atilde;o autorizados, altera&ccedil;&atilde;o, abuso, destrui&ccedil;&atilde;o ou perda acidental ou il&iacute;cita.</p>
+    
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplefive" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 5. AVISO HIPAA DA POL&Iacute;TICA DE PRIVACIDADE PARA INFORMA&Ccedil;&Otilde;ES DE SA&Uacute;DE PROTEGIDAS</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplefive">
+                      <div class="panel-body">
+                          <p>Na medida em que pode divulgar &quot;informa&ccedil;&otilde;es de sa&uacute;de protegidas&quot;, como definido na legisla&ccedil;&atilde;o norte-americana, durante o acesso ou utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o, consulte a nossa <a href="medelaFamily://openexternal?url=https://www.medela.us/medela-us/breastfeeding/hipaa-privacy-policy">Pol&iacute;tica de Privacidade e Aviso de Pr&aacute;ticas de Privacidade do HIPAA </a> para compreender os seus direitos e de que modo poderemos utilizar e divulgar as suas informa&ccedil;&otilde;es de sa&uacute;de protegidas.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplesix" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 6. RESIDENTES NA CALIF&Oacute;RNIA</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplesix">
+                      <div class="panel-body">
+                         <p>O <a href="medelaFamily://openexternal?url=https://www.medela.us/dam/Legal-Policies/ccpa_privacy_notice_01192021?uuid=jcr:b9a23d89-1c61-4471-ab9b-dc5ee08250f5">Aviso de privacidade da Medela para residentes na Calif&oacute;rnia</a> complementa a informa&ccedil;&atilde;o contida nesta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o e aplica-se apenas a visitantes, utilizadores e outros que residam no Estado da Calif&oacute;rnia, EUA.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Exampleseven" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 7. OS SEUS DIREITOS/COMO CONTACTAR-NOS</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Exampleseven">
+                      <div class="panel-body">
+                          <p>Ao abrigo das leis locais sobre prote&ccedil;&atilde;o de dados e privacidade, pode ter o direito de solicitar que lhe divulguemos todos os dados pessoais que possu&iacute;mos sobre si, de solicitar a corre&ccedil;&atilde;o, apagamento e/ou bloqueio dos seus dados pessoais, de se opor ao tratamento dos seus dados pessoais por motivos leg&iacute;timos, ou de solicitar uma c&oacute;pia eletr&oacute;nica dos seus dados pessoais com a finalidade de os transmitir a outra empresa (portabilidade dos dados). <br><br> Pode ainda, a qualquer momento e com efeitos futuros, retirar qualquer consentimento que tenha dado, apagando a aplica&ccedil;&atilde;o do(s) seu(s) dispositivo(s) e pedindo o apagamento, por email para o endere&ccedil;o de email identificado abaixo. <br><br> Se tiver alguma quest&atilde;o sobre a recolha, tratamento e/ou utiliza&ccedil;&atilde;o dos seus dados pessoais, ou se pretender exercer os seus direitos, envie-nos um email para<a href="mailto:privacy@medela.com"> privacy@medela.com</a>. <br><br> Residentes nos EUA: Para exercer os seus direitos de apagamento ou de saber que informa&ccedil;&atilde;o recolhemos sobre si, preencha o <a href="medelaFamily://openexternal?url=https://www.medela.us/dam/Legal-Policies/privacy_request_form_02012021.pdf?uuid=jcr:b32a0378-93e0-43c1-9652-ceba774fb001">Formul&aacute;rio de Pedido de Privacidade</a> e devolva-o por email para <a href="mailto:privacy.us@medela.com">privacy.us@medela.com</a>. <br><br> Residentes no Nevada: Sem limitar o exposto acima, a lei do Nevada pode permitir-lhe que nos instrua especificamente para n&atilde;o vendermos a sua informa&ccedil;&atilde;o a terceiros. Se for residente no Nevada, pode submeter esses pedidos de exclus&atilde;o por email para <a href="mailto:privacy.us@medela.com">privacy.us@medela.com</a>. Para ser eficaz, o seu pedido tem de incluir o seu nome completo, morada e endere&ccedil;o de email para podermos tentar verificar a autenticidade do seu pedido.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Exampleeight" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 8. ALTERA&Ccedil;&Otilde;ES A ESTA POL&Iacute;TICA DE PRIVACIDADE E DE COOKIES DA APLICA&Ccedil;&Atilde;O</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Exampleeight">
+                      <div class="panel-body">
+                         <p>Reservamo-nos o direito de fazer altera&ccedil;&otilde;es a esta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o a qualquer momento e com efeito no futuro. A vers&atilde;o atualizada desta Pol&iacute;tica de privacidade e de cookies da aplica&ccedil;&atilde;o ser&aacute; disponibilizada na aplica&ccedil;&atilde;o. Apesar de n&atilde;o ser inten&ccedil;&atilde;o da Medela introduzir altera&ccedil;&otilde;es a esta pol&iacute;tica com frequ&ecirc;ncia, conv&eacute;m verificar a declara&ccedil;&atilde;o de pol&iacute;tica mais atual quando nos visita, para se assegurar que leu e concorda com a informa&ccedil;&atilde;o recolhida pela Medela, com a forma como a utilizamos e com as circunst&acirc;ncias em que a divulgamos.</p>
+                      </div>
+                  </div>
+               </div>
+          </div> 
+         </div>
+     </div>
+    </div> 
+    </body>
+</html>

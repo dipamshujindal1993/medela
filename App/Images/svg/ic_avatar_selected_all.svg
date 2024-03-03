@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-2,.cls-3{fill:none;stroke:#646363;stroke-linecap:round;stroke-miterlimit:10}.cls-2{stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Group_1615" transform="translate(-24 -154)">
+        <circle id="Ellipse_281" cx="16" cy="16" r="16" transform="translate(24 154)"/>
+        <g id="Group_1599" transform="translate(-190.594 -122.667)">
+            <circle id="Ellipse_276" cx="1.191" cy="1.191" r="1.191" class="cls-2" transform="translate(229.299 292.389)"/>
+            <g id="Group_1597" transform="translate(220.621 283.667)">
+                <g id="Group_1591" transform="translate(13.556 1.323)">
+                    <path id="Line_304" d="M0 2.176L1.256 0" class="cls-3"/>
+                </g>
+                <g id="Group_1592" transform="translate(1.323 4.937)">
+                    <path id="Line_305" d="M0 1.256L2.176 0" class="cls-3" transform="translate(0 8.619)"/>
+                    <path id="Line_306" d="M0 1.256L2.176 0" class="cls-3" transform="translate(14.928)"/>
+                </g>
+                <g id="Group_1593" transform="translate(0 9.875)">
+                    <path id="Line_307" d="M0 0L2.512 0" class="cls-3"/>
+                    <path id="Line_308" d="M0 0L2.512 0" class="cls-3" transform="translate(17.238)"/>
+                </g>
+                <g id="Group_1594" transform="translate(1.323 4.937)">
+                    <path id="Line_309" d="M0 0L2.176 1.256" class="cls-3"/>
+                    <path id="Line_310" d="M0 0L2.176 1.256" class="cls-3" transform="translate(14.928 8.619)"/>
+                </g>
+                <g id="Group_1595" transform="translate(4.937 1.323)">
+                    <path id="Line_311" d="M0 0L1.256 2.176" class="cls-3"/>
+                </g>
+                <g id="Group_1596" transform="translate(9.875)">
+                    <path id="Line_312" d="M0 0L0 2.512" class="cls-3"/>
+                </g>
+            </g>
+            <path id="Line_313" d="M0 2.574L3.11 0" class="cls-3" transform="translate(231.406 290.246)"/>
+            <g id="Group_1598" transform="translate(220.594 283.667)">
+                <path id="Path_1726" d="M238.878 298.84a9.9 9.9 0 1 0-16.765 0" class="cls-2" transform="translate(-220.594 -283.667)"/>
+            </g>
+        </g>
+    </g>
+</svg>

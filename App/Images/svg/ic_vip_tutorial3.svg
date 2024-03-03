@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340">
+  <g id="Group_2686" data-name="Group 2686" transform="translate(-18 -180)">
+    <circle id="Ellipse_553" data-name="Ellipse 553" cx="170" cy="170" r="170" transform="translate(18 180)" fill="#f9f9f9"/>
+    <g id="Group_2683" data-name="Group 2683" transform="translate(-11.75 60)">
+      <rect id="Rectangle_1295" data-name="Rectangle 1295" width="289" height="167" rx="10" transform="translate(55.75 207)" fill="#fff"/>
+      <path id="Chevron" d="M1.441-12.208a.892.892,0,0,0,.307.682l5.83,5.711a.854.854,0,0,0,.622.255.884.884,0,0,0,.892-.892.915.915,0,0,0-.27-.637L3.57-12.208l5.253-5.119a.929.929,0,0,0,.27-.637.884.884,0,0,0-.892-.892.854.854,0,0,0-.622.255l-5.83,5.7A.919.919,0,0,0,1.441-12.208Z" transform="translate(67.695 253.413)" fill="#0d7cff"/>
+      <g id="Group_2692" data-name="Group 2692">
+        <text id="Shortcuts" transform="translate(81.75 244)" fill="#0d7cff" font-size="12" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-weight="300"><tspan x="0" y="0">Shortcuts</tspan></text>
+        <text id="Select" transform="translate(271.75 243)" fill="#0d7cff" font-size="11" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-weight="300"><tspan x="0" y="0">Select</tspan></text>
+        <text id="All_Shortcuts" data-name="All Shortcuts" transform="translate(73.75 279)" font-size="22" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-weight="300"><tspan x="0" y="0">All Shortcuts</tspan></text>
+        <text id="Create_shortcuts_for_things_you_do_every_day_or_check_out_the_gallery" data-name="Create shortcuts for things you do every day, or
+check out the gallery" transform="translate(77.75 319)" fill="#898d8d" font-size="11" font-family="FuturaSBMedela-Book, FuturaSB Medela" letter-spacing="0.024em"><tspan x="14.029" y="10">Create shortcuts for things you do every day, or</tspan><tspan fill="#0d7cff"><tspan x="75.019" y="24">check out the gallery</tspan></tspan></text>
+      </g>
+      <g id="Group_2682" data-name="Group 2682" transform="translate(316.7 235.146)">
+        <rect id="Rectangle_1293" data-name="Rectangle 1293" width="1" height="12" transform="translate(5.05 -0.146)" fill="#0d7cff"/>
+        <rect id="Rectangle_1294" data-name="Rectangle 1294" width="1.093" height="10.931" transform="translate(10.931 5.194) rotate(90)" fill="#0d7cff"/>
+      </g>
+    </g>
+  </g>
+</svg>

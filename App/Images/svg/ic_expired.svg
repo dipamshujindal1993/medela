@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+    <circle cx="35" cy="35" r="35" fill="red"/>
+    <text fill="#fff" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-size="15px" font-weight="300" letter-spacing="0.04em" transform="translate(10 40)">
+        <tspan x="0" y="0">Expired</tspan>
+    </text>
+</svg>

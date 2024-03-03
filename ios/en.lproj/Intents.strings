@@ -1,0 +1,716 @@
+"0E3yPz" = "Container";
+
+"0GoZwf" = "Switch breastfeeding";
+
+"0WpEDb" = "Switch breastfeeding";
+
+"0Zyiib" = "Save Milk";
+
+"0ig6Np" = "Length";
+
+"0z7A5l" = "Stop Sleep";
+
+"147Sj9" = "When was the last bottle feeding";
+
+"1FEPdX" = "Side";
+
+"1SV2u7" = "Your content ${result}";
+
+"1TusYG" = "${displayName} can’t be negative.";
+
+"1VcJEM" = "How much milk do I have in the freezer";
+
+"1ZxUo0" = "When was the last bottle feeding";
+
+"1fu1Yc-5zLMiT" = "Just to confirm, you wanted ‘lb’?";
+
+"1fu1Yc-ytfbup" = "Just to confirm, you wanted ‘kg’?";
+
+"1jnqNs" = "Stop Pumping";
+
+"1miir0" = "How much length ?";
+
+"1uB7JD" = "Result";
+
+"2aPbN6" = "Result";
+
+"2nU7Pl" = "Your content ${result}";
+
+"2v9FHA" = "Track a diaper";
+
+"35Nqk5" = "Result";
+
+"3HPgIT" = "Continue bottle feeding";
+
+"3QgjvV" = "No";
+
+"3voxhT" = "${displayName} can’t be lower than ${minimumValue}.";
+
+"498KqN" = "Are you saving the milk in a bag or in a bottle?";
+
+"4Tawwe" = "When was the last diaper change";
+
+"4Z0pEb-5hTbco" = "There are ${count} options matching ‘in’.";
+
+"4Z0pEb-usU4Pf" = "There are ${count} options matching ‘cm’.";
+
+"4coooc" = "Your content ${result}";
+
+"4eKhfn" = "Formula Ammount";
+
+"503pVL" = "Could not fetch response";
+
+"58zP8d" = "Save Pumping";
+
+"59sZaf" = "When was the last diaper change";
+
+"5JPzhm" = "Start breastfeeding";
+
+"5RmrqR" = "${displayName} can’t be higher than ${maximumValue}.";
+
+"5XqgdG" = "Formula Ammount";
+
+"5dqD3B" = "Track Length";
+
+"5hTbco" = "in";
+
+"5hXHtn" = "Baby Name";
+
+"5mSJAP" = "Result";
+
+"5rGYZy" = "How much oz/ml ?";
+
+"5zLMiT" = "lb";
+
+"665wij" = "Length Type";
+
+"67zPI3" = "Start Pumping";
+
+"69ecz7" = "How much milk do I have in the fridge";
+
+"6DJsWh" = "Your content ${result}";
+
+"6T668P-5hTbco" = "Just to confirm, you wanted ‘in’?";
+
+"6T668P-usU4Pf" = "Just to confirm, you wanted ‘cm’?";
+
+"6hhv2A" = "Stop bottle feeding";
+
+"6jjXDp" = "which unit you want to track weight with ?";
+
+"6q2Nvc" = "Switch breastfeeding";
+
+"754ssi" = "Pause bottle feeding for ${babyName}";
+
+"7KI71D" = "Track a diaper";
+
+"7afwdQ" = "For which  Baby ?";
+
+"7fO9eF" = "Could not fetch response";
+
+"7jFpBC" = "For which  Baby ?";
+
+"7rQoBj" = "Track Weight";
+
+"7ukgTj" = "When was the last length tracking";
+
+"89Qxyy" = "Continue bottle feeding";
+
+"8VIZbM" = "Baby Name";
+
+"8cY2gw" = "Start sleep for ${babyName}";
+
+"8hkK4I" = "For which Baby ?";
+
+"8jUa1R" = "Could not fetch response";
+
+"8n0QFu" = "Stop breastfeeding";
+
+"8uMzMp" = "For which Baby ?";
+
+"99Fhwn" = "Result";
+
+"9LjCwW" = "Save Pumping ${formulaAmmount} on ${side} for ${babyName}";
+
+"9aVMcs" = "Track Length";
+
+"A9sOJS" = "${displayName} can’t be lower than ${minimumValue}.";
+
+"ADexuk" = "Result";
+
+"AmsyKS" = "Could not fetch response";
+
+"AqteiA" = "Yes";
+
+"AsYFfu" = "Could not fetch response";
+
+"BK2BbX" = "${displayName} can’t be lower than ${minimumValue}.";
+
+"BMqvWq" = "Bottle Number";
+
+"BRICL2" = "For which Baby ?";
+
+"BSluSH" = "Result";
+
+"Ba2oqW" = "Pause breastfeeding";
+
+"Be4gyl" = "Your content ${result}";
+
+"C7YkYD" = "${displayName} can’t be negative.";
+
+"CIdfUi" = "When was the last weight tracking";
+
+"CuiLMg" = "Your content ${result}";
+
+"DKf8mN" = "For which Baby ?";
+
+"DLbhu4" = "When was the last sleep";
+
+"DQ35ZW" = "Could not fetch response";
+
+"DX5mPs" = "Start Sleep";
+
+"DfCpBv" = "For which Baby ?";
+
+"DrawKE" = "When was the last pumping ";
+
+"Dsrrx7" = "Pause bottle feeding";
+
+"EFgfFq" = "Continue bottle feeding for ${babyName}";
+
+"EUineN" = "Baby Name";
+
+"EXaQ8X" = "Baby Name";
+
+"EZPcVm" = "Stop bottle feeding";
+
+"Eam5eQ" = "Save Milk";
+
+"Ec4sLm" = "Start Breastfeeding";
+
+"Ee6tfA" = "Stop Sleep";
+
+"EmuCVe" = "${displayName} can’t be negative.";
+
+"EobwUP" = "Tray Number";
+
+"ErIplr" = "When was the last diaper change";
+
+"ErOcRQ" = "Could not fetch response";
+
+"GFBWuw" = "Your content ${result}";
+
+"GSYhYY" = "${displayName} can’t be higher than ${maximumValue}.";
+
+"Gk6f2R" = "For which Baby ?";
+
+"GlaJVc" = "Your content ${result}";
+
+"GmhneG" = "Save Milk";
+
+"Gvs5Kv" = "When was the last pumping ";
+
+"H1KuQ9" = "Save Milk";
+
+"H1uM1y" = "Your content ${result}";
+
+"H8iNtI" = "Track a formula feeding";
+
+"HTrhao" = "How much milk do I have in the freezer";
+
+"HdX8iH" = "Could not fetch response";
+
+"HhXqTc" = "Are you saving the milk in a bag or in a bottle?";
+
+"Hny8Xx" = "Your content ${result}";
+
+"IBCxEW" = "Continue breastfeeding on ${side}";
+
+"IFURiR" = "When was the last length tracking";
+
+"IMv8r6" = "Continue bottle feeding";
+
+"INUwsI" = "Type";
+
+"IRe2vB" = "Result";
+
+"IamswJ" = "Use milk from a bag or a  bottle?";
+
+"Ihy3Gn" = "Save Milk";
+
+"Iinkvx" = "Track Length";
+
+"J7sHwz" = "Fridge";
+
+"J92FPG" = "Start bottle feeding for ${babyName}";
+
+"JB4TCU" = "Could not fetch response";
+
+"JL18tf" = "Formula Ammount";
+
+"JPE2GH" = "Stop Pumping";
+
+"Jg3k8E" = "How much oz/ml ?";
+
+"KG9GIF" = "The content ${result}";
+
+"KMcYoN" = "How much milk do I have in the fridge";
+
+"KSqR7n" = "Start breastfeeding";
+
+"KUAhxp" = "Your content ${result}";
+
+"Kawipm" = "Track a formula feeding of ${formulaAmmount} for ${babyName}";
+
+"Kr2dxN" = " Which side you want to start ? Left,Right or Both";
+
+"KxWuHj" = "How much oz/ml ?";
+
+"KzU8cN" = "Could not fetch response";
+
+"L3dUm5" = "Container";
+
+"L540ZJ" = "Use Milk";
+
+"L5tKtt" = "Start Pumping  on ${side} for ${babyName}";
+
+"L8YSNK" = "When was the last sleep";
+
+"L9rCHO" = "Save Milk ${formulaAmmount} into ${container} in ${fridge} for ${babyName}";
+
+"LKal7N" = "Start Pumping";
+
+"M8649Y" = "For which  Baby ?";
+
+"MZnoiU" = "Baby Name";
+
+"Mc6JHC" = "For which Baby ?";
+
+"Mc88MM" = "When was the last length tracking";
+
+"Mg3vrp" = "When was the last bottle feeding for ${babyName}";
+
+"NEXj1i" = "Use milk of ${formulaAmmount} of ${container} for ${babyName}";
+
+"NJT5N4" = "Your content ${result}";
+
+"NJfHKv" = "Start bottle feeding";
+
+"NX8QEK" = "Your content ${result}";
+
+"Neh2iz" = "How much milk do I have in the fridge";
+
+"O7oeLX" = "Could not fetch response";
+
+"OASmJm" = "Stop Pumping";
+
+"OFjw9C" = "Baby Name";
+
+"OhkTVR" = "Baby Name";
+
+"OlhESK" = "Diaper Type";
+
+"OnH05c" = "Could not fetch response";
+
+"OnZ0Hf" = "Stop Sleep for ${babyName}";
+
+"OwivSd" = "Could not fetch response";
+
+"OzxNdB" = "Could not fetch response";
+
+"PCFSon" = "Weight Type";
+
+"PH6CFN" = "When was the last pumping for ${babyName}";
+
+"PQNkfJ" = "Do you want to save milk into storage ?";
+
+"PXKg4B" = "Use milk";
+
+"Pgeg85" = "Your content ${result}";
+
+"PkHh6Y" = "Could not fetch response";
+
+"PrC3CK" = "Baby Name";
+
+"PutlPy" = "Start bottle feeding";
+
+"QMsoDM" = "Result";
+
+"QOBxAN" = "Your content ${result}";
+
+"QPErWA" = "Weight Type";
+
+"Qfr6Gs" = "Result";
+
+"QkwdHw" = "Which side you want to start ? Left,Right or Both";
+
+"R2ls1M" = "${displayName} can’t be negative.";
+
+"R3EiOk" = "For which Baby ?";
+
+"RAsQo4" = "How much weight  ?";
+
+"RR41oA" = "${displayName} can’t be lower than ${minimumValue}.";
+
+"RT6r52" = "Fridge";
+
+"RqRyKv" = "Pause breastfeeding";
+
+"SHLxmL" = "Formula Ammount";
+
+"SOtj73" = "For which Baby ?";
+
+"SPNpWo" = "Track Weight";
+
+"SWYx1j" = "For which Baby ?";
+
+"Sf2VFE" = "Baby Name";
+
+"Sop3Pm" = "Could not fetch response";
+
+"SsC6WU" = "Result";
+
+"Sze0X3" = "Track Length";
+
+"T43l4o" = "${displayName} can’t be higher than ${maximumValue}.";
+
+"THDjjs" = "Stop breastfeeding";
+
+"Tc3jxe" = "Result";
+
+"TtzSE4" = "Could not fetch response";
+
+"TuDYiP" = "Start bottle feeding";
+
+"Tv5sNG" = "Track Weight";
+
+"UCtTwK" = "When was the last pumping";
+
+"UUhRCt" = "Save Milk";
+
+"UlSC5q" = "Result";
+
+"UynkxE" = "Are you saving the milk in the fridge or freezer ?";
+
+"V8T7hM" = "Stop bottle feeding for ${babyName}";
+
+"VA5fqp" = "When was the last bottle feeding";
+
+"VHfSyQ" = "what will be the tray number ?";
+
+"VZF5Wg" = "Track a diaper";
+
+"Vj0KTj" = "Start Pumping";
+
+"VnZMAA" = "Stop Sleep";
+
+"VpijX4" = "Pause breastfeeding";
+
+"W3sxq7" = "How much milk do I have in the fridge";
+
+"WcoZRb" = "When was the last weight tracking";
+
+"WmgPVS" = "Result";
+
+"WrXv33" = "Result";
+
+"WtQHzN" = "Side";
+
+"XOOuZ6" = "Baby Name";
+
+"XOanir" = "Could not fetch response";
+
+"XTMu4Q" = "Could not fetch response";
+
+"XeHADB" = "Stop bottle feeding";
+
+"YLhpA4" = "Baby Name";
+
+"YojtBf" = "Your content ${result}";
+
+"Z0tDAz" = "Side";
+
+"ZJQMpx" = "Could not fetch response";
+
+"ZOqiLd" = "Baby Name";
+
+"ZSUgIl" = "${displayName} can’t be lower than ${minimumValue}.";
+
+"ZUY8c5" = "Do you want to save milk into storage ?";
+
+"ZV6TxM" = "How much milk do I have in the freezer";
+
+"aGitvq" = "Your content ${result}";
+
+"aWlpRE" = "${displayName} can’t be negative.";
+
+"aZUHID" = "${displayName} can’t be higher than ${maximumValue}.";
+
+"akoSDm" = "For which Baby ?";
+
+"aofvVS" = "${displayName} can’t be negative.";
+
+"avYzib" = "Start Sleep";
+
+"bG3Cs4" = "${displayName} can’t be lower than ${minimumValue}.";
+
+"bpIThB" = " Which side you want to start ? Left,Right or Both";
+
+"bqZw2S" = "Stop Sleep";
+
+"cTucec" = "For which  Baby ?";
+
+"caWfen" = "poo";
+
+"d2EvlT" = "Baby Name";
+
+"dazYBe" = " Which side you want to continue? Left,Right or Both";
+
+"dbhGUL" = "How much milk do I have in the freezer";
+
+"dqB1hs" = "Could not fetch response";
+
+"dwbu27" = "Could not fetch response";
+
+"e0z8bU" = "When was the last bottle feeding";
+
+"eF1oLA" = "Baby Name";
+
+"eM4Vjj" = "Result";
+
+"eOsh5k" = "Start Sleep";
+
+"eTvVtN" = "Container";
+
+"ecFH0x" = "Your content ${result}";
+
+"ecclqr" = "${displayName} can’t be higher than ${maximumValue}.";
+
+"ejGE2o" = "Your content ${result}";
+
+"f7o8fU" = "Baby Name";
+
+"fNtB4L" = "Your content ${result}";
+
+"g3ajnx-3QgjvV" = "Stop Pumping for ${babyName}  ${formulaAmmount} No into ${container} in ${fridge}  ${bottleNumber} ${trayNumber}";
+
+"g3ajnx-AqteiA" = "Stop Pumping for ${babyName}  ${formulaAmmount} Yes into ${container} in ${fridge}  ${bottleNumber} ${trayNumber}";
+
+"g50k2T" = "Track a diaper";
+
+"gaH9T3" = "Pause breastfeeding";
+
+"gd7lCH" = "${displayName} can’t be negative.";
+
+"gmS1xJ" = "Baby Name";
+
+"hHyqiB" = "Baby Name";
+
+"hmQDix" = "When was the last length tracking";
+
+"hpMuU8" = "Result";
+
+"i4Of0P" = "Continue breastfeeding";
+
+"i9jtVt" = "${displayName} can’t be negative.";
+
+"iH7OEc" = "When was the last diaper change for ${babyName}";
+
+"iJmB3Q" = "Baby Name";
+
+"iLPfZ5" = "Pause bottle feeding";
+
+"iP9IXd" = "Result";
+
+"iyGYq5" = "Result";
+
+"jFSkJf" = "Your content ${result}";
+
+"jVAMMy" = "Your content ${result}";
+
+"je7HAU" = "Result";
+
+"jlptBr" = "Save Pumping";
+
+"kY6tWV" = "${displayName} can’t be higher than ${maximumValue}.";
+
+"kh0y66" = "babyName";
+
+"klssLq" = "Side";
+
+"kthOIW" = "Length Type";
+
+"lR10k8" = "When was the last sleep";
+
+"lRC9A9" = "Result";
+
+"lUDgxt" = "Could not fetch response";
+
+"lXDuEv" = "Save Pumping";
+
+"ljy352" = "Save Pumping";
+
+"ltdT7E" = "${displayName} can’t be negative.";
+
+"mSYm5C" = "How much milk do I have in the fridge";
+
+"mVlWfa" = "When was the last diaper change";
+
+"mcgU4K" = "Track a formula feeding";
+
+"mjhShS" = "Result";
+
+"mvzb7l" = "Your content ${result}";
+
+"mxiYjU" = "Start Breastfeeding on ${side} for ${babyName}";
+
+"my3xiS-caWfen" = "Track a diaper by poo for ${babyName}";
+
+"my3xiS-teeLpV" = "Track a diaper by both for ${babyName}";
+
+"my3xiS-uREDWU" = "Track a diaper by pee for ${babyName}";
+
+"n7e7MF" = "Stop bottle feeding";
+
+"nAm55w" = "How much oz/ml ?";
+
+"nfeTtg" = "Continue bottle feeding";
+
+"nqweZd" = "side";
+
+"o98hsA" = "For which  Baby ?";
+
+"oJfuPd" = " Which side you want to start ? Left,Right or Both";
+
+"oKbqbP" = "${displayName} can’t be higher than ${maximumValue}.";
+
+"oN5auo" = "Could not fetch response";
+
+"obPF35" = "Result";
+
+"oxm6eq" = "For which  Baby ?";
+
+"oyRuMt" = "For which Baby ?";
+
+"pCMXtn" = "Use milk";
+
+"pZLH2Z" = "Which type of Diapers ?";
+
+"phnOe1" = "Could not fetch response";
+
+"q3pCJ7" = "Pause breastfeeding";
+
+"q82rJ1" = "Track Weight";
+
+"qBCE93" = "${displayName} can’t be higher than ${maximumValue}.";
+
+"qNd5js" = "Your content ${result}";
+
+"qQ7ut2" = "Continue breastfeeding";
+
+"qSEuoi" = "When was the last weight tracking";
+
+"qyXDbr" = "Start Breastfeeding";
+
+"r2ry7L" = "which unit you want to track length with ?";
+
+"rHb9We" = "Could not fetch response";
+
+"rQL3EL" = "${displayName} can’t be lower than ${minimumValue}.";
+
+"rSgLXk" = "${displayName} can’t be higher than ${maximumValue}.";
+
+"rYhVg8" = "How much oz/ml ?";
+
+"reIceC" = "When was the last length tracking";
+
+"rur41p" = "Pause bottle feeding";
+
+"rvWR86" = "Which type of Diapers ?";
+
+"rxwMin" = "When was the last sleep ${babyName}";
+
+"rz3HxY" = "Your content ${result}";
+
+"s8KdNk" = "Result";
+
+"sQU8It" = "Which one?";
+
+"sn7f5S" = "What will be the bottle number ?";
+
+"subvoC" = "Your content ${result}";
+
+"t2SDN1" = "Result";
+
+"tAR6Uo" = "Start Sleep";
+
+"tJmblq" = "When was the last sleep";
+
+"teR4SS" = "Continue breastfeeding";
+
+"teeLpV" = "both";
+
+"txT6yr" = "Could not fetch response";
+
+"u1ertk" = "Result";
+
+"uJyqZq" = "Weight";
+
+"uREDWU" = "pee";
+
+"ubsKsL" = "Stop breastfeeding";
+
+"umkLqK" = "Stop Pumping";
+
+"usU4Pf" = "cm";
+
+"v3tcWf" = "For which  Baby ?";
+
+"vEg6FG" = "Could not fetch response";
+
+"vJdZS7" = "Switch breastfeeding";
+
+"vO1AQH" = "letf , right , both";
+
+"vSakmW" = "How much milk do I have in the freezer";
+
+"w19XQ9" = "Result";
+
+"w2pxIr" = "For which  Baby ?";
+
+"w3P0vB" = "Formula Ammount";
+
+"wR2ITR" = "Baby Name";
+
+"wY1y5s" = "Pause bottle feeding";
+
+"wf6c41" = "Are you saving the milk in the fridge or freezer?";
+
+"wmbZCM-5zLMiT" = "There are ${count} options matching ‘lb’.";
+
+"wmbZCM-ytfbup" = "There are ${count} options matching ‘kg’.";
+
+"wr3P9P" = "Use Milk";
+
+"xVDpfp" = "Result";
+
+"xx53ZI" = "${displayName} can’t be lower than ${minimumValue}.";
+
+"y0aW8O" = "Track a formula feeding";
+
+"yIcxaV" = "${displayName} can’t be lower than ${minimumValue}.";
+
+"yltvPs" = "Start bottle feeding";
+
+"ypIBc2" = "Start Pumping";
+
+"yrFtal" = "Your content ${result}";
+
+"ytfbup" = "kg";
+
+"z5I2Fk" = "When was the last pumping";
+
+"zI51bh" = "Continue breastfeeding";
+
+"zmtfjD" = "Track a formula feeding";
+

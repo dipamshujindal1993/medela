@@ -1,0 +1,16 @@
+diff --git a/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNPushNotificationHelper.java b/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNPushNotificationHelper.java
+index 07489be..197f193 100644
+--- a/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNPushNotificationHelper.java
++++ b/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNPushNotificationHelper.java
+@@ -492,10 +492,8 @@ public class RNPushNotificationHelper {
+ 
+             Long when = (long) bundle.getDouble("when");
+ 
+-            if (when != null && when >= 0) {
+-              notification.setWhen(when);
+-            }
+ 
++            notification.setWhen(System.currentTimeMillis());
+             notification.setUsesChronometer(bundle.getBoolean("usesChronometer", false));
+ 
+             notification.setChannelId(channel_id);

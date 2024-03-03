@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_2687" transform="translate(-18 -130)">
+        <circle id="Ellipse_553" cx="170" cy="170" r="170" fill="#f9f9f9" transform="translate(18 130)"/>
+        <g id="Group_2683" transform="translate(-11.75 10)">
+            <rect id="Rectangle_1295" width="289" height="167" class="cls-2" rx="10" transform="translate(55.75 207)"/>
+            <text id="Cancel" fill="#0d7cff" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-size="12px" font-weight="300" transform="translate(73.75 231)">
+                <tspan x="0" y="0">Cancel</tspan>
+            </text>
+            <text id="Select" fill="#c8c8ca" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-size="11px" font-weight="300" transform="translate(301.75 230)">
+                <tspan x="0" y="0">Select</tspan>
+            </text>
+            <text id="New_Shortcut" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-size="25px" font-weight="800" transform="translate(73.75 266)">
+                <tspan x="0" y="0">New Shortcut</tspan>
+            </text>
+            <text id="Create_shortcuts_to_actions_you_do_in_your_apps_every_day." fill="#898d8d" font-family="FuturaSBMedela-Book, FuturaSB Medela" font-size="11px" letter-spacing="0.024em" transform="translate(73.75 286)">
+                <tspan x="0" y="10">Create shortcuts to actions you do in your apps</tspan><tspan x="0" y="24">every day.</tspan>
+            </text>
+        </g>
+        <rect id="Rectangle_1296" width="250" height="30" fill="#e4eaf7" rx="10" transform="translate(64 341)"/>
+        <g id="Group_2684" transform="translate(62 2)">
+            <circle id="Ellipse_564" cx="7.5" cy="7.5" r="7.5" fill="#0d7cff" transform="translate(100 347)"/>
+            <g id="Group_2682" transform="translate(104 351)">
+                <path id="Rectangle_1293" d="M0 0H0.768V7.685H0z" class="cls-2" transform="translate(3.169)"/>
+                <path id="Rectangle_1294" d="M0 0H0.84V7H0z" class="cls-2" transform="rotate(90 1.824 5.176)"/>
+            </g>
+        </g>
+        <text id="Add_Action" fill="#0d7cff" font-family="FuturaSBMedela-DemiBold, FuturaSB Medela" font-size="11px" font-weight="300" transform="translate(185 360)">
+            <tspan x="0" y="0">Add Action</tspan>
+        </text>
+    </g>
+</svg>

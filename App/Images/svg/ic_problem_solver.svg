@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_1244" d="M0 0H29V47.644H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#898d8d}
+        </style>
+    </defs>
+    <g id="Group_2421" transform="translate(-24 -119)">
+        <circle id="Ellipse_343" cx="35" cy="35" r="35" fill="#daeffa" transform="translate(24 119)"/>
+        <g id="Group_2517" transform="translate(45 130)">
+            <g id="Group_2516" clip-path="url(#clip-path)">
+                <path id="Path_8002" d="M29 22.145A14.5 14.5 0 1 0 6.5 34.24v5.4a8 8 0 0 0 16 0v-5.408A14.4 14.4 0 0 0 29 22.145m-8.5 17.5a6 6 0 0 1-12 0V37.69h12zm.48-6.809c-.033.021-.053.053-.083.076a.881.881 0 0 0-.255.294.971.971 0 0 0-.08.173 1.032 1.032 0 0 0-.04.2.853.853 0 0 0-.022.112v2h-5v-8.148a5.007 5.007 0 0 0 4-4.9 1 1 0 0 0-2 0 3 3 0 1 1-6 0 1 1 0 0 0-2 0 5.006 5.006 0 0 0 4 4.9v8.147h-5v-2a1 1 0 0 0-.481-.854A12.5 12.5 0 1 1 27 22.145a12.421 12.421 0 0 1-6.02 10.691" class="cls-1"/>
+                <path id="Path_8003" d="M14.5 6.073a1 1 0 0 0 1-1V1a1 1 0 1 0-2 0v4.073a1 1 0 0 0 1 1" class="cls-1"/>
+                <path id="Path_8004" d="M18.06 5.97a.991.991 0 0 0 .439.1 1 1 0 0 0 .9-.56l2-4.071A1 1 0 1 0 19.6.56l-2 4.072a1 1 0 0 0 .46 1.338" class="cls-1"/>
+                <path id="Path_8005" d="M9.6 5.514a1 1 0 1 0 1.8-.882L9.4.56a1 1 0 0 0-1.8.882z" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

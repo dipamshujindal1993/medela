@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Medela Family</string>
+    <string name="default_notification_channel_id">Medela Family</string>
+</resources>

@@ -1,0 +1,1432 @@
+{
+  "common": {
+    "app_name": "App-Name"
+  },
+  "startup": {
+    "sign_up_now": "JETZT ANMELDEN",
+    "already_have_account": "ICH HABE BEREITS EIN KONTO",
+    "desc1": "Informationen zum Stillen und mehr, \n wann immer du Hilfe benötigst.",
+    "desc2": "24/7 LC™ virtuelle Stillberatung und eine umfassende \nBibliothek an Expertenratschlägen",
+    "desc3": "Tipps & Tools, die dich von der Schwangerschaft \nbis hin zur Elternschaft begleiten",
+    "desc4": "VIP-Zugang zu einzigartigen App-Funktionen für \nNutzerinnen von Medela Milchpumpen",
+    "desc5": "Deine Daten werden entsprechend den weltweit stärksten \nDatenschutzbestimmungen sicher gespeichert",
+    "title1": "Medela Family-Community",
+    "title2": "Stillberatung",
+    "title3": "Personalisiertes Erlebnis",
+    "title4": "Exklusive Vergünstigungen von Medela",
+    "title5": "Sichere Datenspeicherung"
+  },
+  "login": {
+    "title": "Anmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "forgot_your_password": "Passwort vergessen?",
+    "login": "ANMELDEN",
+    "forgot_password_title": "Passwort vergessen",
+    "forgot_password_message": "Bist du sicher, dass du  \ndein Passwort zurücksetzen willst?",
+    "ok": "OK",
+    "cancel": "ABBRECHEN",
+    "forgot_password_success_title": "E-Mail gesendet",
+    "forgot_password_success_message": "Wir haben dir eine \nE-Mail mit einem neuen Passwort gesendet.",
+    "email_error_message": "Bitte gib eine gültige E-Mail-Adresse ein",
+    "blank_password_error_message": "Bitte gib dein Passwort ein",
+    "account_not_exist": "Dieses Konto existiert nicht",
+    "login_failed": "Anmeldung fehlgeschlagen",
+    "edit_email": "E-Mail-Adresse bearbeiten",
+    "sign_up": "Registrierung",
+    "yes": "JA",
+    "no": "NEIN",
+    "subscribed_user_msg": "Wir haben festgestellt, dass du dich bereits für das Medela Family Programm angemeldet hast.\nBitte lege ein Passwort an, um dein Konto zu schützen.",
+    "email_subscription_msg":"Bitte bestätige dein Abonnement, indem du auf den Link in der E-Mail klickst, die wir dir gesendet haben",
+    "no_space_in_password": "Das Passwort sollte keine Leerzeichen enthalten"
+  },
+  "signup": {
+    "title": "Konto erstellen",
+    "email": "E-Mail *",
+    "password": "Passwort *",
+    "offer": "Ich möchte per E-Mail über Neuigkeiten und Sonderangebote von Medela informiert werden",
+    "signUpBtn": "NEU REGISTRIEREN",
+    "terms": "Mit deiner Registrierung erklärst du dich mit unserer",
+    "privacyPolicy": " Datenschutzerklärung einschließlich der Verarbeitung sensibler personenbezogener Daten einverstanden",
+    "emailAlreadyExist": "Es existiert bereits eine Benutzerin mit dieser E-Mail Adresse.",
+    "somethingWentWrong": "Ein Fehler ist aufgetreten. Bitte versuche es später noch einmal.",
+    "show": "Anzeigen",
+    "hide": "Ausblenden",
+    "email_error": "E-Mail-Adresse ist ungültig",
+    "password_no_numbers": "keine Zahlen",
+    "password_no_letters": "keine Buchstaben",
+    "password_too_weak": "Zu schwach!",
+    "password_too_long": "Zu lang!",
+    "password_invalid_characters": "ungültige Zeichen",
+    "password_null": "8–20 Zeichen, min. 1 Zahl (a–z, 0–9)",
+    "edit_email": "E-Mail-Adresse bearbeiten",
+    "login_up": "Anmelden",
+    "password_min_length": "Das Passwort muss mindestens 7 Zeichen lang sein und sowohl Buchstaben als auch Ziffern enthalten."
+  },
+  "profileSetup": {
+    "title": "Es fehlen nur noch wenige Angaben zur Vervollständigung\ndeines Profils.",
+    "name": "Dein Name / Nickname *",
+    "babyDob": "Geburtsdatum / errechneter Geburtstermin deines Babys *",
+    "isFirstBaby": "Ist dies dein erstes Baby?",
+    "yes": "Ja",
+    "no": "Nein",
+    "next": "WEITER",
+    "dontKnow": "Weiß ich nicht",
+    "planReturnWork": "Planst du, mit Kind einer Erwerbstätigkeit nachzugehen?",
+    "chooseDate": "Wann wirst du voraussichtlich wieder in den Beruf einsteigen?",
+    "babyName": "Name / Nickname deines Babys *",
+    "username_error": "Bitte gib deinen Namen ein",
+    "baby_name_error": "Bitte gib den Namen deines Babys ein",
+    "baby_dob_error": "Bitte wähle das Geburtsdatum / den errechneten Geburtstermin deines Babys aus",
+    "back_to_work_date": "Bitte wähle das Datum deines beruflichen Wiedereinstiegs",
+    "upload": "Lade ein Foto deines Babys hoch",
+    "name_error": "Bitte gib deinen Namen ein"
+  },
+  "profileSetup2": {
+    "title": "Lass uns herausfinden, wie wir dich \n auf deinem Weg am besten unterstützen können",
+    "havePump": "Hast du eine Milchpumpe?",
+    "pumpBrand": "Von welcher Marke ist deine derzeitige Pumpe?",
+    "yes": "Ja",
+    "no": "Nein",
+    "medela": "Medela",
+    "other": "Sonstige",
+    "pumpFor": "Ich bekam/ kaufte meine aktuelle Pumpe für",
+    "insurancePump": "Meine aktuelle Pumpe",
+    "coveredByMyInsurance": "wurde von meiner Krankenversicherung übernommen",
+    "notPurchasedInsurance": "wurde unabhängig von meiner Krankenversicherung erworben oder war ein Geschenk",
+    "finishBtn": "BEENDEN",
+    "previousPregnancy": "Frühere Schwangerschaft",
+    "skip": "ÜBERSPRINGEN",
+    "thisPregnancy": "Diese Schwangerschaft"
+  },
+  "welcome": {
+    "title": "Willkommen bei Medela Family\n",
+    "subTitle": "Profitiere von deinem KOSTENLOSEN Zugang zu Tipps und Hilfestellungen rund um die Themen Schwangerschaft und \nStillen",
+    "dashboardBtn": "GEHE ZUM DASHBOARD"
+  },
+  "tab_bar": {
+    "my_baby": "MEIN BABY",
+    "stats": "WERTE",
+    "chat": "CHAT",
+    "more": "MEHR"
+  },
+  "generic": {
+    "confirm": "Bestätigen",
+    "yes": "Ja",
+    "no": "Nein",
+    "cancel": "Abbrechen",
+    "error_message": "Ein Fehler ist aufgetreten. Bitte versuche es später noch einmal.",
+    "save": "Speichern",
+    "alert_title": "Ups …",
+    "no_internet": "Die Internetverbindung scheint unterbrochen worden zu sein",
+    "cancelled_picker": "Benutzerin hat die Fotoauswahl abgebrochen",
+    "tap_custom_btn": "Benutzerin hat auf benutzerdefinierte Schaltfläche getippt: ",
+    "image_error": "Bildauswahl-Fehler: ",
+    "add_new_baby": "Neues Baby hinzufügen",
+    "delete": "LÖSCHEN",
+    "stop_watch": "Bitte halte zuerst die Stoppuhr an",
+    "retry": "Erneut versuchen",
+    "minutes_error": "Minutenzahl muss kleiner als 60 sein",
+    "seconds_error": "Sekundenzahl muss kleiner als 60 sein",
+    "submit": "ABSENDEN",
+    "close": "Schließen",
+    "done": "Erledigt",
+    "select_state": "Bundesland auswählen",
+    "maximum_limit":"Höchstgrenze überschritten, d. h."
+  },
+  "tracking": {
+    "checklists": "Checklisten",
+    "24x7": "24/7 Stillberatung",
+    "questionnaires": "Tests",
+    "weight": "Gewicht",
+    "sleep": "Schlaf",
+    "nappy": "Windel",
+    "breastfeeding": "Stillen und Abpumpen",
+    "who": "WHO-Kodex",
+    "title": "Aufnahme",
+    "tracking_clear_message": "Bist du sicher, dass du die Session beenden willst?",
+    "delete_tracking_message": "Bist du sicher, dass du die Session löschen willst?",
+    "tools": "Tools",
+    "contraction": "Wehen",
+    "tracking_toaster_text": "Deine Trackingdaten wurden erfolgreich gespeichert",
+    "nappy_notification_title": "Windeln",
+    "firstday_nappy_notification_text": "In den ersten zwei Tagen nach der Geburt kannst du mit 1–2 (oder mehr) nassen Windeln und einer (oder mehr) schmutzigen Windeln rechnen.",
+    "thirdday_nappy_notification_text": "Am dritten Tag nach der Geburt kannst du mit 3 (oder mehr) nassen Windeln und 2 (oder mehr) schmutzigen Windeln rechnen.",
+    "fourthday_nappy_notification_text": "Am vierten Tag nach der Geburt kannst du mit 4 (oder mehr) nassen Windeln und 2 (oder mehr) schmutzigen Windeln rechnen. Außerdem sollten die Windeln zunehmend schwerer werden.",
+    "who_popup_title": "Geschlechtauswahl",
+    "who_popup_description": "Vergleich die Entwicklung deines Kindes mit dem WHO-Standard durch den richtigen Geschlechtsauswahl.",
+    "who_popup_option1": "Mädchen",
+    "who_popup_option2": "Junge",
+    "who_popup_option3": "Später",
+    "baby": "Tracking des Babys",
+    "bottle": "Flaschenfütterung",
+    "breastfeed": "Stillen",
+    "Breastfeeding_and_Pumping": "Du hast weniger als acht Stillmahlzeiten und/oder Abpumpvorgänge in den vergangenen 24 Stunden eingetragen. Hast du vergessen, eine Stillmahlzeit oder einen Abpumpvorgang einzutragen? Babys benötigen in den ersten vier Wochen ihres Lebens mindestens 8 bis 12 Mahlzeiten innerhalb von 24 Stunden. Danach nimmt die Anzahl der täglichen Mahlzeiten ab. Solange dein Baby gut zunimmt und auch sonst gesund ist, ist dies für dein Baby absolut perfekt.",
+    "Breastfeeding_and_Pumping_5hrs": "In den letzten 24 Stunden gibt es eine Lücke von fünf oder mehr Stunden zwischen zwei oder mehr Stillmahlzeiten/Abpumpvorgängen. Hast du vergessen, eine Stillmahlzeit oder einen Abpumpvorgang einzutragen?",
+    "Breastfeeding_and_Pumping_5hrs2": "Das Intervall zwischen mehreren Stillmahlzeiten und/oder Abpumpvorgängen betrug in den vergangenen Tagen mehr als fünf Stunden. Wenn Stillmahlzeiten/Abpumpvorgänge – aus welchen Gründen auch immer – ausgelassen werden, kann deine Milchproduktion abnehmen. Kleine Erinnerung – es scheint, als hättest du vergessen, eine Stillmahlzeit oder einen Abpumpvorgang einzutragen. Möchtest du das jetzt nachholen?",
+    "Breastfeeding_and_Pumping_7hrs": "In den letzten 24 Stunden gibt es eine Lücke von sieben oder mehr Stunden zwischen zwei oder mehr Stillmahlzeiten/Abpumpvorgängen. Hast du vergessen, eine Stillmahlzeit oder einen Abpumpvorgang einzutragen?",
+    "Breastfeeding_and_Pumping_7hrs2": "Das Intervall zwischen mehreren Stillmahlzeiten und/oder Abpumpvorgängen betrug in den vergangenen Tagen mehr als sieben Stunden. Wenn Stillmahlzeiten/Abpumpvorgänge – aus welchen Gründen auch immer – ausgelassen werden, kann deine Milchproduktion abnehmen. Kleine Erinnerung – es scheint, als hättest du vergessen, eine Stillmahlzeit oder einen Abpumpvorgang einzutragen. Möchtest du das jetzt nachholen?",
+    "Breastfeeding_and_Pumping_title": "Stillen und Abpumpen",
+    "Breastfeeding_and_Pumping1": "In den ersten vier Wochen baut sich die Milchbildung auf. Daher ist es sehr wichtig, dass deine Brüste mindestens achtmal innerhalb von 24 Stunden durch Stillen oder Abpumpen stimuliert werden. Dadurch wird sichergestellt, dass du jetzt und in der Zukunft ausreichend Milch hast. Wenn Stillmahlzeiten/Abpumpvorgänge – aus welchen Gründen auch immer – ausgelassen werden, kann deine Milchproduktion abnehmen. Kleine Erinnerung – es scheint, als hättest du vergessen, eine Stillmahlzeit oder einen Abpumpvorgang einzutragen. Möchtest du das jetzt nachholen?",
+    "four_weeks_nappy_notification_text": "Wir alle würden volle Windeln lieber sofort vergessen, aber es ist wichtig, sie hier einzutragen! Hast du vergessen, eine Windel einzutragen?",
+    "four_weeks_nappy_notification_text2": "In den ersten vier Wochen nach der Geburt haben die meisten Babys mindestens zweimal am Tag weichen, gelben Stuhlgang. Aufgrund der in der App eingetragenen Anzahl an Windeln, empfehlen wir dir, Rat bei deinem Kinderarzt einzuholen",
+    "four_weeks_nappy_notification_text3": "Der Stuhlgang verändert sich nach rund vier bis sechs Wochen. Ab diesem Zeitpunkt haben Babys entweder weiterhin mehrmals täglich Stuhlgang oder mehrere Tage bis hin zu einer Woche lang nicht! ",
+    "freezer": "Aufbewahrung",
+    "growth": "Größe",
+    "height_tracking": "Bitte konsultiere regelmäßig deine medizinische Fachperson hinsichtlich der Körpergröße deines Babys.",
+    "height_tracking_notification_text": "Bitte konsultiere regelmäßig deine medizinische Fachperson hinsichtlich der Körpergröße deines Babys.",
+    "height_tracking_notification_title": "Tracking der Körpergröße",
+    "height_tracking_title": "Tracking der Körpergröße",
+    "mom": "Tracking der Schwangerschaft",
+    "nappy_notification_title2": "Volle Windeln",
+    "pumping": "Abpumpen",
+    "tracking_toaster_update_text": "Dein Tracking wurde erfolgreich aktualisiert.",
+    "weight_tracking": "Bitte konsultiere regelmäßig deine medizinische Fachperson hinsichtlich des Gewichts deines Babys.",
+    "weight_tracking_notification_text": "Bitte konsultiere regelmäßig deine medizinische Fachperson hinsichtlich des Gewichts deines Babys.",
+    "weight_tracking_notification_title": "Tracking des Gewichts",
+    "weight_tracking_title": "Tracking des Gewichts",
+    "wet_diapers": "Nasse Windeln",
+    "wet_diapers_notification_text": "In den ersten sechs Wochen nach der Geburt ist mit fünf oder mehr schweren, nassen Windeln pro Tag zu rechnen. Wir haben festgestellt, dass du nicht so viele Windeln eingetragen hast. Hast du vergessen, eine Windel einzutragen? ",
+    "wet_diapers_notification_text2": "Nach sechs Wochen ist nur noch mit 4–5  nassen Windeln pro Tag zu rechnen, aber die Urinmenge wird auf 4–6 Esslöffel oder mehr (60–90 ml oder mehr) ansteigen, da die Blasenkapazität deines Babys steigt.",
+    "cont": "Forts.",
+    "left": "L-",
+    "right": "R-",
+    "breast": "B-",
+    "manual_session_lost": "Dein manueller Vorgang wurde beendet, da deine Pumpe jetzt verbunden ist.",
+    "offline_session":"Offline-Sitzungen",
+    "total_Pumping": "Abpumpen insgesamt",
+    "bad_session_popup_tite": "Möchten Sie unsere Problemlösungsartikel lesen?",
+    "bad_session_popup_option1": "JA",
+    "bad_session_popup_option2": "NEIN",
+    "bad_session_popup_option3": "NIE WIEDER ANZEIGEN",
+    "breastfeedingPumpingShortcut":"Abkürzung zum Stillen"
+  },
+  "addBaby": {
+    "my_baby": "Mein Baby",
+    "babyDob": "Geburtsdatum / errechneter Geburtstermin deines Babys *",
+    "gender": "Geschlecht",
+    "male": "Junge",
+    "female": "Mädchen",
+    "save": "SPEICHERN",
+    "upload": "Lade ein Foto deines Babys hoch",
+    "baby_dob_error": "Bitte wähle das Geburtsdatum / den errechneten Geburtstermin deines Babys aus",
+    "baby_name_error": "Bitte gib den Namen deines Babys ein",
+    "add_baby_Title": "Baby hinzufügen",
+    "add_baby_success_message": "Baby erfolgreich hinzugefügt",
+    "babyHeight": "Körpergröße des Babys bei der Geburt",
+    "babyName": "Name/Spitzname des Babys",
+    "babyWeight": "Geburtsgewicht des Babys"
+  },
+  "my_baby": {
+    "switch": "WECHSELN",
+    "read_more": "Mehr erfahren",
+    "months_before_birth": "Monate vor der Geburt",
+    "actual_tummy_size": "Tatsächliche Bauchgröße: ",
+    "actual_baby_size": "Tatsächliche Größe deines Babys: ",
+    "size_of_cherry": "Kirsche",
+    "size_of_walnut": "Walnuss",
+    "size_of_apricot": "Aprikose",
+    "size_of_egg": "Ei",
+    "size_of_lemon": "Zitrone",
+    "no_child": "Kein Kind gefunden!",
+    "no_child_message": "Du hast noch kein zweites Baby hinzugefügt! Bitte füge ein weiteres Baby hinzu, um zu einem anderen Baby zu wechseln.",
+    "add_baby": "BABY HINZUFÜGEN",
+    "cancel": "ABBRECHEN",
+    "week": "Woche",
+    "weeks": "Wochen",
+    "days": "Tage",
+    "day": "Tag",
+    "same_day_born_message": "Dein Baby ist auf der Welt.",
+    "date_of_birth": "Geburtsdatum",
+    "after_birth": "nach der Geburt",
+    "day_old": "Tag alt",
+    "days_old": "Tage alt",
+    "week_old": "Woche alt",
+    "weeks_old": "Wochen alt",
+    "month": "Monat",
+    "months": "Monate",
+    "year": "Jahr",
+    "years": "Jahre",
+    "before_birth": "vor der Geburt",
+    "birth": "Geburt",
+    "volume": "Menge: ",
+    "volume1": "10–50 ml pro Tag",
+    "volume2": "100–700 ml pro Tag",
+    "volume3": "400–800 ml pro Tag",
+    "volume4": "400–1000 ml pro Tag",
+    "volume5": "440–1000 ml pro Tag",
+    "volume6": "Durchschnittlich 800 ml pro Tag",
+    "approx_size": "Ungefähre Größe des Fötus",
+    "last_tracked": "Zuletzt erfasst",
+    "birthday_popup_title": "Ist dein Baby schon da?",
+    "birthday_popup_yes": "JA",
+    "birthday_popup_never_show": "NIE WIEDER ANZEIGEN",
+    "birth_confirmation_notification_title": "Ist dein Baby schon da?",
+    "birth_confirmation_notification_message": "Bitte Geburtsdatum / errechneten Geburtstermin deines Babys bestätigen",
+    "birthday_popup_remind": "NEIN, ERINNERE MICH SPÄTER",
+    "length": "Geburtsgröße",
+    "weight": "Geburtsgewicht",
+    "full_term_baby_size":"Größe termingeborenes Baby",
+    "cat":"Katze",
+    "seat_height_of_a_chair":"Sitzhöhe eines Stuhls",
+    "laptop":"Laptop",
+    "magayine":"Magazin",
+    "spaghetti":"Spaghetti",
+    "kitchen_paper":"Küchenpapierrolle",
+    "smartphone":"Smartphone",
+    "pen":"Stift",
+    "hand_cream":"Handcreme",
+    "popsicle":"Stieleis",
+    "highlighter":"Textmarker",
+    "credit_card":"Kreditkarte",
+    "nail_polish":"Nagellack",
+    "lipstick":"Lippenstift",
+    "hairpin":"Haarnadel",
+    "earphone":"Kopfhörer",
+    "button":"Knopf",
+    "finger_nail":"Fingernagel",
+    "lady_bug":"Marienkäfer",
+    "rice":"Reis",
+    "linen_seed":"Leinsamen",
+    "chia_seed":"Chiasamen",
+    "snow_crystal":"Schneekristall",
+    "articles_offline_text": "Bitte prüfe deine Internetverbindung.",
+    "delete_popup_title": "Sind Sie sich sicher?",
+    "2L/":"Softdrink-Flasche 2 l",
+    "ok": "JA",
+    "actual_baby_stomach_size": "Tatsächliche Größe des Babymagens: ",
+    "baby_name_error": "Bitte gib den Namen deines Babys ein",
+    "article_details_offline_text": "Die Internetverbindung scheint unterbrochen worden zu sein. Bitte versuche es später noch einmal."
+  },
+  "calendar": {
+    "week": "Woche",
+    "time": "Uhrzeit",
+    "size_of_egg": "Größe eines Hühnereis",
+    "timer_alert": "Bitte gültige Uhrzeit eingeben",
+    "date_time_alert": "Bitte gültiges Datum und Uhrzeit eingeben",
+    "hours": "Stunden",
+    "mins": "Minuten",
+    "sec": "Sekunden",
+    "is_am": "morgens",
+    "is_pm": "nachmittags/abends",
+    "period": "Benutzerdefiniert",
+    "today": "Heute",
+    "yesterday": "Gestern",
+    "last_week": "Letzte Woche",
+    "last_month": "Letzter Monat",
+    "all": "Alle",
+    "start_time": "Startzeit",
+    "end_time": "Endzeit",
+    "side":"Seite",
+    "Creation_date":"Erstellungsdatum"
+  },
+  "checklist": {
+    "add_item": "Element hinzufügen",
+    "checklist_title": "Checklisten",
+    "add_item_list": "Element zur Liste hinzufügen",
+    "clear_all": "Alle löschen",
+    "clear_checklist": "Checkliste löschen?",
+    "clear_checklist_message": "Bist du sicher, dass du alle markierten Elemente löschen möchtest?",
+    "items_left": "Verbleibende Elemente",
+    "time": "Uhrzeit"
+  },
+  "breastfeeding_pump": {
+    "duration": "Dauer",
+    "breastfeed": "Stillen",
+    "breastfeeding": "Stillen",
+    "pumping": "Abpumpen",
+    "both": "Beide",
+    "right": "Rechts",
+    "left": "Links",
+    "experience": "Erfahrung",
+    "good": "Gut",
+    "add_note": "Anmerkung hinzufügen",
+    "pump_settings": "Pumpeneinstellungen",
+    "total_volume": "Menge",
+    "total": "Gesamt",
+    "bottle": "Flasche",
+    "bag": "Tasche",
+    "number": "Nummer",
+    "tray": "Einsatz",
+    "fridge": "Kühlschrank",
+    "freezer": "Gefrierschrank",
+    "pump_setting": "Pumpeneinstellungen",
+    "pump_level": "Stufe",
+    "phase_level": "Phasenstufe",
+    "rhythem_level": "Rhythmusstufe",
+    "pump_alert_title": "Alarm",
+    "pump_off_alert_message": "Deine Pumpe ist jetzt ausgeschaltet. Bitte speichere deine vorhandenen Daten, bevor du mit einer neuen Session beginnst.",
+    "pump_battery_alert_message": "Der Akku deiner Pumpe ist leer. Bitte schließe sie an die Stromversorgung an.",
+    "timer": "Timer:",
+    "disclaimer": "Hinweis",
+    "disclaimer_msg": "Bitte speichere die Daten deiner aktuellen Abpumpsitzung, bevor du einen neuen Abpumpvorgang startest, da sonst die aufgezeichneten Daten verloren gehen.",
+    "air_leaked": "Luftleck",
+    "breastfeeding_pumping_l": "Stillen  L",
+    "breastfeeding_pumping_r": "Stillen  R",
+    "pumping_b": "Abpumpen B",
+    "Check_available_inventory": "Verfügbarkeit des Bestands prüfen",
+    "ending_side": "Zuletzt verwendete Brust",
+    "move_to": "Gehe zu",
+    "phase": "Phase:",
+    "rhythm": "Rhythmus:",
+    "save_to_virtual_freezer": "Im virtuellen Muttermilchvorrat speichern",
+    "session_type": "Sitzungstyp auswählen",
+    "bad": "Schwierig",
+    "difficult": "Schwierig",
+    "freezer_title": "Virtuellen Muttermilchvorrat filtern",
+    "container_type_error":"Bitte Behältertyp hinzufügen (Beutel/Flasche)",
+    "location_type_error":"Bitte Ort hinzufügen (Kühl-/Gefrierschrank)",
+    "number_error":"Bitte Behälternummer hinzufügen",
+    "tray_error":"Bitte Tablettnummer hinzufügen",
+    "volume_error_msg": "Bitte Volumen hinzufügen",
+    "number_zero_error":"Nummernwert darf nicht 0 sein",
+    "tray_zero_error":"Tablettwert darf nicht 0 sein",
+    "container_special_character_error":"Bitte wähle eine Behälternummer zwischen 1 und 250",
+    "tray_special_character_error":"Bitte wähle eine Tablettnummer zwischen 1 und 250",
+    "pumping_paused":"Pumpvorgang pausiert",
+    "pumping_paused_flex":"Drücken Sie die Power-Taste an der Pumpe, um die Sitzung zu beenden.",
+    "pumping_paused_maxi":"Drücken Sie lange auf die Power-Taste der Pumpe, um die Sitzung zu beenden.",
+    "pumping_paused_sonata":"Drücken Sie lange auf die Pausentaste an der Pumpe, um die Sitzung zu beenden.",
+    "breastfeeding_paused":"Stillen unterbrochen"
+  },
+  "can_not_edit_bag": {
+    "cancel": "Abbrechen",
+    "ok": "OK",
+    "title": "Muttermilch kann nicht zu vorhandenen Beuteln/Flaschen im Gefrierschrank hinzugefügt werden, nur zu Flaschen im Kühlschrank."
+  },
+  "sleep": {
+    "header_title": "Schlaf",
+    "start": "Start",
+    "stop": "Stopp",
+    "pause": "Pause",
+    "duration": "Dauer"
+  },
+  "nappy_tracking": {
+    "add_note": "Anmerkung hinzufügen",
+    "pee": "Urin",
+    "poo": "Stuhlgang",
+    "both": "Beide",
+    "type": "Typ",
+    "nappy": "Windel"
+  },
+  "bottle_tracking": {
+    "duration": "Dauer",
+    "type": "Typ",
+    "milk": "Milch",
+    "mix": "Mischung",
+    "formula": "Formulanahrung",
+    "both": "Beide",
+    "right": "Rechts",
+    "left": "Links",
+    "experience": "Erfahrung",
+    "good": "Gut",
+    "add_note": "Anmerkung hinzufügen",
+    "pump_settings": "Pumpeneinstellungen",
+    "use_volume": "Menge verwenden",
+    "total": "Gesamt",
+    "bottle": "Flasche",
+    "bag": "Tasche",
+    "number": "Nummer",
+    "tray": "Einsatz",
+    "fridge": "Kühlschrank",
+    "freezer": "Gefrierschrank",
+    "all": "Alle",
+    "breastmilk": "Muttermilch",
+    "use_from_virtual_freezer": "Aus dem virtuellen Muttermilchvorrat verwenden",
+    "virtual_freezer": "Virtueller Muttermilchvorrat",
+    "volume": "Menge",
+    "bad": "Schwierig",
+    "difficult": "Schwierig",
+    "bottle_feeding": "Flaschenfütterung"
+  },
+  "baby_growth": {
+    "title": "Körpergröße des Babys",
+    "volume_units": "mm",
+    "header": "Größe"
+  },
+  "baby_weight": {
+    "header": "Gewicht",
+    "title": "Gewicht des Babys",
+    "volume_units": "g"
+  },
+  "volume_popup": {
+    "title": "Wert hinzufügen",
+    "message": "Bitte gib die abgepumpte \n Milchmenge ein",
+    "save_without_amount": "Ohne Angabe speichern",
+    "add_amount": "Wert hinzufügen",
+    "never_show_again": "Nie wieder anzeigen"
+  },
+  "stats_screen": {
+    "header_title": "Statistiken",
+    "day_overview": "Tagesübersicht",
+    "list": "Liste",
+    "dashboard": "Übersicht",
+    "today": "Heute",
+    "past_7_days": "Letzte 7 Tage",
+    "empty_list_today_message": "Keine Daten verfügbar",
+    "empty_list_past_7_days_message": "Keine Daten verfügbar"
+  },
+  "stats_breastfeeding": {
+    "title": "Stillen",
+    "session_key": "Session",
+    "avg_time_key": "Durchschn. Dauer",
+    "left_key": "Links",
+    "right_key": "Rechts",
+    "mins": "min",
+    "error_total_duration_sec": "Sekundenanteil der Gesamtdauer muss kleiner als 60 sein",
+    "error_left_duration_sec": "Sekundenanteil der Gesamtdauer für die linke Seite muss kleiner als 60 sein",
+    "error_right_duration_sec": "Sekundenanteil der Gesamtdauer für die rechte Seite muss kleiner als 60 sein",
+    "error_sleep_duration_sec": "Der Sekundenanteil an der Dauer muss kleiner als 60 sein",
+    "error_sleep_duration_min": "Der Minutenanteil der Dauer muss kleiner als 60 sein",
+    "error_total_duration": "Dauer darf 60 nicht überschreiten",
+    "total_time_key": "Gesamtzeit",
+    "error_sleep_duration_total_min": "Dauer darf 100 nicht überschreiten"
+  },
+  "stats_pumping": {
+    "title": "Abpumpen",
+    "session_key": "Session",
+    "avg_time_key": "Durchschn. Dauer",
+    "vol_key": "Menge",
+    "avg_vol_key": "Durchschn. Menge",
+    "mins": "min",
+    "pumping_title": "Abpumpen B"
+  },
+  "stats_bottle": {
+    "session_key": "Menge",
+    "avg_vol_key": "Durchschn. Vol",
+    "breastmilk_key": "Muttermilch",
+    "formula_key": "Formulanahrung",
+    "mix_key": "Mischung",
+    "saved_milk": "Aufbewahrte Muttermilch",
+    "title": "Flaschenfütterung",
+    "total_vol_key": "Gesamtvolumen"
+  },
+  "stats_nappy": {
+    "title": "Windel",
+    "session_key": "Menge",
+    "pee_key": "Urin",
+    "poo_key": "Stuhlgang",
+    "both_key": "Beide"
+  },
+  "stats_sleep": {
+    "title": "Schlaf",
+    "session_key": "Session",
+    "total_sleep_key": "Gesamte Schlafdauer"
+  },
+  "stats_growth": {
+    "title": "Größe",
+    "size_key": "Größe",
+    "who": "WHO",
+    "stats": "Werte",
+    "inches": "cm"
+  },
+  "stats_weight": {
+    "title": "Gewicht",
+    "total_weight_key": "Größe",
+    "lbs": "kg"
+  },
+  "stats_contraction": {
+    "title": "Wehen",
+    "avg_time_key": "Durchschn. Dauer",
+    "avg_frequency": "Durchschn. Frequenz",
+    "duration": "Dauer",
+    "frequency": "Häufigkeit",
+    "intensity": "Intensität",
+    "medium": "Mittel",
+    "mild": "Leicht",
+    "none": "Gar nicht",
+    "Pain_intensity": "Schmerzintensität",
+    "strong": "Stark",
+    "very_mild": "Sehr leicht",
+    "very_strong": "Sehr stark"
+  },
+  "bluetooth": {
+    "turn_on": "Bluetooth einschalten",
+    "to_connect_pump": "Bitte schalte zum Koppeln deiner Pumpe mit Medela Family die Bluetooth-Verbindung deines Smartphones ein!",
+    "header_title": "Milchpumpe koppeln",
+    "continue": "weiter",
+    "searching": "Suchen",
+    "search_again": "Erneut suchen",
+    "which_pump": "Welche Milchpumpe möchtest du mit der App koppeln?",
+    "flex_pair_info": "Halte die Ein-/Aus-Taste 2 Sekunden lang gedrückt. Halte das Smartphone nahe an die Pumpe, um die Kopplung rasch zu bestätigen.",
+    "sonata_pair_info": "Halte die „Let-down“-Taste 3 Sekunden lang gedrückt. Bitte halte das Smartphone nahe an die Pumpe, um die Kopplung rasch zu bestätigen.",
+    "no_pump_found": "Es wurde keine Milchpumpe gefunden.",
+    "make_sure_bluetooth_on": "Stelle sicher, dass dein Bluetooth® eingeschaltet und die Pumpe angeschlossen ist.",
+    "bluetooth_turned_on_steps": "1. Schalte die Pumpe aus und wieder ein.\n2. Halte die „Let-down“-Taste 3 Sekunden lang gedrückt.\n3. Stelle sicher, dass die Pumpe die vierstellige Pumpenbezeichnung anzeigt.",
+    "bluetooth_turned_on_steps_swing_maxi":"1. Schalte die Pumpe aus und wieder ein.\n2. Halte die „Let-down“-Taste 3 Sekunden lang gedrückt.",
+    "bluetooth_turned_on_steps_flex": "1. Schalten Sie die Pumpe aus und wieder ein. \n2. Halten Sie die Taste \"Let-down\" für 2 Sekunden gedrückt. \n3. Stellen Sie sicher, dass die Pumpe den zweistelligen Pumpennamen anzeigt.",
+    "congratulations": "Gratulation!",
+    "successfully_paired": "Du hast deine Milchpumpe erfolgreich mit Medela Family gekoppelt. Nun kannst du deine Abpumpsitzungen tracken und noch mehr.",
+    "complete": "vollständig",
+    "your_device_name": "Name deiner Milchpumpe",
+    "your_pump": "Deine Pumpe",
+    "remove_pump": "Diese Pumpe entfernen",
+    "about_pump": "Über deine Milchpumpe",
+    "instructions": "Anleitung",
+    "tutorial_videos": "Video-Tutorials",
+    "product_website": "Produkt-Website",
+    "somethingWentWrong": "Ein Fehler ist aufgetreten. Bitte versuche es später noch einmal.",
+    "location_permission_title": "Berechtigungen erforderlich",
+    "location_permission_description": "Bitte stellen Sie sicher, dass Sie der Medela Family App in den Telefoneinstellungen die Berechtigung zur Verwendung von Bluetooth erteilen. Außerdem müssen Sie der App und Ihrem Smartphone die Erlaubnis erteilen, den Standort Ihres Telefons zu verwenden. Wir verfolgen die Position Ihres Telefons nicht, aber dies ist eine Anforderung des Betriebssystems des Smartphones, um eine Verbindung mit Bluetooth herzustellen.",
+    "location_enable_description": "Du kannst auf das Medela Family Gerät zugreifen, wenn die Standortfunktion eingeschaltet ist. Bitte gebe zum Fortfahren den Standort frei …",
+    "cancel": "ABBRECHEN",
+    "open_setting": "EINSTELLUNGEN ÖFFNEN",
+    "confirm_pump_found_sub_title": "Es wurde eine {0} Milchpumpe gefunden!",
+    "confirm_cta": "Bestätigen",
+    "pump_add_failure_title": "Hinzufügen einer Pumpe",
+    "ok": "OK",
+    "pump_select_dialog_title": "Info",
+    "confirm_pump_found_desc": "Bestätigen drücken, um die Kopplung abzuschließen. Zur Qualitätssicherung wurde deine Pumpe von Medela getestet, weshalb eine Probesitzung in deiner Statistik aufgeführt wird.",
+    "searching_message": "Bitte habe einen Moment Geduld, bis wir deine Pumpe von Medela gefunden haben.",
+    "setting_up": "EINRICHTUNG",
+    "pump_remove_dis": "Du kannst die Pumpe nicht trennen, wenn sie mit der App verbunden ist und ein Vorgang läuft.",
+    "plug_your_pump": "Stelle sicher, dass die Pumpe eingeschaltet ist",
+    "plug_your_swing_pump": "Halte den Letdown-Button 3 Sekunden lang gedrückt."
+  },
+  "stats_list_export": {
+    "header_title": "Export",
+    "date_range_text": "Datumsbereich",
+    "select_all_text": "Alle",
+    "select_date_text": "Datum auswählen",
+    "item_header_title": "Zu exportierende Daten auswählen",
+    "export_button_title": "DATEN EXPORTIEREN",
+    "export_type": "xls",
+    "no_data_title": "Für diesen Zeitraum sind keine Daten verfügbar.",
+    "plz_select_data": "Bitte wähle ein beliebiges Tracking, das exportiert werden soll.",
+    "export_fail_message": "Leider ist bei der Erstellung deines Berichts ein Fehler aufgetreten.",
+    "export_failed": "Export fehlgeschlagen",
+    "export_succeeded": "Export erfolgreich abgeschlossen",
+    "export_success_message": "Die Daten wurden erfolgreich exportiert und werden an deine E-Mail-Adresse versendet."
+  },
+  "tests": {
+    "test_header_title": "Tests",
+    "test_bca_title": "Selbstvertrauen beim Stillen",
+    "test_bca_content": "Sicherheit gewinnen und Expertin werden",
+    "test_cp_title": "Personalisierung der App",
+    "test_cp_content": "Passe Medela Family deinen Bedürfnissen an",
+    "bca_notification_popup": "Jetzt beantworten",
+    "bca_notification_title": "Wie geht es dir?",
+    "cp_notification_title": "App personalisieren",
+    "bca_notification_message1": "Wie geht es dir? \n Hast du den Stillfragebogen beantwortet?",
+    "bca_notification_message2": "Wie geht es dir? \n OK Mama, es ist Zeit, den Stillfragebogen erneut zu beantworten!",
+    "bca_notification_remind": "NEIN, ERINNERE MICH SPÄTER",
+    "cp_notification_message": "App personalisieren \n\n Erzähle uns etwas über dich, damit wir dir passende Tipps, Informationen und Ratschläge geben können. Es dauert nur zwei Minuten.",
+    "cp_notification_popup": "JETZT PERSONALISIEREN",
+    "cp_notification_remind": "NEIN, ERINNERE MICH SPÄTER"
+  },
+  "breastfeeding_confidence": {
+    "header_title": "Selbstvertrauen beim Stillen",
+    "motivation_text1": "Wünschst du dir, das Stillen mit mehr Selbstvertrauen angehen zu können?",
+    "motivation_text2": "Mache jetzt den Test",
+    "slider_not_all_confidence": "Überhaupt nicht sicher",
+    "slider_not_very_confidence": "Nicht sehr sicher",
+    "slider_sometimes_confident": "Manchmal sicher",
+    "slider_confident": "Sicher",
+    "slider_very_confident": "Manchmal sehr sicher",
+    "congratulations": "Gratulation!",
+    "congrats_message": "Du hast den Stillfragebogen erfolgreich beantwortet.",
+    "congrats_update_message": "Deine Selbsteinschätzung zeigt, dass du dem Stillen mit hohem Selbstvertrauen begegnest. Herzlichen Glückwunsch und viel Erfolg für deine weitere Stillzeit.",
+    "congrats_articles_update_message": "Wie du siehst, hast du in deiner Selbsteinschätzung einige Punkte relativ niedrig bewertet. Keine Sorge! Hier findest du nähere Informationen zu diesen Themen, die dir dabei helfen werden, dein Selbstvertrauen zu stärken.",
+    "finish": "BEENDEN",
+    "no_data_popup_title": "Ein Fehler ist aufgetreten.\n Bitte versuche es später noch einmal.",
+    "offline_popup_title": "Du bist offline!",
+    "offline_popup_message": "Es sieht aus, als hättest du keine aktive \n Internetverbindung. \n Bitte stelle eine Verbindung zum Internet her.",
+    "five_star": "Fünf Sterne",
+    "four_star": "Vier Sterne",
+    "one_star": "Ein Stern",
+    "three_star": "Drei Sterne",
+    "two_star": "Zwei Sterne"
+  },
+  "ble_pumping": {
+    "connection_lost": "Verbindung unterbrochen",
+    "pumping_paused": "Pumpvorgang pausiert",
+    "pump_connected": "Pumpe verbunden",
+    "connecting_pump": "Pumpe wird verbunden"
+  },
+  "content_personalization": {
+    "header_title": "Anpassung von persönlichen Daten",
+    "question_title": "Welche der folgenden Pumpen besitzt du (falls zutreffend)",
+    "congratulations": "Gratulation!",
+    "congrats_message": "Du hast die Artikel und Tipps auf deiner Startseite erfolgreich personalisiert.",
+    "congrats_update_message": "Wenn sich in Zukunft etwas ändert, kannst du die entsprechenden Angaben aktualisieren unter.",
+    "congrats_update_submessage": "Tracking > Tests > Anpassung von persönlichen Daten",
+    "get_started": "LOS GEHT'S!",
+    "no_data_popup_title": "Ein Fehler ist aufgetreten.\n Bitte versuche es später noch einmal."
+  },
+  "more": {
+    "header_title": "Mehr",
+    "mom_info_title": "Namen ändern, abmelden usw.",
+    "baby_info_title": "Namen, Geburtsdatum usw. ändern",
+    "pump_title": "Pumpeneinstellungen",
+    "pump_info_title": "Pumpenanschluss und mehr",
+    "store_title": "Shopsuche",
+    "share_title": "App teilen",
+    "feedback_title": "Wir freuen uns über dein Feedback",
+    "help_title": "Hilfe",
+    "settings_title": "Allgemeine App-Einstellungen",
+    "legal_title": "Rechtliches",
+    "online_store": "Onlineshop",
+    "mom_profile": "Mamaprofil",
+    "baby_profile": "Babyprofil",
+    "vip_pack_title": "VIP Pack"
+  },
+  "baby_information": {
+    "header_title": "Angaben zum Baby",
+    "image_edit_offline_title": "Keine Internetmeldung",
+    "image_edit_offline_button": "Das Bild kann im Offline-Modus nicht bearbeitet werden",
+    "edit_image": "Bild bearbeiten",
+    "change_image": "Bild ändern",
+    "add_image": "Bild hinzufügen",
+    "delete_image": "Bild löschen",
+    "baby_boy": "Junge",
+    "baby_girl": "Mädchen",
+    "gender": "Geschlecht",
+    "delete_baby": "BABY LÖSCHEN",
+    "delete_baby_success_title": "Baby erfolgreich gelöscht",
+    "ok_btn": "OK",
+    "baby_name": "Name/Spitzname des Babys",
+    "cancel": "Abbrechen",
+    "select_photo": "Ein Foto auswählen",
+    "take_photo": "Ein Foto machen ...",
+    "baby_birth_weight": "Geburtsgewicht",
+    "baby_birth_height": "Geburtsgröße",
+    "choose_from_library": "Aus Bibliothek auswählen …"
+  },
+  "mom_information": {
+    "header_title": "Angaben zur Mutter",
+    "dont_know_yet": "Weiß ich nicht",
+    "do_not_plan_to_work": "Ich plane noch keine Rückkehr in den Beruf (bzw. Studium/Ausbildung)",
+    "new_pregnancy_text": "WIEDER SCHWANGER!",
+    "log_out": "ABMELDEN",
+    "delete_account": "KONTO LÖSCHEN",
+    "back_to_work_date": "Datum der Rückkehr zur Arbeit",
+    "log_out_popup_title": "Möchtest du dich abmelden?",
+    "ok": "OK",
+    "back_to_work_date_label": "Datum der Rückkehr zur Arbeit",
+    "change_password_button": "BESTÄTIGEN",
+    "change_password_congrts_msg": "Das Passwort wurde erfolgreich geändert.",
+    "change_password_title": "Passwort ändern",
+    "current_password": "Derzeitiges Passwort",
+    "current_password_error": "Falsches Passwort",
+    "mom_name": "Name/Spitzname der Mama",
+    "new_password": "Neues Passwort",
+    "new_password_error": "8–20 Zeichen, min. 1 Ziffer (a–z, 0–9)",
+    "repeat_password": "Passwort wiederholen",
+    "repeat_password_err": "Passwörter sind nicht identisch"
+  },
+  "moveTo_freezer_again": {
+    "cancel": "Abbrechen",
+    "ok": "OK",
+    "title": "Im Kühlschrank aufgetaute Milch kann nicht erneut eingefroren werden."
+  },
+  "moveTo_freezer_popup": {
+    "cancel": "Abbrechen",
+    "ok": "OK",
+    "title": "Bist du sicher, dass du Muttermilch aus dem Kühlschrank in den Gefrierschrank legen willst?"
+  },
+  "moveTo_fridge_popup": {
+    "cancel": "Abbrechen",
+    "ok": "OK",
+    "title": "Bist du sicher, dass du Muttermilch aus dem Gefrierschrank in den Kühlschrank legen willst? Das Zurücklegen aus dem Kühlschrank in den Gefrierschrank wird nicht möglich sein."
+  },
+  "help": {
+    "header_title": "Hilfe",
+    "problem_solver": "Problemlösung",
+    "empty_list_message": "Keine Artikel verfügbar",
+    "frequently_asked_questions": "Häufig gestellte Fragen",
+    "app_technical_support": "Technischer Support zur App",
+    "customer_service": "Kundendienst",
+    "lactation_consultant": "Stillberatung",
+    "mail_subject": "Feedback zur Medela Family App",
+    "medela_family": "Medela Family"
+  },
+  "legal": {
+    "header_title": "Rechtliches",
+    "privacy_terms_conditions": "Richtlinie zum Datenschutz \n und zum Einsatz von Cookies",
+    "licences": "Frei und Open Source Lizenzen",
+    "imprint": "Impressum",
+    "imprint_version": "Versionsnummer",
+    "know_more": "MEHR ERFAHREN"
+  },
+  "new_pregnancy_popup": {
+    "title": "Möchtest du eine neue Schwangerschaft erfassen?",
+    "cancel": "ABBRECHEN",
+    "add_baby_due_date": "JA, GEBURTSTERMIN HINZUFÜGEN"
+  },
+  "vip_pack": {
+    "header_title": "VIP-Paket",
+    "voice_control": "Sprachsteuerung",
+    "voice_control_content": "Freihändiges Tracking",
+    "dark_mode": "Dunkelmodus",
+    "dark_mode_content": "Zur augenschonenden Erfassung nächtlicher Abpumpvorgänge",
+    "welcome": "Freue dich auf ein beispielloses Maß an Komfort!",
+    "popup_message": "Kopple zum Entsperren des VIP Pakets bitte deine \n Sonata oder Freestyle Flex Pumpe mit der App.",
+    "connect_pump_btn": "PUMPE KOPPELN",
+    "congrats_message": "",
+    "congrats_msg": "Gratulation! Du hast das VIP-Paket entsperrt",
+    "congrats_title": "Gratulation \n Du hast das VIP-Paket entsperrt!",
+    "connect_to_pump_btn": "VERBINDE EINE INTELLIGENTE PUMPE",
+    "findout_more": "MEHR ERFAHREN",
+    "register_pump_btn": "REGISTRIERE DEINE PUMPE",
+    "register_vip_link": "https://www.medela.us/breastfeeding/services/pump-registration",
+    "tutorial_instruction1": "Tippe dort auf das „+“-Zeichen in der rechten oberen Ecke des Bildschirms.",
+    "tutorial_instruction2": "Auf dem Bildschirm „Neuer Kurzbefehl“, tippe auf den Button „Aktion hinzufügen“.",
+    "tutorial_instruction3": "Wähle dann „Apps“ in der oberen linken Ecke aus. Wähle dann „Medela Family“ aus der Liste der verfügbaren Apps aus.",
+    "tutorial_instruction4": "Jetzt wird die Liste der verfügbaren Befehle angezeigt. Wähle einen aus, z. B. „Mit dem Stillen beginnen“. ",
+    "tutorial_instruction5": "Klicke jetzt auf „Weiter“, um einen Text einzugeben, mit dem der Befehl ausgeführt werden soll, z. B. „Mit dem Stillen beginnen“.",
+    "tutorial_instruction6": "Erledigt! Nun kannst du Medela Family per Sprachsteuerung benutzen!",
+    "tutorial_title1": "Um diese Funktion zu nutzen, öffne die App Kurzbefehle von Apple. ",
+    "unlock_now_btn": "Jetzt das VIP-Paket entsperren",
+    "vip_active": "aktiv",
+    "vip_inactive": "inaktiv",
+    "vip_pack_text": "Das VIP-Paket bietet eine Reihe exklusiver Funktionen für Kunden ausgewählter Milchpumpen von Medela",
+    "vip_title": "VIP-Paket",
+    "tutorial_instruction7": "Fertig! Nun kannst du Medela Family per Sprachsteuerung nutzen!"
+  },
+  "settings": {
+    "header_title": "Einstellungen",
+    "language_title": "Sprache",
+    "language_info_title": "Englisch (US)",
+    "notification_title": "Benachrichtigungen",
+    "notification_info_title": "Medela Family Benachrichtigungen verwalten",
+    "Measurements_title": "Maßeinheiten",
+    "Measurements_info_title": "Standard: oz, in, lb"
+  },
+  "measurements": {
+    "header_title": "Maßeinheiten",
+    "header_text": "Du kannst die Formate deiner Hauptregion bearbeiten.",
+    "standard_title": "Standard",
+    "standard_info_title": "Unze (oz), Inch (in) und Pound (lb)",
+    "metric_title": "Metrisches System",
+    "metric_info_title": "Milliliter (ml), Millimeter (mm) und Kilogramm (kg)"
+  },
+  "share_app": {
+    "app_store": "App Store:",
+    "download_now": "Jetzt herunterladen:",
+    "google_play": "Google Play:",
+    "message": "Medela Family ist hier, um dich während der Schwangerschaft, beim Stillen und auch darüber hinaus zu unterstützen.",
+    "title": "Medela Family App"
+  },
+  "feedback": {
+    "header_title": "Wir freuen uns über dein Feedback",
+    "button_text": "Absenden",
+    "input_placeholder": "Bemerkung",
+    "success_feedback_text": "Danke für deine Nachricht",
+    "rating_text": "Wir freuen uns über dein Feedback",
+    "feedback_text": "Möchtest du uns ein Feedback mitteilen?",
+    "button_title": "Okay"
+  },
+  "chat": {
+    "header_title": "Chat",
+    "chat_content1": "Melissa kann dir bei Problemen mit der App behilflich sein, dir Produkte empfehlen oder dir Tipps für den Umgang mit deinem Baby oder zum Thema Stillen geben.",
+    "chat_content2": "Das Beste daran? Je mehr Fragen du Melissa stellst, desto schlauer wird sie! Also chatte mit ihr, so viel du willst.",
+    "choose_avatar": "Wähle deine Beraterin",
+    "edit_avatar": "Beraterin wechseln",
+    "heading_description": " Dürfen wir vorstellen? Melissa –\n Deine persönliche Beraterin!",
+    "offline_text": "Bitte verbinde dich mit den Internet, um mit mir sprechen zu können.",
+    "chat_screen_link_text": "Tippe hier, um den Chat zu starten",
+    "avatar1_name": "Melissa",
+    "disclaimer_text": " Hinweis: Bitte beachte, dass die Inhalte des Chatbots ausschließlich zur Information dienen und keine professionelle medizinische Beratung ersetzen. Wenn du oder dein Baby erkrankt sind oder notfallmedizinische Hilfe benötigen, wende dich bitte umgehend an deinen Arzt oder deine Stillberaterin.",
+    "samira": "Samira",
+    "zoe": "Zoe",
+    "mei": "Mei",
+    "aurora": "Aurora",
+    "farrah": "Farrah",
+    "luna": "Luna",
+    "julia": "Julia",
+    "jahmelia": "Jahmelia",
+    "chatbot_header": "Medela Family",
+    "Chatbot_placeholder": "Hier eingeben",
+    "chatbot_send_text": "Absenden"
+  },
+  "countries": {
+    "header_title": "Sprachen:",
+    "English_International": "English (International)",
+    "English_UnitedStates": "English (USA)",
+    "English_Canada": "English (Kanada)",
+    "Français_Canada": "Français (Kanada)",
+    "English_UnitedKingdom": "English (UK)",
+    "Deutsche_Germany": "Deutsch (Deutschland)",
+    "Français_France": "Français (Frankreich)",
+    "Italiano_Italy": "Italiano (Italien)",
+    "Português_Portugal": "Português (Portugal)",
+    "Español_Spain": "Español, Spanien",
+    "English_Australia": "English (Australien)",
+    "Français_Netherlands": "Français (Niederlande)",
+    "Dutch_Netherlands": "Nederlands (Niederlande)",
+    "Deutsche_Netherlands": "Deutsch (Niederlande)",
+    "Deutsche_Switzerland": "Deutsch (Schweiz)",
+    "Français_Switzerland": "Français (Schweiz)",
+    "Italiano_Switzerland": "Italiano (Schweiz)",
+    "English_India": "English (Indien)",
+    "Svenska_Sweden": "Svenska (Schweden)",
+    "Norsk_Norway": "Norsk (Norwegen)",
+    "Dansk_Denmark": "Danks (Dänemark)",
+    "русский_Russia": "русский (Russland)",
+    "English_Israel": "English (Israel)",
+    "English_Ireland": "English (Irland)",
+    "English_NewZealand": "English (Neuseeland)",
+    "English_Malaysia": "English (Malaysia)",
+    "English_Singapore": "English (Singapur)",
+    "English_SouthAfrica": "English (Südafrika)",
+    "Arabic": "Arabisch",
+    "French": "Französisch",
+    "German": "Deutsch",
+    "polish": "Polish"
+  },
+  "days": {
+    "friday": "Freitag",
+    "monday": "Montag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "thursday": "Donnerstag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "s1": "Son",
+    "s2": "Sam",
+    "m": "Mon",
+    "t1": "Die",
+    "t2": "Don",
+    "w": "Mit",
+    "f": "Fre"
+  },
+  "freezer_popup": {
+    "ok": "OK",
+    "title": "Diese Flaschen-/Beutelnummer wurde bereits verwendet. Bitte verwende eine andere Flaschen-/Beutelnummer."
+  },
+  "notifications": {
+    "header_title": "Benachrichtigungen",
+    "marketing_opt_ins_notifications": "Marketing-Abonnements",
+    "marketing_opt_ins_description": "",
+    "marketing_opt_ins_notifications_list": [
+      "E-Mail-Newsletter",
+      "SMS",
+      "Mail",
+      "Beta-Tester"
+    ],
+    "outofapp_notifications": "Push-Benachrichtigungen",
+    "outofapp_description": "Diese Benachrichtigungen werden auf dem Sperrbildschirm und im Benachrichtigungsbereich deines Smartphones angezeigt.",
+    "outofapp_notifications_list": [
+      {
+        "list": [
+          "Allow Notifications"
+        ],
+        "title": ""
+      },
+      {
+        "list": [
+          "Pump Session Timeout"
+        ],
+        "title": "Verbundenes Abpumpen"
+      },
+      {
+        "list": [
+          "Milk About to Expire",
+          "Milk Expired"
+        ],
+        "title": "Virtueller Muttermilchvorrat"
+      }
+    ],
+    "inapp_notifications": "In-App-Mitteilungen",
+    "inapp_description": "Diese Benachrichtigungen werden innerhalb der App als Popup-Meldungen angezeigt.",
+    "inapp_notifications_list": [
+      {
+        "list": [
+          "Missing Milk Volume"
+        ],
+        "title": "Menge hinzufügen"
+      },
+      {
+        "list": [
+          "Breastfeeding Confidence",
+          "Content Personalization"
+        ],
+        "title": "Tests"
+      },
+      {
+        "list": [
+          "Baby Birth Date"
+        ],
+        "title": "Bestätigung des Geburtstags des Babys"
+      },
+      {
+        "list": [
+          "Congratulations"
+        ],
+        "title": "Virtueller Muttermilchvorrat"
+      }
+    ],
+    "permission_header": "Benachrichtigungen",
+    "permission_text": "Möchtest du, dass wir dich über deine Tracking-Vorgänge, Muttermilch-Ablaufdaten und andere App-Aktivitäten auf dem Laufenden halten? \n Du kannst diese Einstellung später in den App-Einstellungen im Bildschirm „Mehr“ ändern.",
+    "ok": "OK"
+  },
+  "babies": {
+    "header_title": "Babys",
+    "baby_height": "Körpergröße des Babys",
+    "baby_weight": "Gewicht des Babys"
+  },
+  "articles": {
+    "articles_header_text": "Wissensdatenbank",
+    "no_article_title": "Deine Favoritenliste enthält keine Artikel",
+    "no_article_description": "Öffne zum Hinzufügen eines Artikel zu dieser Liste den gewünschten Artikel und tippe auf das Herzsymbol in der oberen rechten Ecke.",
+    "favourite_articles_header_text": "Favoriten",
+    "load_more_text": "Mehr laden",
+    "remove_favourite_article_text": "Aus Favoriten entfernen?",
+    "remove_favourite_article_description": "Möchtest \ndu diesen Artikel wirklich aus deiner Favoritenliste entfernen?",
+    "yes": "JA",
+    "no": "NEIN",
+    "share_article_title": "Medela Family"
+  },
+  "offline": {
+    "offline_message": "Du bist offline!"
+  },
+  "pump_list_setting": {
+    "title": "Gekoppelte Milchpumpe",
+    "description": "Klicke auf deine Pumpe, um Videos, Anleitungen und mehr anzusehen",
+    "pump_status_offline": "Offline",
+    "pump_status_connected": "Verbunden",
+    "pump_something_wrong": "Ein Fehler ist aufgetreten. Bitte versuche es später noch einmal.",
+    "no_pump": "Keine Pumpe gefunden",
+    "pump_addition_title": "Hinzufügen einer Pumpe",
+    "pump_addition_success_message": "Pumpe wurde erfolgreich hinzugefügt",
+    "pump_addition_error_message": "Pumpe konnte nicht hinzugefügt werden. Bitte versuche es erneut",
+    "ok": "OK",
+    "version": "Version",
+    "battery": "Akku",
+    "charging": "wird geladen",
+    "pumps": "Muttermilchpumpen",
+    "setup_new_pump": "Einrichten einer neuen Milchpumpe",
+    "manual_tracking": "Manuelles Tracking",
+    "pump_deletion_error_message": "Die Pumpe konnte nicht getrennt werden, bitte versuche es erneut",
+    "pump_deletion_success_message": "Die Pumpe wurde erfolgreich von der App getrennt.",
+    "pump_deletion_title": "Pumpe trennen",
+    "connect_tracking": "Tracking der Pumpe",
+    "connect_pump": "Pumpe verbinden",
+    "pump_now": "Jetzt pumpen",
+    "edit_pump_name":"Pumpennamen bearbeiten",
+    "cancel":"ABBRECHEN"
+
+  },
+  "pump_phase": [
+    "Stimulation",
+    "Abpumpen"
+  ],
+  "pump_rhythem": [
+    "Signature",
+    "Lifestyle"
+  ],
+  "contractions": {
+    "title": "Wehen",
+    "frequency": "Häufigkeit",
+    "pain": "Bitte Schmerzintensität wählen",
+    "reset": "Zurücksetzen",
+    "pain_intensity1": "Gar nicht",
+    "pain_intensity2": "Sehr leicht",
+    "pain_intensity3": "Leicht",
+    "pain_intensity4": "Mittel",
+    "pain_intensity5": "Stark",
+    "pain_intensity6": "Sehr stark",
+    "reset_message": "Möchtest du den Frequenztimer wirklich zurücksetzen?"
+  },
+  "opted": {
+    "title": "Durch Angabe deiner Telefonnummer erklärst du dich damit einverstanden, SMS-Nachrichten von Medela zu erhalten. Es gelten die Standard-Tarife der Netzbetreiber.",
+    "mail_ques": "Dürfen wir dich per Post kontaktieren?",
+    "become_tester": "Werde Beta-Testerin und du kannst exklusiv vor allen anderen neue Medela-Produkte testen sowie neue Erfahrungen und Services erleben.  Bist du dabei?",
+    "phone": "Telefonnummer",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "address": "Adresse",
+    "apt_unit": "Wohnung/Etage/Sonstiges",
+    "city": "Ort",
+    "state": "Bundesland",
+    "zip": "PLZ",
+    "address_dialog_desc": "Um sicherzustellen, dass du alle Sendungen erhältst, empfehlen wir dir, das USA Adressformat zu verwenden.\nBitte wähle eine Option",
+    "address_dialog_nagetive": "MEINE ADRESSE BEARBEITEN",
+    "address_dialog_positive": "AUSGEWÄHLTE ADRESSE VERWENDEN",
+    "address_dialog_same": "Beibehalten",
+    "address_dialog_title": "Prüfe deine Adresse",
+    "address_dialog_us": "USA Adressformat",
+    "no_address_title": "Alarm",
+    "phone_error": "Bitte gib eine gültige Telefonnummer ein",
+    "address_error": "Bitte gib deine Adresse ein",
+    "city_error": "Bitte gib deinen Ort ein",
+    "first_name_error": "Bitte gib deinen Vornamen ein",
+    "last_name_error": "Bitte gib deinen Nachnamen ein",
+    "state_error": "Bitte gib dein Bundesland ein",
+    "zip_error": "Bitte gib deine Postleitzahl ein"
+  },
+  "ble_instruction": {
+    "title": "Anleitung",
+    "quick_start": "Schnellstart",
+    "front_panel": "Bedienfeld vorne",
+    "user_manual": "Benutzerhandbuch"
+  },
+  "ble_quick_start": {
+    "title": "Schnellstart",
+    "charge_pump": "Pumpe laden",
+    "charge_pump_desc": "Schließe die Milchpumpe an eine externe Stromquelle \n an und lasse sie bis zu 12 Stunden lang aufladen.",
+    "disassemble": "Teile auseinandernehmen",
+    "disassemble_desc": "Teile zur Reinigung auseinandernehmen. Vor der ersten Anwendung die \n Schutzabdeckung von der Brusthaube entfernen und entsorgen.",
+    "wash_part": "Teil reinigen",
+    "wash_part_desc": "Vor Erstgebrauch und nach jedem Gebrauch \n Führe die Reinigung im Spülbecken oder in der Spülmaschine durch. \n Den Schlauch vor der ersten Verwendung nicht waschen.",
+    "Sanitize_parts": "Teile desinfizieren",
+    "Sanitize_parts_desc": "Vor Erstgebrauch und einmal täglich \n Verwende einen Topf oder die Mikrowelle. \n Schläuche nicht desinfizieren.",
+    "charge_pump_desc_swing_maxi": "Schließe die Milchpumpe an eine externe Stromquelle \n an und lasse sie bis zu 12 Stunden lang aufladen."
+  },
+  "ble_front_panel": {
+    "title": "Bedienfeld vorne"
+  },
+  "ble_offline_popup": {
+    "title": "Die auf deiner Pumpe gespeicherten Abpumpvorgänge wurden an Medela Family übertragen",
+    "message": "Vergiss nicht, die abgepumpte Milchmenge einzugeben, um die Statistiken auf dem aktuellen Stand zu halten.",
+    "cancel": "Abbrechen",
+    "view": "Ansehen"
+  },
+  "settings_screen": [
+    {
+      "title": "Sprache",
+      "content": "EEnglisch (US)"
+    },
+    {
+      "title": "Benachrichtigungen",
+      "content": "Medela Family Benachrichtigungen verwalten"
+    },
+    {
+      "title": "Maßeinheiten",
+      "content": "Standard: oz, in, lb"
+    }
+  ],
+  "MoreList":{
+    "moreFirstListData":[
+      {
+        "selectedImage": "motherInformation",
+        "title": "Mamaprofil",
+        "content": "Namen ändern, abmelden usw."
+      },
+      {
+        "selectedImage": "babyInformation",
+        "title": "Babyprofil",
+        "content": "Namen, Geburtsdatum usw. ändern"
+      },
+      {
+        "selectedImage": "pumpSettings",
+        "title": "Pumpeneinstellungen",
+        "content": "Pumpenanschluss und mehr"
+      }
+    ],
+    "moreSecondListData":[
+      {
+        "selectedImage": "vipPack",
+        "title": "VIP-Paket"
+      },
+      {
+        "selectedImage": "onlineShop",
+        "title": "Onlineshop"
+      },
+      {
+        "selectedImage": "storeLocator",
+        "title": "Shopsuche"
+      },
+      {
+        "selectedImage": "shareApp",
+        "title": "App teilen"
+      },
+      {
+        "selectedImage": "giveUsFeedback",
+        "title": "Wir freuen uns über dein Feedback"
+      },
+      {
+        "selectedImage": "help",
+        "title": "Hilfe"
+      },
+      {
+        "selectedImage": "settings",
+        "title": "Allgemeine App-Einstellungen"
+      },
+      {
+        "selectedImage": "legal",
+        "title": "Rechtliches"
+      }
+    ]
+  },
+  "VipPackList": {
+    "VipPackListData":[
+      {
+        "title": "Sprachsteuerung",
+        "content": "Freihändiges Tracking"
+      },
+      {
+        "title": "Virtueller Muttermilchvorrat",
+        "content": "Virtuelles Vorratssystem für Muttermilch"
+      }
+    ]
+  },
+  "virtual_freezer": {
+    "add_milk": "Muttermilch hinzufügen",
+    "clear_filter": "Filter löschen",
+    "created_on": "Erstellt am",
+    "expire_at": "Läuft ab am",
+    "move_milk": "Verschieben",
+    "net_volume": "Nettovolumen",
+    "pumping": "Abpumpen",
+    "quick": "Schnell",
+    "saved_in": "Aufbewahrt im",
+    "tray": "Ablage",
+    "notification_title1": "Glückwunsch",
+    "notification_title2": "Muttermilch abgelaufen",
+    "notification_description1": "Du hast deinen ersten Gefrierbeutel in deinen virtuellen Muttermilchvorrat aufgenommen. Du bist dabei, deinen Muttermilchvorrat aufzubauen!",
+    "notification_description2": "Der/die im Kühl-/Gefrierschrank aufbewahrte Beutel/Flasche Nr. X ist gerade abgelaufen. Bitte verwende die Muttermilch nicht mehr zum Füttern. Entsorge sie oder finde eine andere Verwendungsmöglichkeit dafür.",
+    "notification_title3": "Muttermilch läuft bald ab",
+    "notification_description3": "Der/die im Kühl-/Gefrierschrank aufbewahrte Beutel/Flasche Nr. X läuft morgen ab. Verwende die Muttermilch noch heute, damit sie nicht verschwendet wird!",
+    "number_limit_msg":"Nummer darf 250 nicht überschreiten",
+    "tray_limit_msg":"Tablett darf 250 nicht überschreiten",
+    "feed_milk": "Füttern"
+  },
+  "CountriesList" : {
+    "countriesListData":[
+      {
+        "countryName": "English",
+        "countryCode": "en"
+      },
+      {
+        "countryName": "Arabic",
+        "countryCode": "ar"
+      },
+      {
+        "countryName": "French",
+        "countryCode": "fr"
+      },
+      {
+        "countryName": "Italian",
+        "countryCode": "it"
+      },
+      {
+        "countryName": "German",
+        "countryCode": "de"
+      },
+      {
+        "countryName": "Portuguese",
+        "countryCode": "pt"
+      },
+      {
+        "countryName": "Spanish",
+        "countryCode": "es"
+      },
+      {
+        "countryName": "Dutch",
+        "countryCode": "nl"
+      },
+      {
+        "countryName": "Swedish",
+        "countryCode": "sv"
+      },
+      {
+        "countryName": "Norwegian",
+        "countryCode": "no"
+      },
+      {
+        "countryName": "Danish",
+        "countryCode": "da"
+      },
+      {
+        "countryName": "Russian",
+        "countryCode": "ru"
+      },{
+        "countryName": "Hebrew",
+        "countryCode": "he"
+      },
+      {
+        "countryName": "Polish",
+        "countryCode": "pl"
+      }
+    ]
+  },
+  "NotificationsData" : {
+    "NotificationsData":[
+      {
+        "notifications_heading": "Push-Benachrichtigungen",
+        "notification_description":"Diese Benachrichtigungen werden auf dem Sperrbildschirm und im Benachrichtigungsbereich deines Smartphones angezeigt.",
+        "notifications_list": [
+          {"Key": "Allow Notifications","title": "", "list": [{"Key":"Allow Notifications","item": "Benachrichtigungen zulassen"}]},
+          {"Key": "Connected Pumping","title": "Angeschlossenes Pumpen", "list": [{"Key":"Pump Session Timeout","item":"Zeitlimit für Pumpensitzung"}]},
+          {"Key": "Virtual Freezer","title": "Virtueller Muttermilchvorrat", "list": [{"Key": "Milk About to Expire","item": "Milch läuft bald"}, {"Key": "Milk Expired","item": "Milch abgelaufen"}]}
+        ]
+      },
+      {
+        "notifications_heading": "In-App-Mitteilungen",
+        "notification_description": "Diese Benachrichtigungen werden innerhalb der App als Popup-Meldungen angezeigt.",
+        "notifications_list": [
+          {"Key": "Add Volume","title": "Volume hinzufügen", "list": [{"Key": "Missing Milk Volume","item": "Fehlendes Milchvolumen"}]},
+          {"Key": "Difficult experience","title": "Schwierig Erfahrung", "list": [{"Key": "Breastfeeding & Pumping","item": "Stillen und Abpumpen"}]},
+          {"Key": "Connected Pumping","title": "Verbundenes Abpumpen", "list": [{"Key": "Pump Session Complete","item": "Abpumpvorgang abgeschlossen"}]},
+          {"Key": "Tests","title": "Tests", "list": [{"Key": "Breastfeeding Confidence","item": "Stillvertrauen"},{"Key": "Content Personalization","item": "Personalisierung von Inhalten"}]},
+          {"Key": "Baby Birth Date","title": "Bestätigung des Geburtsdatums des Babys", "list": [{"Key": "Baby Birth Date","item": "Baby Geburtsdatum"}]},
+          {"Key": "Virtual Freezer","title": "Virtueller Muttermilchvorrat", "list": [{"Key": "Congratulations","item": "Herzliche Glückwünsche"}]}
+        ]
+      },
+      {
+        "notifications_heading": "Marketing-Abonnements",
+        "notification_description": "",
+        "notifications_list": [
+          {"Key": "Email newsletters","item": "E-Mail-Newsletter"},
+          {"Key": "SMS","item": "SMS"},
+          {"Key": "Mail","item": "Mail"},
+          {"Key": "Beta Tester","item": "Beta-Tester"}
+        ]
+      }
+    ]
+  },
+  "HelpList": {
+    "helpListData":[
+      {
+        "selectedImage": "problemSolver",
+        "title": "Problemlösung"
+      },
+      {
+        "selectedImage": "appTechnicalSupport",
+        "title": "Technischer Support zur App"
+      },
+      {
+        "selectedImage": "customerService",
+        "title": "Kundendienst"
+      },
+      {
+        "selectedImage": "lactationConsultant",
+        "title": "Stillberatung"
+      }
+    ]
+  },
+  "LegalList": {
+    "LegalListData": [
+      {
+        "selectedImage": "Imprint",
+        "title": "Impressum"
+      },
+      {
+        "selectedImage": "privacyPolicyTermsAndCondition",
+        "title": "Richtlinie zum Datenschutz und zum Einsatz von Cookies"
+      },
+      {
+        "selectedImage": "licenses",
+        "title": "Frei und Open Source \nLizenzen"
+      }
+    ]
+  },
+  "newWelcome":{
+    "title": "Willkommen bei Medela Family\n",
+    "subTitle": "Medela Family ersetzt unsere frühere MyMedela App und bietet eine brandneue Benutzererfahrung, fantastische erweiterte Funktionen und neue informative Inhalte.",
+    "subTitle2": "Entdecke unsere neue virtuelle Milchaufbewahrungsfunktion, lasse dir deine Fragen von unserem persönlichen Helfer beantworten und spare viel Zeit mit Sprachbefehlen für freihändiges Tracking!",
+    "subTitle3":"Wir hoffen, dass du sie genauso lieben wirst wie wir!",
+    "subTitle4":"Dein Medela Team",
+    "dashboardBtn": "GEHE ZUM DASHBOARD"
+  },
+  "time":{
+    "just_now":"Gerade jetzt",
+    "day_ago":"Tag zuvor",
+    "days_ago":"Tage zuvor",
+    "min_ago":"Minute zuvor",
+    "mins_ago":"Minuten zuvor",
+    "h":"h",
+    "d":"d",
+    "day":"Tag",
+    "days":"Tage",
+    "hour_ago":"Stunde zuvor",
+    "hours_ago":"Stunden zuvor",
+    "sec":"Sekunden",
+    "min":"Minute",
+    "mins":"Minuten",
+    "hour":"Stunde",
+    "hours":"Stunden",
+    "h_ago":"h zuvor",
+    "day_old":"Tag alt",
+    "days_old":"Tage alt",
+    "h_old":"h alt",
+    "hour_old":"Stunde alt",
+    "hours_old":"Stunden alt",
+    "min_old":"Minute alt",
+    "mins_old":"Minuten alt",
+    "month_ago":"Vor 1 Monat",
+    "months_ago":"vor wenigen Monaten",
+    "year_ago":"vor 1 Jahr",
+    "years_ago":"vor Jahren"
+  },
+  "months":{
+    "january":"Januar",
+    "february":"Februar",
+    "march":"März",
+    "april":"April",
+    "may":"Mai",
+    "june":"Juni",
+    "july":"Juli",
+    "august":"August",
+    "september":"September",
+    "october":"Oktober",
+    "november":"November",
+    "december":"Dezember"
+  },
+  "chart": {
+    "age": "Alter(Wochen)",
+    "inch": "Zoll",
+    "cm": "cm"
+},
+"chart_month": {
+  "age": "Alter (Monate)",
+  "inch": "Zoll",
+  "cm": "cm"
+},
+"voice_command": {
+  "active_breastfeeding_body": "Bitte beende dein aktuelles Stillen, um ein neues zu beginnen.",
+  "active_breastfeeding_title": "Während eines aktiven Stillens kannst du kein neues Stillen beginnen.",
+  "active_pump_body": "Bitte beende dein aktuelles Abpumpen, um ein neues zu beginnen.",
+  "active_pump_title": "Während eines aktiven Abpumpens kannst du kein neues Abpumpen beginnen.",
+  "active_sleep_body": "Bitte beende deinen aktuellen Schlaf, um einen neuen zu beginnen.",
+  "active_sleep_title": "Während eines aktiven Schlafs kannst du keinen neuen Schlaf beginnen.",
+  "continue_already_continue_title": "Dein aktuelles Stillen ist bereits aktiv",
+  "continue_no_session_title": "Fahre fort, wenn keine Sitzung aktiv ist.",
+  "ok": "OK",
+  "pause_already_pause_title": "Dein aktuelles Stillen wurde bereits unterbrochen",
+  "pause_no_session_title": "Du hast keine aktive Sitzung",
+  "vip_pack_not_active": "Hol dir jetzt das VIP-Paket, um diese Funktion zu aktivieren."
+},
+  "maintenancescreen":{
+    "text1":"Bitte entschuldige, wir sind vorübergehend aufgrund von Wartungsarbeiten nicht erreichbar.",
+    "text2":"Wir werden bald wieder zurück sein.",
+    "text3":"Vielen Dank für dein Verständnis!"
+  },
+  "units": {
+    "cm": "cm",
+    "inch": "in",
+    "oz": "oz",
+    "ml": "ml",
+    "lb": "lb",
+    "kg": "kg",
+    "in": "in"
+  },
+  "update_popup":{
+    "new_update":"Ein neues Update ist verfügbar!",
+    "download_message":"Bitte laden Sie das neueste Update herunter, um Medela Family weiterhin nutzen zu können.",
+    "update_now":"Jetzt aktualisieren",
+    "remind_later":"Später erinnern"
+  },
+  "force_update_popup":{
+    "new_update":"Wichtiges Update verfügbar",
+    "download_message":"Bitte laden Sie das neueste Update herunter, um Medela Family weiterhin verwenden zu können.",
+    "update_now":"Jetzt aktualisieren"
+  },
+  "accessibility_labels": {
+    "baby_data": "Babydaten"
+  },
+  "bluetooth_pre_permissions": {
+    "title": "Besitzen Sie eine intelligente Milchpumpe von Medela?",
+    "iOS_text": "Wenn ja, stellen Sie bitte sicher, dass Sie der Medela Family App die Erlaubnis geben, Bluetooth zu verwenden, um Ihre Milchpumpe zu verbinden, da Sie sonst Ihre Pumpe nicht verbinden können.",
+    "android_text":"Wenn ja, vergewissern Sie sich bitte, dass Sie der Medela Family App Berechtigungen zur Verwendung von Bluetooth und Standortberechtigungen zum Verbinden Ihrer Pumpe erteilen, andernfalls können Sie Ihre Milchpumpe nicht verbinden. Wir verfolgen nicht die Position Ihres Telefons, aber dies ist eine Anforderung des Betriebssystems des Smartphones.",
+    "button": "Weiter"
+  },
+  "feedback_popup": {
+    "title": "Liebst du unsere App?",
+    "title1": "Möchtest du uns Feedback senden?",
+    "no": "Nein",
+    "yes": "Jawohl",
+    "popup2_title":"Tipp auf einen Stern, um es im App Store zu bewerten"
+  }
+}

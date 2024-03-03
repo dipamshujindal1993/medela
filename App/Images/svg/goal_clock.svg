@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.379" height="14.379" viewBox="0 0 14.379 14.379">
+    <defs>
+        <style>
+            .cls-1{fill:#ffcd00;stroke:#ffcd00;stroke-width:.3px}
+        </style>
+    </defs>
+    <g id="noun_clock_1268418" transform="translate(.15 .15)">
+        <path id="Path_8230" d="M48 33.608h2.268V30.4H51v3.937h-3z" class="cls-1" transform="translate(-43.593 -26.933)"/>
+        <path id="Path_8231" d="M18.42 25.459a7.04 7.04 0 1 1 7.04-7.04 7.04 7.04 0 0 1-7.04 7.04zm.365-13.339v1.411h-.729V12.12a6.32 6.32 0 0 0-5.935 5.935h1.411v.729H12.12a6.32 6.32 0 0 0 5.935 5.935v-1.411h.729v1.411a6.32 6.32 0 0 0 5.935-5.935h-1.411v-.729h1.411a6.32 6.32 0 0 0-5.935-5.935z" class="cls-1" transform="translate(-11.38 -11.38)"/>
+    </g>
+</svg>

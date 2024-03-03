@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Group_2401" data-name="Group 2401" transform="translate(13906 -10760)">
+    <circle id="Ellipse_537" data-name="Ellipse 537" cx="9" cy="9" r="9" transform="translate(-13906 10760)" fill="#898d8d"/>
+    <path id="Subtraction_12" data-name="Subtraction 12" d="M7,11.181H1a1,1,0,0,1-1-1v-8a1,1,0,0,1,1-1h.5V.5a.5.5,0,0,1,1,0v.681h1V.5a.5.5,0,0,1,1,0v.681h1V.5a.5.5,0,1,1,1,0v.681H7a1,1,0,0,1,1,1v8A1,1,0,0,1,7,11.181Zm-5.5-3a.5.5,0,1,0,0,1h5a.5.5,0,1,0,0-1Zm0-2a.5.5,0,1,0,0,1h5a.5.5,0,1,0,0-1Zm.5-3a1,1,0,0,0,0,2H4a1,1,0,1,0,0-2Z" transform="translate(-13901 10763)" fill="#fff"/>
+  </g>
+</svg>

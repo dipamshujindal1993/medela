@@ -1,0 +1,1432 @@
+{
+  "common": {
+    "app_name": "Nome da aplicação"
+  },
+  "startup": {
+    "sign_up_now": "REGISTE-SE AGORA",
+    "already_have_account": "JÁ TENHO UMA CONTA",
+    "desc1": "Informação sobre amamentação e mais \n quando mais precisa.",
+    "desc2": "Apoio virtual ao aleitamento 24/7 LC™ e uma biblioteca completa \nde conselhos especializados",
+    "desc3": "Dicas e ferramentas que crescem consigo da \n gravidez até à maternidade",
+    "desc4": "Acesso VIP a funcionalidades únicas da aplicação para \nutilizadoras de extratores de leite materno da Medela",
+    "desc5": "Os seus dados são guardados de forma segura de acordo com as mais rigorosas regulamentações globais relativas a \n conformidade de dados",
+    "title1": "Comunidade Medela Family",
+    "title2": "Apoio ao aleitamento",
+    "title3": "Experiência personalizada",
+    "title4": "Privilégios exclusivos da Medela",
+    "title5": "Armazenamento seguro dos dados"
+  },
+  "login": {
+    "title": "Iniciar sessão",
+    "email": "Email",
+    "password": "Palavra-passe",
+    "forgot_your_password": "Esqueceu-se da palavra-passe?",
+    "login": "INICIAR SESSÃO",
+    "forgot_password_title": "Esqueci-me da palavra-passe",
+    "forgot_password_message": "Tem a certeza de que pretende redefinir \n a sua palavra-passe?",
+    "ok": "OK",
+    "cancel": "CANCELAR",
+    "forgot_password_success_title": "Email enviado",
+    "forgot_password_success_message": "Enviámos-lhe um \n email com uma nova palavra-passe.",
+    "email_error_message": "Introduza um email válido",
+    "blank_password_error_message": "Introduza a sua palavra-passe",
+    "account_not_exist": "Essa conta não existe",
+    "login_failed": "Início de sessão falhou",
+    "edit_email": "Editar email",
+    "sign_up": "Registar-se",
+    "yes": "SIM",
+    "no": "NÃO",
+    "subscribed_user_msg": "Percebemos que já subscreveu o programa Medela Family.\nDefina uma palavra-passe para proteger a sua conta.",
+    "email_subscription_msg":"Verifique a sua subscrição clicando no link que lhe enviámos por email",
+    "no_space_in_password": "A palavra-passe não deve ter espaços"
+  },
+  "signup": {
+    "title": "Crie a sua conta",
+    "email": "Email *",
+    "password": "Palavra-passe *",
+    "offer": "Quero manter-me atualizada sobre notícias e ofertas especiais da Medela, por email",
+    "signUpBtn": "REGISTE-SE",
+    "terms": "Ao registar-se, concorda com a nossa",
+    "privacyPolicy": " Política de Privacidade, incluindo o tratamento de dados pessoais sensíveis",
+    "emailAlreadyExist": "Já existe um utilizador com este email.",
+    "somethingWentWrong": "Algo correu mal. Tente de novo mais tarde.",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "email_error": "O email é inválido",
+    "password_no_numbers": "sem números",
+    "password_no_letters": "sem letras",
+    "password_too_weak": "Demasiado fraco!",
+    "password_too_long": "Demasiado longo!",
+    "password_invalid_characters": "carateres inválidos",
+    "password_null": "8-20 carateres, mín. 1 número (a-z, 0-9)",
+    "edit_email": "Editar email",
+    "login_up": "Iniciar sessão",
+    "password_min_length": "A palavra-passe tem de ter pelo menos 7 carateres e incluir letras e algarismos."
+  },
+  "profileSetup": {
+    "title": "Apenas mais alguns detalhes para completar \n o seu perfil",
+    "name": "O seu nome/alcunha *",
+    "babyDob": "Data de nascimento/data prevista de nascimento do bebé *",
+    "isFirstBaby": "Este é o seu primeiro bebé?",
+    "yes": "Sim",
+    "no": "Não",
+    "next": "SEGUINTE",
+    "dontKnow": "Não sei",
+    "planReturnWork": "Trabalhar fora de casa faz parte do seu plano de maternidade?",
+    "chooseDate": "Quando prevê começar?",
+    "babyName": "Nome/alcunha do bebé *",
+    "username_error": "Introduza o seu nome",
+    "baby_name_error": "Introduza o nome do bebé",
+    "baby_dob_error": "Selecione a data de nascimento/data prevista de nascimento do bebé",
+    "back_to_work_date": "Selecione a data de regresso ao trabalho",
+    "upload": "Carregue a fotografia do bebé",
+    "name_error": "Introduza o seu nome"
+  },
+  "profileSetup2": {
+    "havePump": "Tem um extrator de leite?",
+    "pumpBrand": "Qual é a marca do extrator que tem atualmente?",
+    "yes": "Sim",
+    "no": "Não",
+    "medela": "Medela",
+    "other": "Outro",
+    "pumpFor": "Tenho o meu extrator atual para",
+    "insurancePump": "O meu extrator atual foi",
+    "coveredByMyInsurance": "Coberto pelo meu seguro",
+    "notPurchasedInsurance": "Oferecido, ou não adquirido através de seguro",
+    "finishBtn": "TERMINAR",
+    "previousPregnancy": "Gravidez anterior",
+    "skip": "SALTAR",
+    "thisPregnancy": "Esta gravidez",
+    "title": "Vamos descobrir como podemos ajudá-la melhor\nao longo da sua jornada"
+  },
+  "welcome": {
+    "title": "Bem-vinda à Medela Family\n",
+    "subTitle": "Aproveite o seu acesso GRATUITO a ferramentas e dicas sobre gravidez e \n amamentação",
+    "dashboardBtn": "VÁ PARA O PAINEL DE CONTROLO"
+  },
+  "newWelcome":{
+    "title": "Bem-vinda à Medela Family\n",
+    "subTitle": "A Medela Family substitui a nossa antiga aplicação MyMedela, proporcionando uma experiência de utilizador totalmente nova, funcionalidades com melhorias fantásticas e novos conteúdos informativos.",
+    "subTitle2": "Consulte a nossa nova funcionalidade de armazenamento virtual de leite, obtenha respostas às suas perguntas pelo nosso assistente pessoal e poupe muito tempo utilizando comandos de voz para monitorização \"mãos-livres\"!",
+    "subTitle3":"Esperamos que goste tanto dela como nós!!",
+    "subTitle4":"A sua equipa Medela",
+    "dashboardBtn": "VÁ PARA O PAINEL DE CONTROLO"
+  },
+  "tab_bar": {
+    "my_baby": "O MEU BEBÉ",
+    "stats": "ESTATÍSTICAS",
+    "chat": "CHAT",
+    "more": "MAIS"
+  },
+  "generic": {
+    "confirm": "Confirmar",
+    "yes": "Sim",
+    "no": "Não",
+    "cancel": "Cancelar",
+    "error_message": "Algo correu mal. Tente de novo mais tarde.",
+    "save": "Guardar",
+    "alert_title": "Ai!",
+    "no_internet": "A ligação à internet parece estar com problemas",
+    "cancelled_picker": "O utilizador cancelou o seletor de fotografias",
+    "tap_custom_btn": "O utilizador tocou no botão personalizado: ",
+    "image_error": "Erro do ImagePicker: ",
+    "add_new_baby": "Adicione bebé novo",
+    "delete": "APAGAR",
+    "stop_watch": "Primeiro pare o cronómetro",
+    "retry": "Tente novamente",
+    "minutes_error": "Os minutos têm de ser inferiores a 60",
+    "seconds_error": "Os segundos têm de ser inferiores a 60",
+    "submit": "ENVIAR",
+    "close": "Fechar",
+    "done": "Feito",
+    "select_state": "Selecione a localidade",
+    "maximum_limit":"Limite máximo excedido, ou seja"
+  },
+  "tracking": {
+    "checklists": "Listas de tarefas",
+    "24x7": "24/7 LC",
+    "questionnaires": "Testes",
+    "weight": "Peso",
+    "sleep": "Dormir",
+    "nappy": "Fralda",
+    "breastfeeding": "Amamentação e extração",
+    "who": "Código da OMS",
+    "title": "Monitorização",
+    "tracking_clear_message": "Tem a certeza que quer sair desta sessão monitorizada?",
+    "delete_tracking_message": "Tem a certeza que quer apagar esta sessão monitorizada?",
+    "tools": "Ferramentas",
+    "contraction": "Contração",
+    "tracking_toaster_text": "A sua monitorização foi guardada com sucesso",
+    "nappy_notification_title": "Fraldas",
+    "firstday_nappy_notification_text": "Nos primeiros dois dias após o parto deve esperar 1-2 (ou mais) fraldas molhadas e 1 (ou mais) fraldas sujas.",
+    "thirdday_nappy_notification_text": "No terceiro dia após o parto, deve esperar 3 (ou mais) fraldas molhadas e 2 (ou mais) fraldas sujas.",
+    "fourthday_nappy_notification_text": "No quarto dia após o parto, deve esperar 4 (ou mais) fraldas molhadas e 2 (ou mais) fraldas sujas. Deve notar que estão a ficar mais pesadas.",
+    "who_popup_title": "Sexo",
+    "who_popup_description": "Escolha o sexo \n Compare o desenvolvimento da sua criança com o padrão da OMS escolhendo o sexo correto.",
+    "who_popup_option1": "Menina",
+    "who_popup_option2": "Menino",
+    "who_popup_option3": "Agora não",
+    "baby": "Monitorização do bebé",
+    "bottle": "Alimentação com biberão",
+    "breastfeed": "Amamentação",
+    "Breastfeeding_and_Pumping": "Monitorizou menos de 8 sessões de amamentação e/ou  extração nas últimas 24 horas. Esqueceu-se de registar uma sessão? Os bebés precisam de um mínimo de 8 a 12 sessões de alimentação em 24 horas durante as primeiras quatro semanas. Depois deste ponto poderá ver uma redução no número de sessões de alimentação diárias. Desde que o seu bebé esteja a ganhar peso bem e esteja saudável, isto é absolutamente perfeito para ele.",
+    "Breastfeeding_and_Pumping_5hrs": "Nas passadas 24 horas, verifica-se um intervalo de 5 horas ou mais entre duas ou mais sessões de amamentação/extração. Esqueceu-se de registar uma sessão de amamentação/extração?",
+    "Breastfeeding_and_Pumping_5hrs2": "O intervalo entre várias sessões de amamentação e/ou extração foi superior a 5 horas nos últimos dias. Falhar sessões de alimentação, qualquer que seja a razão, pode levar a uma redução na sua produção de leite. Um lembrete amigável - Parece que se esqueceu de registar uma sessão de alimentação ou extração. Gostaria de o fazer agora?",
+    "Breastfeeding_and_Pumping_7hrs": "Nas passadas 24 horas, verifica-se um intervalo de 7 horas ou mais entre duas ou mais sessões de amamentação/extração. Esqueceu-se de registar uma sessão de amamentação/extração?",
+    "Breastfeeding_and_Pumping_7hrs2": "O intervalo entre várias sessões de amamentação e/ou extração foi superior a 7 horas nos últimos dias. Falhar sessões de alimentação, qualquer que seja a razão, pode levar a uma redução na sua produção de leite. Um lembrete amigável - Parece que se esqueceu de registar uma sessão de alimentação ou extração. Gostaria de o fazer agora?",
+    "Breastfeeding_and_Pumping_title": "Amamentação e Extração",
+    "Breastfeeding_and_Pumping1": "Nas primeiras 4 semanas a sua produção de leite está a desenvolver-se. Por essa razão é importante que os seus seios sejam estimulados através da alimentação ou extração no mínimo 8 vezes a cada 24 horas. Isto garante que produz leite suficiente para agora e para o futuro. Falhar sessões de alimentação, qualquer que seja a razão, pode levar a uma redução na sua produção de leite. Um lembrete amigável - Parece que se esqueceu de registar uma sessão de alimentação ou extração. Gostaria de o fazer agora?",
+    "four_weeks_nappy_notification_text": "Todos gostaríamos de esquecer as fraldas sujas, mas é importante registá-las aqui! Esqueceu-se de registar uma fralda?",
+    "four_weeks_nappy_notification_text2": "Nas primeiras quatro semanas após o nascimento, a maioria dos bebés está a fazer cocó pelos menos duas vezes por dia, com fezes moles amareladas. Tendo em conta o número de fraldas registadas na aplicação recomendamos que consulte o prestador de cuidados de saúde do seu bebé",
+    "four_weeks_nappy_notification_text3": "O cocó muda a partir das 4 a 6 semanas. Desse momento em diante, os bebés podem continuar a fazer cocó várias vezes por dia ou não fazer durante dias ou uma semana! ",
+    "freezer": "Conservação",
+    "growth": "Comprimento",
+    "height_tracking": "Consulte regularmente o seu profissional de saúde relativamente ao comprimento do seu bebé.",
+    "height_tracking_notification_text": "Consulte regularmente o seu profissional de saúde relativamente ao comprimento do seu bebé.",
+    "height_tracking_notification_title": "Monitorização do comprimento",
+    "height_tracking_title": "Monitorização do comprimento",
+    "mom": "Monitorização da gravidez",
+    "nappy_notification_title2": "Fraldas sujas",
+    "pumping": "Extração do leite",
+    "tracking_toaster_update_text": "O seu registo foi atualizado com sucesso.",
+    "weight_tracking": "Consulte regularmente o seu profissional de saúde relativamente ao peso do seu bebé.",
+    "weight_tracking_notification_text": "Consulte regularmente o seu profissional de saúde relativamente ao peso do seu bebé.",
+    "weight_tracking_notification_title": "Monitorização do Peso",
+    "weight_tracking_title": "Monitorização do Peso",
+    "wet_diapers": "Fraldas molhadas",
+    "wet_diapers_notification_text": "Nas primeiras 6 semanas após o nascimento deve esperar 5 ou mais fraldas muito molhadas. Percebemos que não registou tantas fraldas. Esqueceu-se de registar uma fralda? ",
+    "wet_diapers_notification_text2": "Após 6 semanas, as fraldas molhadas podem diminuir para 4 a 5 por dia, mas a quantidade de urina aumenta para mais de 4 a 6 colheres de sopa (mais de 60 a 90 mL) à medida que a capacidade da bexiga do seu bebé cresce.",
+    "cont": "Cont.-",
+    "left": "L-",
+    "right": "R-",
+    "breast": "B-",
+    "manual_session_lost": "A sua sessão manual perdeu-se porque agora tem um extrator ligado.",
+    "offline_session":"Sessões offline",
+    "total_Pumping":"Bombeamento Total",
+    "bad_session_popup_tite": "Quer ler os nossos artigos de resolução de problemas?",
+    "bad_session_popup_option1": "SIM",
+    "bad_session_popup_option2": "NÃO",
+    "bad_session_popup_option3": "NUNCA MAIS APARECER",
+    "breastfeedingPumpingShortcut": "Atalho para a amamentação"
+  },
+  "addBaby": {
+    "my_baby": "O meu bebé",
+    "babyDob": "Data de nascimento/data prevista de nascimento do bebé *",
+    "gender": "Género",
+    "male": "Menino",
+    "female": "Menina",
+    "save": "GUARDAR",
+    "upload": "Carregue a fotografia do bebé",
+    "baby_dob_error": "Selecione a data de nascimento/data prevista de nascimento do bebé",
+    "baby_name_error": "Introduza o nome do bebé",
+    "add_baby_Title": "Adicione o bebé",
+    "add_baby_success_message": "Bebé adicionado com sucesso",
+    "babyHeight": "Comprimento do bebé à nascença",
+    "babyName": "Nome/alcunha do bebé",
+    "babyWeight": "Peso do bebé à nascença"
+  },
+  "my_baby": {
+    "switch": "MUDE",
+    "read_more": "Saiba mais",
+    "months_before_birth": "Meses antes do nascimento",
+    "actual_tummy_size": "Tamanho real do estômago: ",
+    "actual_baby_size": "Tamanho real do bebé: ",
+    "size_of_cherry": "cereja",
+    "size_of_walnut": "noz",
+    "size_of_apricot": "alperce",
+    "size_of_egg": "ovo",
+    "size_of_lemon": "limão",
+    "no_child": "Nenhuma criança encontrada!",
+    "no_child_message": "Ainda não adicionou o segundo filho! Adicione para alternar entre bebés.",
+    "add_baby": "ADICIONAR BEBÉ",
+    "cancel": "CANCELAR",
+    "week": "semana",
+    "weeks": "semanas",
+    "days": "dias",
+    "day": "dia",
+    "same_day_born_message": "O bebé nasceu",
+    "date_of_birth": "Data do nascimento",
+    "after_birth": "após o nascimento",
+    "day_old": "dia de idade",
+    "days_old": "dias a partir do nascimento",
+    "week_old": "semana de idade",
+    "weeks_old": "semanas de idade",
+    "month": "mês",
+    "months": "meses",
+    "year": "ano",
+    "years": "anos",
+    "before_birth": "antes do nascimento",
+    "birth": "parto",
+    "volume": "Volume: ",
+    "volume1": "10-50 ml por dia",
+    "volume2": "100-700 ml por dia",
+    "volume3": "400-800 ml por dia",
+    "volume4": "400-1000 ml por dia",
+    "volume5": "440 ml-1000 ml por dia",
+    "volume6": "Média 800 ml por dia",
+    "approx_size": "Tamanho aproximado do feto",
+    "last_tracked": "Última monitorização",
+    "birthday_popup_title": "O seu bebé chegou ?",
+    "birthday_popup_yes": "SIM",
+    "birthday_popup_never_show": "NÃO VOLTAR A MOSTRAR ISTO",
+    "birth_confirmation_notification_title": "O seu bebé chegou?",
+    "birth_confirmation_notification_message": "Confirme a data de nascimento/data prevista de nascimento do bebé",
+    "birthday_popup_remind": "NÃO, LEMBRAR-ME MAIS TARDE",
+    "length": "Comprimento à nascença",
+    "weight": "Peso à nascença",
+    "full_term_baby_size":"tamanho de bebé de termo",
+    "cat":"gato",
+    "seat_height_of_a_chair":"Altura do assento de uma cadeira",
+    "laptop":"laptop",
+    "magayine":"revista",
+    "spaghetti":"esparguete",
+    "kitchen_paper":"rolo de papel de cozinha",
+    "smartphone":"smartphone",
+    "pen":"caneta",
+    "hand_cream":"creme de mãos",
+    "popsicle":"sorvete",
+    "highlighter":"marcador",
+    "credit_card":"cartão de crédito",
+    "nail_polish":"verniz de unhas",
+    "lipstick":"batom",
+    "hairpin":"gancho do cabelo",
+    "earphone":"auricular",
+    "button":"botão",
+    "finger_nail":"unha",
+    "lady_bug":"joaninha",
+    "rice":"arroz",
+    "linen_seed":"semente de linho",
+    "chia_seed":"semente de chia",
+    "snow_crystal":"cristal de neve",
+    "articles_offline_text": "Verifique a sua ligação à Internet.",
+    "delete_popup_title": "Tem a certeza?",
+    "2L/":"Biberão de refrigerante de 2 l/0,5 gal",
+    "ok": "SIM",
+    "actual_baby_stomach_size": "Tamanho real do estômago do bebé: ",
+    "baby_name_error": "Introduza o nome do bebé",
+    "article_details_offline_text": "A ligação à internet parece estar com problemas. Tente de novo mais tarde."
+  },
+  "calendar": {
+    "week": "Semana",
+    "time": "Hora",
+    "size_of_egg": "Do tamanho de um ovo",
+    "timer_alert": "Introduza uma hora válida",
+    "date_time_alert": "Introduza uma data e hora válidas",
+    "hours": "horas",
+    "mins": "min.",
+    "sec": "seg.",
+    "is_am": "AM",
+    "is_pm": "PM",
+    "period": "Personalizado",
+    "today": "Hoje",
+    "yesterday": "Ontem",
+    "last_week": "Semana passada",
+    "last_month": "Mês passado",
+    "all": "Tudo",
+    "start_time": "Hora de início",
+    "end_time": "Tempo final",
+    "side":"lado",
+    "Creation_date":"Data de criação"
+  },
+  "checklist": {
+    "add_item": "Adicionar item",
+    "checklist_title": "Listas de tarefas",
+    "add_item_list": "Adicione item à lista",
+    "clear_all": "Limpar tudo",
+    "clear_checklist": "Limpar a lista de tarefas?",
+    "clear_checklist_message": "Tem a certeza de que pretende limpar todos os itens assinalados?",
+    "items_left": "Itens restantes",
+    "time": "Hora"
+  },
+  "breastfeeding_pump": {
+    "duration": "Duração",
+    "breastfeed": "Amamentar",
+    "breastfeeding": "Amamentação",
+    "pumping": "Extração do leite",
+    "both": "Ambos",
+    "right": "Direita",
+    "left": "Esquerda",
+    "experience": "Experiência",
+    "good": "Bom",
+    "add_note": "Adicione nota",
+    "pump_settings": "Definições do extrator",
+    "total_volume": "Volume",
+    "total": "Total",
+    "bottle": "Frasco",
+    "bag": "Saco",
+    "number": "Número",
+    "tray": "Tabuleiro",
+    "fridge": "Frigorífico",
+    "freezer": "Congelador",
+    "pump_setting": "Definições do extrator",
+    "pump_level": "Nível",
+    "phase_level": "Nível da fase",
+    "rhythem_level": "Nível do ritmo",
+    "pump_alert_title": "Alerta",
+    "pump_off_alert_message": "O seu extrator foi desligado agora. Guarde os seus dados existentes antes de iniciar uma nova sessão",
+    "pump_battery_alert_message": "A bateria do seu extrator desligou-se. Ligue à corrente",
+    "timer": "Temporizador:",
+    "disclaimer": "Renúncia ao direito",
+    "disclaimer_msg": "Guarde os dados da sua sessão de extração atual antes de iniciar uma nova sessão de extração, caso contrário os dados registados serão perdidos.",
+    "air_leaked": "Fuga de ar",
+    "breastfeeding_pumping_l": "Amamentação E",
+    "breastfeeding_pumping_r": "Amamentação D",
+    "pumping_b": "extração B",
+    "Check_available_inventory": "Verifique o inventário disponível",
+    "ending_side": "Lado final",
+    "move_to": "Mude para",
+    "phase": "Fase:",
+    "rhythm": "Ritmo:",
+    "save_to_virtual_freezer": "Guarde em Armazenamento virtual de leite",
+    "session_type": "Selecione o tipo de sessão",
+    "bad": "Difícil",
+    "difficult": "Difícil",
+    "freezer_title": "Filtrar armazenamento virtual de leite",
+    "container_type_error":"Adicione o tipo de recipiente (saco/biberão)",
+    "location_type_error":"Adicione a localização (frigorífico/congelador)",
+    "number_error":"Adicione o número do recipiente",
+    "tray_error":"Adicione o número do tabuleiro",
+    "volume_error_msg": "Adicione o volume",
+    "number_zero_error":"O valor do número deve ser diferente de 0",
+    "tray_zero_error":"O valor do tabuleiro deve ser diferente de 0",
+    "container_special_character_error":"Escolha um número de recipiente entre 1 e 250",
+    "tray_special_character_error":"Escolha um número de tabuleiro entre 1 e 250",
+    "pumping_paused":"Extração em pausa",
+    "pumping_paused_flex":"Pressione o botão de energia na bomba de peito para terminar a sessão.",
+    "pumping_paused_maxi":"Carregue longamente no botão de energia na bomba de peito para terminar a sessão.",
+    "pumping_paused_sonata":"Premir durante muito tempo o botão de pausa na bomba de peito para terminar a sessão.",
+    "breastfeeding_paused":"Amamentação em pausa"
+  },
+  "can_not_edit_bag": {
+    "cancel": "Cancelar",
+    "ok": "OK",
+    "title": "Não é possível adicionar volume a sacos/frascos existentes no congelador, apenas a frascos no frigorífico."
+  },
+  "sleep": {
+    "header_title": "Dormir",
+    "start": "Começar",
+    "stop": "Parar",
+    "pause": "Pausa",
+    "duration": "Duração"
+  },
+  "nappy_tracking": {
+    "add_note": "Adicione nota",
+    "pee": "Xixi",
+    "poo": "Cocó",
+    "both": "Ambos",
+    "type": "Tipo",
+    "nappy": "Fralda"
+  },
+  "bottle_tracking": {
+    "duration": "Duração",
+    "type": "Tipo",
+    "milk": "Leite",
+    "mix": "Mix",
+    "formula": "Leite de fórmula",
+    "both": "Ambos",
+    "right": "Direita",
+    "left": "Esquerda",
+    "experience": "Experiência",
+    "good": "Bom",
+    "add_note": "Adicione nota",
+    "pump_settings": "Definições do extrator",
+    "use_volume": "Usar volume",
+    "total": "Total",
+    "bottle": "Frasco",
+    "bag": "Saco",
+    "number": "Número",
+    "tray": "Tabuleiro",
+    "fridge": "Frigorífico",
+    "freezer": "Congelador",
+    "all": "Tudo",
+    "breastmilk": "Leite materno",
+    "use_from_virtual_freezer": "Utilização do armazenamento virtual de leite",
+    "virtual_freezer": "Armazenamento virtual de leite",
+    "volume": "Volume",
+    "bad": "Difícil",
+    "difficult": "Difícil",
+    "bottle_feeding": "Alimentação com biberão"
+  },
+  "baby_growth": {
+    "volume_units": "mm",
+    "header": "Comprimento",
+    "title": "Comprimento do bebé"
+  },
+  "baby_weight": {
+    "header": "Peso",
+    "title": "Peso do bebé",
+    "volume_units": "g"
+  },
+  "volume_popup": {
+    "title": "Adicione quantidade",
+    "message": "Introduza a quantidade de  \nleite materno extraído",
+    "save_without_amount": "Guarde sem quantidade",
+    "add_amount": "Adicione quantidade",
+    "never_show_again": "Não voltar a mostrar isto"
+  },
+  "stats_screen": {
+    "header_title": "Estatisticas",
+    "day_overview": "Visão geral diária",
+    "list": "Lista",
+    "dashboard": "Resumo",
+    "today": "Hoje",
+    "past_7_days": "Últimos 7 dias",
+    "empty_list_today_message": "Sem dados disponíveis",
+    "empty_list_past_7_days_message": "Sem dados disponíveis"
+  },
+  "stats_breastfeeding": {
+    "title": "Amamentação",
+    "session_key": "Sessão",
+    "avg_time_key": "Tempo médio",
+    "left_key": "Esquerda",
+    "right_key": "Direita",
+    "mins": "min.",
+    "error_total_duration_sec": "Os segundos da duração total têm de ser menos de 60",
+    "error_left_duration_sec": "Os segundos da duração da esquerda têm de ser menos de 60",
+    "error_right_duration_sec": "Os segundos da duração da direita têm de ser menos de 60",
+    "error_sleep_duration_sec": "Os segundos da duração têm de ser menos de 60",
+    "error_sleep_duration_min": "Os minutos da duração têm de ser menos de 60",
+    "error_total_duration": "A duração não pode exceder os 60",
+    "total_time_key": "Tempo total",
+    "error_sleep_duration_total_min": "A duração não pode exceder os 100"
+  },
+  "stats_pumping": {
+    "title": "Extração do leite",
+    "session_key": "Sessão",
+    "avg_time_key": "Tempo médio",
+    "vol_key": "Volume",
+    "avg_vol_key": "Méd. Vol.",
+    "mins": "min.",
+    "pumping_title": "Extração do leite B"
+  },
+  "stats_bottle": {
+    "session_key": "Quantidade",
+    "avg_vol_key": "Méd. Vol.",
+    "breastmilk_key": "Leite materno",
+    "formula_key": "Leite de fórmula",
+    "mix_key": "Mix",
+    "saved_milk": "Leite guardado",
+    "title": "Alimentação com biberão",
+    "total_vol_key": "Volume total"
+  },
+  "stats_nappy": {
+    "title": "Fralda",
+    "session_key": "Quantidade",
+    "pee_key": "Xixi",
+    "poo_key": "Cocó",
+    "both_key": "Ambos"
+  },
+  "stats_sleep": {
+    "title": "Dormir",
+    "session_key": "Sessão",
+    "total_sleep_key": "Sono total"
+  },
+  "stats_growth": {
+    "title": "Comprimento",
+    "size_key": "Tamanho",
+    "who": "QUEM",
+    "stats": "Estatísticas",
+    "inches": "polegadas"
+  },
+  "stats_weight": {
+    "title": "Peso",
+    "total_weight_key": "Tamanho",
+    "lbs": "lbs"
+  },
+  "stats_contraction": {
+    "title": "Contrações",
+    "avg_time_key": "Tempo médio",
+    "avg_frequency": "Frequência média",
+    "duration": "Duração",
+    "frequency": "Frequência",
+    "intensity": "Intensidade",
+    "medium": "Médio",
+    "mild": "Ligeiro",
+    "none": "Nenhum",
+    "Pain_intensity": "Intensidade da dor",
+    "strong": "Forte",
+    "very_mild": "Muito ligeiro",
+    "very_strong": "Muito forte"
+  },
+  "bluetooth": {
+    "turn_on": "Ligue o Bluetooth",
+    "to_connect_pump": "Para ligar o seu extrator à Medela Family, precisa de ligar o Bluetooth do seu telefone!",
+    "header_title": "Ligar o extrator de leite",
+    "continue": "continuar",
+    "searching": "A procurar",
+    "search_again": "Pesquisar novamente",
+    "which_pump": "Que extrator de leite quer ligar?",
+    "flex_pair_info": "Prima o botão ligar/desligar e mantenha premido durante 2 segundos. Segure o telefone junto do extrator para confirmar o emparelhamento rápido.",
+    "sonata_pair_info": "Prima o botão da descida do leite e mantenha premido durante 3 segundos. Segure o telefone junto do extrator para confirmar o emparelhamento rápido.",
+    "no_pump_found": "Não foi encontrado nenhum extrator.",
+    "make_sure_bluetooth_on": "Certifique-se de que o Bluetooth® está ligado e o extrator está ligado à corrente.",
+    "bluetooth_turned_on_steps": "1. Desligue o extrator e volte a ligar.\n2. Prima o botão da descida do leite e mantenha premido durante 3 segundos.\n3. Certifique-se de que o extrator exibe o nome de 4 carateres do extrator.",
+    "bluetooth_turned_on_steps_swing_maxi":"1. Desligue o extrator e volte a ligar.\n2. Prima o botão da descida do leite e mantenha premido durante 3 segundos.",
+    "bluetooth_turned_on_steps_flex": "1. Desligue o extrator e volte a ligar.\n2. Prima o botão da descida do leite e mantenha premido durante 2 segundos.\n3. Certifique-se de que o extrator exibe o nome de 2 carateres do extrator.",
+    "congratulations": "Parabéns!",
+    "successfully_paired": "Emparelhou o seu extrator de leite com a Medela Family. Pode agora começar a monitorizar a sua sessão de extração e muito mais.",
+    "complete": "completo",
+    "your_device_name": "Nome do seu extrator de leite",
+    "your_pump": "O seu extrator de leite",
+    "remove_pump": "Remover este extrator",
+    "about_pump": "Acerca do seu extrator de leite",
+    "instructions": "Instruções",
+    "tutorial_videos": "Vídeos tutoriais",
+    "product_website": "Website do produto",
+    "somethingWentWrong": "Algo correu mal. Tente de novo mais tarde.",
+    "location_permission_title": "Permissões necessárias",
+    "location_permission_description": "Por favor, certifique-se de dar às aplicações da Família Medela permissões para utilizar o Bluetooth nas configurações do telefone. Além disso, precisa de dar permissão à aplicação e ao seu smartphone para utilizar a localização do seu telefone. Não rastreamos a posição do seu telefone, mas isto é um requisito do sistema operativo do smartphone para se ligar ao Bluetooth. ",
+    "location_enable_description": "Pode aceder ao dispositivo da Medela Family quando a localização está ligada. Ative a localização para continuar...",
+    "cancel": "CANCELAR",
+    "open_setting": "ABRIR DEFINIÇÕES",
+    "confirm_pump_found_sub_title": "Foi encontrado um extrator de leite {0}!",
+    "confirm_cta": "confirmar",
+    "pump_add_failure_title": "Adição do extrator",
+    "ok": "OK",
+    "pump_select_dialog_title": "Informação",
+    "confirm_pump_found_desc": "Prima \"Confirmar\" para terminar o emparelhamento. Para garantir a qualidade, o seu extrator foi testado pela Medela e a sua lista de estatísticas inclui uma sessão de amostragem.",
+    "searching_message": "Aguarde um momento enquanto procuramos o seu extrator da Medela.",
+    "setting_up": "CONFIGURAÇÃO",
+    "pump_remove_dis": "Não pode remover o extrator quando este está ligado à aplicação e está em curso uma sessão.",
+    "plug_your_pump": "Certifique-se de que o extrator está ligado",
+    "plug_your_swing_pump": "Pressione o botão de \"extração\" durante 3 segundos."
+  },
+  "stats_list_export": {
+    "header_title": "Exportar",
+    "date_range_text": "Intervalo de datas",
+    "select_all_text": "Tudo",
+    "select_date_text": "Selecione a data",
+    "item_header_title": "Selecione os dados a exportar",
+    "export_button_title": "EXPORTAR DADOS",
+    "export_type": "xls",
+    "no_data_title": "Não existem dados disponíveis para este período.",
+    "plz_select_data": "Selecione qualquer monitorização para exportar.",
+    "export_fail_message": "Infelizmente ocorreu um erro durante a criação do seu relatório.",
+    "export_failed": "Exportação falhou",
+    "export_succeeded": "Exportação bem sucedida",
+    "export_success_message": "Os dados foram exportados com sucesso e serão enviados para o seu endereço de email."
+  },
+  "tests": {
+    "test_header_title": "Testes",
+    "test_bca_title": "Confiança na amamentação",
+    "test_bca_content": "Ganhe confiança e torne-se especialista",
+    "test_cp_title": "Personalização de conteúdos",
+    "test_cp_content": "Personalize a sua experiência com a aplicação",
+    "bca_notification_popup": "Faça agora",
+    "bca_notification_title": "Como está?",
+    "cp_notification_title": "Personalizar a aplicação",
+    "bca_notification_message1": "Como está? \n Já fez a sua avaliação de Confiança na amamentação?",
+    "bca_notification_message2": "Como está? \n Ok mãe, está na hora de voltar a fazer a sua avaliação da Confiança na amamentação!",
+    "bca_notification_remind": "NÃO, LEMBRAR-ME MAIS TARDE",
+    "cp_notification_message": "Personalizar a aplicação \n\n Fale-nos um pouco acerca de si, de modo a que possamos proporcionar-lhe dicas, informações e conselhos personalizados. Demora só dois minutos",
+    "cp_notification_popup": "PERSONALIZE AGORA",
+    "cp_notification_remind": "NÃO, LEMBRAR-ME MAIS TARDE"
+  },
+  "breastfeeding_confidence": {
+    "header_title": "Confiança na amamentação",
+    "motivation_text1": "Precisa de um estímulo à sua confiança?",
+    "motivation_text2": "Faça o teste agora",
+    "slider_not_all_confidence": "Nada confiante",
+    "slider_not_very_confidence": "Não muito confiante",
+    "slider_sometimes_confident": "Alguma confiança",
+    "slider_confident": "Confiante",
+    "slider_very_confident": "Por vezes muito confiante",
+    "congratulations": "Parabéns!",
+    "congrats_message": "Completou com sucesso a sua avaliação da Confiança na amamentação.",
+    "congrats_update_message": "A sua autoavaliação indica que tem um nível elevado de confiança na amamentação. Parabéns e boa sorte na sua jornada de amamentação!",
+    "congrats_articles_update_message": "Como pode ver, a sua autoavaliação reflete algumas pontuações baixas. Não há problema! Aqui estão algumas informações que podem ajudá-la a saber um pouco mais sobre estes tópicos e a aumentar a sua confiança.",
+    "finish": "TERMINAR",
+    "no_data_popup_title": "Algo correu mal.\n Tente de novo mais tarde.",
+    "offline_popup_title": "Está offline!",
+    "offline_popup_message": "Parece que não tem uma \n ligação à Internet ativa. \n Ligue-se à Internet.",
+    "five_star": "Cinco estrelas",
+    "four_star": "Quatro estrelas",
+    "one_star": "Uma estrela",
+    "three_star": "Três estrelas",
+    "two_star": "Duas estrelas"
+  },
+  "ble_pumping": {
+    "connection_lost": "Ligação perdida",
+    "pumping_paused": "Extração em pausa",
+    "pump_connected": "Exrator ligado",
+    "connecting_pump": "A ligar o extrator"
+  },
+  "content_personalization": {
+    "header_title": "Personalização de conteúdos",
+    "question_title": "Qual (se algum) dos seguintes extratores tem",
+    "congratulations": "Parabéns!",
+    "congrats_message": "Personalizou com sucesso os artigos e dicas da sua página inicial.",
+    "congrats_update_message": "Se houver alguma alteração no futuro, pode atualizar esta informação em",
+    "congrats_update_submessage": "Monitorização > Testes > Personalização de conteúdos",
+    "get_started": "COMECEMOS!",
+    "no_data_popup_title": "Algo correu mal.\n Tente de novo mais tarde."
+  },
+  "more": {
+    "header_title": "Mais",
+    "mom_info_title": "Alterar nome, logout, etc.",
+    "baby_info_title": "Alterar nome, data de nascimento, etc.",
+    "pump_title": "Definições do extrator",
+    "pump_info_title": "Ligação do extrator e mais",
+    "store_title": "Localizador de lojas",
+    "share_title": "Partilhar a aplicação",
+    "feedback_title": "Apreciamos o seu feedback",
+    "help_title": "Ajuda",
+    "settings_title": "Definições gerais da aplicação",
+    "legal_title": "Jurídico",
+    "online_store": "Lojas online",
+    "mom_profile": "Perfil da mãe",
+    "baby_profile": "Perfil do bebé",
+    "vip_pack_title": "Pacote VIP"
+  },
+  "baby_information": {
+    "header_title": "Informação sobre o bebé",
+    "image_edit_offline_title": "Sem mensagem de Internet",
+    "image_edit_offline_button": "Não é possível editar a imagem no modo offline",
+    "edit_image": "Editar imagem",
+    "change_image": "Alterar imagem",
+    "add_image": "Adicionar imagem",
+    "delete_image": "Apagar imagem",
+    "baby_boy": "Menino",
+    "baby_girl": "Menina",
+    "gender": "Género",
+    "delete_baby": "APAGAR BEBÉ",
+    "delete_baby_success_title": "Bebé apagado com sucesso",
+    "ok_btn": "OK",
+    "baby_name": "Nome/alcunha do bebé",
+    "cancel": "Cancelar",
+    "select_photo": "Selecione uma fotografia",
+    "take_photo": "Tire uma fotografia...",
+    "baby_birth_weight": "Peso à nascença",
+    "baby_birth_height": "Comprimento à nascença",
+    "choose_from_library": "Escolha da biblioteca..."
+  },
+  "mom_information": {
+    "header_title": "Informação sobre a mãe",
+    "dont_know_yet": "Não sei",
+    "do_not_plan_to_work": "Não pretendo regressar já ao trabalho (escola/formação)",
+    "new_pregnancy_text": "NOVA GRAVIDEZ",
+    "log_out": "TERMINAR SESSÃO",
+    "delete_account": "APAGAR CONTA",
+    "back_to_work_date": "Data de regresso ao trabalho",
+    "log_out_popup_title": "Pretende terminar a sessão?",
+    "ok": "OK",
+    "back_to_work_date_label": "Data de regresso ao trabalho",
+    "change_password_button": "CONFIRMAR",
+    "change_password_congrts_msg": "A palavra-passe foi alterada com sucesso",
+    "change_password_title": "Alterar a palavra-passe",
+    "current_password": "Palavra-passe atual",
+    "current_password_error": "Palavra-passe incorreta",
+    "mom_name": "Nome/alcunha da mãe",
+    "new_password": "Palavra-passe nova",
+    "new_password_error": "8-20 carateres, mín. 1 algarismo (a-z, 0-9)",
+    "repeat_password": "Repita a palavra-passe",
+    "repeat_password_err": "Erro de correspondência das palavras-passe"
+  },
+  "help": {
+    "header_title": "Ajuda",
+    "problem_solver": "Resolução de problemas",
+    "empty_list_message": "Nenhum artigo disponível",
+    "frequently_asked_questions": "Perguntas Frequentes",
+    "app_technical_support": "Apoio técnico à aplicação",
+    "customer_service": "Apoio ao Cliente",
+    "lactation_consultant": "Consultor em aleitamento",
+    "mail_subject": "Feedback sobre a aplicação Medela Family",
+    "medela_family": "Medela Family"
+  },
+  "legal": {
+    "header_title": "Jurídico",
+    "privacy_terms_conditions": "Política de privacidade e cookies",
+    "licences": "Fonte livre e aberta Licenças",
+    "imprint": "Edição",
+    "imprint_version": "Número da versão",
+    "know_more": "SABER MAIS"
+  },
+  "new_pregnancy_popup": {
+    "title": "Pretende iniciar uma nova gravidez?",
+    "cancel": "CANCELAR",
+    "add_baby_due_date": "SIM, ADICIONE UMA DATA PREVISTA DE NASCIMENTO DO BEBÉ"
+  },
+  "vip_pack": {
+    "header_title": "Pacote VIP",
+    "voice_control": "Comando de voz",
+    "voice_control_content": "Monitorização mãos livres",
+    "dark_mode": "Modo escuro",
+    "dark_mode_content": "Suave para a vista para sessões de monitorização noturnas",
+    "welcome": "Prepare-se para um novo nível de conforto!",
+    "popup_message": "Para desbloquear o pacote VIP, ligue o seu \n extrator Sonata ou Freestyle Flex.",
+    "connect_pump_btn": "LIGUE O EXTRATOR",
+    "congrats_message": "",
+    "congrats_msg": "Parabéns! Desbloqueou o pacote VIP",
+    "congrats_title": "Parabéns \n Desbloqueou o pacote VIP!",
+    "connect_to_pump_btn": "LIGUE A UM EXTRATOR INTELIGENTE",
+    "findout_more": "SAIBA MAIS",
+    "register_pump_btn": "REGISTE O SEU EXTRATOR",
+    "register_vip_link": "https://www.medela.us/breastfeeding/services/pump-registration",
+    "tutorial_instruction1": "Isso, toque no sinal \"+\" no canto superior direito do ecrã.",
+    "tutorial_instruction2": "No ecrã \"Atalho novo\", toque no botão \"Adicionar ação\".",
+    "tutorial_instruction3": "Depois selecione \"Aplicações\" no canto superior esquerdo. De seguida selecione \"Medela Family\" da lista de aplicações disponíveis.",
+    "tutorial_instruction4": "Agora pode ver a lista de comandos disponíveis. Selecione um, p. ex., \"Iniciar a amamentação\". ",
+    "tutorial_instruction5": "Agora clique em \"Seguinte\" para adicionar um texto com o que pretende, para ativar o comando, p. ex., \"Iniciar a amamentação\"",
+    "tutorial_instruction6": "Feito! Agora pode usar a voz para ativar a Medela Family!",
+    "tutorial_title1": "Para utilizar esta funcionalidade, abra a aplicação \"Atalhos\" da Apple. ",
+    "unlock_now_btn": "Desbloqueie o pacote VIP agora",
+    "vip_active": "ativo",
+    "vip_inactive": "inativo",
+    "vip_pack_text": "O pacote VIP é um conjunto de  funcionalidades exclusivas disponível apenas para clientes de extratores de leite materno selecionados da Medela",
+    "vip_title": "Pacote VIP",
+    "tutorial_instruction7": "Pronto! Agora pode usar a voz para ativar a Medela Family!"
+  },
+  "settings": {
+    "header_title": "Definições",
+    "language_title": "Idioma",
+    "language_info_title": "Inglês (Estados Unidos)",
+    "notification_title": "Notificações",
+    "notification_info_title": "Gerir as notificações da Medela Family",
+    "Measurements_title": "Medidas",
+    "Measurements_info_title": "Padrão: oz, pol, lb"
+  },
+  "measurements": {
+    "header_title": "Medidas",
+    "header_text": "Pode editar o formato da sua região principal.",
+    "standard_title": "Padrão",
+    "standard_info_title": "Onça (oz), Polegada (in) e Libra (lb)",
+    "metric_title": "Métrico",
+    "metric_info_title": "Mililitro (ml), milímetro (mm) e quilogramas (kg)"
+  },
+  "share_app": {
+    "app_store": "App Store:",
+    "download_now": "Descarregue agora:",
+    "google_play": "Google Play:",
+    "message": "A Medela Family é a sua assistente inteligente que a apoia ao longo da gravidez, da amamentação e depois.",
+    "title": "Aplicação Medela Family"
+  },
+  "feedback": {
+    "header_title": "Apreciamos o seu feedback",
+    "button_text": "Enviar",
+    "input_placeholder": "Nota",
+    "success_feedback_text": "Agradecemos o seu feedback",
+    "rating_text": "Apreciamos o seu feedback",
+    "feedback_text": "Gostaria de nos dar algum feedback?",
+    "button_title": "Está bem."
+  },
+  "chat": {
+    "header_title": "Chat",
+    "heading_description": " Apresentamos  a Melissa -\n A sua Ajudante Pessoal!",
+    "chat_content1": "A Melissa pode ajudar com problemas nas aplicações, partilhar recomendações de produtos ou dar dicas sobre bebés e amamentação",
+    "chat_content2": "A melhor parte? Quanto mais perguntas fizer à Melissa, mais inteligente ela fica! Por isso, converse com ela tanto quanto desejar.",
+    "chat_screen_link_text": "Toque aqui para iniciar o chat",
+    "avatar1_name": "Melissa",
+    "disclaimer_text": " Limitação de responsabilidade: Tenha em atenção que o chatbot apenas disponibiliza conteúdos educativos e não substitui o aconselhamento médico profissional. Se um dos dois estiver doente ou em caso de emergência, consulte imediatamente o seu médico ou consultor em aleitamento materno.",
+    "samira": "Samira",
+    "zoe": "Zoe",
+    "mei": "Mei",
+    "aurora": "Aurora",
+    "farrah": "Farrah",
+    "luna": "Luna",
+    "julia": "Julia",
+    "jahmelia": "Jahmelia",
+    "chatbot_header": "Medela Family",
+    "Chatbot_placeholder": "Escreva aqui",
+    "chatbot_send_text": "Enviar",
+    "choose_avatar": "Escolha a sua ajudante",
+    "edit_avatar": "Troque de ajudante",
+    "offline_text": "Ligue-se à Internet para poder falar comigo."
+  },
+  "countries": {
+    "header_title": "Idiomas",
+    "English_International": "Inglês (Internacional)",
+    "English_UnitedStates": "Inglês (Estados Unidos)",
+    "English_Canada": "Inglês (Canadá)",
+    "Français_Canada": "Francês (Canadá)",
+    "English_UnitedKingdom": "Inglês (Reino Unido)",
+    "Deutsche_Germany": "Alemão (Alemanha)",
+    "Français_France": "Francês (França)",
+    "Italiano_Italy": "Italiano (Itália)",
+    "Português_Portugal": "Português (Portugal)",
+    "Español_Spain": "Espanhol (Espanha)",
+    "English_Australia": "Inglês (Austrália)",
+    "Français_Netherlands": "Francês (Países Baixos)",
+    "Dutch_Netherlands": "Neerlandês (Países Baixos)",
+    "Deutsche_Netherlands": "Alemão (Países Baixos)",
+    "Deutsche_Switzerland": "Alemão (Suíça)",
+    "Français_Switzerland": "Francês (Suíça)",
+    "Italiano_Switzerland": "Italiano (Suíça)",
+    "English_India": "Inglês (Índia)",
+    "Svenska_Sweden": "Sueco (Suécia)",
+    "Norsk_Norway": "Norueguês (Noruega)",
+    "Dansk_Denmark": "Dinamarquês (Dinamarca)",
+    "русский_Russia": "Russo (Rússia)",
+    "English_Israel": "Inglês (Israel)",
+    "English_Ireland": "Inglês (Irlanda)",
+    "English_NewZealand": "Inglês (Nova Zelândia)",
+    "English_Malaysia": "Inglês (Malásia)",
+    "English_Singapore": "Inglês (Singapura)",
+    "English_SouthAfrica": "Inglês (África do Sul)",
+    "Arabic": "Árabe",
+    "French": "Francês",
+    "German": "Alemão",
+    "polish": "Polish"
+  },
+  "days": {
+    "friday": "Sexta-feira",
+    "monday": "Segunda-feira",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "thursday": "Quinta-feira",
+    "tuesday": "Terça-feira",
+    "wednesday": "Quarta-feira",
+    "s1": "Dom",
+    "s2": "Sáb",
+    "m": "Seg",
+    "t1": "Ter",
+    "t2": "Qui",
+    "w": "Qua",
+    "f": "Sex"
+  },
+  "freezer_popup": {
+    "ok": "OK",
+    "title": "Este biberão/saco já foi utilizado. Utilize outro número de biberão/saco"
+  },
+  "notifications": {
+    "header_title": "Notificações",
+    "marketing_opt_ins_notifications": "Subscrições de marketing",
+    "marketing_opt_ins_description": "",
+    "marketing_opt_ins_notifications_list": [
+      "Boletins informativos por email",
+      "SMS",
+      "Correio",
+      "Dispositivo de teste Beta"
+    ],
+    "outofapp_notifications": "Notificações Push",
+    "outofapp_description": "Estas notificações aparecem no ecrã de bloqueio do seu telefone e no centro de notificações..",
+    "outofapp_notifications_list": [
+      {
+        "list": [
+          "Allow Notifications"
+        ],
+        "title": ""
+      },
+      {
+        "list": [
+          "Pump Session Timeout"
+        ],
+        "title": "Extração ligada"
+      },
+      {
+        "list": [
+          "Milk About to Expire",
+          "Milk Expired"
+        ],
+        "title": "Armazenamento virtual de leite"
+      }
+    ],
+    "inapp_notifications": "Notificações na aplicação",
+    "inapp_description": "Estas notificações aparecem como pop-ups dentro da aplicação.",
+    "inapp_notifications_list": [
+      {
+        "list": [
+          "Missing Milk Volume"
+        ],
+        "title": "Adicionar volume"
+      },
+      {
+        "list": [
+          "Breastfeeding Confidence",
+          "Content Personalization"
+        ],
+        "title": "Testes"
+      },
+      {
+        "list": [
+          "Baby Birth Date"
+        ],
+        "title": "Confirmação da data de nascimento do bebé"
+      },
+      {
+        "list": [
+          "Congratulations"
+        ],
+        "title": "Armazenamento virtual de leite"
+      }
+    ],
+    "permission_header": "Notificações",
+    "permission_text": "Quer que a mantenhamos informada sobre as suas sessões de monitorização, as datas de validade do leite e outras atividades da aplicação? \n Pode alterar esta definição mais tarde nas definições da aplicação no ecrã de mais.",
+    "ok": "OK"
+  },
+  "babies": {
+    "header_title": "Bebés",
+    "baby_height": "Comprimento do bebé",
+    "baby_weight": "Peso do bebé"
+  },
+  "articles": {
+    "articles_header_text": "Centro de conhecimento",
+    "no_article_title": "A sua lista de artigos favoritos está vazia",
+    "no_article_description": "Para adicionar artigos a esta lista, abra um artigo e toque no ícone de coração no canto superior direito.",
+    "favourite_articles_header_text": "Favoritos",
+    "load_more_text": "Carregar mais",
+    "remove_favourite_article_text": "Remover dos Favoritos?",
+    "remove_favourite_article_description": "Tem a certeza de que pretende remover \neste artigo da sua lista de Favoritos?",
+    "yes": "SIM",
+    "no": "NÃO",
+    "share_article_title": "Medela Family"
+  },
+  "offline": {
+    "offline_message": "Está offline!"
+  },
+  "pump_list_setting": {
+    "title": "Extrator de leite ligado",
+    "description": "Clique no seu extrator para ver vídeos, instruções e mais",
+    "pump_status_offline": "Offline",
+    "pump_status_connected": "Conectado",
+    "pump_something_wrong": "Algo correu mal. Tente de novo mais tarde.",
+    "no_pump": "Não foi encontrado nenhum extrator",
+    "pump_addition_title": "Adição do extrator",
+    "pump_addition_success_message": "O extrator foi adicionado com sucesso",
+    "pump_addition_error_message": "O extrator não foi adicionado com sucesso. Tente de novo",
+    "ok": "OK",
+    "version": "Versão",
+    "battery": "Bateria",
+    "charging": "A carregar",
+    "pumps": "Extratores",
+    "setup_new_pump": "Configurar um novo extrator de leite",
+    "manual_tracking": "Monitorização manual",
+    "pump_deletion_error_message": "O extrator não foi removido com sucesso. Tente de novo",
+    "pump_deletion_success_message": "O extrator foi removido da aplicação com sucesso.",
+    "pump_deletion_title": "Remover o extrator",
+    "connect_tracking": "Monitorização do extrator",
+    "connect_pump": "Ligar o extrator",
+    "pump_now": "Bombear agora",
+    "edit_pump_name":"Editar nome do extrator",
+    "cancel":"CANCELAR"
+  },
+  "pump_phase": [
+    "Estimulação",
+    "Expressão"
+  ],
+  "pump_rhythem": [
+    "Signature",
+    "Lifestyle"
+  ],
+  "contractions": {
+    "title": "Contrações",
+    "frequency": "Frequência",
+    "pain": "Escolha a intensidade da dor",
+    "reset": "Repor",
+    "reset_message": "Tem a certeza de que pretende redefinir o temporizador de frequência?",
+    "pain_intensity1": "Nenhum",
+    "pain_intensity2": "Muito ligeiro",
+    "pain_intensity3": "Ligeiro",
+    "pain_intensity4": "Médio",
+    "pain_intensity5": "Forte",
+    "pain_intensity6": "Muito forte"
+  },
+  "opted": {
+    "title": "Ao indicar o seu número de telefone, concorda em receber mensagens SMS da Medela. Aplicam-se taxas de transporte padrão.",
+    "mail_ques": "Podemos enviar-lhe coisas pelo correio?",
+    "become_tester": "Torne-se uma Beta Tester para experimentar novos produtos, experiências e serviços da Medela, antes de qualquer pessoa. Interessa-lhe?",
+    "phone": "Número de telefone",
+    "first_name": "Nome próprio",
+    "last_name": "Apelido",
+    "address": "Endereço",
+    "apt_unit": "Apart./Unid./Outro",
+    "city": "Localidade",
+    "state": "Localidade",
+    "zip": "Código Postal",
+    "address_dialog_desc": "Para ter a certeza de que todas as encomendas chegam até si, recomendamos que utilize o formato de morada do Serviço Postal dos EUA.\nSelecione uma opção",
+    "address_dialog_nagetive": "EDITAR A MINHA MORADA",
+    "address_dialog_positive": "UTILIZAR A MORADA SELECIONADA",
+    "address_dialog_same": "Manter como está",
+    "address_dialog_title": "Verifique a sua morada",
+    "address_dialog_us": "Formato do Serviço Postal dos EUA",
+    "no_address_title": "Alerta",
+    "phone_error": "Introduza um número de telefone válido",
+    "address_error": "Introduza o seu endereço",
+    "apt_unit_error": "Introduza o seu apart./unidade/outro",
+    "city_error": "Introduza a cidade",
+    "first_name_error": "Introduza o seu nome próprio",
+    "last_name_error": "Introduza o seu apelido",
+    "state_error": "Introduza a localidade",
+    "zip_error": "Introduza o seu código postal"
+  },
+  "ble_instruction": {
+    "title": "Instruções",
+    "quick_start": "Início rápido",
+    "front_panel": "Painel dianteiro",
+    "user_manual": "Manual do utilizador"
+  },
+  "ble_quick_start": {
+    "title": "Início rápido",
+    "charge_pump": "Carregar o extrator",
+    "charge_pump_desc": "Ligue o extrator de leite a uma fonte de alimentação externa\n e carregue até 12 horas.",
+    "disassemble": "Desmonte as peças",
+    "disassemble_desc": "Separe as peças para lavagem. Retire e elimine a  \ntampa de proteção do funil antes da primeira utilização.",
+    "wash_part": "Lave a peça",
+    "wash_part_desc": "Antes da primeira utilização e após cada utilização. \nUse o seu lava loiça ou a máquina de lavar. \nNão lave o tubo antes da primeira utilização.",
+    "Sanitize_parts": "Desinfete as peças",
+    "Sanitize_parts_desc": "Antes da primeira utilização e uma vez por dia. \nUse uma panela ou o micro-ondas. \nNão desinfete o tubo.",
+    "charge_pump_desc_swing_maxi": "Ligue o extrator de leite a uma fonte de alimentação externa\n e carregue até 12 horas."
+  },
+  "ble_front_panel": {
+    "title": "Painel dianteiro"
+  },
+  "ble_offline_popup": {
+    "title": "As sessões de extração guardadas no seu extrator foram transferidas para a Medela Family",
+    "message": "Não se esqueça de introduzir a quantidade de leite materno para estatísticas atualizadas.",
+    "cancel": "Cancelar",
+    "view": "Ver"
+  },
+  "settings_screen": [
+    {
+      "title": "Idioma",
+      "content": "Inglês (Estados Unidos)"
+    },
+    {
+      "title": "Notificações",
+      "content": "Gerir as notificações da Medela Family"
+    },
+    {
+      "title": "Medidas",
+      "content": "Padrão: oz, pol, lb"
+    }
+  ],
+  "MoreList":{
+    "moreFirstListData":[
+      {
+        "selectedImage": "motherInformation",
+        "title": "Perfil da mãe",
+        "content": "Alterar nome, logout, etc."
+      },
+      {
+        "selectedImage": "babyInformation",
+        "title":"Perfil do bebé",
+        "content": "Alterar nome, data de nascimento, etc."
+      },
+      {
+        "selectedImage": "pumpSettings",
+        "title": "Definições do extrator",
+        "content": "Ligação do extrator e mais"
+      }
+    ],
+    "moreSecondListData":[
+      {
+        "selectedImage": "vipPack",
+        "title": "Pacote VIP"
+      },
+      {
+        "selectedImage": "onlineShop",
+        "title": "Lojas online"
+      },
+      {
+        "selectedImage": "storeLocator",
+        "title": "Localizador de lojas"
+      },
+      {
+        "selectedImage": "shareApp",
+        "title": "Partilhar a aplicação"
+      },
+      {
+        "selectedImage": "giveUsFeedback",
+        "title": "Apreciamos o seu feedback"
+      },
+      {
+        "selectedImage": "help",
+        "title": "Ajuda"
+      },
+      {
+        "selectedImage": "settings",
+        "title": "Definições gerais da aplicação"
+      },
+      {
+        "selectedImage": "legal",
+        "title": "Jurídico"
+      }
+    ]
+  },
+  "moveTo_freezer_again": {
+    "cancel": "Cancelar",
+    "ok": "OK",
+    "title": "Mudar leite do frigorífico de novo para o congelador não é possível."
+  },
+  "moveTo_freezer_popup": {
+    "cancel": "Cancelar",
+    "ok": "OK",
+    "title": "Tem a certeza de que pretende mudar leite do frigorífico para o congelador?"
+  },
+  "moveTo_fridge_popup": {
+    "cancel": "Cancelar",
+    "ok": "OK",
+    "title": "Tem a certeza de que pretende mudar leite do congelador para o frigorífico? Mudar do frigorífico de novo para o congelador não é possível."
+  },
+  "VipPackList": {
+    "VipPackListData":[
+      {
+        "title": "Comando de voz",
+        "content": "Monitorização mãos livres"
+      },
+      {
+        "title": "Armazenamento virtual de leite",
+        "content": "Sistema de inventário de leite virtual"
+      }
+    ]
+  },
+  "virtual_freezer": {
+    "add_milk": "Adicionar leite",
+    "clear_filter": "Limpar o filtro",
+    "created_on": "Criado em",
+    "expire_at": "Expira em",
+    "move_milk": "Mudar leite",
+    "net_volume": "Volume líquido",
+    "pumping": "Extração do leite",
+    "quick": "Rápido",
+    "saved_in": "Guardado em",
+    "tray": "Tabuleiro",
+    "notification_title1": "Parabéns",
+    "notification_title2": "Leite expirado",
+    "notification_description1": "Adicionou o seu primeiro saco para congelação ao seu armazenamento virtual de leite. Está no caminho para desenvolver o seu inventário de leite materno!",
+    "notification_description2": "O saco/biberão n.º X armazenado no frigorífico/congelador acabou de expirar. Não o utilize mais para a alimentação. Elimine-o ou utilize-o para outro fim.",
+    "notification_title3": "Leite prestes a expirar",
+    "notification_description3": "O saco/biberão n.º X armazenado no frigorífico/congelador está prestes a expirar amanhã. Não se esqueça de o utilizar hoje para evitar desperdiçá-lo!",
+    "number_limit_msg":"O número não pode exceder os 250",
+    "tray_limit_msg":"O tabuleiro não pode exceder os 250",
+    "feed_milk": "Alimentar com leite"
+  },
+  "CountriesList" : {
+    "countriesListData":[
+      {
+        "countryName": "English",
+        "countryCode": "en"
+      },
+      {
+        "countryName": "Arabic",
+        "countryCode": "ar"
+      },
+      {
+        "countryName": "French",
+        "countryCode": "fr"
+      },
+      {
+        "countryName": "Italian",
+        "countryCode": "it"
+      },
+      {
+        "countryName": "German",
+        "countryCode": "de"
+      },
+      {
+        "countryName": "Portuguese",
+        "countryCode": "pt"
+      },
+      {
+        "countryName": "Spanish",
+        "countryCode": "es"
+      },
+      {
+        "countryName": "Dutch",
+        "countryCode": "nl"
+      },
+      {
+        "countryName": "Swedish",
+        "countryCode": "sv"
+      },
+      {
+        "countryName": "Norwegian",
+        "countryCode": "no"
+      },
+      {
+        "countryName": "Danish",
+        "countryCode": "da"
+      },
+      {
+        "countryName": "Russian",
+        "countryCode": "ru"
+      },{
+        "countryName": "Hebrew",
+        "countryCode": "he"
+      },
+      {
+        "countryName": "Polish",
+        "countryCode": "pl"
+      }
+    ]
+  },
+  "NotificationsData" : {
+    "NotificationsData":[
+      {
+        "notifications_heading": "Notificações Push",
+        "notification_description": "Estas notificações aparecem no ecrã de bloqueio do seu telefone e no centro de notificações.",
+        "notifications_list": [
+          {"Key": "Allow Notifications","title": "", "list": [{"Key":"Allow Notifications","item":"Permitir notificações"}]},
+          {"Key": "Connected Pumping","title": "Bombeamento Conectado", "list": [{"Key":"Pump Session Timeout","item":"Tempo limite da sessão de bomba"}]},
+          {"Key": "Virtual Freezer","title": "Armazenamento virtual de leite", "list": [{"Key": "Milk About to Expire","item": "Leite prestes a expirar"}, {"Key": "Milk Expired","item": "Leite Vencido"}]}
+        ]
+      },
+      {
+        "notifications_heading": "Notificações na aplicação",
+        "notification_description": "Estas notificações aparecem como pop-ups dentro da aplicação.",
+        "notifications_list": [
+          {"Key": "Add Volume","title": "Adicionar Volume", "list": [{"Key": "Missing Milk Volume","item": "Volume de leite ausente"}]},
+          {"Key": "Difficult experience","title": "Difícil Experiência", "list": [{"Key": "Breastfeeding & Pumping","item": "Amamentação e extração"}]},
+          {"Key": "Connected Pumping","title": "Extração ligada", "list": [{"Key": "Pump Session Complete","item": "Sessão de extração concluída"}]},
+          {"Key": "Tests","title": "Testes", "list": [{"Key": "Breastfeeding Confidence","item": "Confiança na amamentação"},{"Key": "Content Personalization","item": "Personalização de Conteúdo"}]},
+          {"Key": "Baby Birth Date","title": "Confirmação da data de nascimento do bebê", "list": [{"Key": "Baby Birth Date","item": "Data de nascimento do bebê"}]},
+          {"Key": "Virtual Freezer","title": "Armazenamento virtual de leite", "list": [{"Key": "Congratulations","item": "Parabéns"}]}
+        ]
+      },
+      {
+        "notifications_heading": "Subscrições de marketing",
+        "notification_description": "",
+        "notifications_list": [
+          {"Key": "Email newsletters","item": "Boletins informativos por email"},
+          {"Key": "SMS","item": "SMS"},
+          {"Key": "Mail","item": "Correio"},
+          {"Key": "Beta Tester","item": "Dispositivo de teste Beta"}
+        ]
+      }
+    ]
+  },
+  "LegalList": {
+    "LegalListData": [
+      {
+        "selectedImage": "Imprint",
+        "title": "Edição"
+      },
+      {
+        "selectedImage": "privacyPolicyTermsAndCondition",
+        "title": "Política de privacidade e cookies"
+      },
+      {
+        "selectedImage": "licenses",
+        "title": "Fonte livre e aberta \nLicenças"
+      }
+    ]
+  },
+  "HelpList": {
+    "helpListData":[
+      {
+        "selectedImage": "problemSolver",
+        "title": "Resolução de problemas"
+      },
+      {
+        "selectedImage": "appTechnicalSupport",
+        "title": "Apoio técnico à aplicação"
+      },
+      {
+        "selectedImage": "customerService",
+        "title": "Apoio ao Cliente"
+      },
+      {
+        "selectedImage": "lactationConsultant",
+        "title": "Consultor em aleitamento"
+      }
+    ]
+  },
+  "time":{
+    "just_now":"Agora mesmo",
+    "day_ago":"há um dia",
+    "days_ago":"há dias",
+    "min_ago":"há um min.",
+    "mins_ago":"há minutos",
+    "h":"h",
+    "d":"d",
+    "day":"dia",
+    "days":"dias",
+    "hour_ago":"há uma hora",
+    "hours_ago":"há horas",
+    "sec":"seg.",
+    "min":"min.",
+    "mins":"minutos",
+    "hour":"hora",
+    "hours":"horas",
+    "h_ago":"há h",
+    "day_old":"do dia",
+    "days_old":"com dias",
+    "h_old":"com uma h",
+    "hour_old":"com uma hora",
+    "hours_old":"com horas",
+    "min_old":"com min.",
+    "mins_old":"com minutos",
+    "month_ago":"1 mês atrás",
+    "months_ago":"meses antes",
+    "year_ago":"1 ano atrás",
+    "years_ago":"anos atrás"
+  },
+  "months":{
+    "january":"janeiro",
+    "february":"fevereiro",
+    "march":"março",
+    "april":"abril",
+    "may":"maio",
+    "june":"junho",
+    "july":"julho",
+    "august":"agosto",
+    "september":"setembro",
+    "october":"outubro",
+    "november":"novembro",
+    "december":"dezembro"
+  },
+  "chart": {
+    "age": "Idade (semanas)",
+    "inch": "polegadas",
+    "cm": "cm"
+  },
+  "chart_month": {
+    "age": "Idade (Meses)",
+    "inch": "polegadas",
+    "cm": "cm"
+  },
+  "voice_command": {
+    "active_breastfeeding_body": "Termine a sua sessão de amamentação atual para iniciar uma sessão nova.",
+    "active_breastfeeding_title": "Não pode iniciar uma sessão de amamentação nova durante uma sessão de amamentação ativa.",
+    "active_pump_body": "Termine a sua sessão de extração atual para iniciar uma sessão nova.",
+    "active_pump_title": "Não é possível iniciar uma sessão de extração nova durante uma sessão de extração ativa.",
+    "active_sleep_body": "Termine a sua sessão de sono atual para iniciar uma sessão nova.",
+    "active_sleep_title": "Não é possível iniciar uma sessão de sono nova durante uma sessão de sono ativa.",
+    "continue_already_continue_title": "A sua sessão de amamentação atual já está ativa",
+    "continue_no_session_title": "Continue quando não existir uma sessão ativa.",
+    "ok": "OK",
+    "pause_already_pause_title": "A sua sessão de amamentação atual já está em pausa",
+    "pause_no_session_title": "Não tem uma sessão ativa",
+    "vip_pack_not_active": "Desbloqueie o pacote VIP agora para ativar esta funcionalidade."
+},
+  "maintenancescreen":{
+    "text1":"Pedimos desculpa, estamos em manutenção.",
+    "text2":"Estaremos de volta brevemente",
+    "text3":"Obrigada pela sua compreensão!"
+  },
+  "units": {
+    "cm": "cm",
+    "inch": "entrada",
+    "oz": "oz",
+    "ml": "ml",
+    "lb": "lb",
+    "kg": "Kg",
+    "in": "entrada"
+  },
+  "update_popup":{
+    "new_update":"Uma nova actualização está disponível!",
+    "download_message":"Descarregue a última actualização para continuar a utilizar a Família Medela",
+    "update_now":"Actualizar agora",
+    "remind_later":"Lembra-me mais tarde"
+  },
+  "force_update_popup":{
+    "new_update":"Atualização importante disponível",
+    "download_message":"Transfira a atualização mais recente para continuar a utilizar a família Medela.",
+    "update_now":"Atualizar agora"
+  },
+  "accessibility_labels": {
+    "baby_data": "Dados do bebé"
+  },
+  "bluetooth_pre_permissions": {
+    "title": "Você possui uma bomba tira leite inteligente da Medela?",
+    "iOS_text": "Em caso afirmativo, certifique-se de conceder permissão ao aplicativo Medela Family para usar o Bluetooth para conectar seu extrator de leite, caso contrário, você não poderá conectá-lo.",
+    "android_text":"Em caso afirmativo, certifique-se de que concede à aplicação Medela Family permissões para utilizar Bluetooth e permissão de localização para ligar o seu extrator, caso contrário não conseguirá ligar o seu extrator de leite. Não rastreamos a posição do seu telefone, mas isso é um requisito do sistema operacional do smartphone.",
+    "button": "Continuar"
+  },
+  "feedback_popup": {
+    "title": "Você ama nosso aplicativo?",
+    "title1": "Gostaria de nos enviar comentários?",
+    "no": "Não",
+    "yes": "sim",
+    "popup2_title":"Toque em uma estrela para avaliá-la na loja de aplicativos"
+  }
+}

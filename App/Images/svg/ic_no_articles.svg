@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138.246" height="83.746" viewBox="0 0 138.246 83.746">
+    <defs>
+        <style>
+            .cls-1,.cls-12,.cls-5,.cls-8{fill:none}.cls-1,.cls-5,.cls-8{stroke:#898d8d;stroke-linecap:round}.cls-1{stroke-linejoin:round}.cls-2{fill:rgba(137,141,141,.6)}.cls-3{fill:rgba(137,141,141,.4)}.cls-5{stroke-width:2px}.cls-11{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_1765" transform="translate(-118 -287.441)">
+        <g id="Group_1531" transform="translate(-101.441 122)">
+            <g id="Rectangle_528" class="cls-1" transform="translate(219.441 191.065)">
+                <rect width="138.246" height="41.76" class="cls-11" rx="6"/>
+                <rect width="137.246" height="40.76" x=".5" y=".5" class="cls-12" rx="5.5"/>
+            </g>
+            <rect id="Rectangle_529" width="51.836" height="4.576" class="cls-2" rx="2.288" transform="translate(270.49 200.93)"/>
+            <rect id="Rectangle_530" width="16.617" height="2.576" class="cls-2" rx="1.288" transform="translate(232 218.93)"/>
+            <rect id="Rectangle_531" width="10.617" height="2.576" class="cls-2" rx="1.288" transform="translate(235 222.93)"/>
+            <rect id="Rectangle_532" width="51.836" height="1.924" class="cls-3" rx=".962" transform="translate(270.49 211.945)"/>
+            <rect id="Rectangle_533" width="51.836" height="1.924" class="cls-3" rx=".962" transform="translate(270.49 216.274)"/>
+            <rect id="Rectangle_534" width="31.581" height="1.924" class="cls-3" rx=".962" transform="translate(270.49 220.604)"/>
+            <g id="Group_1528" transform="translate(124.687 -20.869)">
+                <g id="Ellipse_259" fill="none" stroke="#898d8d" stroke-width="1.5px" transform="translate(107.766 219.393)">
+                    <circle cx="8.153" cy="8.153" r="8.153" class="cls-11"/>
+                    <circle cx="8.153" cy="8.153" r="7.403" class="cls-12"/>
+                </g>
+                <g id="Group_1529">
+                    <path id="Path_1690" d="M115.92 225.425v4.5" class="cls-5" transform="translate(0 -1)"/>
+                </g>
+            </g>
+            <path id="Path_1690-2" fill="none" stroke="#898d8d" d="M-3364.64 300.065v41.315" transform="translate(3625 -109)"/>
+            <g id="Group_1764" transform="translate(334.534 205.506)">
+                <path id="Path_232" fill="#ffcd00" d="M878.376 2033.064a2.785 2.785 0 0 1 .336-.019 3.7 3.7 0 0 1 2.576 1.123l1.267 1.034 1.269-1.034a3.633 3.633 0 0 1 2.913-1.1 2.287 2.287 0 0 1 1.754 1.149c2.409 4.084-4.326 9.193-5.935 10.333-1.609-1.14-8.344-6.249-5.935-10.333a2.289 2.289 0 0 1 1.755-1.153z" transform="translate(-876.108 -2033.045)"/>
+            </g>
+        </g>
+        <g id="Group_852" transform="translate(128.779 287.441)">
+            <g id="Ellipse_244" class="cls-1" transform="translate(.104)">
+                <circle cx="9.059" cy="9.059" r="9.059" class="cls-11"/>
+                <circle cx="9.059" cy="9.059" r="8.559" class="cls-12"/>
+            </g>
+            <path id="Path_945" d="M-3170.5-402v6.514" class="cls-8" transform="translate(3179.662 407.608)"/>
+            <path id="Path_946" d="M0 6.514V0" class="cls-8" transform="rotate(90 1.583 10.642)"/>
+        </g>
+        <g id="Group_1763" transform="translate(198.848 346.51)">
+            <g id="Ellipse_244-2" fill="#060606" stroke="#898d8d" stroke-linecap="round" stroke-linejoin="round" transform="translate(1.359 -.302)">
+                <circle cx="12.49" cy="12.49" r="12.49" class="cls-11"/>
+                <circle cx="12.49" cy="12.49" r="11.99" class="cls-12"/>
+            </g>
+            <g id="Group_1764-2" transform="translate(8.073 8.028)">
+                <path id="Path_232-2" fill="rgba(137,141,141,0)" stroke="#888b8d" stroke-linecap="round" stroke-linejoin="round" d="M878.062 2033.062a2.421 2.421 0 0 1 .29-.016 3.191 3.191 0 0 1 2.219.968l1.091.891 1.093-.891a3.13 3.13 0 0 1 2.509-.951 1.97 1.97 0 0 1 1.511.989c2.075 3.518-3.727 7.92-5.113 8.9-1.386-.982-7.188-5.384-5.113-8.9a1.972 1.972 0 0 1 1.513-.99z" transform="translate(-876.108 -2033.045)"/>
+            </g>
+        </g>
+    </g>
+</svg>

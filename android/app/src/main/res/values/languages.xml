@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="all_spported_languages">
+    <item>en</item>
+    <item>ar</item>
+    <item>fr</item>
+    <item>it</item>
+    <item>de</item>
+    <item>pt</item>
+    <item>es</item>
+    <item>nl</item>
+    <item>sv</item>
+    <item>no</item>
+    <item>nb</item>
+    <item>da</item>
+    <item>ru</item>
+    <item>pl</item>
+  </string-array>
+  <string-array name="all_rtl_languages">
+    <item>ar</item>
+  </string-array>
+</resources>

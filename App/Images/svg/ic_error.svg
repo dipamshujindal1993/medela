@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic-error" transform="translate(-168 -296)">
+        <circle id="Ellipse_209" cx="20" cy="20" r="20" fill="#e10000" transform="translate(168 296)"/>
+        <g id="Group_2402" transform="translate(1 -1)">
+            <rect id="Rectangle_1189" width="2" height="15" class="cls-2" rx="1" transform="translate(186 308)"/>
+            <rect id="Rectangle_1190" width="2" height="2" class="cls-2" rx="1" transform="translate(186 325)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+    <defs>
+        <style>
+            .cls-7{fill:none}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_2418" transform="translate(-8 -128)">
+        <g id="img-searching" fill="none" transform="translate(0 -8)">
+            <g id="Ellipse_541" stroke="rgba(137,141,141,0.6)" opacity="0.4" transform="translate(88 216)">
+                <circle cx="100" cy="100" r="100" class="cls-6"/>
+                <circle cx="100" cy="100" r="99.5" class="cls-7"/>
+            </g>
+            <g id="Ellipse_542" stroke="rgba(137,141,141,0.4)" opacity="0.4" transform="translate(48 176)">
+                <circle cx="140" cy="140" r="140" class="cls-6"/>
+                <circle cx="140" cy="140" r="139.5" class="cls-7"/>
+            </g>
+            <g id="Ellipse_543" stroke="rgba(137,141,141,0.2)" opacity="0.4" transform="translate(8 136)">
+                <circle cx="180" cy="180" r="180" class="cls-6"/>
+                <circle cx="180" cy="180" r="179.5" class="cls-7"/>
+            </g>
+        </g>
+        <circle id="Ellipse_545" cx="60" cy="60" r="60" fill="#ffcd00" transform="translate(128 248)"/>
+        <path id="Union_18" fill="#fff" d="M-10172.537-6259.483l-11.423-11.244a1.966 1.966 0 0 1 0-2.809 2.042 2.042 0 0 1 2.857 0l9.993 9.836 18.558-18.269a2.045 2.045 0 0 1 2.855 0 1.964 1.964 0 0 1 0 2.812l-19.985 19.674a2.037 2.037 0 0 1-1.429.581 2.029 2.029 0 0 1-1.426-.581z" transform="translate(10354.551 6578.55)"/>
+    </g>
+</svg>

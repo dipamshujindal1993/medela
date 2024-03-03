@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<style>
+    
+    @font-face {
+    font-family: myFirstFont;
+    src: url('FuturaSBMedela-Light.otf');
+  }
+
+  @font-face {
+    font-family: mySecondFont;
+    src: url('FuturaSBMedela-Book.otf');
+  }
+
+  @font-face {
+    font-family: myThirdFont;
+    src: url('FuturaSBMedela-DemiBold.otf');
+  }
+
+body {
+    padding: 10px 0 0 0;
+    background: #000000;
+    color: #767676;
+}
+
+.panel-title{
+    font-family:mySecondFont;
+
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.btn-link {
+    color: #767676;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: left;
+    white-space: normal;
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-family: mySecondFont;
+    min-height: 48px;
+}
+
+
+.panel{
+    border:none;
+    box-shadow:none;
+    background: #000000;
+}
+
+.panel-default>.panel-heading {
+    color: #767676;
+    background-color: #000000;
+    border-color: #767676;
+    padding: 0;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.glyphicon-minus:before {
+    content: "\2212";
+    font-family: mySecondFont;
+    position: relative;
+    top: -2px;
+    background: #FECD00;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.glyphicon-plus:before {
+    content: "\002b";
+    font-family: mySecondFont;
+    position: relative;
+    top: -2px;
+    background: #FECD00;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+.btn-link:focus, .btn-link:hover {
+    color: #767676;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+button:focus {outline:0;}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
+.panel-body ul{
+    padding:0 0 0 40px
+}
+
+.panel-body ul li{
+    font-family: myFirstFont;
+    font-size: 16px;
+    color: #767676;
+}
+
+.panel-body p{
+    font-family: mySecondFont;
+    font-size: 16px;
+    padding: 0 0 0 0px;
+    color: #767676;
+}
+
+.para{
+    font-family: myFirstFont;
+    font-size: 16px;
+    padding: 0 0 0 0px;
+    color: #767676;
+}
+.glyphicon-plus{
+    margin-right: 10px;
+}
+.glyphicon-minus{
+    margin-right: 10px;
+}
+.borderbtm {
+    border-bottom: 5px solid rgb(255 205 0);
+    width: 30px;
+    margin: 20px 0 30px 0;
+}
+.header-txt {
+    color: #767676;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: myThirdFont;
+}
+.panel-body {
+    padding: 10px 0;
+}
+</style>
+<script>
+    $(document).ready(function(){
+          $('.collapse.in').each(function(){
+            $(this).parent().find(".glyphicon").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        });
+          
+        $('.collapse').on('shown.bs.collapse', function(){
+            $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        }).on('hidden.bs.collapse', function(){
+            $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+        });       
+    });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+     <div class="row">
+         <div class="col-xs-12">
+          <p class="header-txt">PRIVACY- &amp; COOKIEBELEIDS-APP</p>
+          <div class="borderbtm"></div>
+          <p class="para">Dit privacy- en cookiebeleid (&apos;Privacy- &amp; Cookiebeleids-app&apos;) is van toepassing op de mobiele MyMedela borstvoedingsapplicatie (&apos;app&apos;), die wordt beheerd en gecontroleerd door Medela AG, Lättichstrasse 4b, 6340 Baar, Zwitserland (&apos;Medela&apos; of &apos;wij&apos;). <br><br> Deze Privacy- &amp; Cookiebeleids-app regelt hoe je persoonsgegevens, wanneer je onze app gebruikt, worden verzameld, verwerkt en gebruikt, en licht onze praktijken toe met betrekking tot het plaatsen van cookies, waaronder de soorten cookies die wij gebruiken en hoe je ze kunt beheren. <br><br> Deze Privacy- &amp; Cookiebeleids-app is voor het laatst herzien op 1 april 2021. <br><br></p>
+          <div class="panel-group" id="accordion1">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn-link" data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 1. VERZAMELEN, VERWERKEN EN GEBRUIKEN VAN JE PERSOONSGEGEVENS</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse in" id="Exampleone">
+                      <div class="panel-body">
+                          <p><b>1.1 Registratie en gebruik van onze app</b></p>
+                          <p>Om onze app te gebruiken, moet je bij ons een account registreren. Tijdens het registratieproces wordt je gevraagd om bepaalde gegevens te verstrekken, zoals je naam/bijnaam, e-mailadres, de verwachte of feitelijke geboortedatum van je baby, en om een wachtwoord te kiezen. Als je geen account aanmaakt, kun je de app niet gebruiken. Als onderdeel van de registratie kunnen we je vragen om verdere (optionele) informatie, zoals je borstkolfsituatie, om de inhoud van onze app aan je behoeften en interesses aan te passen. Het registratieproces vindt plaats via een beveiligde serververbinding met Medela. Tenzij anderszins vermeld in deze Privacy- &amp; Cookiebeleids-app (met name in de artikelen 1.2, 1.3 en 1.4), gebruiken we de door jou verstrekte persoonsgegevens enkel zoals vermeld in deze Privacy- &amp; Cookiebeleids-app en om je account bij ons te beheren, je informatie op onze servers op te slaan en te ordenen (voor zover nodig voor het verstrekken van onze diensten) en om je de gevraagde functies en diensten te bieden. <br><br> Daarnaast vragen we tijdens het registratieproces toestemming om je persoonsgegevens te mogen gebruiken voor marketingdoeleinden, zodat we je regelmatig op de hoogte kunnen houden van diensten, producten en evenementen van Medela en de bij de groep aangesloten ondernemingen. We kunnen je ook uitnodigen om deel te nemen aan enquêtes die door ons worden uitgevoerd. Nadat je toestemming hebt gegeven en afhankelijk van je regio, kun je een bevestigingsmail ontvangen met daarin een link waarop je moet klikken om je toestemming te bevestigen. Deze dubbele opt-in-procedure helpt ons de identificatie van de houder van de e-mailaccount te garanderen. <br><br> Je persoonsgegevens worden niet met derden gedeeld noch voor een ander doel gebruikt dan zoals uiteengezet in deze Privacy- &amp; Cookiebeleids-app, tenzij je hier vooraf uitdrukkelijk toestemming voor hebt verleend. <br><br> Door onze app te installeren/te openen en je account bij ons te registreren, stem je ermee in dat Medela cookies plaatst op je apparaat die voor bepaalde geanonimiseerde analyses worden gebruikt door het verzamelen en verwerken van statistische informatie, zoals gebruikersgedrag, browsepatronen, gemiddelde gebruiksduur en interessegebieden. We verzamelen en verwerken die informatie om te begrijpen hoe klanten onze app gebruiken en om trends, statistieken en de behoeften van onze klanten te evalueren, wat ons helpt onze app te verbeteren en onze klanten beter van dienst te zijn, bijvoorbeeld door je een meer gepersonaliseerde app-ervaring en gerichte aanbiedingen te bezorgen. Lees de onderstaande artikelen 2, 2.4 en 2.5 voor een gedetailleerde beschrijving van de cookies en/of analysetools die we hiervoor gebruiken en je rechten om hiervan af te zien. Installeer de app niet op je appara(a)t(en) indien je niet instemt met bovenstaande praktijken en wilt vermijden dat je informatie, zelfs in geanonimiseerde vorm, wordt gevolgd en verzameld.</p>
+  
+                              <p><b>1.2 Gebruik van de functies van onze app</b></p>
+                              <p>Onze app biedt verschillende functies waarmee je vrijwillig kunt beslissen om meer informatie met ons te delen. Dergelijke informatie omvat persoonsgegevens over de baby (bv. naam, foto, geboortedatum) en de moeder (bv. verwachtingen/ervaringen met borstvoeding en afkolven of verwachte terugkeer naar opleiding/werk). Met onze app kun je ook prenatale activiteiten volgen en monitoren, zoals informatie over contracties, maar ook postnatale activiteiten, zoals je borstvoedings-, kolf- en flesvoedingssessies, het beheer van moedermelk en het gewicht, de lengte, de slaap, luierwisselingen van je baby en eventuele verdere aantekeningen. Verder kun je met onze app verbinding maken met onze verbonden kolven om gemakkelijk sessietijden te volgen en in te voeren, maar ook om de gebruikte instellingen en de afgekolfde moedermelk te registreren en om herinneringsberichten te krijgen zodat je op schema kunt blijven, waarschuwingen te ontvangen wanneer je kolfaccu laag is en om toegang te krijgen tot live lactatie-advies (als dit op je markt beschikbaar is). Je kunt ook vragenlijsten invullen om je succes bij het geven van borstvoeding te meten en om je gebruikerservaring te personaliseren met onze app, je kolf te registreren en gratis toegang te krijgen tot het VIP-pakket (als dit op je markt verkrijgbaar is), om een winkel bij je in de buurt te vinden waar je onze producten kunt kopen en om feedback te geven over de app. Tot slot kun je onze chatbot-functionaliteit gebruiken voor technische ondersteuning, productaanbevelingen en ondersteuning bij de borstvoeding. <br><br> Alleen voor Android-gebruikers: Wanneer je onze app aansluit op een Medela kolf met Bluetooth, moet het besturingssysteem toegang hebben tot de locatie (GPS) van het apparaat. Medela bewaart of gebruikt je locatiegegevens echter nooit. Het niet verlenen van toestemming voor toegang tot de locatie leidt tot problemen met het verbinden van de kolf. <br><br> Tenzij je uitdrukkelijk toestemming hebt gegeven, en tenzij anders vermeld in deze Privacy- &amp; Cookiebeleids-app, bewaren, verwerken en gebruiken we dergelijke informatie enkel zodat je onze functies en diensten kunt gebruiken, onder meer om je gepersonaliseerde inhoud en educatieve informatie en nuttige tips te geven op basis van je unieke gegevens en voortgang in de app en zodat je de mogelijkheid hebt ons feedback over de app te sturen. <br><br> Je kunt te allen tijde je interessegebieden bepalen en/of je keuzes aanpassen door in de app je persoonlijke instellingen te wijzigen (Tools Menu → Tests → Inhoud Personalisering). Als je helemaal geen gepersonaliseerde inhoud of diensten wilt ontvangen, ben je niet verplicht om persoonlijke informatie te verstrekken (en vul je de personaliseringsvragen in de app niet in). <br><br> Daarnaast kun je te allen tijde je persoonlijke instellingen voor meldingen in de app wijzigen (Meer → algemene app-instellingen → Meldingen). <br><br> Om een foto van je baby te kunnen uploaden, vraagt onze app je toestemming om toegang te hebben tot je camera/foto&apos;s. We gebruiken de verleende toestemming enkel voor dit doel. <br><br> Daarnaast gebruiken we ontvangen persoonsgegevens uitsluitend in geanonimiseerde vorm (d.w.z. in een niet op individuen herleidbare vorm waaruit geen conclusies over je identiteit kunnen worden getrokken) voor statistische doeleinden en voor interne evaluatie om onze producten en diensten te verbeteren. Je persoonsgegevens worden niet verwerkt voor andere doeleinden of buiten het toepassingsgebied van dit privacybeleid, behalve wanneer dit door de toepasselijke wetgeving uitdrukkelijk toegestaan of verplicht is.</p>
+  
+                                  <p><b>1.3 Verwerking van gevoelige persoonsgegevens</b></p>
+                                  <p>In de regel vragen of verwerken we geen gevoelige persoonsgegevens (bv. gezondheidsinformatie, genetische/biometrische gegevens). Door gebruik te maken van onze app kun je dergelijke gegevens (bv. informatie over contracties, gewicht/lengte van de baby) echter vrijwillig aan Medela bekendmaken. Door een account bij ons te registreren en dergelijke gevoelige persoonsgegevens in te voeren, ga je uitdrukkelijk akkoord met de verwerking van dergelijke gegevens door Medela. Je kunt je toestemming op elk gewenst moment intrekken door de betreffende gegevens te verwijderen of de app te verwijderen. Dit doet geen afbreuk aan de rechtmatigheid van de gegevensverwerking op basis van de toestemming die je vóór de intrekking hebt gegeven.</p>
+  
+                                      <p><b>1.4 Eén bestand aanmaken met informatie uit andere bronnen</b></p>
+                                      <p>Als je besluit gebruik te maken van andere diensten die door ons worden aangeboden, zoals wanneer je je aanmeldt voor Medela Family via de website, wat gratis toegang biedt tot aanvullende educatieve informatie en direct-marketingcommunicatie over onze producten en diensten, kunnen we één enkel record voor je aanmaken waarin de gegevens die we van je ontvangen via je gebruik van deze andere diensten worden gecombineerd met de gegevens die we van je ontvangen via je gebruik van de app. Door je account bij ons in de app te registreren, word je automatisch geregistreerd voor het volledige Medela familieprogramma. Je kunt je op elk gewenst moment afmelden voor de individuele Medela Family diensten door de instellingen in je profiel te wijzigen. <br><br> Dit unieke bestand helpt ons je behoeften en voorkeuren beter te begrijpen zodat we je de gevraagde producten en diensten efficiënter kunnen verstrekken en je zo een meer gepersonaliseerde ervaring kunt genieten. <br><br> Tenzij anderszins vermeld in deze Privacy- &amp; Cookiebeleids-app, gebruiken we je gegevens niet voor andere doeleinden of delen we de informatie niet met derden, behalve wanneer dit door de toepasselijke wetgeving uitdrukkelijk toegestaan of verplicht is.</p>
+  
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 2. COOKIES, TRACKING- EN ANALYSETOOLS</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Exampletwo">
+                      <div class="panel-body">
+                         <p><b>2.1 Essentiële cookies</b></p>
+                         <p>Cookies zijn kleine tekstbestanden die onze app op je tablet, smartphone of ander apparaat plaatst. Als je apparaat is ingesteld om cookies te accepteren, wordt de tekst in een klein bestand daarop toegevoegd. <br><br> Tenzij anderszins vermeld in deze Privacy- &amp; Cookiebeleids-app, zijn de door ons gebruikte cookies cruciaal voor de werking en prestaties van onze app. Zo werkt onze app efficiënter en kun je de geboden functies en diensten gemakkelijker gebruiken. Deze functionaliteits- en/of prestatiecookies worden van je apparaat verwijderd nadat je onze app twee (2) weken niet hebt gebruikt. We gebruiken de in essentiële cookies opgeslagen informatie voor geen enkel ander doeleinde dan de strikt noodzakelijke om je de aangevraagde diensten en functies te bieden.</p>
+                          <p><b>2.2 Toestemming voor het plaatsen van niet-essentiële cookies en gebruik van analysetools</b></p>
+  
+                          <p>Wanneer je onze app installeert/opent en je account bij ons registreert, stem je ermee in dat Medela extra cookies plaatst op je apparaat en/of bepaalde tracking- en analysetools gebruikt. Deze cookies en tools zijn niet strikt noodzakelijk voor de werking en prestaties van onze app, maar helpen ons niet-gepersonaliseerde informatie over je appgebruik te verzamelen om ons appaanbod en -diensten te verbeteren en/of om je meer gepersonaliseerde informatie en diensten te verstrekken, zoals gerichte aanbiedingen via onze app (zie ook de Artikelen 2.4 en 2.5 hieronder voor uitleg over bepaalde tracking- en analysetools die we gebruiken). <br><br> Je hebt te allen tijde, met werking voor de toekomst, het recht om je toestemming in te trekken en/of af te zien van de plaatsing van cookies en/of het verzamelen van je informatie voor de verschillende doeleinden via de tracking- en analysetools. Volg hiervoor de instructies in de onderstaande artikelen. Verwijder de app van je appara(a)t(en) om je toestemming volledig in te trekken en om te vermijden dat je informatie wordt gevolgd en verzameld.</p>
+                            
+                              <p><b>2.3 Beheer van je cookie-instellingen</b></p>
+                              <p>De meeste mobiele apparaten zijn aanvankelijk zo ingesteld dat cookies worden geaccepteerd. Als je dat liever hebt, kun je je instellingen zodanig wijzigen dat cookies in het algemeen worden afgewezen, dat reeds op je apparaat geplaatste cookies worden verwijderd of dat je wordt gewaarschuwd voordat er een cookie wordt geplaatst. Raadpleeg de gebruiksaanwijzingen van je apparaat of www.allaboutcookies.org voor meer informatie over hoe je de instellingen van je mobiele apparaat kunt aanpassen of wijzigen. <br><br> Als je besluit geen cookies te accepteren, kan de bruikbaarheid van de app beperkter zijn en kun je mogelijk niet profiteren van sommige door ons aangeboden functies en diensten. <br><br> Als je verschillende mobiele apparaten gebruikt (bv. een smartphone, tablet) voor toegang tot onze app, moet je er zelf voor zorgen dat de instellingen op elk apparaat worden ingesteld volgens je cookievoorkeuren.</p>
+                                  <p><b>2.4 Gebruik van Google Mobile App Analytics</b></p>
+                                  <p>Deze app maakt gebruik van Google Mobile App Analytics (&quot;Google Analytics&quot;), een webanalysedienst van Google, Inc. (VS) en Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ierland (voor de EU) (&quot;Google&quot;). Google Analytics kan bepaalde trackingtechnologieën gebruiken om ons te helpen analyseren hoe gebruikers onze app gebruiken, zoals het aantal actieve gebruikers en gebruikersgedrag (bv. gemiddelde gebruiksduur, terugkerende gebruikers, bekeken schermen per maand, top-artikelen). In de regel worden alle gegenereerde gegevens over je gebruik van onze app verzonden naar en opgeslagen door Google op servers in de Verenigde Staten. Omdat op deze app de door Google geboden functie voor IP-anonimisering is geïmplementeerd, wordt je IP-adres, voordat het naar de VS wordt verzonden, door Google ingekort binnen de lidstaten van de Europese Unie en in andere landen die zich hebben aangesloten bij de overeenkomst betreffende de Europese Economische Ruimte. Slechts in uitzonderlijke gevallen wordt je volledige IP-adres naar een server van Google in de VS verzonden en aldaar ingekort. <br><br> Google gebruikt deze informatie als een door ons ingehuurde gegevensverwerker om ons te helpen bij het evalueren van het gebruik van onze app, om rapporten over appactiviteit op te stellen en om andere statistische en analysediensten te verrichten met betrekking tot het gebruik van onze app. Het door je mobiele apparaat in het kader van Google Analytics verzonden IP-adres wordt niet gekoppeld aan andere gegevens die Google bewaart. <br><br> Indien je niet door Google Analytics wilt worden gevolgd, kun je je te allen tijde terugtrekken door de app van je mobiele apparaat te verwijderen. <br><br> Klik <a href="medelaFamily://openexternal?url=https://support.google.com/analytics/answer/6004245">hier</a> voor een overzicht van privacy bij Google.</p>
+  
+                                      <p><b>2.5 Gebruik van analysetools voor apps</b></p>
+  
+                                      <p>Voorts gebruikt Medela bepaalde analysetools en -diensten voor apps om geaggregeerde en geanonimiseerde statistische informatie over het gebruik van onze app te verzamelen. <br><br> We gebruiken iTunes Connect App Analytics van Apple, Inc. (&quot;Apple&quot;). Deze tool verzamelt geanonimiseerde en geaggregeerde gegevens van appgebruikers op mobiele Apple-apparaten met iOS 8 of hoger. iTunes Connect App Analytics bezorgt ons cijfermatige gebruiksgegevens over de app, zoals het totale aantal keren dat de app is geïnstalleerd, het aantal keren dat de app is gebruikt en het aantal actieve sessies binnen een specifieke periode. <br><br> Verder maken we gebruik van soortgelijke analyse- en statistische diensten van Google Inc. (VS) en Google Ireland Limited, Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ierland (voor de EU) (&quot;Google&quot;) via de Google Play Developer Console en/of Google Firebase Console. De informatie die wij ontvangen, omvat enkel geaggregeerde en geanonimiseerde statistische informatie van appgebruikers op Android-apparaten, zoals installatie- en upgradecijfers, crashaantallen, informatie over een crash, gebruikersratings, acquisitiekanalen en bezoekersregio&apos;s. <br><br> Indien de desbetreffende functie op je apparaat is ingeschakeld, verzamelt, verwerkt en gebruikt respectievelijk Apple of Google dergelijke informatie om ons te helpen bij het evalueren van het gebruik van onze app, om rapporten over appactiviteit op te stellen en andere statistische en analysediensten te verrichten met betrekking tot het gebruik van onze app. <br><br> We ontvangen bovenstaande informatie enkel indien je op je mobiele apparaat ermee hebt ingestemd dat je gegevens met externe aanbieders worden gedeeld. Je kunt te allen tijde je keuze maken en wijzigen (opt-in of opt-out) in het instellingenmenu van je apparaat (voor iOS-apparaten zie: Instellingen → Privacy → Diagnostiek &amp; Gebruik; voor Android-apparaten zie Instellingen → Gebruiker en back-up → Google → Meer → Gebruik &amp; diagnostiek).</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplethree" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 3. OPENBAARMAKING VAN JE PERSOONSGEGEVENS</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplethree">
+                      <div class="panel-body">
+                          <p>Medela is als verwerkingsverantwoordelijke verantwoordelijk voor de werking van de app. Om ervoor te zorgen dat de relatie met jou als klant efficiënt verloopt en om je een goede klantervaring te bieden, wordt je klantrelatie op lokaal niveau mogelijk echter ook beheerd door de lokale, bij de groep aangesloten, onderneming die verantwoordelijk is voor je land. Daarnaast mogen bij de groep aangesloten ondernemingen enkel geanonimiseerde statistische rapporten en andere analytische gegevens over appgebruik en -activiteit ontvangen die geen persoonlijk identificeerbare informatie bevatten. <br> <br> Medela en/of de lokale bij de groep aangesloten onderneming kunnen voorts gebruikmaken van externe technische serviceproviders die diensten namens hen en in overeenstemming met hun instructies mogen verlenen. Deze entiteiten kunnen toegang hebben tot je persoonsgegevens, maar enkel voor zover dit nodig is voor je gebruik van onze app, met inbegrip van het verlenen van verwante diensten of het afhandelen van je aanvragen of verzoeken. Medela (en/of, indien van toepassing, de lokale groepsmaatschappij) kan bijvoorbeeld serviceproviders gebruiken om de app te ontwikkelen en/of te hosten, je gegevens op te slaan, de chatbot-functionaliteit in te schakelen, het delen van functionaliteit via sociale media mogelijk te maken, de klantenrelatie te beheren, marketinggerelateerde communicatie over onze producten en diensten te leveren, je huuraanvraag te verwerken, spraakcommando&apos;s te geven die worden ondersteund door Siri (iOS) en Google Assistant (Android) of de verzamelde informatie te analyseren zoals uitgelegd in dit beleid. Die serviceproviders mogen je persoonsgegevens niet meedelen aan ongemachtigde derden noch je persoonsgegevens voor andere doeleinden gebruiken dan opgedragen. Sommige van die serviceproviders kunnen gevestigd zijn in landen buiten Zwitserland en de EU/EER, die niet hetzelfde gegevensbeschermingsniveau bieden als in het land waarin je woont. Medela en/of, zoals van toepassing, de lokale bij de groep aangesloten onderneming hebben de nodige overeenkomsten met die serviceproviders gesloten om ervoor te zorgen dat zij alle nodige maatregelen treffen om je persoonsgegevens te beschermen overeenkomstig de toepasselijke eisen. Voor meer informatie over onze serviceproviders kun je contact met ons opnemen zoals nader uitgelegd in het hoofdstuk Je rechten en hoe je contact met ons kunt opnemen. <br> <br> We kunnen je persoonsgegevens doorgeven aan derden om transacties te verwerken (bv. adresvalidatie, verzending, belastingberekening). <br> <br> Behalve zoals hierboven vermeld, verstrekken wij je persoonsgegevens niet aan derden zonder je voorafgaande toestemming, tenzij wij hiertoe wettelijk verplicht zijn.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplefour" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 4. OPSLAG VAN JE PERSOONSGEGEVENS EN GEGEVENSBEVEILIGING</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplefour">
+                      <div class="panel-body">
+                          <p>Je gegevens worden opgeslagen op servers in Zwitserland. De gebruikersgegevens van de VS en Canada worden ook in de VS opgeslagen. Voorts kunnen Medela en/of, zoals van toepassing, de lokale bij de groep aangesloten onderneming gebruikmaken van aanbieders van clouddiensten in landen buiten Zwitserland en de EU/EER, inclusief de VS, om je persoonsgegevens te hosten en te verwerken voor opslag-, communicatie- en marketingdoeleinden. Hoewel de wetten van die landen mogelijk niet het gegevensbeschermingsniveau bieden dat in Zwitserland of de EU/EER als adequaat wordt beschouwd, hebben we de nodige maatregelen getroffen om ervoor te zorgen dat je persoonsgegevens behoorlijk worden behandeld en beschermd en enkel namens ons en conform onze instructies worden verwerkt. <br><br> Al je persoonsgegevens worden onomkeerbaar en automatisch verwijderd na een jaar inactiviteit (zonder gebruik van de app). Persoonsgegevens van Amerikaanse en Canadese ingezetenen worden verwijderd na drie jaar inactiviteit. <br><br> We zullen je persoonsgegevens vertrouwelijk behandelen. We hebben de nodige technische en organisatorische beveiligingsmaatregelen getroffen om je persoonsgegevens te beschermen tegen ongeoorloofde verstrekking of toegang, wijziging, misbruik, onopzettelijke of onrechtmatige vernietiging en verlies.</p>
+    
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplefive" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 5. HIPAA NOTICE OF PRIVACY POLICY FOR PROTECTED HEALTH INFORMATION</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplefive">
+                      <div class="panel-body">
+                          <p>Indien je &apos;beschermde gezondheidsinformatie&apos; zoals gedefinieerd volgens de Amerikaanse wetgeving wilt onthullen wanneer je toegang hebt tot onze app of deze gebruikt, raadpleeg dan onze <a href="medelaFamily://openexternal?url=https://www.medela.us/medela-us/breastfeeding/hipaa-privacy-policy">&apos;HIPAA Privacy Policy and Notice of Privacy Practices&apos;</a>om je rechten te begrijpen en hoe we je beschermde gezondheidsinformatie zouden kunnen gebruiken en openbaar maken.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Examplesix" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 6. INWONERS VAN CALIFORNIË</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Examplesix">
+                      <div class="panel-body">
+                         <p>Medela&apos;s <a href="medelaFamily://openexternal?url=https://www.medela.us/dam/Legal-Policies/ccpa_privacy_notice_01192021?uuid=jcr:b9a23d89-1c61-4471-ab9b-dc5ee08250f5">Privacyverklaring voor inwoners van Californië</a> vormt een aanvulling op de informatie in deze Privacy- &amp; Cookiebeleids-app en is uitsluitend van toepassing op bezoekers, gebruikers en anderen die in de staat Californië, VS, wonen.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Exampleseven" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 7. JE RECHTEN / HOE JE CONTACT MET ONS OPNEEMT</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Exampleseven">
+                      <div class="panel-body">
+                          <p>Je hebt mogelijk het recht op grond van je lokale wetgeving inzake gegevensbescherming en privacy om, om legitieme redenen, te verzoeken dat wij alle persoonsgegevens die wij over je hebben openbaar maken, om te verzoeken om correctie, verwijdering en/of blokkering van je persoonsgegevens, bezwaar te maken tegen de verwerking van je persoonsgegevens, of om een elektronische kopie van je persoonsgegevens te vragen om deze door te geven aan een ander bedrijf (gegevensoverdraagbaarheid). <br><br> Verder kun je op elk moment, met werking voor de toekomst, alle door jou gegeven toestemmingen intrekken door de app van je appara(a)t(en) te verwijderen en via een e-mail aan onderstaand adres te verzoeken je gegevens te wissen. <br><br> Bij vragen over het verzamelen, verwerken en/of gebruiken van je persoonsgegevens of om je rechten uit te oefenen, kun je ons een e-mail sturen naar<a href="mailto:privacy@medela.com">privacy@medela.com</a>. <br><br> Amerikaanse ingezetenen: Vul het <a href="medelaFamily://openexternal?url=https://www.medela.us/dam/Legal-Policies/privacy_request_form_02012021.pdf?uuid=jcr:b32a0378-93e0-43c1-9652-ceba774fb001">formulier Privacyverzoek</a> in en stuur het ingevulde formulier per e-mail naar <a href="mailto:privacy.us@medela.com">privacy.us@medela.com</a> om je rechten uit te oefenen, om informatie te verwijderen of te weten welke informatie we over je hebben verzameld. <br><br> Inwoners van Nevada: Zonder het voorgaande te beperken, kan de wet van Nevada je toestaan om ons in het bijzonder te instrueren je informatie niet aan derden te verkopen. Als je inwoner van Nevada bent, kun je dergelijke opt-outverzoeken per e-mail indienen via <a href="mailto:privacy.us@medela.com">privacy.us@medela.com</a>. Om van kracht te zijn, moet je verzoek je volledige naam, adres en e-mailadres bevatten, zodat we kunnen proberen de authenticiteit van je verzoek te controleren.</p>
+                      </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                          <button class="btn btn-link" data-target="#Exampleeight" data-toggle="collapse" data-parent="#accordion1"><span class="glyphicon glyphicon-plus"></span> 8. VERANDERINGEN IN DEZE PRIVACY- &amp; COOKIEBELEIDS-APP</button>
+                      </h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="Exampleeight">
+                      <div class="panel-body">
+                         <p>Wij behouden ons het recht voor om te allen tijde deze Privacy- &amp; Cookiebeleids-app te wijzigen, met werking voor de toekomst. De dan geldige versie van deze Privacy- &amp; Cookiebeleids-app wordt gepubliceerd in de app. Hoewel wij niet van plan zijn om erg vaak wijzigingen aan te brengen in dit beleid, is het altijd verstandig om onze nieuwste beleidsverklaring te controleren wanneer je onze site bezoekt, om er zeker van te zijn dat je hebt gelezen en goedkeurt welke informatie wij verzamelen, hoe wij die gebruiken en onder welke omstandigheden wij die onthullen.</p>
+                      </div>
+                  </div>
+               </div>
+          </div> 
+         </div>
+     </div>
+    </div> 
+    </body>
+</html>
